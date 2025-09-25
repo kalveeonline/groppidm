@@ -1,10 +1,23 @@
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown, Globe } from "lucide-react";
 import { useState } from "react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import groppiLogo from "@/assets/groppi-logo.jpg";
 
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [selectedLanguage, setSelectedLanguage] = useState("NL");
+
+  const languages = [
+    { code: "NL", name: "Nederlands" },
+    { code: "FR", name: "Français" },
+    { code: "EN", name: "English" }
+  ];
 
   return (
     <header className="bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b border-border/40">
@@ -37,6 +50,26 @@ export const Header = () => {
 
         {/* Desktop CTA Buttons */}
         <div className="hidden md:flex items-center gap-3">
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="ghost" size="sm" className="text-foreground/80 gap-1">
+                <Globe className="h-4 w-4" />
+                {selectedLanguage}
+                <ChevronDown className="h-3 w-3" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end" className="bg-background border border-border/40 shadow-md">
+              {languages.map((lang) => (
+                <DropdownMenuItem
+                  key={lang.code}
+                  onClick={() => setSelectedLanguage(lang.code)}
+                  className="cursor-pointer hover:bg-muted"
+                >
+                  {lang.name}
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
           <Button variant="ghost" size="sm" className="text-foreground/80">
             My Media
           </Button>
@@ -70,6 +103,26 @@ export const Header = () => {
               Blog
             </a>
             <div className="flex flex-col gap-2 pt-3 border-t border-border/40">
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="ghost" size="sm" className="justify-start text-foreground/80 gap-2">
+                    <Globe className="h-4 w-4" />
+                    {selectedLanguage}
+                    <ChevronDown className="h-3 w-3" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="start" className="bg-background border border-border/40 shadow-md">
+                  {languages.map((lang) => (
+                    <DropdownMenuItem
+                      key={lang.code}
+                      onClick={() => setSelectedLanguage(lang.code)}
+                      className="cursor-pointer hover:bg-muted"
+                    >
+                      {lang.name}
+                    </DropdownMenuItem>
+                  ))}
+                </DropdownMenuContent>
+              </DropdownMenu>
               <Button variant="ghost" size="sm" className="justify-start text-foreground/80">
                 My Media
               </Button>
