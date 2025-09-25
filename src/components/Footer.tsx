@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Facebook, Linkedin, Twitter, Instagram, Youtube, MessageCircle, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Linkedin, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { LanguageSelector } from "@/components/ui/language-selector";
 import { Link } from "react-router-dom";
@@ -45,9 +45,6 @@ export const Footer = () => {
               </Button>
               <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
                 <Youtube className="h-4 w-4" />
-              </Button>
-              <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
-                <MessageCircle className="h-4 w-4" />
               </Button>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Menu, X, ChevronDown, Globe, Monitor, ShoppingCart, Search, RefreshCw, MousePointer, Share2, Target, FileText, User, CheckCircle, Star, MessageSquare, Facebook, Linkedin, Twitter, Instagram, Youtube, MessageCircle } from "lucide-react";
+import { Menu, X, ChevronDown, Globe, Monitor, ShoppingCart, Search, RefreshCw, MousePointer, Share2, Target, FileText, User, CheckCircle, Star, MessageSquare, Facebook, Linkedin, Twitter, Instagram, Youtube } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -141,9 +141,6 @@ export const Header = () => {
           </Button>
           <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10 p-2">
             <Youtube className="h-4 w-4" />
-          </Button>
-          <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10 p-2">
-            <MessageCircle className="h-4 w-4" />
           </Button>
         </div>
 
