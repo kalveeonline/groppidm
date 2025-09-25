@@ -1,11 +1,13 @@
 import { Button } from "@/components/ui/button";
-import { Menu, X, ChevronDown, Globe } from "lucide-react";
+import { Menu, X, ChevronDown, Globe, Monitor, ShoppingCart, Search, RefreshCw, MousePointer, Share2, Target, FileText, User, CheckCircle, Star, MessageSquare } from "lucide-react";
 import { useState } from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
+  DropdownMenuSeparator,
+  DropdownMenuLabel,
 } from "@/components/ui/dropdown-menu";
 import groppiLogo from "@/assets/groppi-logo.jpg";
 
@@ -17,6 +19,46 @@ export const Header = () => {
     { code: "NL", name: "Nederlands" },
     { code: "FR", name: "Français" },
     { code: "EN", name: "English" }
+  ];
+
+  const serviceCategories = [
+    {
+      title: "BEING ONLINE",
+      items: [
+        { name: "Your own corporate identity", icon: User, description: "Stand out with a unique corporate identity" },
+        { name: "Website", icon: Monitor, description: "The online center of your business" },
+        { name: "Webshop", icon: ShoppingCart, description: "24/7 online sales" },
+        { name: "WebCheck", icon: CheckCircle, description: "Always up to date with your performance" },
+        { name: "Social Post Pro", icon: Share2, description: "Professional on social media" },
+        { name: "NetSync", icon: RefreshCw, description: "For a solid reputation" },
+        { name: "Site", icon: Monitor, description: "The online platform for your business" }
+      ]
+    },
+    {
+      title: "TO BE FOUND", 
+      items: [
+        { name: "SEO", icon: Search, description: "For a website that is easy to find" },
+        { name: "SEA", icon: MousePointer, description: "Advertising on Google and Bing" },
+        { name: "Goudengids.be", icon: FileText, description: "Choose the largest business directory" },
+        { name: "NetSync", icon: RefreshCw, description: "Always correct data everywhere" }
+      ]
+    },
+    {
+      title: "TO STAND OUT",
+      items: [
+        { name: "Advertising on Goudengids.be", icon: Target, description: "Conquer the largest business directory" },
+        { name: "Advertising on social media", icon: Share2, description: "Success on Facebook and Instagram" },
+        { name: "Advertising with OMNI", icon: Target, description: "On Google, Bing, Facebook and Instagram" },
+        { name: "OMNI Customization", icon: Star, description: "Reach your customers everywhere" }
+      ]
+    },
+    {
+      title: "SATISFIED CUSTOMERS",
+      items: [
+        { name: "Site", icon: Monitor, description: "Manage all your customers with 1 platform" },
+        { name: "Google Review Cards", icon: MessageSquare, description: "The best way to score" }
+      ]
+    }
   ];
 
   return (
@@ -37,9 +79,41 @@ export const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
-          <a href="#services" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
-            Wat wil je?
-          </a>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="ghost" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors gap-1">
+                Wat wil je?
+                <ChevronDown className="h-3 w-3" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start" className="w-[800px] bg-background border border-border/40 shadow-lg p-6">
+              <div className="grid grid-cols-4 gap-6">
+                {serviceCategories.map((category, categoryIndex) => (
+                  <div key={categoryIndex} className="space-y-3">
+                    <DropdownMenuLabel className="text-primary font-semibold text-xs uppercase tracking-wide">
+                      {category.title}
+                    </DropdownMenuLabel>
+                    <div className="space-y-2">
+                      {category.items.map((item, itemIndex) => (
+                        <DropdownMenuItem 
+                          key={itemIndex}
+                          className="cursor-pointer hover:bg-muted/50 p-3 rounded-lg"
+                        >
+                          <div className="flex items-start gap-3">
+                            <item.icon className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                            <div className="space-y-1">
+                              <div className="font-medium text-sm text-foreground">{item.name}</div>
+                              <div className="text-xs text-muted-foreground">{item.description}</div>
+                            </div>
+                          </div>
+                        </DropdownMenuItem>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </DropdownMenuContent>
+          </DropdownMenu>
           <a href="#offices" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
             Onze kantoren
           </a>
