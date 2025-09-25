@@ -1,24 +1,26 @@
 import { CheckCircle, Users, DollarSign } from "lucide-react";
-
-const features = [
-  {
-    icon: CheckCircle,
-    title: "Alles voor jouw zaak",
-    description: "Complete digitale oplossingen onder één dak"
-  },
-  {
-    icon: Users,
-    title: "Persoonlijke & lokale aanpak",
-    description: "Maatwerk service met persoonlijk contact"
-  },
-  {
-    icon: DollarSign,
-    title: "Voor elk budget",
-    description: "Oplossingen die passen bij jouw financiële mogelijkheden"
-  }
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const FeaturesSection = () => {
+  const { t } = useLanguage();
+  
+  const features = [
+    {
+      icon: CheckCircle,
+      title: t('features.title1'),
+      description: t('features.desc1')
+    },
+    {
+      icon: Users,
+      title: t('features.title2'),
+      description: t('features.desc2')
+    },
+    {
+      icon: DollarSign,
+      title: t('features.title3'),
+      description: t('features.desc3')
+    }
+  ];
   return (
     <section className="py-16 bg-background">
       <div className="container px-4">

@@ -1,24 +1,26 @@
 import { Users, Monitor, Target } from "lucide-react";
-
-const stats = [
-  {
-    icon: Users,
-    number: "3780",
-    label: "Gelukkige klanten"
-  },
-  {
-    icon: Monitor,
-    number: "1188",
-    label: "Websites online"
-  },
-  {
-    icon: Target,
-    number: "440",
-    label: "Live campagnes"
-  }
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const StatsSection = () => {
+  const { t } = useLanguage();
+  
+  const stats = [
+    {
+      icon: Users,
+      number: "3780",
+      label: t('stats.happyClients')
+    },
+    {
+      icon: Monitor,
+      number: "1188",
+      label: t('stats.websitesOnline')
+    },
+    {
+      icon: Target,
+      number: "440",
+      label: t('stats.liveCampaigns')
+    }
+  ];
   return (
     <section className="py-16 bg-primary/5">
       <div className="container px-4">

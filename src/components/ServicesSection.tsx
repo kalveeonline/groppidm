@@ -10,64 +10,66 @@ import {
   Target, 
   FileText 
 } from "lucide-react";
-
-const solidBasisServices = [
-  {
-    icon: Monitor,
-    title: "Website",
-    description: "Professioneel online, met een website op maat."
-  },
-  {
-    icon: ShoppingCart,
-    title: "Webshop",
-    description: "Jouw diensten en producten in de kijker."
-  },
-  {
-    icon: Search,
-    title: "SEO",
-    description: "Jouw website hoger in de zoekresultaten."
-  },
-  {
-    icon: RefreshCw,
-    title: "Netsync",
-    description: "Een positieve reputatie en correcte gegevens in één klap."
-  }
-];
-
-const adverterenServices = [
-  {
-    icon: MousePointer,
-    title: "SEA",
-    description: "Jouw advertenties op Google, Bing en Youtube."
-  },
-  {
-    icon: Share2,
-    title: "Adverteren op Sociale media",
-    description: "Bereik je doelgroep op de populairste kanalen."
-  },
-  {
-    icon: Target,
-    title: "All-in-one adverteren met Omni",
-    description: "Meer bereik op Google, Bing, Facebook en Instagram."
-  },
-  {
-    icon: FileText,
-    title: "Adverteren op goudengids.be",
-    description: "Jouw zaak op de grootste bedrijvengids van België."
-  }
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const ServicesSection = () => {
+  const { t } = useLanguage();
+  
+  const solidBasisServices = [
+    {
+      icon: Monitor,
+      title: t('services.website'),
+      description: t('services.websiteDesc')
+    },
+    {
+      icon: ShoppingCart,
+      title: t('services.webshop'),
+      description: t('services.webshopDesc')
+    },
+    {
+      icon: Search,
+      title: t('services.seo'),
+      description: t('services.seoDesc')
+    },
+    {
+      icon: RefreshCw,
+      title: t('services.netsync'),
+      description: t('services.netsyncDesc')
+    }
+  ];
+
+  const adverterenServices = [
+    {
+      icon: MousePointer,
+      title: t('services.sea'),
+      description: t('services.seaDesc')
+    },
+    {
+      icon: Share2,
+      title: t('services.socialMedia'),
+      description: t('services.socialMediaDesc')
+    },
+    {
+      icon: Target,
+      title: t('services.omni'),
+      description: t('services.omniDesc')
+    },
+    {
+      icon: FileText,
+      title: t('services.goudengids'),
+      description: t('services.goudengidsDesc')
+    }
+  ];
   return (
     <section className="py-20 bg-accent/20">
       <div className="container px-4">
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
-            Wij regelen alles
+            {t('services.mainTitle')}
           </h2>
           <p className="text-xl text-muted-foreground">
-            terwijl jij je focust op jouw zaak
+            {t('services.mainSubtitle')}
           </p>
         </div>
 
@@ -79,7 +81,7 @@ export const ServicesSection = () => {
                 <span className="text-primary-foreground text-sm">1</span>
               </div>
               <h3 className="text-2xl font-bold text-foreground">
-                Start met een solide basis
+                {t('services.solidBasisTitle')}
               </h3>
             </div>
           </div>
@@ -109,7 +111,7 @@ export const ServicesSection = () => {
 
           <div className="text-center mt-8">
             <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              Alles over jouw solide basis
+              {t('services.solidBasisButton')}
             </Button>
           </div>
         </div>
@@ -122,7 +124,7 @@ export const ServicesSection = () => {
                 <span className="text-primary-foreground text-sm">2</span>
               </div>
               <h3 className="text-2xl font-bold text-foreground">
-                Groei met Digitaal adverteren
+                {t('services.adverterenTitle')}
               </h3>
             </div>
           </div>
@@ -152,7 +154,7 @@ export const ServicesSection = () => {
 
           <div className="text-center mt-8">
             <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              Alles over digitaal adverteren
+              {t('services.adverterenButton')}
             </Button>
           </div>
         </div>
