@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
-import heroIllustration from "@/assets/hero-illustration.jpg";
+import websiteDiagram from "@/assets/website-diagram.png";
 
 export const HeroSection = () => {
   const { t } = useLanguage();
@@ -59,11 +59,11 @@ export const HeroSection = () => {
 
           {/* Hero Illustration */}
           <div className="relative">
-            <div className="relative rounded-2xl bg-gradient-card p-8 shadow-hero">
+            <div className="relative rounded-full bg-gradient-card p-4 shadow-hero w-80 h-80 mx-auto">
               <img 
-                src={heroIllustration} 
-                alt="Digital Marketing Professional" 
-                className="w-full h-auto rounded-xl"
+                src={websiteDiagram} 
+                alt="Website Digital Marketing Ecosystem" 
+                className="w-full h-full object-cover rounded-full"
               />
               
               {/* Floating elements */}
