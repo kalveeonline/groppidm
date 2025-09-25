@@ -46,7 +46,7 @@ const translations = {
     'footer.newsletterDescription': 'Ontvang tips en nieuws over digital marketing.',
     'footer.emailPlaceholder': 'Jouw e-mail adres',
     'footer.subscribe': 'Inschrijven',
-    'footer.copyright': '© 2024 GROPPI Digital Marketing Bureau. Alle rechten voorbehouden.',
+    'footer.allRightsReserved': 'Alle rechten voorbehouden.',
     'footer.privacy': 'Privacy Beleid',
     'footer.terms': 'Algemene Voorwaarden',
     
@@ -374,7 +374,7 @@ const translations = {
     'footer.newsletterDescription': 'Recevez des conseils et actualités sur le marketing digital.',
     'footer.emailPlaceholder': 'Votre adresse e-mail',
     'footer.subscribe': "S'inscrire",
-    'footer.copyright': '© 2024 GROPPI Digital Marketing Bureau. Tous droits réservés.',
+    'footer.allRightsReserved': 'Tous droits réservés.',
     'footer.privacy': 'Politique de Confidentialité',
     'footer.terms': 'Conditions Générales',
     
@@ -542,7 +542,7 @@ const translations = {
     'footer.newsletterDescription': 'Receive tips and news about digital marketing.',
     'footer.emailPlaceholder': 'Your email address',
     'footer.subscribe': 'Subscribe',
-    'footer.copyright': '© 2024 GROPPI Digital Marketing Bureau. All rights reserved.',
+    'footer.allRightsReserved': 'All rights reserved.',
     'footer.privacy': 'Privacy Policy',
     'footer.terms': 'Terms & Conditions',
     

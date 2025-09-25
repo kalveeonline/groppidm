@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Facebook, Linkedin, Twitter, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Linkedin, Twitter, Instagram, Youtube, MessageCircle, Mail, Phone, MapPin } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import groppiLogo from "@/assets/groppi-logo.jpg";
 
@@ -33,10 +33,19 @@ export const Footer = () => {
                 <Facebook className="h-4 w-4" />
               </Button>
               <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
+                <Twitter className="h-4 w-4" />
+              </Button>
+              <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
+                <Instagram className="h-4 w-4" />
+              </Button>
+              <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
                 <Linkedin className="h-4 w-4" />
               </Button>
               <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
-                <Twitter className="h-4 w-4" />
+                <Youtube className="h-4 w-4" />
+              </Button>
+              <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
+                <MessageCircle className="h-4 w-4" />
               </Button>
             </div>
           </div>
@@ -124,7 +133,7 @@ export const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border/30 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <div>
-            {t('footer.copyright')}
+            © {new Date().getFullYear()} GROPPI Digital Marketing Bureau. {t('footer.allRightsReserved')}
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
