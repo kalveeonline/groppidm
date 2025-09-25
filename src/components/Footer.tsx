@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Facebook, Linkedin, Twitter, Mail, Phone, MapPin } from "lucide-react";
+import groppiLogo from "@/assets/groppi-logo.jpg";
 
 export const Footer = () => {
   return (
@@ -8,18 +9,20 @@ export const Footer = () => {
       <div className="container px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
-          <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-lg">
-                F
-              </div>
+            <div className="space-y-4">
+            <div className="flex items-center gap-3">
+              <img 
+                src={groppiLogo} 
+                alt="GROPPI Logo" 
+                className="h-12 w-auto"
+              />
               <div className="flex flex-col">
-                <span className="text-lg font-bold">FCR Media</span>
-                <span className="text-xs text-background/70">Marketing Services</span>
+                <span className="text-lg font-bold">GROPPI</span>
+                <span className="text-xs text-background/70">Digital Marketing Bureau</span>
               </div>
             </div>
             <p className="text-background/70 text-sm">
-              FCR Media maakt KMO's succesvol online met professionele 
+              GROPPI Digital Marketing Bureau maakt KMO&apos;s succesvol online met professionele 
               digitale marketing oplossingen.
             </p>
             <div className="flex space-x-4">
@@ -67,7 +70,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary" />
-                <span className="text-background/70">info@fcrmedia.be</span>
+                <span className="text-background/70">info@groppi.be</span>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 text-primary mt-0.5" />
@@ -99,7 +102,7 @@ export const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-background/70">
           <div>
-            © 2024 FCR Media. Alle rechten voorbehouden.
+            © 2024 GROPPI Digital Marketing Bureau. Alle rechten voorbehouden.
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-background transition-colors">

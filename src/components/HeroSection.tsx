@@ -13,7 +13,7 @@ export const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                FCR MEDIA MAAKT{" "}
+                GROPPI DIGITAL MARKETING BUREAU MAAKT{" "}
                 <span className="text-primary">KMO'S</span>
                 <br />
                 <span className="text-primary">SUCCESVOL ONLINE</span>
