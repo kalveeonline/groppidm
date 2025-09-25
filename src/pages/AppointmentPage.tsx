@@ -8,6 +8,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { Calendar, User, MapPin, Phone, MessageSquare, Clock } from "lucide-react";
+import { LanguageSelector } from "@/components/ui/language-selector";
 
 export const AppointmentPage = () => {
   const { t } = useLanguage();
@@ -62,6 +63,11 @@ export const AppointmentPage = () => {
   return (
     <div className="min-h-screen pt-20 bg-gradient-subtle">
       <div className="container px-4 py-12">
+        {/* Language Selector */}
+        <div className="absolute top-24 right-6 z-10">
+          <LanguageSelector variant="outline" />
+        </div>
+        
         <div className="max-w-2xl mx-auto">
           {/* Header */}
           <div className="text-center mb-8">

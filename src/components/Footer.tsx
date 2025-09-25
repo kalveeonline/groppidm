@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Facebook, Linkedin, Twitter, Instagram, Youtube, MessageCircle, Mail, Phone, MapPin } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { LanguageSelector } from "@/components/ui/language-selector";
 import groppiLogo from "@/assets/groppi-logo.jpg";
 
 export const Footer = () => {
@@ -135,7 +136,8 @@ export const Footer = () => {
           <div>
             © {new Date().getFullYear()} GROPPI Digital Marketing Bureau. {t('footer.allRightsReserved')}
           </div>
-          <div className="flex gap-6">
+          <div className="flex items-center gap-6">
+            <LanguageSelector variant="compact" className="text-muted-foreground hover:text-foreground" />
             <a href="#" className="hover:text-foreground transition-colors">
               {t('footer.privacy')}
             </a>

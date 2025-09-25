@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { LanguageSelector } from "@/components/ui/language-selector";
 import websiteDiagram from "@/assets/website-diagram.png";
 
 export const HeroSection = () => {
@@ -32,14 +33,17 @@ export const HeroSection = () => {
               >
                 {t('hero.cta1')}
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                onClick={() => window.open('https://wa.me/32495633832', '_blank')}
-              >
-                {t('hero.cta2')}
-              </Button>
+              <div className="flex gap-2">
+                <Button 
+                  variant="outline" 
+                  size="lg"
+                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 flex-1"
+                  onClick={() => window.open('https://wa.me/32495633832', '_blank')}
+                >
+                  {t('hero.cta2')}
+                </Button>
+                <LanguageSelector variant="outline" className="text-primary border-primary hover:bg-primary hover:text-primary-foreground" />
+              </div>
             </div>
 
             {/* Trust Indicators */}
