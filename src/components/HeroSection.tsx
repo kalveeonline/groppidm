@@ -28,6 +28,7 @@ export const HeroSection = () => {
               <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero transition-all duration-300 hover:shadow-lg hover:scale-105"
+                onClick={() => window.open('/appointment', '_blank')}
               >
                 {t('hero.cta1')}
               </Button>
@@ -35,6 +36,7 @@ export const HeroSection = () => {
                 variant="outline" 
                 size="lg"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                onClick={() => window.open('https://wa.me/32495633832', '_blank')}
               >
                 {t('hero.cta2')}
               </Button>
