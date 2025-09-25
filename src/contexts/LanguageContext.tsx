@@ -743,11 +743,22 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
   const [language, setLanguage] = useState('NL');
 
   const t = (key: string): string => {
-    return translations[language as keyof typeof translations]?.[key as keyof typeof translations.NL] || key;
+    try {
+      const translation = translations[language as keyof typeof translations]?.[key as keyof typeof translations.NL];
+      return translation || key;
+    } catch (error) {
+      console.warn(`Translation missing for key: ${key}`);
+      return key;
+    }
   };
 
+  const contextValue = React.useMemo(
+    () => ({ language, setLanguage, t }),
+    [language]
+  );
+
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+    <LanguageContext.Provider value={contextValue}>
       {children}
     </LanguageContext.Provider>
   );
