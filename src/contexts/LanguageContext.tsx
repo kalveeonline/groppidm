@@ -93,6 +93,44 @@ const translations = {
     'stats.websitesOnline': 'Websites online',
     'stats.liveCampaigns': 'Live campagnes',
     
+    // Online Presence & Branding Page
+    'branding.title': 'Alles over Online Aanwezigheid & Branding',
+    'branding.subtitle': 'Bouw een sterke digitale identiteit die uw doelgroep aantrekt en converteert',
+    'branding.intro': 'In het digitale tijdperk is uw online aanwezigheid uw digitale visitekaartje. Het bepaalt hoe klanten u waarnemen, vertrouwen en uiteindelijk kiezen voor uw diensten.',
+    
+    'branding.section1.title': 'Wat is Online Aanwezigheid?',
+    'branding.section1.content': 'Online aanwezigheid omvat alle digitale touchpoints waar uw merk zichtbaar is. Van uw website tot sociale media, van Google My Business tot online reviews - elk element draagt bij aan uw digitale reputatie.',
+    
+    'branding.section2.title': 'Waarom is Sterke Branding Cruciaal?',
+    'branding.section2.point1': 'Verhoogt merkherkenning met 80%',
+    'branding.section2.point2': 'Genereert 23% meer omzet',
+    'branding.section2.point3': 'Bouwt klantvertrouwen en loyaliteit',
+    'branding.section2.point4': 'Differentieert van concurrenten',
+    
+    'branding.section3.title': 'Essentiële Elementen van Online Branding',
+    'branding.section3.element1.title': 'Professionele Website',
+    'branding.section3.element1.desc': 'Uw digitale hoofdkantoor met consistente branding, gebruiksvriendelijke navigatie en mobiele optimalisatie.',
+    'branding.section3.element2.title': 'Visuele Identiteit',
+    'branding.section3.element2.desc': 'Logo, kleurenpalet, typografie en beeldstijl die uw merkpersoonlijkheid weerspiegelen.',
+    'branding.section3.element3.title': 'Content Strategie',
+    'branding.section3.element3.desc': 'Waardevolle, relevante content die uw expertise toont en doelgroep engageert.',
+    'branding.section3.element4.title': 'Sociale Media Aanwezigheid',
+    'branding.section3.element4.desc': 'Consistente communicatie en branding over alle sociale platforms.',
+    
+    'branding.section4.title': 'Ons Branding Proces',
+    'branding.section4.step1.title': 'Merkanalyse & Strategie',
+    'branding.section4.step1.desc': 'We analyseren uw huidige positie en ontwikkelen een merkstrategie die aansluit bij uw doelen.',
+    'branding.section4.step2.title': 'Visuele Identiteit Ontwikkeling',
+    'branding.section4.step2.desc': 'Creatie van logo, kleurenpalet en brandrichtlijnen die uw merk tot leven brengen.',
+    'branding.section4.step3.title': 'Website & Digitale Platforms',
+    'branding.section4.step3.desc': 'Implementatie van uw branding op website, sociale media en andere digitale kanalen.',
+    'branding.section4.step4.title': 'Monitoring & Optimalisatie',
+    'branding.section4.step4.desc': 'Continue monitoring van uw online reputatie en optimalisatie van uw digitale aanwezigheid.',
+    
+    'branding.cta.title': 'Klaar om Uw Online Aanwezigheid te Versterken?',
+    'branding.cta.description': 'Laat ons u helpen een sterke digitale identiteit op te bouwen die resultaten oplevert.',
+    'branding.cta.button': 'Start Uw Branding Project',
+    
     // Common
     'common.learnMore': 'Meer informatie',
     'common.getStarted': 'Aan de slag',
@@ -182,6 +220,44 @@ const translations = {
     'stats.websitesOnline': 'Sites web en ligne',
     'stats.liveCampaigns': 'Campagnes en direct',
     
+    // Online Presence & Branding Page
+    'branding.title': 'Tout sur la Présence en Ligne et le Branding',
+    'branding.subtitle': 'Construisez une identité numérique forte qui attire et convertit votre public cible',
+    'branding.intro': 'À l\'ère numérique, votre présence en ligne est votre carte de visite numérique. Elle détermine comment les clients vous perçoivent, vous font confiance et choisissent finalement vos services.',
+    
+    'branding.section1.title': 'Qu\'est-ce que la Présence en Ligne?',
+    'branding.section1.content': 'La présence en ligne englobe tous les points de contact numériques où votre marque est visible. De votre site web aux médias sociaux, de Google My Business aux avis en ligne - chaque élément contribue à votre réputation numérique.',
+    
+    'branding.section2.title': 'Pourquoi un Branding Fort est-il Crucial?',
+    'branding.section2.point1': 'Augmente la reconnaissance de marque de 80%',
+    'branding.section2.point2': 'Génère 23% de revenus en plus',
+    'branding.section2.point3': 'Construit la confiance et la fidélité des clients',
+    'branding.section2.point4': 'Se différencie des concurrents',
+    
+    'branding.section3.title': 'Éléments Essentiels du Branding en Ligne',
+    'branding.section3.element1.title': 'Site Web Professionnel',
+    'branding.section3.element1.desc': 'Votre siège social numérique avec un branding cohérent, une navigation conviviale et une optimisation mobile.',
+    'branding.section3.element2.title': 'Identité Visuelle',
+    'branding.section3.element2.desc': 'Logo, palette de couleurs, typographie et style visuel qui reflètent la personnalité de votre marque.',
+    'branding.section3.element3.title': 'Stratégie de Contenu',
+    'branding.section3.element3.desc': 'Contenu précieux et pertinent qui démontre votre expertise et engage votre public cible.',
+    'branding.section3.element4.title': 'Présence sur les Médias Sociaux',
+    'branding.section3.element4.desc': 'Communication et branding cohérents sur toutes les plateformes sociales.',
+    
+    'branding.section4.title': 'Notre Processus de Branding',
+    'branding.section4.step1.title': 'Analyse de Marque & Stratégie',
+    'branding.section4.step1.desc': 'Nous analysons votre position actuelle et développons une stratégie de marque alignée sur vos objectifs.',
+    'branding.section4.step2.title': 'Développement d\'Identité Visuelle',
+    'branding.section4.step2.desc': 'Création de logo, palette de couleurs et directives de marque qui donnent vie à votre marque.',
+    'branding.section4.step3.title': 'Site Web & Plateformes Numériques',
+    'branding.section4.step3.desc': 'Implémentation de votre branding sur le site web, médias sociaux et autres canaux numériques.',
+    'branding.section4.step4.title': 'Surveillance & Optimisation',
+    'branding.section4.step4.desc': 'Surveillance continue de votre réputation en ligne et optimisation de votre présence numérique.',
+    
+    'branding.cta.title': 'Prêt à Renforcer Votre Présence en Ligne?',
+    'branding.cta.description': 'Laissez-nous vous aider à construire une identité numérique forte qui génère des résultats.',
+    'branding.cta.button': 'Commencez Votre Projet de Branding',
+    
     // Common
     'common.learnMore': 'En savoir plus',
     'common.getStarted': 'Commencer',
@@ -270,6 +346,44 @@ const translations = {
     'stats.happyClients': 'Happy clients',
     'stats.websitesOnline': 'Websites online',
     'stats.liveCampaigns': 'Live campaigns',
+    
+    // Online Presence & Branding Page
+    'branding.title': 'Everything About Online Presence & Branding',
+    'branding.subtitle': 'Build a strong digital identity that attracts and converts your target audience',
+    'branding.intro': 'In the digital age, your online presence is your digital business card. It determines how customers perceive you, trust you, and ultimately choose your services.',
+    
+    'branding.section1.title': 'What is Online Presence?',
+    'branding.section1.content': 'Online presence encompasses all digital touchpoints where your brand is visible. From your website to social media, from Google My Business to online reviews - every element contributes to your digital reputation.',
+    
+    'branding.section2.title': 'Why is Strong Branding Crucial?',
+    'branding.section2.point1': 'Increases brand recognition by 80%',
+    'branding.section2.point2': 'Generates 23% more revenue',
+    'branding.section2.point3': 'Builds customer trust and loyalty',
+    'branding.section2.point4': 'Differentiates from competitors',
+    
+    'branding.section3.title': 'Essential Elements of Online Branding',
+    'branding.section3.element1.title': 'Professional Website',
+    'branding.section3.element1.desc': 'Your digital headquarters with consistent branding, user-friendly navigation, and mobile optimization.',
+    'branding.section3.element2.title': 'Visual Identity',
+    'branding.section3.element2.desc': 'Logo, color palette, typography, and visual style that reflect your brand personality.',
+    'branding.section3.element3.title': 'Content Strategy',
+    'branding.section3.element3.desc': 'Valuable, relevant content that showcases your expertise and engages your target audience.',
+    'branding.section3.element4.title': 'Social Media Presence',
+    'branding.section3.element4.desc': 'Consistent communication and branding across all social platforms.',
+    
+    'branding.section4.title': 'Our Branding Process',
+    'branding.section4.step1.title': 'Brand Analysis & Strategy',
+    'branding.section4.step1.desc': 'We analyze your current position and develop a brand strategy aligned with your goals.',
+    'branding.section4.step2.title': 'Visual Identity Development',
+    'branding.section4.step2.desc': 'Creation of logo, color palette, and brand guidelines that bring your brand to life.',
+    'branding.section4.step3.title': 'Website & Digital Platforms',
+    'branding.section4.step3.desc': 'Implementation of your branding on website, social media, and other digital channels.',
+    'branding.section4.step4.title': 'Monitoring & Optimization',
+    'branding.section4.step4.desc': 'Continuous monitoring of your online reputation and optimization of your digital presence.',
+    
+    'branding.cta.title': 'Ready to Strengthen Your Online Presence?',
+    'branding.cta.description': 'Let us help you build a strong digital identity that delivers results.',
+    'branding.cta.button': 'Start Your Branding Project',
     
     // Common
     'common.learnMore': 'Learn more',

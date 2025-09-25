@@ -153,7 +153,11 @@ export const ServicesSection = () => {
           </div>
 
           <div className="text-center mt-8">
-            <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+            <Button 
+              variant="outline" 
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              onClick={() => window.open('/branding', '_blank')}
+            >
               {t('services.adverterenButton')}
             </Button>
           </div>
