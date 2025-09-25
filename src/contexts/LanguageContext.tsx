@@ -30,6 +30,23 @@ const translations = {
     'category.toStandOut': 'TO STAND OUT',
     'category.satisfiedCustomers': 'SATISFIED CUSTOMERS',
     
+    // Footer
+    'footer.services': 'Onze Services',
+    'footer.websiteDevelopment': 'Website Development',
+    'footer.webshopCreation': 'Webshop Creation', 
+    'footer.seoOptimization': 'SEO Optimalisatie',
+    'footer.digitalAdvertising': 'Digital Advertising',
+    'footer.socialMediaMarketing': 'Social Media Marketing',
+    'footer.contact': 'Contact',
+    'footer.locations': 'Antwerpen, Brussel,\nOost- & West-Vlaanderen',
+    'footer.newsletter': 'Blijf op de hoogte',
+    'footer.newsletterDescription': 'Ontvang tips en nieuws over digital marketing.',
+    'footer.emailPlaceholder': 'Jouw e-mail adres',
+    'footer.subscribe': 'Inschrijven',
+    'footer.copyright': '© 2024 GROPPI Digital Marketing Bureau. Alle rechten voorbehouden.',
+    'footer.privacy': 'Privacy Beleid',
+    'footer.terms': 'Algemene Voorwaarden',
+    
     // Common
     'common.learnMore': 'Meer informatie',
     'common.getStarted': 'Aan de slag',
@@ -56,6 +73,23 @@ const translations = {
     'category.toStandOut': 'SE DÉMARQUER',
     'category.satisfiedCustomers': 'CLIENTS SATISFAITS',
     
+    // Footer
+    'footer.services': 'Nos Services',
+    'footer.websiteDevelopment': 'Développement de Sites Web',
+    'footer.webshopCreation': 'Création de Boutique en Ligne',
+    'footer.seoOptimization': 'Optimisation SEO',
+    'footer.digitalAdvertising': 'Publicité Digitale',
+    'footer.socialMediaMarketing': 'Marketing des Médias Sociaux',
+    'footer.contact': 'Contact',
+    'footer.locations': 'Anvers, Bruxelles,\nFlandre Orientale & Occidentale',
+    'footer.newsletter': 'Restez informé',
+    'footer.newsletterDescription': 'Recevez des conseils et actualités sur le marketing digital.',
+    'footer.emailPlaceholder': 'Votre adresse e-mail',
+    'footer.subscribe': "S'inscrire",
+    'footer.copyright': '© 2024 GROPPI Digital Marketing Bureau. Tous droits réservés.',
+    'footer.privacy': 'Politique de Confidentialité',
+    'footer.terms': 'Conditions Générales',
+    
     // Common
     'common.learnMore': 'En savoir plus',
     'common.getStarted': 'Commencer',
@@ -81,6 +115,23 @@ const translations = {
     'category.toBeFound': 'TO BE FOUND',
     'category.toStandOut': 'TO STAND OUT',
     'category.satisfiedCustomers': 'SATISFIED CUSTOMERS',
+    
+    // Footer
+    'footer.services': 'Our Services',
+    'footer.websiteDevelopment': 'Website Development',
+    'footer.webshopCreation': 'Webshop Creation',
+    'footer.seoOptimization': 'SEO Optimization',
+    'footer.digitalAdvertising': 'Digital Advertising',
+    'footer.socialMediaMarketing': 'Social Media Marketing',
+    'footer.contact': 'Contact',
+    'footer.locations': 'Antwerp, Brussels,\nEast & West Flanders',
+    'footer.newsletter': 'Stay updated',
+    'footer.newsletterDescription': 'Receive tips and news about digital marketing.',
+    'footer.emailPlaceholder': 'Your email address',
+    'footer.subscribe': 'Subscribe',
+    'footer.copyright': '© 2024 GROPPI Digital Marketing Bureau. All rights reserved.',
+    'footer.privacy': 'Privacy Policy',
+    'footer.terms': 'Terms & Conditions',
     
     // Common
     'common.learnMore': 'Learn more',
