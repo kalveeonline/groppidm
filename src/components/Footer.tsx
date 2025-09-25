@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Facebook, Linkedin, Twitter, Instagram, Youtube, MessageCircle, Mail, Phone, MapPin } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { LanguageSelector } from "@/components/ui/language-selector";
+import { Link } from "react-router-dom";
 import groppiLogo from "@/assets/groppi-logo.jpg";
 
 export const Footer = () => {
@@ -14,7 +15,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
+            <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
               <img 
                 src={groppiLogo} 
                 alt="GROPPI Logo" 
@@ -24,7 +25,7 @@ export const Footer = () => {
                 <span className="text-lg font-bold text-foreground">GROPPI</span>
                 <span className="text-xs text-muted-foreground">Digital Marketing Bureau</span>
               </div>
-            </div>
+            </Link>
             <p className="text-muted-foreground text-sm">
               GROPPI Digital Marketing Bureau maakt KMO&apos;s succesvol online met professionele 
               digitale marketing oplossingen.
