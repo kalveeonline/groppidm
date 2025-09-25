@@ -9,6 +9,7 @@ import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { Calendar, User, MapPin, Phone, MessageSquare, Clock } from "lucide-react";
 import { LanguageSelector } from "@/components/ui/language-selector";
+import { Footer } from "@/components/Footer";
 
 export const AppointmentPage = () => {
   const { t } = useLanguage();
@@ -225,6 +226,7 @@ export const AppointmentPage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
