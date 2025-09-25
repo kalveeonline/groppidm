@@ -44,15 +44,15 @@ export const HeroSection = () => {
             <div className="flex flex-wrap items-center gap-6 pt-4">
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-primary"></div>
-                <span className="text-sm text-muted-foreground">One-stop-shop</span>
+                <span className="text-sm text-muted-foreground">{t('hero.trustIndicators.oneStop')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-primary"></div>
-                <span className="text-sm text-muted-foreground">Voor ieder budget</span>
+                <span className="text-sm text-muted-foreground">{t('hero.trustIndicators.budget')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-primary"></div>
-                <span className="text-sm text-muted-foreground">Maandelijkse rapporten</span>
+                <span className="text-sm text-muted-foreground">{t('hero.trustIndicators.reports')}</span>
               </div>
             </div>
           </div>

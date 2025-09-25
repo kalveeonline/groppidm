@@ -23,6 +23,9 @@ const translations = {
     'hero.subtitle2': 'SUCCESVOL ONLINE',
     'hero.cta1': 'Maak een afspraak',
     'hero.cta2': 'Bel me op',
+    'hero.trustIndicators.oneStop': 'One-stop-shop',
+    'hero.trustIndicators.budget': 'Voor ieder budget',
+    'hero.trustIndicators.reports': 'Maandelijkse rapporten',
     
     // Service Categories
     'category.beingOnline': 'BEING ONLINE',
@@ -150,6 +153,9 @@ const translations = {
     'hero.subtitle2': 'PROSPÈRES EN LIGNE',
     'hero.cta1': 'Prendre rendez-vous',
     'hero.cta2': "M'appeler",
+    'hero.trustIndicators.oneStop': 'Solution tout-en-un',
+    'hero.trustIndicators.budget': 'Pour chaque budget',
+    'hero.trustIndicators.reports': 'Rapports mensuels',
     
     // Service Categories
     'category.beingOnline': 'ÊTRE EN LIGNE',
@@ -277,6 +283,9 @@ const translations = {
     'hero.subtitle2': 'SUCCESSFUL ONLINE',
     'hero.cta1': 'Make an appointment',
     'hero.cta2': 'Call me',
+    'hero.trustIndicators.oneStop': 'One-stop-shop',
+    'hero.trustIndicators.budget': 'For every budget',
+    'hero.trustIndicators.reports': 'Monthly reports',
     
     // Service Categories
     'category.beingOnline': 'BEING ONLINE',
