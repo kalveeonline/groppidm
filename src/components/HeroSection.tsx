@@ -1,9 +1,12 @@
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
 import heroIllustration from "@/assets/hero-illustration.jpg";
 
 export const HeroSection = () => {
+  const { t } = useLanguage();
+  
   return (
-    <section className="relative bg-gradient-to-br from-background via-primary-light/10 to-background py-16 lg:py-24 overflow-hidden">
+    <section className="relative bg-gradient-hero py-16 lg:py-24 overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-primary/10"></div>
       
@@ -13,10 +16,10 @@ export const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                GROPPI DIGITAL MARKETING BUREAU MAAKT{" "}
-                <span className="text-primary">KMO'S</span>
+                {t('hero.title')}{" "}
+                <span className="text-primary">{t('hero.subtitle1')}</span>
                 <br />
-                <span className="text-primary">SUCCESVOL ONLINE</span>
+                <span className="text-primary">{t('hero.subtitle2')}</span>
               </h1>
             </div>
 
@@ -26,14 +29,14 @@ export const HeroSection = () => {
                 size="lg" 
                 className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero transition-all duration-300 hover:shadow-lg hover:scale-105"
               >
-                Maak een afspraak
+                {t('hero.cta1')}
               </Button>
               <Button 
                 variant="outline" 
                 size="lg"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               >
-                Bel me op
+                {t('hero.cta2')}
               </Button>
             </div>
 
