@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import groppiLogo from "@/assets/groppi-logo.jpg";
 
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -9,13 +10,15 @@ export const Header = () => {
     <header className="bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b border-border/40">
       <div className="container flex h-16 items-center justify-between px-4">
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-lg">
-            F
-          </div>
+        <div className="flex items-center gap-3">
+          <img 
+            src={groppiLogo} 
+            alt="GROPPI Logo" 
+            className="h-12 w-auto"
+          />
           <div className="flex flex-col">
-            <span className="text-lg font-bold text-foreground">FCR Media</span>
-            <span className="text-xs text-muted-foreground">Marketing Services</span>
+            <span className="text-lg font-bold text-foreground">GROPPI</span>
+            <span className="text-xs text-muted-foreground">Digital Marketing Bureau</span>
           </div>
         </div>
 
