@@ -8,6 +8,11 @@ import Index from "./pages/Index";
 import ServicePage from "./pages/ServicePage";
 import BrandingPage from "./pages/BrandingPage";
 import SolidFoundationPage from "./pages/SolidFoundationPage";
+import WebsiteDevelopmentPage from "./pages/WebsiteDevelopmentPage";
+import WebshopCreationPage from "./pages/WebshopCreationPage";
+import SeoOptimizationPage from "./pages/SeoOptimizationPage";
+import DigitalAdvertisingPage from "./pages/DigitalAdvertisingPage";
+import SocialMediaMarketingPage from "./pages/SocialMediaMarketingPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +29,11 @@ const App = () => (
             <Route path="/service/:serviceSlug" element={<ServicePage />} />
             <Route path="/branding" element={<BrandingPage />} />
             <Route path="/solid-foundation" element={<SolidFoundationPage />} />
+            <Route path="/website-development" element={<WebsiteDevelopmentPage />} />
+            <Route path="/webshop-creation" element={<WebshopCreationPage />} />
+            <Route path="/seo-optimization" element={<SeoOptimizationPage />} />
+            <Route path="/digital-advertising" element={<DigitalAdvertisingPage />} />
+            <Route path="/social-media-marketing" element={<SocialMediaMarketingPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

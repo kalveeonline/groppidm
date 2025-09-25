@@ -45,19 +45,39 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-semibold text-lg text-foreground">{t('footer.services')}</h3>
             <div className="space-y-2 text-sm">
-              <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
+              <a 
+                href="#" 
+                onClick={() => window.open('/website-development', '_blank')}
+                className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              >
                 {t('footer.websiteDevelopment')}
               </a>
-              <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
+              <a 
+                href="#" 
+                onClick={() => window.open('/webshop-creation', '_blank')}
+                className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              >
                 {t('footer.webshopCreation')}
               </a>
-              <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
+              <a 
+                href="#" 
+                onClick={() => window.open('/seo-optimization', '_blank')}
+                className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              >
                 {t('footer.seoOptimization')}
               </a>
-              <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
+              <a 
+                href="#" 
+                onClick={() => window.open('/digital-advertising', '_blank')}
+                className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              >
                 {t('footer.digitalAdvertising')}
               </a>
-              <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
+              <a 
+                href="#" 
+                onClick={() => window.open('/social-media-marketing', '_blank')}
+                className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              >
                 {t('footer.socialMediaMarketing')}
               </a>
             </div>

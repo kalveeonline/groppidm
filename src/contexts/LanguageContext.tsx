@@ -134,6 +134,166 @@ const translations = {
     'branding.cta.description': 'Laat ons u helpen een sterke digitale identiteit op te bouwen die resultaten oplevert.',
     'branding.cta.button': 'Start Uw Branding Project',
     
+    // Website Development Page
+    'websiteDevelopment.title': 'Professionele Website Ontwikkeling voor Uw Bedrijf',
+    'websiteDevelopment.subtitle': 'Creëer een krachtige online aanwezigheid met onze op maat gemaakte websites',
+    'websiteDevelopment.intro': 'Een professionele website is de hoeksteen van uw digitale marketing strategie. Het is uw 24/7 verkoper die uw merk vertegenwoordigt en klanten converteert.',
+
+    'websiteDevelopment.section1.title': 'Waarom Professioneel Website Ontwikkeling?',
+    'websiteDevelopment.section1.content': 'In de digitale wereld heeft u slechts seconden om een eerste indruk te maken. Een professioneel ontworpen website bouwt direct vertrouwen op en zorgt ervoor dat bezoekers langer blijven.',
+
+    'websiteDevelopment.features.title': 'Onze Website Ontwikkeling Features',
+    'websiteDevelopment.features.feature1.title': 'Responsive Design',
+    'websiteDevelopment.features.feature1.desc': 'Perfect werkende websites op alle apparaten - desktop, tablet en mobiel.',
+    'websiteDevelopment.features.feature2.title': 'SEO Geoptimaliseerd',
+    'websiteDevelopment.features.feature2.desc': 'Gebouwd met SEO best practices voor betere zoekmachine rankings.',
+    'websiteDevelopment.features.feature3.title': 'Snelle Laadtijden',
+    'websiteDevelopment.features.feature3.desc': 'Geoptimaliseerde performance voor betere gebruikerservaring.',
+    'websiteDevelopment.features.feature4.title': 'Content Management',
+    'websiteDevelopment.features.feature4.desc': 'Eenvoudig te beheren content systeem voor dagelijkse updates.',
+
+    'websiteDevelopment.process.title': 'Ons Ontwikkelingsproces',
+    'websiteDevelopment.process.step1.title': 'Ontdekking & Planning',
+    'websiteDevelopment.process.step1.desc': 'We analyseren uw bedrijf, doelgroep en concurrenten voor een strategische aanpak.',
+    'websiteDevelopment.process.step2.title': 'Design & Prototype',
+    'websiteDevelopment.process.step2.desc': 'Creatie van visuele designs die uw merkidentiteit perfect weerspiegelen.',
+    'websiteDevelopment.process.step3.title': 'Ontwikkeling & Testen',
+    'websiteDevelopment.process.step3.desc': 'Professionele ontwikkeling met uitgebreide tests op alle apparaten.',
+    'websiteDevelopment.process.step4.title': 'Launch & Ondersteuning',
+    'websiteDevelopment.process.step4.desc': 'Succesvolle lancering met continue ondersteuning en optimalisatie.',
+
+    'websiteDevelopment.cta.title': 'Klaar voor Uw Nieuwe Website?',
+    'websiteDevelopment.cta.description': 'Laat ons uw visie omzetten in een krachtige digitale ervaring.',
+    'websiteDevelopment.cta.button': 'Start Uw Website Project',
+
+    // Webshop Creation Page
+    'webshopCreation.title': 'Professionele Webshop Ontwikkeling & E-commerce Oplossingen',
+    'webshopCreation.subtitle': 'Transform uw bedrijf met een krachtige online winkel die 24/7 verkoopt',
+    'webshopCreation.intro': 'E-commerce groeit exponentieel. Met onze op maat gemaakte webshops kunt u meteen profiteren van deze groei en uw omzet significant verhogen.',
+
+    'webshopCreation.section1.title': 'Waarom Een Professionele Webshop?',
+    'webshopCreation.section1.content': 'E-commerce vertegenwoordigt meer dan 20% van alle retail verkoop. Een professionele webshop opent nieuwe markten en verhoogt uw bereik exponentieel.',
+
+    'webshopCreation.features.title': 'Onze E-commerce Features',
+    'webshopCreation.features.feature1.title': 'Veilige Betalingen',
+    'webshopCreation.features.feature1.desc': 'Meerdere betaalmethoden met SSL-certificering voor veilige transacties.',
+    'webshopCreation.features.feature2.title': 'Inventaris Beheer',
+    'webshopCreation.features.feature2.desc': 'Automatisch voorraadbeheer met real-time updates.',
+    'webshopCreation.features.feature3.title': 'Order Management',
+    'webshopCreation.features.feature3.desc': 'Efficiënt orderbeheer met geautomatiseerde workflows.',
+    'webshopCreation.features.feature4.title': 'Analytics & Rapportage',
+    'webshopCreation.features.feature4.desc': 'Gedetailleerde verkooprapporten en klantanalyses.',
+
+    'webshopCreation.process.title': 'Webshop Ontwikkelingsproces',
+    'webshopCreation.process.step1.title': 'E-commerce Strategie',
+    'webshopCreation.process.step1.desc': 'Ontwikkeling van een complete e-commerce strategie voor uw markt.',
+    'webshopCreation.process.step2.title': 'Platform Selectie',
+    'webshopCreation.process.step2.desc': 'Keuze van het beste e-commerce platform voor uw behoeften.',
+    'webshopCreation.process.step3.title': 'Design & Ontwikkeling',
+    'webshopCreation.process.step3.desc': 'Creatie van een gebruiksvriendelijke en conversie-geoptimaliseerde webshop.',
+    'webshopCreation.process.step4.title': 'Integratie & Testing',
+    'webshopCreation.process.step4.desc': 'Integratie van betaalsystemen en uitgebreide functionaliteitstests.',
+
+    'webshopCreation.cta.title': 'Start Uw E-commerce Avontuur',
+    'webshopCreation.cta.description': 'Laat ons uw producten online brengen en uw verkoop vergroten.',
+    'webshopCreation.cta.button': 'Creëer Mijn Webshop',
+
+    // SEO Optimization Page
+    'seoOptimization.title': 'SEO Optimalizatie - Word Gevonden Door Uw Klanten',
+    'seoOptimization.subtitle': 'Verhoog uw online zichtbaarheid en trek meer gekwalificeerde bezoekers aan',
+    'seoOptimization.intro': 'SEO is essentieel voor online succes. 93% van alle online ervaringen begint met een zoekmachine. Wij zorgen ervoor dat uw bedrijf gevonden wordt.',
+
+    'seoOptimization.section1.title': 'Waarom SEO Zo Belangrijk Is',
+    'seoOptimization.section1.content': 'SEO genereert meer dan 1000% meer verkeer dan sociale media. Het is de meest kosteneffectieve manier om nieuwe klanten te bereiken.',
+
+    'seoOptimization.features.title': 'Onze SEO Services',
+    'seoOptimization.features.feature1.title': 'Keyword Research',
+    'seoOptimization.features.feature1.desc': 'Uitgebreide analyse van zoektermen die uw klanten gebruiken.',
+    'seoOptimization.features.feature2.title': 'On-Page Optimalizatie',
+    'seoOptimization.features.feature2.desc': 'Optimalizatie van content, meta tags en technische aspecten.',
+    'seoOptimization.features.feature3.title': 'Link Building',
+    'seoOptimization.features.feature3.desc': 'Kwalitatieve backlinks voor hogere authority en rankings.',
+    'seoOptimization.features.feature4.title': 'Local SEO',
+    'seoOptimization.features.feature4.desc': 'Optimalizatie voor lokale zoekopdrachten en Google My Business.',
+
+    'seoOptimization.process.title': 'Ons SEO Proces',
+    'seoOptimization.process.step1.title': 'SEO Audit',
+    'seoOptimization.process.step1.desc': 'Complete analyse van uw huidige SEO prestaties en verbeterpunten.',
+    'seoOptimization.process.step2.title': 'Strategie Ontwikkeling',
+    'seoOptimization.process.step2.desc': 'Op maat gemaakte SEO strategie voor uw bedrijf en doelen.',
+    'seoOptimization.process.step3.title': 'Implementatie',
+    'seoOptimization.process.step3.desc': 'Uitvoering van optimalizaties en content creatie.',
+    'seoOptimization.process.step4.title': 'Monitoring & Rapportage',
+    'seoOptimization.process.step4.desc': 'Continue monitoring met maandelijkse rapporten en optimalizaties.',
+
+    'seoOptimization.cta.title': 'Klaar om Gevonden te Worden?',
+    'seoOptimization.cta.description': 'Verhoog uw online zichtbaarheid en trek meer klanten aan.',
+    'seoOptimization.cta.button': 'Start SEO Optimalizatie',
+
+    // Digital Advertising Page
+    'digitalAdvertising.title': 'Digitaal Adverteren - Bereik Uw Doelgroep Effectief',
+    'digitalAdvertising.subtitle': 'Vergroot uw bereik en genereer meer leads met gerichte digitale advertenties',
+    'digitalAdvertising.intro': 'Digitaal adverteren biedt ongekende mogelijkheden om uw exacte doelgroep te bereiken op het juiste moment. Maximalizeer uw ROI met onze expertise.',
+
+    'digitalAdvertising.section1.title': 'De Kracht van Digitaal Adverteren',
+    'digitalAdvertising.section1.content': 'Digitale advertenties hebben een gemiddelde ROI van 200%. Met de juiste strategie kunt u uw investering verdrievoudigen.',
+
+    'digitalAdvertising.features.title': 'Onze Advertising Services',
+    'digitalAdvertising.features.feature1.title': 'Google Ads',
+    'digitalAdvertising.features.feature1.desc': 'Gerichte advertenties op Google zoekresultaten en display netwerk.',
+    'digitalAdvertising.features.feature2.title': 'Social Media Ads',
+    'digitalAdvertising.features.feature2.desc': 'Facebook, Instagram, LinkedIn advertenties voor maximaal bereik.',
+    'digitalAdvertising.features.feature3.title': 'Remarketing',
+    'digitalAdvertising.features.feature3.desc': 'Herwinnning van bezoekers die uw website eerder hebben bezocht.',
+    'digitalAdvertising.features.feature4.title': 'Conversion Tracking',
+    'digitalAdvertising.features.feature4.desc': 'Gedetailleerde tracking van alle conversies en ROI metingen.',
+
+    'digitalAdvertising.process.title': 'Ons Advertising Proces',
+    'digitalAdvertising.process.step1.title': 'Doelgroep Analyse',
+    'digitalAdvertising.process.step1.desc': 'Gedetailleerde analyse van uw ideale klanten en hun online gedrag.',
+    'digitalAdvertising.process.step2.title': 'Campagne Strategie',
+    'digitalAdvertising.process.step2.desc': 'Ontwikkeling van een strategische advertentieaanpak per platform.',
+    'digitalAdvertising.process.step3.title': 'Creatie & Lancering',
+    'digitalAdvertising.process.step3.desc': 'Professionele advertentie creatie en strategische lancering.',
+    'digitalAdvertising.process.step4.title': 'Optimalizatie & Scaling',
+    'digitalAdvertising.process.step4.desc': 'Continue optimalizatie en uitbreiding van succesvolle campagnes.',
+
+    'digitalAdvertising.cta.title': 'Klaar om Te Adverteren?',
+    'digitalAdvertising.cta.description': 'Start vandaag nog met effectieve digitale advertenties.',
+    'digitalAdvertising.cta.button': 'Launch Mijn Campagne',
+
+    // Social Media Marketing Page
+    'socialMediaMarketing.title': 'Social Media Marketing - Bouw Uw Community',
+    'socialMediaMarketing.subtitle': 'Vergroot uw bereik en engagement met strategische social media marketing',
+    'socialMediaMarketing.intro': 'Social media marketing is essentieel voor moderne bedrijven. Met 4.8 miljard active users wereldwijd biedt het onbeperkte mogelijkheden voor groei.',
+
+    'socialMediaMarketing.section1.title': 'Waarom Social Media Marketing?',
+    'socialMediaMarketing.section1.content': 'Social media marketing genereert 3x meer leads dan traditionele marketing en kost 62% minder. Het is de meest kosteneffectieve manier om uw merk te laten groeien.',
+
+    'socialMediaMarketing.features.title': 'Onze Social Media Services',
+    'socialMediaMarketing.features.feature1.title': 'Content Strategie',
+    'socialMediaMarketing.features.feature1.desc': 'Op maat gemaakte content strategieën voor elk social media platform.',
+    'socialMediaMarketing.features.feature2.title': 'Community Management',
+    'socialMediaMarketing.features.feature2.desc': 'Professioneel beheer van uw social media accounts en interacties.',
+    'socialMediaMarketing.features.feature3.title': 'Influencer Marketing',
+    'socialMediaMarketing.features.feature3.desc': 'Samenwerking met relevante influencers voor maximaal bereik.',
+    'socialMediaMarketing.features.feature4.title': 'Social Commerce',
+    'socialMediaMarketing.features.feature4.desc': 'Directe verkoop via social media platforms met shopping features.',
+
+    'socialMediaMarketing.process.title': 'Ons Social Media Proces',
+    'socialMediaMarketing.process.step1.title': 'Platform Strategie',
+    'socialMediaMarketing.process.step1.desc': 'Selectie van de beste platforms voor uw doelgroep en doelen.',
+    'socialMediaMarketing.process.step2.title': 'Content Planning',
+    'socialMediaMarketing.process.step2.desc': 'Ontwikkeling van een content kalender met engaging posts.',
+    'socialMediaMarketing.process.step3.title': 'Community Building',
+    'socialMediaMarketing.process.step3.desc': 'Actieve community building en engagement met followers.',
+    'socialMediaMarketing.process.step4.title': 'Performance Analyse',
+    'socialMediaMarketing.process.step4.desc': 'Gedetailleerde analyse van prestaties en ROI optimalizatie.',
+
+    'socialMediaMarketing.cta.title': 'Bouw Uw Social Media Aanwezigheid',
+    'socialMediaMarketing.cta.description': 'Start vandaag met het opbouwen van uw online community.',
+    'socialMediaMarketing.cta.button': 'Groei Mijn Social Media',
+
     // Solid Foundation Page
     'solidFoundation.title': 'Bouw een Solide Digitale Basis voor Uw Bedrijf',
     'solidFoundation.subtitle': 'Ontdek hoe een sterke digitale fundering uw bedrijf naar nieuwe hoogten kan tillen',
