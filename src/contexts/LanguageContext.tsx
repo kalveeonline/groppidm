@@ -134,6 +134,44 @@ const translations = {
     'branding.cta.description': 'Laat ons u helpen een sterke digitale identiteit op te bouwen die resultaten oplevert.',
     'branding.cta.button': 'Start Uw Branding Project',
     
+    // Solid Foundation Page
+    'solidFoundation.title': 'Bouw een Solide Digitale Basis voor Uw Bedrijf',
+    'solidFoundation.subtitle': 'Ontdek hoe een sterke digitale fundering uw bedrijf naar nieuwe hoogten kan tillen',
+    'solidFoundation.intro': 'In de moderne zakenwereld is een solide digitale basis niet langer een luxe, maar een absolute noodzaak. Het vormt het fundament waarop al uw digitale marketinginspanningen rusten.',
+
+    'solidFoundation.section1.title': 'Waarom is een Solide Digitale Basis Cruciaal?',
+    'solidFoundation.section1.content': 'Een sterke digitale basis zorgt ervoor dat uw bedrijf professioneel overkomt, gemakkelijk vindbaar is en klanten vertrouwen wekt. Het is de eerste indruk die potentiële klanten van uw bedrijf krijgen in de digitale wereld.',
+
+    'solidFoundation.section2.title': 'De Pijlers van een Sterke Digitale Basis',
+    'solidFoundation.section2.pillar1.title': 'Professionele Website',
+    'solidFoundation.section2.pillar1.desc': 'Uw website is uw digitale visitekaartje. Het moet snel, mobieloptimaal en gebruiksvriendelijk zijn.',
+    'solidFoundation.section2.pillar2.title': 'SEO Optimalisatie',
+    'solidFoundation.section2.pillar2.desc': 'Zorg ervoor dat uw website vindbaar is in zoekmachines wanneer klanten naar uw diensten zoeken.',
+    'solidFoundation.section2.pillar3.title': 'Correcte Bedrijfsgegevens',
+    'solidFoundation.section2.pillar3.desc': 'Consistente NAP-gegevens (Naam, Adres, Telefoonnummer) over alle online platforms.',
+    'solidFoundation.section2.pillar4.title': 'Online Reputatiebeheer',
+    'solidFoundation.section2.pillar4.desc': 'Monitor en beheer wat er online over uw bedrijf wordt gezegd.',
+
+    'solidFoundation.section3.title': 'Onze Aanpak voor Uw Solide Basis',
+    'solidFoundation.section3.step1.title': 'Website Audit & Optimalisatie',
+    'solidFoundation.section3.step1.desc': 'We analyseren uw huidige website en identificeren verbeterpunten voor betere prestaties.',
+    'solidFoundation.section3.step2.title': 'SEO Fundamenten',
+    'solidFoundation.section3.step2.desc': 'Implementatie van basis SEO-technieken voor betere vindbaarheid.',
+    'solidFoundation.section3.step3.title': 'Bedrijfsgegevens Synchronisatie',
+    'solidFoundation.section3.step3.desc': 'Zorgen voor consistente bedrijfsinformatie over alle online kanalen.',
+    'solidFoundation.section3.step4.title': 'Monitoring & Rapportage',
+    'solidFoundation.section3.step4.desc': 'Continue monitoring van uw online prestaties met maandelijkse rapporten.',
+
+    'solidFoundation.benefits.title': 'Voordelen van een Solide Digitale Basis',
+    'solidFoundation.benefits.benefit1': '75% meer online zichtbaarheid',
+    'solidFoundation.benefits.benefit2': '50% toename in websiteverkeer',
+    'solidFoundation.benefits.benefit3': '40% meer leads vanuit online kanalen',
+    'solidFoundation.benefits.benefit4': 'Betere klantervaring en tevredenheid',
+
+    'solidFoundation.cta.title': 'Klaar om Uw Digitale Basis te Versterken?',
+    'solidFoundation.cta.description': 'Laat ons u helpen een solide fundament te leggen voor uw digitale succes.',
+    'solidFoundation.cta.button': 'Start Uw Digitale Transformatie',
+
     // Common
     'common.learnMore': 'Meer informatie',
     'common.getStarted': 'Aan de slag',
@@ -264,6 +302,44 @@ const translations = {
     'branding.cta.description': 'Laissez-nous vous aider à construire une identité numérique forte qui génère des résultats.',
     'branding.cta.button': 'Commencez Votre Projet de Branding',
     
+    // Solid Foundation Page
+    'solidFoundation.title': 'Construisez une Base Numérique Solide pour Votre Entreprise',
+    'solidFoundation.subtitle': 'Découvrez comment une fondation numérique forte peut propulser votre entreprise vers de nouveaux sommets',
+    'solidFoundation.intro': 'Dans le monde des affaires moderne, une base numérique solide n\'est plus un luxe, mais une nécessité absolue. Elle forme le fondement sur lequel reposent tous vos efforts de marketing numérique.',
+
+    'solidFoundation.section1.title': 'Pourquoi une Base Numérique Solide est-elle Cruciale?',
+    'solidFoundation.section1.content': 'Une base numérique forte garantit que votre entreprise paraît professionnelle, est facilement trouvable et inspire confiance aux clients. C\'est la première impression que les clients potentiels ont de votre entreprise dans le monde numérique.',
+
+    'solidFoundation.section2.title': 'Les Piliers d\'une Base Numérique Forte',
+    'solidFoundation.section2.pillar1.title': 'Site Web Professionnel',
+    'solidFoundation.section2.pillar1.desc': 'Votre site web est votre carte de visite numérique. Il doit être rapide, optimisé pour mobile et convivial.',
+    'solidFoundation.section2.pillar2.title': 'Optimisation SEO',
+    'solidFoundation.section2.pillar2.desc': 'Assurez-vous que votre site web est trouvable dans les moteurs de recherche quand les clients recherchent vos services.',
+    'solidFoundation.section2.pillar3.title': 'Données d\'Entreprise Correctes',
+    'solidFoundation.section2.pillar3.desc': 'Données NAP cohérentes (Nom, Adresse, Téléphone) sur toutes les plateformes en ligne.',
+    'solidFoundation.section2.pillar4.title': 'Gestion de la Réputation en Ligne',
+    'solidFoundation.section2.pillar4.desc': 'Surveillez et gérez ce qui se dit en ligne sur votre entreprise.',
+
+    'solidFoundation.section3.title': 'Notre Approche pour Votre Base Solide',
+    'solidFoundation.section3.step1.title': 'Audit et Optimisation du Site Web',
+    'solidFoundation.section3.step1.desc': 'Nous analysons votre site web actuel et identifions les points d\'amélioration pour de meilleures performances.',
+    'solidFoundation.section3.step2.title': 'Fondements SEO',
+    'solidFoundation.section3.step2.desc': 'Implémentation des techniques SEO de base pour une meilleure visibilité.',
+    'solidFoundation.section3.step3.title': 'Synchronisation des Données d\'Entreprise',
+    'solidFoundation.section3.step3.desc': 'Assurer la cohérence des informations d\'entreprise sur tous les canaux en ligne.',
+    'solidFoundation.section3.step4.title': 'Surveillance et Rapports',
+    'solidFoundation.section3.step4.desc': 'Surveillance continue de vos performances en ligne avec des rapports mensuels.',
+
+    'solidFoundation.benefits.title': 'Avantages d\'une Base Numérique Solide',
+    'solidFoundation.benefits.benefit1': '75% plus de visibilité en ligne',
+    'solidFoundation.benefits.benefit2': '50% d\'augmentation du trafic web',
+    'solidFoundation.benefits.benefit3': '40% plus de prospects des canaux en ligne',
+    'solidFoundation.benefits.benefit4': 'Meilleure expérience et satisfaction client',
+
+    'solidFoundation.cta.title': 'Prêt à Renforcer Votre Base Numérique?',
+    'solidFoundation.cta.description': 'Laissez-nous vous aider à construire une fondation solide pour votre succès numérique.',
+    'solidFoundation.cta.button': 'Commencez Votre Transformation Numérique',
+
     // Common
     'common.learnMore': 'En savoir plus',
     'common.getStarted': 'Commencer',
@@ -394,6 +470,44 @@ const translations = {
     'branding.cta.description': 'Let us help you build a strong digital identity that delivers results.',
     'branding.cta.button': 'Start Your Branding Project',
     
+    // Solid Foundation Page
+    'solidFoundation.title': 'Build a Solid Digital Foundation for Your Business',
+    'solidFoundation.subtitle': 'Discover how a strong digital foundation can propel your business to new heights',
+    'solidFoundation.intro': 'In the modern business world, a solid digital foundation is no longer a luxury, but an absolute necessity. It forms the foundation on which all your digital marketing efforts rest.',
+
+    'solidFoundation.section1.title': 'Why is a Solid Digital Foundation Crucial?',
+    'solidFoundation.section1.content': 'A strong digital foundation ensures that your business appears professional, is easily findable, and inspires customer confidence. It\'s the first impression potential customers get of your business in the digital world.',
+
+    'solidFoundation.section2.title': 'The Pillars of a Strong Digital Foundation',
+    'solidFoundation.section2.pillar1.title': 'Professional Website',
+    'solidFoundation.section2.pillar1.desc': 'Your website is your digital business card. It must be fast, mobile-optimized, and user-friendly.',
+    'solidFoundation.section2.pillar2.title': 'SEO Optimization',
+    'solidFoundation.section2.pillar2.desc': 'Ensure your website is findable in search engines when customers search for your services.',
+    'solidFoundation.section2.pillar3.title': 'Correct Business Data',
+    'solidFoundation.section2.pillar3.desc': 'Consistent NAP data (Name, Address, Phone) across all online platforms.',
+    'solidFoundation.section2.pillar4.title': 'Online Reputation Management',
+    'solidFoundation.section2.pillar4.desc': 'Monitor and manage what is said about your business online.',
+
+    'solidFoundation.section3.title': 'Our Approach for Your Solid Foundation',
+    'solidFoundation.section3.step1.title': 'Website Audit & Optimization',
+    'solidFoundation.section3.step1.desc': 'We analyze your current website and identify improvement points for better performance.',
+    'solidFoundation.section3.step2.title': 'SEO Fundamentals',
+    'solidFoundation.section3.step2.desc': 'Implementation of basic SEO techniques for better findability.',
+    'solidFoundation.section3.step3.title': 'Business Data Synchronization',
+    'solidFoundation.section3.step3.desc': 'Ensuring consistent business information across all online channels.',
+    'solidFoundation.section3.step4.title': 'Monitoring & Reporting',
+    'solidFoundation.section3.step4.desc': 'Continuous monitoring of your online performance with monthly reports.',
+
+    'solidFoundation.benefits.title': 'Benefits of a Solid Digital Foundation',
+    'solidFoundation.benefits.benefit1': '75% more online visibility',
+    'solidFoundation.benefits.benefit2': '50% increase in website traffic',
+    'solidFoundation.benefits.benefit3': '40% more leads from online channels',
+    'solidFoundation.benefits.benefit4': 'Better customer experience and satisfaction',
+
+    'solidFoundation.cta.title': 'Ready to Strengthen Your Digital Foundation?',
+    'solidFoundation.cta.description': 'Let us help you build a solid foundation for your digital success.',
+    'solidFoundation.cta.button': 'Start Your Digital Transformation',
+
     // Common
     'common.learnMore': 'Learn more',
     'common.getStarted': 'Get started',
