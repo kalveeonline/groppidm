@@ -69,9 +69,16 @@ export const HeroSection = () => {
                 className="w-full h-full object-cover rounded-full"
               />
               
-              {/* Floating elements */}
-              <div className="absolute -top-4 -right-4 h-16 w-16 rounded-full bg-primary/20 blur-xl"></div>
-              <div className="absolute -bottom-4 -left-4 h-20 w-20 rounded-full bg-primary/10 blur-2xl"></div>
+              {/* Rotating container for floating elements */}
+              <div className="absolute inset-0 animate-spin-slow">
+                {/* Floating elements */}
+                <div className="absolute -top-4 -right-4 h-16 w-16 rounded-full bg-primary/20 blur-xl"></div>
+                <div className="absolute -bottom-4 -left-4 h-20 w-20 rounded-full bg-primary/10 blur-2xl"></div>
+                <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 h-12 w-12 rounded-full bg-primary/15 blur-lg"></div>
+                <div className="absolute bottom-0 right-8 h-14 w-14 rounded-full bg-primary/25 blur-xl"></div>
+                <div className="absolute top-1/2 -left-8 transform -translate-y-1/2 h-10 w-10 rounded-full bg-primary/20 blur-md"></div>
+                <div className="absolute top-1/4 right-0 h-8 w-8 rounded-full bg-primary/30 blur-sm"></div>
+              </div>
             </div>
           </div>
         </div>
