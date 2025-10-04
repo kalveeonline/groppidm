@@ -14,16 +14,6 @@ export const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Text Content */}
           <div>
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 mb-6">
-              <Button size="lg" className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero transition-all duration-300 hover:shadow-lg hover:scale-105" onClick={() => window.open('/appointment', '_blank')}>
-                {t('hero.cta1')}
-              </Button>
-              <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300" onClick={() => window.open('https://wa.me/32495633832', '_blank')}>
-                {t('hero.cta2')}
-              </Button>
-            </div>
-
             {/* Trust Indicators */}
             <div className="flex flex-wrap items-center gap-6">
               <div className="flex items-center gap-2">
