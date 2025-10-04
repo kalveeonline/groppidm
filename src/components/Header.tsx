@@ -138,8 +138,16 @@ export const Header = () => {
       </div>
 
       {/* Row 2: Main Navigation Menu */}
-      <div className="hidden md:block">
-        <div className="container px-4">
+      <div className="hidden md:block relative">
+        {/* Decorative 45-degree diagonal line from bottom left */}
+        <div className="absolute left-0 bottom-0 w-32 h-full overflow-hidden pointer-events-none">
+          <div className="absolute bottom-0 left-0 w-[200%] h-[2px] bg-gradient-to-r from-primary via-primary-light to-transparent rotate-45 origin-bottom-left shadow-glow"></div>
+        </div>
+        
+        {/* Decorative horizontal line across the menu */}
+        <div className="absolute top-1/2 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-primary/30 to-transparent pointer-events-none"></div>
+        
+        <div className="container px-4 relative z-10">
           <nav className="flex items-center justify-center space-x-8 h-14">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>

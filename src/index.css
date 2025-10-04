@@ -148,6 +148,27 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+    background: hsl(0, 0%, 7%);
+    color: hsl(43, 96%, 56%);
+  }
+  
+  /* Ensure all text elements use golden color by default */
+  h1, h2, h3, h4, h5, h6, p, span, div, a, button, label, input, textarea {
+    @apply text-foreground;
+  }
+  
+  /* Matte black finish for all backgrounds */
+  .bg-background {
+    background: hsl(0, 0%, 7%);
+  }
+  
+  /* Ensure cards and popovers have proper backgrounds */
+  .bg-card {
+    background: hsl(0, 0%, 10%);
+  }
+  
+  .bg-popover {
+    background: hsl(0, 0%, 5%);
   }
 }

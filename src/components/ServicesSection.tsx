@@ -61,7 +61,7 @@ export const ServicesSection = () => {
     }
   ];
   return (
-    <section className="py-20 bg-accent/20">
+    <section className="py-20 bg-background/50">
       <div className="container px-4">
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">

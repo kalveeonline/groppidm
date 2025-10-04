@@ -10,7 +10,7 @@ export const Footer = () => {
   const { t } = useLanguage();
   
   return (
-    <footer className="bg-white/95 text-foreground border-t border-border/20">
+    <footer className="bg-background text-foreground border-t border-primary/30">
       <div className="container px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
