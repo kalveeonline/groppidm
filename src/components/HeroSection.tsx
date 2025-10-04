@@ -15,18 +15,18 @@ export const HeroSection = () => {
           {/* Text Content */}
           <div>
             {/* Trust Indicators */}
-            <div className="flex flex-wrap items-center gap-6">
+            <div className="flex flex-wrap items-center justify-center gap-6">
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-primary"></div>
-                <span className="text-sm text-muted-foreground">{t('hero.trustIndicators.oneStop')}</span>
+                <span className="text-base font-semibold text-foreground">{t('hero.trustIndicators.oneStop')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-primary"></div>
-                <span className="text-sm text-muted-foreground">{t('hero.trustIndicators.budget')}</span>
+                <span className="text-base font-semibold text-foreground">{t('hero.trustIndicators.budget')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-primary"></div>
-                <span className="text-sm text-muted-foreground">{t('hero.trustIndicators.reports')}</span>
+                <span className="text-base font-semibold text-foreground">{t('hero.trustIndicators.reports')}</span>
               </div>
             </div>
           </div>
