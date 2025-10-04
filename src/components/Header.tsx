@@ -210,20 +210,20 @@ export const Header = () => {
           <div className="container px-4 py-4 space-y-3">
             {/* Social Media Icons */}
             <div className="flex items-center gap-2 pb-3 border-b border-primary/20">
-              <Button size="sm" variant="ghost" className="p-2">
-                <Facebook className="h-4 w-4 text-[hsl(var(--facebook))]" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Facebook className="h-5 w-5 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
               </Button>
-              <Button size="sm" variant="ghost" className="p-2">
-                <Twitter className="h-4 w-4 text-[hsl(var(--twitter))]" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Twitter className="h-5 w-5 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
               </Button>
-              <Button size="sm" variant="ghost" className="p-2">
-                <Instagram className="h-4 w-4 text-[hsl(var(--instagram))]" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Instagram className="h-5 w-5 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
               </Button>
-              <Button size="sm" variant="ghost" className="p-2">
-                <Linkedin className="h-4 w-4 text-[hsl(var(--linkedin))]" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Linkedin className="h-5 w-5 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
               </Button>
-              <Button size="sm" variant="ghost" className="p-2">
-                <Youtube className="h-4 w-4 text-[hsl(var(--youtube))]" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Youtube className="h-5 w-5 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
               </Button>
             </div>
             
