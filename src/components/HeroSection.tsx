@@ -11,13 +11,11 @@ export const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-primary/10"></div>
       
       <div className="container relative px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Text Content */}
-          <div className="space-y-8">
-            
-
+          <div>
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 mb-6">
               <Button size="lg" className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero transition-all duration-300 hover:shadow-lg hover:scale-105" onClick={() => window.open('/appointment', '_blank')}>
                 {t('hero.cta1')}
               </Button>
@@ -27,7 +25,7 @@ export const HeroSection = () => {
             </div>
 
             {/* Trust Indicators */}
-            <div className="flex flex-wrap items-center gap-6 pt-4">
+            <div className="flex flex-wrap items-center gap-6">
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-primary"></div>
                 <span className="text-sm text-muted-foreground">{t('hero.trustIndicators.oneStop')}</span>
