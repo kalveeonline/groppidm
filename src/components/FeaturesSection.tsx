@@ -35,7 +35,7 @@ export const FeaturesSection = () => {
                   <feature.icon className="h-8 w-8 text-primary" />
                 </div>
               </div>
-              <h3 className="text-lg font-semibold text-foreground">
+              <h3 className="text-lg font-semibold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
                 {feature.title}
               </h3>
               <p className="text-muted-foreground text-sm">
