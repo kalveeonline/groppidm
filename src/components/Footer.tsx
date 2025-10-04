@@ -30,21 +30,21 @@ export const Footer = () => {
               GROPPI Digital Marketing Bureau maakt KMO&apos;s succesvol online met professionele 
               digitale marketing oplossingen.
             </p>
-            <div className="flex space-x-4">
-              <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
-                <Facebook className="h-4 w-4" />
+            <div className="flex space-x-2">
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Facebook className="h-5 w-5 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
               </Button>
-              <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
-                <Twitter className="h-4 w-4" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Twitter className="h-5 w-5 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
               </Button>
-              <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
-                <Instagram className="h-4 w-4" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Instagram className="h-5 w-5 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
               </Button>
-              <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
-                <Linkedin className="h-4 w-4" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Linkedin className="h-5 w-5 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
               </Button>
-              <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10">
-                <Youtube className="h-4 w-4" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Youtube className="h-5 w-5 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
               </Button>
             </div>
           </div>

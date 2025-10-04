@@ -60,39 +60,42 @@ export const Header = () => {
 
   return (
     <header className="bg-background sticky top-0 z-50 w-full border-b border-primary/30 shadow-lg shadow-primary/10">
-      {/* Row 1: Company Name, Social Media, My Media, Contact, Language */}
+      {/* Row 1: Company Name with Social Media, My Media, Contact, Language */}
       <div className="border-b border-primary/20">
         <div className="container flex h-14 items-center justify-between px-4">
-          {/* Circular G Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
-            <img 
-              src={groppiLogoCircle} 
-              alt="GROPPI Logo" 
-              className="h-12 w-12 object-contain group-hover:scale-105 transition-all duration-300"
-            />
-            <div className="flex flex-col">
-              <span className="text-base font-bold text-primary tracking-wider">GROPPI</span>
-              <span className="text-[10px] text-primary/70">Digital Marketing Bureau</span>
-            </div>
-          </Link>
+          {/* Company Name and Social Media Icons Together */}
+          <div className="flex items-center gap-6">
+            {/* Circular G Logo */}
+            <Link to="/" className="flex items-center gap-3 group">
+              <img 
+                src={groppiLogoCircle} 
+                alt="GROPPI Logo" 
+                className="h-12 w-12 object-contain group-hover:scale-105 transition-all duration-300"
+              />
+              <div className="flex flex-col">
+                <span className="text-base font-bold text-primary tracking-wider">GROPPI</span>
+                <span className="text-[10px] text-primary/70">Digital Marketing Bureau</span>
+              </div>
+            </Link>
 
-          {/* Social Media Icons with Brand Colors */}
-          <div className="hidden lg:flex items-center gap-1">
-            <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-              <Facebook className="h-5 w-5 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
-            </Button>
-            <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-              <Twitter className="h-5 w-5 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
-            </Button>
-            <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-              <Instagram className="h-5 w-5 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
-            </Button>
-            <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-              <Linkedin className="h-5 w-5 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
-            </Button>
-            <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-              <Youtube className="h-5 w-5 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
-            </Button>
+            {/* Social Media Icons with Brand Colors - Adjacent to Company Name */}
+            <div className="hidden lg:flex items-center gap-1 pl-4 border-l border-primary/30">
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Facebook className="h-5 w-5 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
+              </Button>
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Twitter className="h-5 w-5 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
+              </Button>
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Instagram className="h-5 w-5 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
+              </Button>
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Linkedin className="h-5 w-5 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
+              </Button>
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+                <Youtube className="h-5 w-5 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
+              </Button>
+            </div>
           </div>
 
           {/* Right Side Actions */}
