@@ -8,6 +8,19 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
+export const SUPPORTED_LANGUAGES = [
+  { code: "NL", name: "Nederlands" },
+  { code: "EN", name: "English" },
+  { code: "FR", name: "Français" },
+  { code: "PL", name: "Polski" },
+  { code: "RU", name: "Русский" },
+  { code: "DE", name: "Deutsch" },
+  { code: "ES", name: "Español" },
+  { code: "IT", name: "Italiano" },
+  { code: "UK", name: "Українська" },
+  { code: "TR", name: "Türkçe" }
+];
+
 const translations = {
   NL: {
     // Navigation

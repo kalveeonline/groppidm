@@ -24,7 +24,13 @@ export default {
           foreground: "hsl(var(--primary-foreground))",
           light: "hsl(var(--primary-light))",
           dark: "hsl(var(--primary-dark))",
+          glow: "hsl(var(--primary-glow))",
         },
+        facebook: "hsl(var(--facebook))",
+        twitter: "hsl(var(--twitter))",
+        instagram: "hsl(var(--instagram))",
+        linkedin: "hsl(var(--linkedin))",
+        youtube: "hsl(var(--youtube))",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
@@ -63,10 +69,15 @@ export default {
         backgroundImage: {
           "gradient-hero": "var(--gradient-hero)",
           "gradient-card": "var(--gradient-card)",
+          "gradient-primary": "var(--gradient-primary)",
+          "gradient-gold": "var(--gradient-gold)",
         },
         boxShadow: {
           card: "var(--shadow-card)",
           hero: "var(--shadow-hero)",
+          primary: "var(--shadow-primary)",
+          elegant: "var(--shadow-elegant)",
+          glow: "var(--shadow-glow)",
         },
       borderRadius: {
         lg: "var(--radius)",

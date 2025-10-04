@@ -10,18 +10,12 @@ import {
   DropdownMenuSeparator,
   DropdownMenuLabel,
 } from "@/components/ui/dropdown-menu";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { useLanguage, SUPPORTED_LANGUAGES } from "@/contexts/LanguageContext";
 import groppiLogo from "@/assets/groppi-logo-new.png";
 
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { language, setLanguage, t } = useLanguage();
-
-  const languages = [
-    { code: "NL", name: "Nederlands" },
-    { code: "FR", name: "Français" },
-    { code: "EN", name: "English" }
-  ];
 
   const serviceCategories = [
     {
@@ -64,166 +58,202 @@ export const Header = () => {
   ];
 
   return (
-    <header className="bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b border-border/40">
-      <div className="container flex h-16 items-center justify-between px-4">
-        {/* Logo */}
-        <Link to="/" className="flex items-center gap-3">
-          <img 
-            src={groppiLogo} 
-            alt="GROPPI Logo" 
-            className="h-12 w-auto"
-          />
-          <div className="flex flex-col">
-            <span className="text-lg font-bold text-foreground">GROPPI</span>
-            <span className="text-xs text-muted-foreground">Digital Marketing Bureau</span>
+    <header className="bg-background sticky top-0 z-50 w-full border-b border-primary/30 shadow-lg shadow-primary/10">
+      {/* Row 1: Company Name, Social Media, My Media, Contact, Language */}
+      <div className="border-b border-primary/20">
+        <div className="container flex h-14 items-center justify-between px-4">
+          {/* Circular G Logo */}
+          <Link to="/" className="flex items-center gap-3 group">
+            <div className="relative h-12 w-12 rounded-full border-2 border-primary bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center shadow-lg shadow-primary/30 group-hover:shadow-primary/50 transition-all duration-300">
+              <span className="text-2xl font-black text-primary">G</span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-base font-bold text-primary tracking-wider">GROPPI</span>
+              <span className="text-[10px] text-primary/70">Digital Marketing Bureau</span>
+            </div>
+          </Link>
+
+          {/* Social Media Icons with Brand Colors */}
+          <div className="hidden lg:flex items-center gap-1">
+            <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+              <Facebook className="h-5 w-5 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
+            </Button>
+            <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+              <Twitter className="h-5 w-5 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
+            </Button>
+            <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+              <Instagram className="h-5 w-5 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
+            </Button>
+            <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+              <Linkedin className="h-5 w-5 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
+            </Button>
+            <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
+              <Youtube className="h-5 w-5 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
+            </Button>
           </div>
-        </Link>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-6">
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="ghost" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors gap-1">
-                {t('nav.services')}
-                <ChevronDown className="h-3 w-3" />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="start" className="w-[800px] bg-background border border-border/40 shadow-lg p-6">
-              <div className="grid grid-cols-4 gap-6">
-                {serviceCategories.map((category, categoryIndex) => (
-                  <div key={categoryIndex} className="space-y-3">
-                    <DropdownMenuLabel className="text-primary font-semibold text-xs uppercase tracking-wide">
-                      {category.title}
-                    </DropdownMenuLabel>
-                    <div className="space-y-2">
-                      {category.items.map((item, itemIndex) => (
-                        <Link to={`/service/${item.slug}`} key={itemIndex}>
-                          <DropdownMenuItem 
-                            className="cursor-pointer hover:bg-muted/50 p-3 rounded-lg"
-                          >
-                            <div className="flex items-start gap-3">
-                              <item.icon className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                              <div className="space-y-1">
-                                <div className="font-medium text-sm text-foreground">{item.name}</div>
-                                <div className="text-xs text-muted-foreground">{item.description}</div>
-                              </div>
-                            </div>
-                          </DropdownMenuItem>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
+          {/* Right Side Actions */}
+          <div className="hidden md:flex items-center gap-3">
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="ghost" size="sm" className="text-primary hover:text-primary-light gap-1 text-sm">
+                  <Globe className="h-4 w-4" />
+                  {language}
+                  <ChevronDown className="h-3 w-3" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="bg-popover border border-primary/40 shadow-lg z-[100]">
+                {SUPPORTED_LANGUAGES.map((lang) => (
+                  <DropdownMenuItem
+                    key={lang.code}
+                    onClick={() => setLanguage(lang.code)}
+                    className="cursor-pointer hover:bg-muted text-primary hover:text-primary-light"
+                  >
+                    {lang.name}
+                  </DropdownMenuItem>
                 ))}
-              </div>
-            </DropdownMenuContent>
-          </DropdownMenu>
-          <a href="#offices" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
-            {t('nav.offices')}
-          </a>
-          <a href="#blog" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
-            {t('nav.blog')}
-          </a>
-        </nav>
+              </DropdownMenuContent>
+            </DropdownMenu>
+            <Button variant="ghost" size="sm" className="text-primary hover:text-primary-light text-sm">
+              {t('nav.myMedia')}
+            </Button>
+            <Button size="sm" className="bg-primary hover:bg-primary-dark text-primary-foreground font-semibold text-sm shadow-lg shadow-primary/30">
+              {t('nav.contact')}
+            </Button>
+          </div>
 
-        {/* Social Media Icons */}
-        <div className="hidden md:flex items-center gap-2 mr-4">
-          <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10 p-2">
-            <Facebook className="h-4 w-4" />
-          </Button>
-          <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10 p-2">
-            <Twitter className="h-4 w-4" />
-          </Button>
-          <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10 p-2">
-            <Instagram className="h-4 w-4" />
-          </Button>
-          <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10 p-2">
-            <Linkedin className="h-4 w-4" />
-          </Button>
-          <Button size="sm" variant="ghost" className="text-muted-foreground hover:text-primary hover:bg-primary/10 p-2">
-            <Youtube className="h-4 w-4" />
+          {/* Mobile Menu Button */}
+          <Button
+            variant="ghost"
+            size="sm"
+            className="md:hidden text-primary"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </Button>
         </div>
+      </div>
 
-        {/* Desktop CTA Buttons */}
-        <div className="hidden md:flex items-center gap-3">
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="ghost" size="sm" className="text-foreground/80 gap-1">
-                <Globe className="h-4 w-4" />
-                {language}
-                <ChevronDown className="h-3 w-3" />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" className="bg-background border border-border/40 shadow-md">
-              {languages.map((lang) => (
-              <DropdownMenuItem
-                key={lang.code}
-                onClick={() => setLanguage(lang.code)}
-                className="cursor-pointer hover:bg-muted"
-              >
-                  {lang.name}
-                </DropdownMenuItem>
-              ))}
-            </DropdownMenuContent>
-          </DropdownMenu>
-          <Button variant="ghost" size="sm" className="text-foreground/80">
-            {t('nav.myMedia')}
-          </Button>
-          <Button size="sm" className="bg-primary hover:bg-primary-dark text-primary-foreground">
-            {t('nav.contact')}
-          </Button>
+      {/* Row 2: Main Navigation Menu */}
+      <div className="hidden md:block">
+        <div className="container px-4">
+          <nav className="flex items-center justify-center space-x-8 h-14">
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="ghost" className="text-base font-semibold text-primary hover:text-primary-light transition-colors gap-1">
+                  {t('nav.services')}
+                  <ChevronDown className="h-4 w-4" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start" className="w-[800px] bg-popover border border-primary/40 shadow-lg p-6 z-[100]">
+                <div className="grid grid-cols-4 gap-6">
+                  {serviceCategories.map((category, categoryIndex) => (
+                    <div key={categoryIndex} className="space-y-3">
+                      <DropdownMenuLabel className="text-primary font-bold text-xs uppercase tracking-wide">
+                        {category.title}
+                      </DropdownMenuLabel>
+                      <div className="space-y-2">
+                        {category.items.map((item, itemIndex) => (
+                          <Link to={`/service/${item.slug}`} key={itemIndex}>
+                            <DropdownMenuItem 
+                              className="cursor-pointer hover:bg-muted/50 p-3 rounded-lg"
+                            >
+                              <div className="flex items-start gap-3">
+                                <item.icon className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                                <div className="space-y-1">
+                                  <div className="font-medium text-sm text-primary">{item.name}</div>
+                                  <div className="text-xs text-primary/60">{item.description}</div>
+                                </div>
+                              </div>
+                            </DropdownMenuItem>
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </DropdownMenuContent>
+            </DropdownMenu>
+            <a href="#prices" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+              Prices
+            </a>
+            <a href="#blog" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+              {t('nav.blog')}
+            </a>
+            <a href="#about" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+              About Us
+            </a>
+            <a href="#jobs" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+              Jobs
+            </a>
+          </nav>
         </div>
-
-        {/* Mobile Menu Button */}
-        <Button
-          variant="ghost"
-          size="sm"
-          className="md:hidden"
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        >
-          {isMobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-        </Button>
       </div>
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden border-t border-border/40 bg-background/95 backdrop-blur">
+        <div className="md:hidden border-t border-primary/30 bg-background">
           <div className="container px-4 py-4 space-y-3">
-            <a href="#services" className="block text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
-              Wat wil je?
+            {/* Social Media Icons */}
+            <div className="flex items-center gap-2 pb-3 border-b border-primary/20">
+              <Button size="sm" variant="ghost" className="p-2">
+                <Facebook className="h-4 w-4 text-[hsl(var(--facebook))]" />
+              </Button>
+              <Button size="sm" variant="ghost" className="p-2">
+                <Twitter className="h-4 w-4 text-[hsl(var(--twitter))]" />
+              </Button>
+              <Button size="sm" variant="ghost" className="p-2">
+                <Instagram className="h-4 w-4 text-[hsl(var(--instagram))]" />
+              </Button>
+              <Button size="sm" variant="ghost" className="p-2">
+                <Linkedin className="h-4 w-4 text-[hsl(var(--linkedin))]" />
+              </Button>
+              <Button size="sm" variant="ghost" className="p-2">
+                <Youtube className="h-4 w-4 text-[hsl(var(--youtube))]" />
+              </Button>
+            </div>
+            
+            <a href="#services" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+              {t('nav.services')}
             </a>
-            <a href="#offices" className="block text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
-              Onze kantoren
+            <a href="#prices" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+              Prices
             </a>
-            <a href="#blog" className="block text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
-              Blog
+            <a href="#blog" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+              {t('nav.blog')}
             </a>
-            <div className="flex flex-col gap-2 pt-3 border-t border-border/40">
+            <a href="#about" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+              About Us
+            </a>
+            <a href="#jobs" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+              Jobs
+            </a>
+            <div className="flex flex-col gap-2 pt-3 border-t border-primary/20">
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="sm" className="justify-start text-foreground/80 gap-2">
+                  <Button variant="ghost" size="sm" className="justify-start text-primary gap-2">
                     <Globe className="h-4 w-4" />
                     {language}
                     <ChevronDown className="h-3 w-3" />
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="start" className="bg-background border border-border/40 shadow-md">
-                  {languages.map((lang) => (
+                <DropdownMenuContent align="start" className="bg-popover border border-primary/40 shadow-md z-[100]">
+                  {SUPPORTED_LANGUAGES.map((lang) => (
                     <DropdownMenuItem
                       key={lang.code}
                       onClick={() => setLanguage(lang.code)}
-                      className="cursor-pointer hover:bg-muted"
+                      className="cursor-pointer hover:bg-muted text-primary"
                     >
                       {lang.name}
                     </DropdownMenuItem>
                   ))}
                 </DropdownMenuContent>
               </DropdownMenu>
-              <Button variant="ghost" size="sm" className="justify-start text-foreground/80">
-                My Media
+              <Button variant="ghost" size="sm" className="justify-start text-primary">
+                {t('nav.myMedia')}
               </Button>
-              <Button size="sm" className="bg-primary hover:bg-primary-dark text-primary-foreground">
-                Klaar voor een babbel?
+              <Button size="sm" className="bg-primary hover:bg-primary-dark text-primary-foreground font-semibold shadow-lg shadow-primary/30">
+                {t('nav.contact')}
               </Button>
             </div>
           </div>

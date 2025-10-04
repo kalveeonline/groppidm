@@ -6,7 +6,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { useLanguage } from "@/contexts/LanguageContext";
+import { useLanguage, SUPPORTED_LANGUAGES } from "@/contexts/LanguageContext";
 
 interface LanguageSelectorProps {
   variant?: "default" | "compact" | "outline";
@@ -15,12 +15,6 @@ interface LanguageSelectorProps {
 
 export const LanguageSelector = ({ variant = "default", className = "" }: LanguageSelectorProps) => {
   const { language, setLanguage } = useLanguage();
-
-  const languages = [
-    { code: "NL", name: "Nederlands" },
-    { code: "FR", name: "Français" },
-    { code: "EN", name: "English" }
-  ];
 
   const getButtonVariant = () => {
     switch (variant) {
@@ -50,12 +44,12 @@ export const LanguageSelector = ({ variant = "default", className = "" }: Langua
           <ChevronDown className="h-3 w-3" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="bg-background border border-border/40 shadow-lg">
-        {languages.map((lang) => (
+      <DropdownMenuContent align="end" className="bg-popover border border-primary/40 shadow-lg z-[100]">
+        {SUPPORTED_LANGUAGES.map((lang) => (
           <DropdownMenuItem
             key={lang.code}
             onClick={() => setLanguage(lang.code)}
-            className="cursor-pointer hover:bg-muted"
+            className="cursor-pointer hover:bg-muted text-primary"
           >
             {lang.name}
           </DropdownMenuItem>
