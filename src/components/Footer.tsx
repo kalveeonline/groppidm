@@ -22,13 +22,12 @@ export const Footer = () => {
                 className="h-12 w-auto"
               />
               <div className="flex flex-col">
-                <span className="text-lg font-bold text-foreground">GROPPI</span>
-                <span className="text-xs text-muted-foreground">Digital Marketing Bureau</span>
+                <span className="text-lg font-bold text-foreground">{t('footer.companyName')}</span>
+                <span className="text-xs text-muted-foreground">{t('footer.companyTagline')}</span>
               </div>
             </Link>
             <p className="text-muted-foreground text-sm">
-              GROPPI Digital Marketing Bureau maakt KMO&apos;s succesvol online met professionele 
-              digitale marketing oplossingen.
+              {t('footer.companyDescription')}
             </p>
             <div className="flex space-x-2">
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">

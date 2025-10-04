@@ -29,26 +29,26 @@ export const TestimonialsSection = () => {
   const customerDemos = [
     {
       icon: Building2,
-      title: "Real Estate",
-      description: "Property showcase websites",
+      titleKey: 'customerDemos.realEstate',
+      descKey: 'customerDemos.realEstateDesc',
       path: "/demo/real-estate"
     },
     {
       icon: ShoppingBag,
-      title: "E-commerce",
-      description: "Online store solutions",
+      titleKey: 'customerDemos.ecommerce',
+      descKey: 'customerDemos.ecommerceDesc',
       path: "/demo/ecommerce"
     },
     {
       icon: Utensils,
-      title: "Restaurant",
-      description: "Menu & reservation systems",
+      titleKey: 'customerDemos.restaurant',
+      descKey: 'customerDemos.restaurantDesc',
       path: "/demo/restaurant"
     },
     {
       icon: Dumbbell,
-      title: "Fitness",
-      description: "Gym & training platforms",
+      titleKey: 'customerDemos.fitness',
+      descKey: 'customerDemos.fitnessDesc',
       path: "/demo/fitness"
     }
   ];
@@ -60,10 +60,10 @@ export const TestimonialsSection = () => {
         <div className="mb-16">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              What Our Clients Say
+              {t('testimonials.title')}
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Don't just take our word for it - hear from our satisfied clients
+              {t('testimonials.subtitle')}
             </p>
           </div>
 
@@ -95,10 +95,10 @@ export const TestimonialsSection = () => {
         <div>
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Our Customer Demos
+              {t('customerDemos.title')}
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Explore industry-specific solutions tailored to your business needs
+              {t('customerDemos.subtitle')}
             </p>
           </div>
 
@@ -115,17 +115,17 @@ export const TestimonialsSection = () => {
                   </div>
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  {demo.title}
+                  {t(demo.titleKey)}
                 </h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  {demo.description}
+                  {t(demo.descKey)}
                 </p>
                 <Button 
                   variant="outline" 
                   size="sm"
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
                 >
-                  View Demo
+                  {t('customerDemos.viewDemo')}
                 </Button>
               </div>
             ))}

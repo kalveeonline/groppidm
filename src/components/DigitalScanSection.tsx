@@ -39,28 +39,28 @@ export const DigitalScanSection = () => {
                   <div className="flex items-center justify-between p-4 bg-background/50 rounded-lg hover:bg-background/70 transition-colors">
                     <span className="text-base font-semibold text-foreground">{t('digitalScan.websiteStatus')}</span>
                     <div className="flex items-center gap-2">
-                      <span className="text-sm text-green-500 font-semibold">Active</span>
+                      <span className="text-sm text-green-500 font-semibold">{t('digitalScan.statusActive')}</span>
                       <div className="h-3 w-3 rounded-full bg-green-500 animate-pulse"></div>
                     </div>
                   </div>
                   <div className="flex items-center justify-between p-4 bg-background/50 rounded-lg hover:bg-background/70 transition-colors">
                     <span className="text-base font-semibold text-foreground">{t('digitalScan.seoOptimization')}</span>
                     <div className="flex items-center gap-2">
-                      <span className="text-sm text-yellow-500 font-semibold">Good</span>
+                      <span className="text-sm text-yellow-500 font-semibold">{t('digitalScan.statusGood')}</span>
                       <div className="h-3 w-3 rounded-full bg-yellow-500 animate-pulse"></div>
                     </div>
                   </div>
                   <div className="flex items-center justify-between p-4 bg-background/50 rounded-lg hover:bg-background/70 transition-colors">
                     <span className="text-base font-semibold text-foreground">{t('digitalScan.onlineVisibility')}</span>
                     <div className="flex items-center gap-2">
-                      <span className="text-sm text-primary font-semibold">Excellent</span>
+                      <span className="text-sm text-primary font-semibold">{t('digitalScan.statusExcellent')}</span>
                       <div className="h-3 w-3 rounded-full bg-primary animate-pulse"></div>
                     </div>
                   </div>
                   <div className="flex items-center justify-between p-4 bg-background/50 rounded-lg hover:bg-background/70 transition-colors">
                     <span className="text-base font-semibold text-foreground">{t('digitalScan.businessData')}</span>
                     <div className="flex items-center gap-2">
-                      <span className="text-sm text-green-500 font-semibold">Verified</span>
+                      <span className="text-sm text-green-500 font-semibold">{t('digitalScan.statusVerified')}</span>
                       <div className="h-3 w-3 rounded-full bg-green-500 animate-pulse"></div>
                     </div>
                   </div>

@@ -41,6 +41,9 @@ const translations = {
     'hero.trustIndicators.reports': 'Maandelijkse rapporten',
     
     // Footer
+    'footer.companyDescription': 'GROPPI Digital Marketing Bureau maakt KMO\'s succesvol online met professionele digitale marketing oplossingen.',
+    'footer.companyName': 'GROPPI',
+    'footer.companyTagline': 'Digital Marketing Bureau',
     'footer.services': 'Onze Services',
     'footer.websiteDevelopment': 'Website Development',
     'footer.webshopCreation': 'Webshop Creation', 
@@ -97,6 +100,27 @@ const translations = {
     'digitalScan.seoOptimization': 'SEO Optimalisatie',
     'digitalScan.onlineVisibility': 'Online Zichtbaarheid',
     'digitalScan.businessData': 'Bedrijfsgegevens',
+    'digitalScan.statusActive': 'Actief',
+    'digitalScan.statusGood': 'Goed',
+    'digitalScan.statusExcellent': 'Uitstekend',
+    'digitalScan.statusVerified': 'Geverifieerd',
+    
+    // Testimonials Section
+    'testimonials.title': 'Wat onze klanten zeggen',
+    'testimonials.subtitle': 'Geloof ons niet zomaar - hoor van onze tevreden klanten',
+    
+    // Customer Demos Section
+    'customerDemos.title': 'Onze Klanten Demo\'s',
+    'customerDemos.subtitle': 'Ontdek branchespecifieke oplossingen op maat van uw bedrijf',
+    'customerDemos.realEstate': 'Vastgoed',
+    'customerDemos.realEstateDesc': 'Vastgoed showcase websites',
+    'customerDemos.ecommerce': 'E-commerce',
+    'customerDemos.ecommerceDesc': 'Online winkel oplossingen',
+    'customerDemos.restaurant': 'Restaurant',
+    'customerDemos.restaurantDesc': 'Menu & reserveringssystemen',
+    'customerDemos.fitness': 'Fitness',
+    'customerDemos.fitnessDesc': 'Sportschool & trainingsplatformen',
+    'customerDemos.viewDemo': 'Bekijk Demo',
     
     // Stats Section
     'stats.happyClients': 'Gelukkige klanten',
@@ -127,6 +151,9 @@ const translations = {
     'hero.trustIndicators.reports': 'Monthly reports',
     
     // Footer
+    'footer.companyDescription': 'GROPPI Digital Marketing Bureau helps SMEs succeed online with professional digital marketing solutions.',
+    'footer.companyName': 'GROPPI',
+    'footer.companyTagline': 'Digital Marketing Bureau',
     'footer.services': 'Our Services',
     'footer.websiteDevelopment': 'Website Development',
     'footer.webshopCreation': 'Webshop Creation',
@@ -183,6 +210,27 @@ const translations = {
     'digitalScan.seoOptimization': 'SEO Optimization',
     'digitalScan.onlineVisibility': 'Online Visibility',
     'digitalScan.businessData': 'Business Data',
+    'digitalScan.statusActive': 'Active',
+    'digitalScan.statusGood': 'Good',
+    'digitalScan.statusExcellent': 'Excellent',
+    'digitalScan.statusVerified': 'Verified',
+    
+    // Testimonials Section
+    'testimonials.title': 'What Our Clients Say',
+    'testimonials.subtitle': 'Don\'t just take our word for it - hear from our satisfied clients',
+    
+    // Customer Demos Section
+    'customerDemos.title': 'Our Customer Demos',
+    'customerDemos.subtitle': 'Explore industry-specific solutions tailored to your business needs',
+    'customerDemos.realEstate': 'Real Estate',
+    'customerDemos.realEstateDesc': 'Property showcase websites',
+    'customerDemos.ecommerce': 'E-commerce',
+    'customerDemos.ecommerceDesc': 'Online store solutions',
+    'customerDemos.restaurant': 'Restaurant',
+    'customerDemos.restaurantDesc': 'Menu & reservation systems',
+    'customerDemos.fitness': 'Fitness',
+    'customerDemos.fitnessDesc': 'Gym & training platforms',
+    'customerDemos.viewDemo': 'View Demo',
     
     // Stats Section
     'stats.happyClients': 'Happy clients',
