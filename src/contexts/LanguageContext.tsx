@@ -144,7 +144,7 @@ const translations = {
     'footer.terms': 'Terms and Conditions',
     
     // Features Section
-    'features.title1': 'Everything for your business',
+    'features.title1': 'Everything for your Needs',
     'features.desc1': 'Complete digital solutions under one roof',
     'features.title2': 'Personal & local approach',
     'features.desc2': 'Customized service with personal contact',
