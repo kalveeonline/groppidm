@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useLanguage, SUPPORTED_LANGUAGES } from "@/contexts/LanguageContext";
 import groppiLogo from "@/assets/groppi-logo-new.png";
+import groppiLogoCircle from "@/assets/groppi-logo-circle.png";
 
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -64,9 +65,11 @@ export const Header = () => {
         <div className="container flex h-14 items-center justify-between px-4">
           {/* Circular G Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="relative h-12 w-12 rounded-full border-2 border-primary bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center shadow-lg shadow-primary/30 group-hover:shadow-primary/50 transition-all duration-300">
-              <span className="text-2xl font-black text-primary">G</span>
-            </div>
+            <img 
+              src={groppiLogoCircle} 
+              alt="GROPPI Logo" 
+              className="h-12 w-12 object-contain group-hover:scale-105 transition-all duration-300"
+            />
             <div className="flex flex-col">
               <span className="text-base font-bold text-primary tracking-wider">GROPPI</span>
               <span className="text-[10px] text-primary/70">Digital Marketing Bureau</span>
