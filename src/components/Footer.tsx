@@ -4,7 +4,7 @@ import { Facebook, Linkedin, Twitter, Instagram, Youtube, Mail, Phone, MapPin } 
 import { useLanguage } from "@/contexts/LanguageContext";
 import { LanguageSelector } from "@/components/ui/language-selector";
 import { Link } from "react-router-dom";
-import groppiLogo from "@/assets/groppi-logo-new.png";
+import groppiLogo from "@/assets/groppi-logo-gold.png";
 
 export const Footer = () => {
   const { t } = useLanguage();
