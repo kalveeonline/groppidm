@@ -185,16 +185,16 @@ export const Header = () => {
                 </div>
               </DropdownMenuContent>
             </DropdownMenu>
-            <a href="#prices" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+            <a href="/prices" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               Prices
             </a>
-            <a href="#blog" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+            <a href="/blog" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.blog')}
             </a>
-            <a href="#about" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+            <a href="/about" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               About Us
             </a>
-            <a href="#jobs" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+            <a href="/jobs" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               Jobs
             </a>
           </nav>
@@ -227,16 +227,16 @@ export const Header = () => {
             <a href="#services" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.services')}
             </a>
-            <a href="#prices" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+            <a href="/prices" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               Prices
             </a>
-            <a href="#blog" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+            <a href="/blog" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.blog')}
             </a>
-            <a href="#about" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+            <a href="/about" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               About Us
             </a>
-            <a href="#jobs" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+            <a href="/jobs" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               Jobs
             </a>
             <div className="flex flex-col gap-2 pt-3 border-t border-primary/20">
