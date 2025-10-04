@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { LanguageSelector } from "@/components/ui/language-selector";
-import groppiLogo from "@/assets/groppi-logo-circle.png";
+import websiteDiagram from "@/assets/website-diagram.png";
 export const HeroSection = () => {
   const {
     t
@@ -46,7 +46,7 @@ export const HeroSection = () => {
           {/* Hero Illustration */}
           <div className="relative">
             <div className="relative rounded-full bg-gradient-card p-4 shadow-hero w-80 h-80 mx-auto">
-              <img src={groppiLogo} alt="Groppi Logo" className="w-full h-full object-contain rounded-full" />
+              <img src={websiteDiagram} alt="Website Digital Marketing Ecosystem" className="w-full h-full object-cover rounded-full" />
               
               {/* Rotating container for floating elements */}
               <div className="absolute inset-0 animate-spin-slow">
