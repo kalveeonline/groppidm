@@ -40,42 +40,6 @@ const translations = {
     'hero.trustIndicators.budget': 'Voor ieder budget',
     'hero.trustIndicators.reports': 'Maandelijkse rapporten',
     
-    // Appointment Page
-    'appointment.title': 'Maak een Afspraak',
-    'appointment.description': 'Plan een gratis consultatie om uw digitale doelen te bespreken',
-    'appointment.formTitle': 'Afspraak Details',
-    'appointment.formDescription': 'Vul het formulier in en wij nemen zo snel mogelijk contact met u op.',
-    'appointment.name': 'Naam *',
-    'appointment.namePlaceholder': 'Uw volledige naam',
-    'appointment.address': 'Adres',
-    'appointment.addressPlaceholder': 'Uw bedrijfsadres of woonadres',
-    'appointment.phone': 'Telefoon *',
-    'appointment.phonePlaceholder': '+32 XXX XX XX XX',
-    'appointment.email': 'E-mail',
-    'appointment.emailPlaceholder': 'uw.email@voorbeeld.be',
-    'appointment.requirement': 'Uw Vereisten *',
-    'appointment.requirementPlaceholder': 'Beschrijf uw project, doelen of vragen...',
-    'appointment.contactTime': 'Beste tijd om contact op te nemen',
-    'appointment.contactTimePlaceholder': 'Selecteer uw voorkeur',
-    'appointment.morning': 'Ochtend (9:00 - 12:00)',
-    'appointment.afternoon': 'Middag (12:00 - 17:00)',
-    'appointment.evening': 'Avond (17:00 - 20:00)',
-    'appointment.anytime': 'Eender wanneer',
-    'appointment.submit': 'Afspraak Aanvragen',
-    'appointment.success': 'Afspraak Aangevraagd!',
-    'appointment.successMessage': 'Bedankt! Wij nemen zo snel mogelijk contact met u op.',
-    'appointment.error': 'Fout bij Indienen',
-    'appointment.errorMessage': 'Vul alle verplichte velden in.',
-    'appointment.contactInfo': 'Of neem direct contact met ons op:',
-    'appointment.whatsapp': 'WhatsApp',
-    'appointment.call': 'Bellen',
-
-    // Service Categories
-    'category.beingOnline': 'BEING ONLINE',
-    'category.toBeFound': 'TO BE FOUND', 
-    'category.toStandOut': 'TO STAND OUT',
-    'category.satisfiedCustomers': 'SATISFIED CUSTOMERS',
-    
     // Footer
     'footer.services': 'Onze Services',
     'footer.websiteDevelopment': 'Website Development',
@@ -139,246 +103,96 @@ const translations = {
     'stats.websitesOnline': 'Websites online',
     'stats.liveCampaigns': 'Live campagnes',
     
-    // Online Presence & Branding Page
-    'branding.title': 'Alles over Online Aanwezigheid & Branding',
-    'branding.subtitle': 'Bouw een sterke digitale identiteit die uw doelgroep aantrekt en converteert',
-    'branding.intro': 'In het digitale tijdperk is uw online aanwezigheid uw digitale visitekaartje. Het bepaalt hoe klanten u waarnemen, vertrouwen en uiteindelijk kiezen voor uw diensten.',
-    
-    'branding.section1.title': 'Wat is Online Aanwezigheid?',
-    'branding.section1.content': 'Online aanwezigheid omvat alle digitale touchpoints waar uw merk zichtbaar is. Van uw website tot sociale media, van Google My Business tot online reviews - elk element draagt bij aan uw digitale reputatie.',
-    
-    'branding.section2.title': 'Waarom is Sterke Branding Cruciaal?',
-    'branding.section2.point1': 'Verhoogt merkherkenning met 80%',
-    'branding.section2.point2': 'Genereert 23% meer omzet',
-    'branding.section2.point3': 'Bouwt klantvertrouwen en loyaliteit',
-    'branding.section2.point4': 'Differentieert van concurrenten',
-    
-    'branding.section3.title': 'Essentiële Elementen van Online Branding',
-    'branding.section3.element1.title': 'Professionele Website',
-    'branding.section3.element1.desc': 'Uw digitale hoofdkantoor met consistente branding, gebruiksvriendelijke navigatie en mobiele optimalisatie.',
-    'branding.section3.element2.title': 'Visuele Identiteit',
-    'branding.section3.element2.desc': 'Logo, kleurenpalet, typografie en beeldstijl die uw merkpersoonlijkheid weerspiegelen.',
-    'branding.section3.element3.title': 'Content Strategie',
-    'branding.section3.element3.desc': 'Waardevolle, relevante content die uw expertise toont en doelgroep engageert.',
-    'branding.section3.element4.title': 'Sociale Media Aanwezigheid',
-    'branding.section3.element4.desc': 'Consistente communicatie en branding over alle sociale platforms.',
-    
-    'branding.section4.title': 'Ons Branding Proces',
-    'branding.section4.step1.title': 'Merkanalyse & Strategie',
-    'branding.section4.step1.desc': 'We analyseren uw huidige positie en ontwikkelen een merkstrategie die aansluit bij uw doelen.',
-    'branding.section4.step2.title': 'Visuele Identiteit Ontwikkeling',
-    'branding.section4.step2.desc': 'Creatie van logo, kleurenpalet en brandrichtlijnen die uw merk tot leven brengen.',
-    'branding.section4.step3.title': 'Website & Digitale Platforms',
-    'branding.section4.step3.desc': 'Implementatie van uw branding op website, sociale media en andere digitale kanalen.',
-    'branding.section4.step4.title': 'Monitoring & Optimalisatie',
-    'branding.section4.step4.desc': 'Continue monitoring van uw online reputatie en optimalisatie van uw digitale aanwezigheid.',
-    
-    'branding.cta.title': 'Klaar om Uw Online Aanwezigheid te Versterken?',
-    'branding.cta.description': 'Laat ons u helpen een sterke digitale identiteit op te bouwen die resultaten oplevert.',
-    'branding.cta.button': 'Start Uw Branding Project',
-    
-    // Website Development Page
-    'websiteDevelopment.title': 'Professionele Website Ontwikkeling voor Uw Bedrijf',
-    'websiteDevelopment.subtitle': 'Creëer een krachtige online aanwezigheid met onze op maat gemaakte websites',
-    'websiteDevelopment.intro': 'Een professionele website is de hoeksteen van uw digitale marketing strategie. Het is uw 24/7 verkoper die uw merk vertegenwoordigt en klanten converteert.',
-
-    'websiteDevelopment.section1.title': 'Waarom Professioneel Website Ontwikkeling?',
-    'websiteDevelopment.section1.content': 'In de digitale wereld heeft u slechts seconden om een eerste indruk te maken. Een professioneel ontworpen website bouwt direct vertrouwen op en zorgt ervoor dat bezoekers langer blijven.',
-
-    'websiteDevelopment.features.title': 'Onze Website Ontwikkeling Features',
-    'websiteDevelopment.features.feature1.title': 'Responsive Design',
-    'websiteDevelopment.features.feature1.desc': 'Perfect werkende websites op alle apparaten - desktop, tablet en mobiel.',
-    'websiteDevelopment.features.feature2.title': 'SEO Geoptimaliseerd',
-    'websiteDevelopment.features.feature2.desc': 'Gebouwd met SEO best practices voor betere zoekmachine rankings.',
-    'websiteDevelopment.features.feature3.title': 'Snelle Laadtijden',
-    'websiteDevelopment.features.feature3.desc': 'Geoptimaliseerde performance voor betere gebruikerservaring.',
-    'websiteDevelopment.features.feature4.title': 'Content Management',
-    'websiteDevelopment.features.feature4.desc': 'Eenvoudig te beheren content systeem voor dagelijkse updates.',
-
-    'websiteDevelopment.process.title': 'Ons Ontwikkelingsproces',
-    'websiteDevelopment.process.step1.title': 'Ontdekking & Planning',
-    'websiteDevelopment.process.step1.desc': 'We analyseren uw bedrijf, doelgroep en concurrenten voor een strategische aanpak.',
-    'websiteDevelopment.process.step2.title': 'Design & Prototype',
-    'websiteDevelopment.process.step2.desc': 'Creatie van visuele designs die uw merkidentiteit perfect weerspiegelen.',
-    'websiteDevelopment.process.step3.title': 'Ontwikkeling & Testen',
-    'websiteDevelopment.process.step3.desc': 'Professionele ontwikkeling met uitgebreide tests op alle apparaten.',
-    'websiteDevelopment.process.step4.title': 'Launch & Ondersteuning',
-    'websiteDevelopment.process.step4.desc': 'Succesvolle lancering met continue ondersteuning en optimalisatie.',
-
-    'websiteDevelopment.cta.title': 'Klaar voor Uw Nieuwe Website?',
-    'websiteDevelopment.cta.description': 'Laat ons uw visie omzetten in een krachtige digitale ervaring.',
-    'websiteDevelopment.cta.button': 'Start Uw Website Project',
-
-    // Webshop Creation Page
-    'webshopCreation.title': 'Professionele Webshop Ontwikkeling & E-commerce Oplossingen',
-    'webshopCreation.subtitle': 'Transform uw bedrijf met een krachtige online winkel die 24/7 verkoopt',
-    'webshopCreation.intro': 'E-commerce groeit exponentieel. Met onze op maat gemaakte webshops kunt u meteen profiteren van deze groei en uw omzet significant verhogen.',
-
-    'webshopCreation.section1.title': 'Waarom Een Professionele Webshop?',
-    'webshopCreation.section1.content': 'E-commerce vertegenwoordigt meer dan 20% van alle retail verkoop. Een professionele webshop opent nieuwe markten en verhoogt uw bereik exponentieel.',
-
-    'webshopCreation.features.title': 'Onze E-commerce Features',
-    'webshopCreation.features.feature1.title': 'Veilige Betalingen',
-    'webshopCreation.features.feature1.desc': 'Meerdere betaalmethoden met SSL-certificering voor veilige transacties.',
-    'webshopCreation.features.feature2.title': 'Inventaris Beheer',
-    'webshopCreation.features.feature2.desc': 'Automatisch voorraadbeheer met real-time updates.',
-    'webshopCreation.features.feature3.title': 'Order Management',
-    'webshopCreation.features.feature3.desc': 'Efficiënt orderbeheer met geautomatiseerde workflows.',
-    'webshopCreation.features.feature4.title': 'Analytics & Rapportage',
-    'webshopCreation.features.feature4.desc': 'Gedetailleerde verkooprapporten en klantanalyses.',
-
-    'webshopCreation.process.title': 'Webshop Ontwikkelingsproces',
-    'webshopCreation.process.step1.title': 'E-commerce Strategie',
-    'webshopCreation.process.step1.desc': 'Ontwikkeling van een complete e-commerce strategie voor uw markt.',
-    'webshopCreation.process.step2.title': 'Platform Selectie',
-    'webshopCreation.process.step2.desc': 'Keuze van het beste e-commerce platform voor uw behoeften.',
-    'webshopCreation.process.step3.title': 'Design & Ontwikkeling',
-    'webshopCreation.process.step3.desc': 'Creatie van een gebruiksvriendelijke en conversie-geoptimaliseerde webshop.',
-    'webshopCreation.process.step4.title': 'Integratie & Testing',
-    'webshopCreation.process.step4.desc': 'Integratie van betaalsystemen en uitgebreide functionaliteitstests.',
-
-    'webshopCreation.cta.title': 'Start Uw E-commerce Avontuur',
-    'webshopCreation.cta.description': 'Laat ons uw producten online brengen en uw verkoop vergroten.',
-    'webshopCreation.cta.button': 'Creëer Mijn Webshop',
-
-    // SEO Optimization Page
-    'seoOptimization.title': 'SEO Optimalizatie - Word Gevonden Door Uw Klanten',
-    'seoOptimization.subtitle': 'Verhoog uw online zichtbaarheid en trek meer gekwalificeerde bezoekers aan',
-    'seoOptimization.intro': 'SEO is essentieel voor online succes. 93% van alle online ervaringen begint met een zoekmachine. Wij zorgen ervoor dat uw bedrijf gevonden wordt.',
-
-    'seoOptimization.section1.title': 'Waarom SEO Zo Belangrijk Is',
-    'seoOptimization.section1.content': 'SEO genereert meer dan 1000% meer verkeer dan sociale media. Het is de meest kosteneffectieve manier om nieuwe klanten te bereiken.',
-
-    'seoOptimization.features.title': 'Onze SEO Services',
-    'seoOptimization.features.feature1.title': 'Keyword Research',
-    'seoOptimization.features.feature1.desc': 'Uitgebreide analyse van zoektermen die uw klanten gebruiken.',
-    'seoOptimization.features.feature2.title': 'On-Page Optimalizatie',
-    'seoOptimization.features.feature2.desc': 'Optimalizatie van content, meta tags en technische aspecten.',
-    'seoOptimization.features.feature3.title': 'Link Building',
-    'seoOptimization.features.feature3.desc': 'Kwalitatieve backlinks voor hogere authority en rankings.',
-    'seoOptimization.features.feature4.title': 'Local SEO',
-    'seoOptimization.features.feature4.desc': 'Optimalizatie voor lokale zoekopdrachten en Google My Business.',
-
-    'seoOptimization.process.title': 'Ons SEO Proces',
-    'seoOptimization.process.step1.title': 'SEO Audit',
-    'seoOptimization.process.step1.desc': 'Complete analyse van uw huidige SEO prestaties en verbeterpunten.',
-    'seoOptimization.process.step2.title': 'Strategie Ontwikkeling',
-    'seoOptimization.process.step2.desc': 'Op maat gemaakte SEO strategie voor uw bedrijf en doelen.',
-    'seoOptimization.process.step3.title': 'Implementatie',
-    'seoOptimization.process.step3.desc': 'Uitvoering van optimalizaties en content creatie.',
-    'seoOptimization.process.step4.title': 'Monitoring & Rapportage',
-    'seoOptimization.process.step4.desc': 'Continue monitoring met maandelijkse rapporten en optimalizaties.',
-
-    'seoOptimization.cta.title': 'Klaar om Gevonden te Worden?',
-    'seoOptimization.cta.description': 'Verhoog uw online zichtbaarheid en trek meer klanten aan.',
-    'seoOptimization.cta.button': 'Start SEO Optimalizatie',
-
-    // Digital Advertising Page
-    'digitalAdvertising.title': 'Digitaal Adverteren - Bereik Uw Doelgroep Effectief',
-    'digitalAdvertising.subtitle': 'Vergroot uw bereik en genereer meer leads met gerichte digitale advertenties',
-    'digitalAdvertising.intro': 'Digitaal adverteren biedt ongekende mogelijkheden om uw exacte doelgroep te bereiken op het juiste moment. Maximalizeer uw ROI met onze expertise.',
-
-    'digitalAdvertising.section1.title': 'De Kracht van Digitaal Adverteren',
-    'digitalAdvertising.section1.content': 'Digitale advertenties hebben een gemiddelde ROI van 200%. Met de juiste strategie kunt u uw investering verdrievoudigen.',
-
-    'digitalAdvertising.features.title': 'Onze Advertising Services',
-    'digitalAdvertising.features.feature1.title': 'Google Ads',
-    'digitalAdvertising.features.feature1.desc': 'Gerichte advertenties op Google zoekresultaten en display netwerk.',
-    'digitalAdvertising.features.feature2.title': 'Social Media Ads',
-    'digitalAdvertising.features.feature2.desc': 'Facebook, Instagram, LinkedIn advertenties voor maximaal bereik.',
-    'digitalAdvertising.features.feature3.title': 'Remarketing',
-    'digitalAdvertising.features.feature3.desc': 'Herwinnning van bezoekers die uw website eerder hebben bezocht.',
-    'digitalAdvertising.features.feature4.title': 'Conversion Tracking',
-    'digitalAdvertising.features.feature4.desc': 'Gedetailleerde tracking van alle conversies en ROI metingen.',
-
-    'digitalAdvertising.process.title': 'Ons Advertising Proces',
-    'digitalAdvertising.process.step1.title': 'Doelgroep Analyse',
-    'digitalAdvertising.process.step1.desc': 'Gedetailleerde analyse van uw ideale klanten en hun online gedrag.',
-    'digitalAdvertising.process.step2.title': 'Campagne Strategie',
-    'digitalAdvertising.process.step2.desc': 'Ontwikkeling van een strategische advertentieaanpak per platform.',
-    'digitalAdvertising.process.step3.title': 'Creatie & Lancering',
-    'digitalAdvertising.process.step3.desc': 'Professionele advertentie creatie en strategische lancering.',
-    'digitalAdvertising.process.step4.title': 'Optimalizatie & Scaling',
-    'digitalAdvertising.process.step4.desc': 'Continue optimalizatie en uitbreiding van succesvolle campagnes.',
-
-    'digitalAdvertising.cta.title': 'Klaar om Te Adverteren?',
-    'digitalAdvertising.cta.description': 'Start vandaag nog met effectieve digitale advertenties.',
-    'digitalAdvertising.cta.button': 'Launch Mijn Campagne',
-
-    // Social Media Marketing Page
-    'socialMediaMarketing.title': 'Social Media Marketing - Bouw Uw Community',
-    'socialMediaMarketing.subtitle': 'Vergroot uw bereik en engagement met strategische social media marketing',
-    'socialMediaMarketing.intro': 'Social media marketing is essentieel voor moderne bedrijven. Met 4.8 miljard active users wereldwijd biedt het onbeperkte mogelijkheden voor groei.',
-
-    'socialMediaMarketing.section1.title': 'Waarom Social Media Marketing?',
-    'socialMediaMarketing.section1.content': 'Social media marketing genereert 3x meer leads dan traditionele marketing en kost 62% minder. Het is de meest kosteneffectieve manier om uw merk te laten groeien.',
-
-    'socialMediaMarketing.features.title': 'Onze Social Media Services',
-    'socialMediaMarketing.features.feature1.title': 'Content Strategie',
-    'socialMediaMarketing.features.feature1.desc': 'Op maat gemaakte content strategieën voor elk social media platform.',
-    'socialMediaMarketing.features.feature2.title': 'Community Management',
-    'socialMediaMarketing.features.feature2.desc': 'Professioneel beheer van uw social media accounts en interacties.',
-    'socialMediaMarketing.features.feature3.title': 'Influencer Marketing',
-    'socialMediaMarketing.features.feature3.desc': 'Samenwerking met relevante influencers voor maximaal bereik.',
-    'socialMediaMarketing.features.feature4.title': 'Social Commerce',
-    'socialMediaMarketing.features.feature4.desc': 'Directe verkoop via social media platforms met shopping features.',
-
-    'socialMediaMarketing.process.title': 'Ons Social Media Proces',
-    'socialMediaMarketing.process.step1.title': 'Platform Strategie',
-    'socialMediaMarketing.process.step1.desc': 'Selectie van de beste platforms voor uw doelgroep en doelen.',
-    'socialMediaMarketing.process.step2.title': 'Content Planning',
-    'socialMediaMarketing.process.step2.desc': 'Ontwikkeling van een content kalender met engaging posts.',
-    'socialMediaMarketing.process.step3.title': 'Community Building',
-    'socialMediaMarketing.process.step3.desc': 'Actieve community building en engagement met followers.',
-    'socialMediaMarketing.process.step4.title': 'Performance Analyse',
-    'socialMediaMarketing.process.step4.desc': 'Gedetailleerde analyse van prestaties en ROI optimalizatie.',
-
-    'socialMediaMarketing.cta.title': 'Bouw Uw Social Media Aanwezigheid',
-    'socialMediaMarketing.cta.description': 'Start vandaag met het opbouwen van uw online community.',
-    'socialMediaMarketing.cta.button': 'Groei Mijn Social Media',
-
-    // Solid Foundation Page
-    'solidFoundation.title': 'Bouw een Solide Digitale Basis voor Uw Bedrijf',
-    'solidFoundation.subtitle': 'Ontdek hoe een sterke digitale fundering uw bedrijf naar nieuwe hoogten kan tillen',
-    'solidFoundation.intro': 'In de moderne zakenwereld is een solide digitale basis niet langer een luxe, maar een absolute noodzaak. Het vormt het fundament waarop al uw digitale marketinginspanningen rusten.',
-
-    'solidFoundation.section1.title': 'Waarom is een Solide Digitale Basis Cruciaal?',
-    'solidFoundation.section1.content': 'Een sterke digitale basis zorgt ervoor dat uw bedrijf professioneel overkomt, gemakkelijk vindbaar is en klanten vertrouwen wekt. Het is de eerste indruk die potentiële klanten van uw bedrijf krijgen in de digitale wereld.',
-
-    'solidFoundation.section2.title': 'De Pijlers van een Sterke Digitale Basis',
-    'solidFoundation.section2.pillar1.title': 'Professionele Website',
-    'solidFoundation.section2.pillar1.desc': 'Uw website is uw digitale visitekaartje. Het moet snel, mobieloptimaal en gebruiksvriendelijk zijn.',
-    'solidFoundation.section2.pillar2.title': 'SEO Optimalisatie',
-    'solidFoundation.section2.pillar2.desc': 'Zorg ervoor dat uw website vindbaar is in zoekmachines wanneer klanten naar uw diensten zoeken.',
-    'solidFoundation.section2.pillar3.title': 'Correcte Bedrijfsgegevens',
-    'solidFoundation.section2.pillar3.desc': 'Consistente NAP-gegevens (Naam, Adres, Telefoonnummer) over alle online platforms.',
-    'solidFoundation.section2.pillar4.title': 'Online Reputatiebeheer',
-    'solidFoundation.section2.pillar4.desc': 'Monitor en beheer wat er online over uw bedrijf wordt gezegd.',
-
-    'solidFoundation.section3.title': 'Onze Aanpak voor Uw Solide Basis',
-    'solidFoundation.section3.step1.title': 'Website Audit & Optimalisatie',
-    'solidFoundation.section3.step1.desc': 'We analyseren uw huidige website en identificeren verbeterpunten voor betere prestaties.',
-    'solidFoundation.section3.step2.title': 'SEO Fundamenten',
-    'solidFoundation.section3.step2.desc': 'Implementatie van basis SEO-technieken voor betere vindbaarheid.',
-    'solidFoundation.section3.step3.title': 'Bedrijfsgegevens Synchronisatie',
-    'solidFoundation.section3.step3.desc': 'Zorgen voor consistente bedrijfsinformatie over alle online kanalen.',
-    'solidFoundation.section3.step4.title': 'Monitoring & Rapportage',
-    'solidFoundation.section3.step4.desc': 'Continue monitoring van uw online prestaties met maandelijkse rapporten.',
-
-    'solidFoundation.benefits.title': 'Voordelen van een Solide Digitale Basis',
-    'solidFoundation.benefits.benefit1': '75% meer online zichtbaarheid',
-    'solidFoundation.benefits.benefit2': '50% toename in websiteverkeer',
-    'solidFoundation.benefits.benefit3': '40% meer leads vanuit online kanalen',
-    'solidFoundation.benefits.benefit4': 'Betere klantervaring en tevredenheid',
-
-    'solidFoundation.cta.title': 'Klaar om Uw Digitale Basis te Versterken?',
-    'solidFoundation.cta.description': 'Laat ons u helpen een solide fundament te leggen voor uw digitale succes.',
-    'solidFoundation.cta.button': 'Start Uw Digitale Transformatie',
-
     // Common
     'common.learnMore': 'Meer informatie',
     'common.getStarted': 'Aan de slag',
     'common.contactUs': 'Contact opnemen'
+  },
+  EN: {
+    // Navigation
+    'nav.services': 'What do you want?',
+    'nav.offices': 'Our offices',
+    'nav.blog': 'Blog',
+    'nav.myMedia': 'My Media',
+    'nav.contact': 'Ready for a chat?',
+    
+    // Hero Section
+    'hero.title': 'GROPPI DIGITAL MARKETING BUREAU MAKES',
+    'hero.subtitle1': 'SMEs',
+    'hero.subtitle2': 'SUCCESSFUL ONLINE',
+    'hero.cta1': 'Make an appointment',
+    'hero.cta2': 'Call me',
+    'hero.trustIndicators.oneStop': 'One-stop-shop',
+    'hero.trustIndicators.budget': 'For every budget',
+    'hero.trustIndicators.reports': 'Monthly reports',
+    
+    // Footer
+    'footer.services': 'Our Services',
+    'footer.websiteDevelopment': 'Website Development',
+    'footer.webshopCreation': 'Webshop Creation',
+    'footer.seoOptimization': 'SEO Optimization',
+    'footer.digitalAdvertising': 'Digital Advertising',
+    'footer.socialMediaMarketing': 'Social Media Marketing',
+    'footer.contact': 'Contact',
+    'footer.locations': 'Antwerp, Brussels,\nEast & West Flanders',
+    'footer.newsletter': 'Stay informed',
+    'footer.newsletterDescription': 'Receive tips and news about digital marketing.',
+    'footer.emailPlaceholder': 'Your email address',
+    'footer.subscribe': 'Subscribe',
+    'footer.allRightsReserved': 'All rights reserved.',
+    'footer.privacy': 'Privacy Policy',
+    'footer.terms': 'Terms and Conditions',
+    
+    // Features Section
+    'features.title1': 'Everything for your business',
+    'features.desc1': 'Complete digital solutions under one roof',
+    'features.title2': 'Personal & local approach',
+    'features.desc2': 'Customized service with personal contact',
+    'features.title3': 'For every budget',
+    'features.desc3': 'Solutions that fit your financial possibilities',
+    
+    // Services Section
+    'services.mainTitle': 'We take care of everything',
+    'services.mainSubtitle': 'while you focus on your business',
+    'services.solidBasisTitle': 'Start with a solid foundation',
+    'services.adverterenTitle': 'Grow with digital advertising',
+    'services.website': 'Website',
+    'services.websiteDesc': 'Professional online presence with a custom website.',
+    'services.webshop': 'Webshop',
+    'services.webshopDesc': 'Your services and products in the spotlight.',
+    'services.seo': 'SEO',
+    'services.seoDesc': 'Your website higher in search results.',
+    'services.netsync': 'Netsync',
+    'services.netsyncDesc': 'A positive reputation and correct data in one go.',
+    'services.sea': 'SEA',
+    'services.seaDesc': 'Your ads on Google, Bing and Youtube.',
+    'services.socialMedia': 'Social media advertising',
+    'services.socialMediaDesc': 'Reach your target audience on the most popular channels.',
+    'services.omni': 'All-in-one advertising with Omni',
+    'services.omniDesc': 'More reach on Google, Bing, Facebook and Instagram.',
+    'services.goudengids': 'Advertising on goudengids.be',
+    'services.goudengidsDesc': 'Your business on Belgium\'s largest business directory.',
+    'services.solidBasisButton': 'All about your solid foundation',
+    'services.adverterenButton': 'All about digital advertising',
+    
+    // Digital Scan Section
+    'digitalScan.title': 'Use our free Digital scan',
+    'digitalScan.description': 'Want to check the quality of your business on the net? Our Digital scan checks whether your business details are correctly mentioned on more than 30 online platforms.',
+    'digitalScan.button': 'Scan your site',
+    'digitalScan.websiteStatus': 'Website Status',
+    'digitalScan.seoOptimization': 'SEO Optimization',
+    'digitalScan.onlineVisibility': 'Online Visibility',
+    'digitalScan.businessData': 'Business Data',
+    
+    // Stats Section
+    'stats.happyClients': 'Happy clients',
+    'stats.websitesOnline': 'Websites online',
+    'stats.liveCampaigns': 'Live campaigns',
+    
+    // Common
+    'common.learnMore': 'Learn more',
+    'common.getStarted': 'Get started',
+    'common.contactUs': 'Contact us'
   },
   FR: {
     // Navigation
@@ -397,12 +211,6 @@ const translations = {
     'hero.trustIndicators.oneStop': 'Solution tout-en-un',
     'hero.trustIndicators.budget': 'Pour chaque budget',
     'hero.trustIndicators.reports': 'Rapports mensuels',
-    
-    // Service Categories
-    'category.beingOnline': 'ÊTRE EN LIGNE',
-    'category.toBeFound': 'ÊTRE TROUVÉ',
-    'category.toStandOut': 'SE DÉMARQUER',
-    'category.satisfiedCustomers': 'CLIENTS SATISFAITS',
     
     // Footer
     'footer.services': 'Nos Services',
@@ -467,319 +275,633 @@ const translations = {
     'stats.websitesOnline': 'Sites web en ligne',
     'stats.liveCampaigns': 'Campagnes en direct',
     
-    // Online Presence & Branding Page
-    'branding.title': 'Tout sur la Présence en Ligne et le Branding',
-    'branding.subtitle': 'Construisez une identité numérique forte qui attire et convertit votre public cible',
-    'branding.intro': 'À l\'ère numérique, votre présence en ligne est votre carte de visite numérique. Elle détermine comment les clients vous perçoivent, vous font confiance et choisissent finalement vos services.',
-    
-    'branding.section1.title': 'Qu\'est-ce que la Présence en Ligne?',
-    'branding.section1.content': 'La présence en ligne englobe tous les points de contact numériques où votre marque est visible. De votre site web aux médias sociaux, de Google My Business aux avis en ligne - chaque élément contribue à votre réputation numérique.',
-    
-    'branding.section2.title': 'Pourquoi un Branding Fort est-il Crucial?',
-    'branding.section2.point1': 'Augmente la reconnaissance de marque de 80%',
-    'branding.section2.point2': 'Génère 23% de revenus en plus',
-    'branding.section2.point3': 'Construit la confiance et la fidélité des clients',
-    'branding.section2.point4': 'Se différencie des concurrents',
-    
-    'branding.section3.title': 'Éléments Essentiels du Branding en Ligne',
-    'branding.section3.element1.title': 'Site Web Professionnel',
-    'branding.section3.element1.desc': 'Votre siège social numérique avec un branding cohérent, une navigation conviviale et une optimisation mobile.',
-    'branding.section3.element2.title': 'Identité Visuelle',
-    'branding.section3.element2.desc': 'Logo, palette de couleurs, typographie et style visuel qui reflètent la personnalité de votre marque.',
-    'branding.section3.element3.title': 'Stratégie de Contenu',
-    'branding.section3.element3.desc': 'Contenu précieux et pertinent qui démontre votre expertise et engage votre public cible.',
-    'branding.section3.element4.title': 'Présence sur les Médias Sociaux',
-    'branding.section3.element4.desc': 'Communication et branding cohérents sur toutes les plateformes sociales.',
-    
-    'branding.section4.title': 'Notre Processus de Branding',
-    'branding.section4.step1.title': 'Analyse de Marque & Stratégie',
-    'branding.section4.step1.desc': 'Nous analysons votre position actuelle et développons une stratégie de marque alignée sur vos objectifs.',
-    'branding.section4.step2.title': 'Développement d\'Identité Visuelle',
-    'branding.section4.step2.desc': 'Création de logo, palette de couleurs et directives de marque qui donnent vie à votre marque.',
-    'branding.section4.step3.title': 'Site Web & Plateformes Numériques',
-    'branding.section4.step3.desc': 'Implémentation de votre branding sur le site web, médias sociaux et autres canaux numériques.',
-    'branding.section4.step4.title': 'Surveillance & Optimisation',
-    'branding.section4.step4.desc': 'Surveillance continue de votre réputation en ligne et optimisation de votre présence numérique.',
-    
-    'branding.cta.title': 'Prêt à Renforcer Votre Présence en Ligne?',
-    'branding.cta.description': 'Laissez-nous vous aider à construire une identité numérique forte qui génère des résultats.',
-    'branding.cta.button': 'Commencez Votre Projet de Branding',
-    
-    // Solid Foundation Page
-    'solidFoundation.title': 'Construisez une Base Numérique Solide pour Votre Entreprise',
-    'solidFoundation.subtitle': 'Découvrez comment une fondation numérique forte peut propulser votre entreprise vers de nouveaux sommets',
-    'solidFoundation.intro': 'Dans le monde des affaires moderne, une base numérique solide n\'est plus un luxe, mais une nécessité absolue. Elle forme le fondement sur lequel reposent tous vos efforts de marketing numérique.',
-
-    'solidFoundation.section1.title': 'Pourquoi une Base Numérique Solide est-elle Cruciale?',
-    'solidFoundation.section1.content': 'Une base numérique forte garantit que votre entreprise paraît professionnelle, est facilement trouvable et inspire confiance aux clients. C\'est la première impression que les clients potentiels ont de votre entreprise dans le monde numérique.',
-
-    'solidFoundation.section2.title': 'Les Piliers d\'une Base Numérique Forte',
-    'solidFoundation.section2.pillar1.title': 'Site Web Professionnel',
-    'solidFoundation.section2.pillar1.desc': 'Votre site web est votre carte de visite numérique. Il doit être rapide, optimisé pour mobile et convivial.',
-    'solidFoundation.section2.pillar2.title': 'Optimisation SEO',
-    'solidFoundation.section2.pillar2.desc': 'Assurez-vous que votre site web est trouvable dans les moteurs de recherche quand les clients recherchent vos services.',
-    'solidFoundation.section2.pillar3.title': 'Données d\'Entreprise Correctes',
-    'solidFoundation.section2.pillar3.desc': 'Données NAP cohérentes (Nom, Adresse, Téléphone) sur toutes les plateformes en ligne.',
-    'solidFoundation.section2.pillar4.title': 'Gestion de la Réputation en Ligne',
-    'solidFoundation.section2.pillar4.desc': 'Surveillez et gérez ce qui se dit en ligne sur votre entreprise.',
-
-    'solidFoundation.section3.title': 'Notre Approche pour Votre Base Solide',
-    'solidFoundation.section3.step1.title': 'Audit et Optimisation du Site Web',
-    'solidFoundation.section3.step1.desc': 'Nous analysons votre site web actuel et identifions les points d\'amélioration pour de meilleures performances.',
-    'solidFoundation.section3.step2.title': 'Fondements SEO',
-    'solidFoundation.section3.step2.desc': 'Implémentation des techniques SEO de base pour une meilleure visibilité.',
-    'solidFoundation.section3.step3.title': 'Synchronisation des Données d\'Entreprise',
-    'solidFoundation.section3.step3.desc': 'Assurer la cohérence des informations d\'entreprise sur tous les canaux en ligne.',
-    'solidFoundation.section3.step4.title': 'Surveillance et Rapports',
-    'solidFoundation.section3.step4.desc': 'Surveillance continue de vos performances en ligne avec des rapports mensuels.',
-
-    'solidFoundation.benefits.title': 'Avantages d\'une Base Numérique Solide',
-    'solidFoundation.benefits.benefit1': '75% plus de visibilité en ligne',
-    'solidFoundation.benefits.benefit2': '50% d\'augmentation du trafic web',
-    'solidFoundation.benefits.benefit3': '40% plus de prospects des canaux en ligne',
-    'solidFoundation.benefits.benefit4': 'Meilleure expérience et satisfaction client',
-
-    'solidFoundation.cta.title': 'Prêt à Renforcer Votre Base Numérique?',
-    'solidFoundation.cta.description': 'Laissez-nous vous aider à construire une fondation solide pour votre succès numérique.',
-    'solidFoundation.cta.button': 'Commencez Votre Transformation Numérique',
-
     // Common
     'common.learnMore': 'En savoir plus',
     'common.getStarted': 'Commencer',
     'common.contactUs': 'Nous contacter'
   },
-  EN: {
+  PL: {
     // Navigation
-    'nav.services': 'What do you want?',
-    'nav.offices': 'Our offices',
+    'nav.services': 'Czego potrzebujesz?',
+    'nav.offices': 'Nasze biura',
     'nav.blog': 'Blog',
     'nav.myMedia': 'My Media',
-    'nav.contact': 'Ready for a chat?',
+    'nav.contact': 'Gotowy na rozmowę?',
     
     // Hero Section
-    'hero.title': 'GROPPI DIGITAL MARKETING BUREAU MAKES',
-    'hero.subtitle1': 'SMEs',
-    'hero.subtitle2': 'SUCCESSFUL ONLINE',
-    'hero.cta1': 'Make an appointment',
-    'hero.cta2': 'Call me',
-    'hero.trustIndicators.oneStop': 'One-stop-shop',
-    'hero.trustIndicators.budget': 'For every budget',
-    'hero.trustIndicators.reports': 'Monthly reports',
-    
-    // Appointment Page
-    'appointment.title': 'Make an Appointment',
-    'appointment.description': 'Schedule a free consultation to discuss your digital goals',
-    'appointment.formTitle': 'Appointment Details',
-    'appointment.formDescription': 'Fill out the form and we\'ll contact you as soon as possible.',
-    'appointment.name': 'Name *',
-    'appointment.namePlaceholder': 'Your full name',
-    'appointment.address': 'Address',
-    'appointment.addressPlaceholder': 'Your business or home address',
-    'appointment.phone': 'Phone *',
-    'appointment.phonePlaceholder': '+32 XXX XX XX XX',
-    'appointment.email': 'Email',
-    'appointment.emailPlaceholder': 'your.email@example.com',
-    'appointment.requirement': 'Your Requirements *',
-    'appointment.requirementPlaceholder': 'Describe your project, goals, or questions...',
-    'appointment.contactTime': 'Best time to contact',
-    'appointment.contactTimePlaceholder': 'Select your preference',
-    'appointment.morning': 'Morning (9:00 - 12:00)',
-    'appointment.afternoon': 'Afternoon (12:00 - 17:00)',
-    'appointment.evening': 'Evening (17:00 - 20:00)',
-    'appointment.anytime': 'Anytime',
-    'appointment.submit': 'Request Appointment',
-    'appointment.success': 'Appointment Requested!',
-    'appointment.successMessage': 'Thank you! We\'ll contact you as soon as possible.',
-    'appointment.error': 'Submission Error',
-    'appointment.errorMessage': 'Please fill in all required fields.',
-    'appointment.contactInfo': 'Or contact us directly:',
-    'appointment.whatsapp': 'WhatsApp',
-    'appointment.call': 'Call',
-
-    // Service Categories
-    'category.beingOnline': 'BEING ONLINE',
-    'category.toBeFound': 'TO BE FOUND',
-    'category.toStandOut': 'TO STAND OUT',
-    'category.satisfiedCustomers': 'SATISFIED CUSTOMERS',
+    'hero.title': 'GROPPI DIGITAL MARKETING BUREAU POMAGA',
+    'hero.subtitle1': 'MŚP',
+    'hero.subtitle2': 'ODNIEŚĆ SUKCES ONLINE',
+    'hero.cta1': 'Umów się na spotkanie',
+    'hero.cta2': 'Zadzwoń do mnie',
+    'hero.trustIndicators.oneStop': 'Kompleksowa obsługa',
+    'hero.trustIndicators.budget': 'Dla każdego budżetu',
+    'hero.trustIndicators.reports': 'Miesięczne raporty',
     
     // Footer
-    'footer.services': 'Our Services',
-    'footer.websiteDevelopment': 'Website Development',
-    'footer.webshopCreation': 'Webshop Creation',
-    'footer.seoOptimization': 'SEO Optimization',
-    'footer.digitalAdvertising': 'Digital Advertising',
-    'footer.socialMediaMarketing': 'Social Media Marketing',
-    'footer.contact': 'Contact',
-    'footer.locations': 'Antwerp, Brussels,\nEast & West Flanders',
-    'footer.newsletter': 'Stay updated',
-    'footer.newsletterDescription': 'Receive tips and news about digital marketing.',
-    'footer.emailPlaceholder': 'Your email address',
-    'footer.subscribe': 'Subscribe',
-    'footer.allRightsReserved': 'All rights reserved.',
-    'footer.privacy': 'Privacy Policy',
-    'footer.terms': 'Terms & Conditions',
+    'footer.services': 'Nasze usługi',
+    'footer.websiteDevelopment': 'Tworzenie stron internetowych',
+    'footer.webshopCreation': 'Tworzenie sklepów internetowych',
+    'footer.seoOptimization': 'Optymalizacja SEO',
+    'footer.digitalAdvertising': 'Reklama cyfrowa',
+    'footer.socialMediaMarketing': 'Marketing w mediach społecznościowych',
+    'footer.contact': 'Kontakt',
+    'footer.locations': 'Antwerpia, Bruksela,\nFlandria Wschodnia i Zachodnia',
+    'footer.newsletter': 'Bądź na bieżąco',
+    'footer.newsletterDescription': 'Otrzymuj wskazówki i wiadomości o marketingu cyfrowym.',
+    'footer.emailPlaceholder': 'Twój adres e-mail',
+    'footer.subscribe': 'Zapisz się',
+    'footer.allRightsReserved': 'Wszelkie prawa zastrzeżone.',
+    'footer.privacy': 'Polityka prywatności',
+    'footer.terms': 'Warunki użytkowania',
     
     // Features Section
-    'features.title1': 'Everything for your business',
-    'features.desc1': 'Complete digital solutions under one roof',
-    'features.title2': 'Personal & local approach',
-    'features.desc2': 'Tailor-made service with personal contact',
-    'features.title3': 'For every budget',
-    'features.desc3': 'Solutions that fit your financial possibilities',
+    'features.title1': 'Wszystko dla Twojej firmy',
+    'features.desc1': 'Kompleksowe rozwiązania cyfrowe pod jednym dachem',
+    'features.title2': 'Osobiste i lokalne podejście',
+    'features.desc2': 'Spersonalizowana obsługa z osobistym kontaktem',
+    'features.title3': 'Dla każdego budżetu',
+    'features.desc3': 'Rozwiązania dopasowane do Twoich możliwości finansowych',
     
     // Services Section
-    'services.mainTitle': 'We take care of everything',
-    'services.mainSubtitle': 'while you focus on your business',
-    'services.solidBasisTitle': 'Start with a solid foundation',
-    'services.adverterenTitle': 'Grow with Digital advertising',
-    'services.website': 'Website',
-    'services.websiteDesc': 'Professional online, with a custom website.',
-    'services.webshop': 'Webshop',
-    'services.webshopDesc': 'Your services and products in the spotlight.',
+    'services.mainTitle': 'Zajmiemy się wszystkim',
+    'services.mainSubtitle': 'podczas gdy Ty skupiasz się na swojej firmie',
+    'services.solidBasisTitle': 'Zacznij od solidnych fundamentów',
+    'services.adverterenTitle': 'Rozwijaj się dzięki reklamie cyfrowej',
+    'services.website': 'Strona internetowa',
+    'services.websiteDesc': 'Profesjonalna obecność online z niestandardową stroną internetową.',
+    'services.webshop': 'Sklep internetowy',
+    'services.webshopDesc': 'Twoje usługi i produkty w centrum uwagi.',
     'services.seo': 'SEO',
-    'services.seoDesc': 'Your website higher in search results.',
+    'services.seoDesc': 'Twoja strona wyżej w wynikach wyszukiwania.',
     'services.netsync': 'Netsync',
-    'services.netsyncDesc': 'A positive reputation and correct data in one go.',
+    'services.netsyncDesc': 'Pozytywna reputacja i poprawne dane za jednym razem.',
     'services.sea': 'SEA',
-    'services.seaDesc': 'Your ads on Google, Bing and Youtube.',
-    'services.socialMedia': 'Social Media Advertising',
-    'services.socialMediaDesc': 'Reach your target audience on the most popular channels.',
-    'services.omni': 'All-in-one advertising with Omni',
-    'services.omniDesc': 'More reach on Google, Bing, Facebook and Instagram.',
-    'services.goudengids': 'Advertising on goudengids.be',
-    'services.goudengidsDesc': 'Your business on Belgium\'s largest business directory.',
-    'services.solidBasisButton': 'Everything about your solid foundation',
-    'services.adverterenButton': 'Everything about digital advertising',
+    'services.seaDesc': 'Twoje reklamy w Google, Bing i Youtube.',
+    'services.socialMedia': 'Reklama w mediach społecznościowych',
+    'services.socialMediaDesc': 'Dotrzyj do swojej grupy docelowej na najpopularniejszych kanałach.',
+    'services.omni': 'Reklama all-in-one z Omni',
+    'services.omniDesc': 'Większy zasięg w Google, Bing, Facebook i Instagram.',
+    'services.goudengids': 'Reklama na goudengids.be',
+    'services.goudengidsDesc': 'Twoja firma w największym katalogu firm w Belgii.',
+    'services.solidBasisButton': 'Wszystko o solidnych fundamentach',
+    'services.adverterenButton': 'Wszystko o reklamie cyfrowej',
     
     // Digital Scan Section
-    'digitalScan.title': 'Use our free Digital scan',
-    'digitalScan.description': 'Want to check the quality of your business on the net? Our Digital scan checks if your business data is correctly mentioned on more than 30 online platforms.',
-    'digitalScan.button': 'Scan your site',
-    'digitalScan.websiteStatus': 'Website Status',
-    'digitalScan.seoOptimization': 'SEO Optimization',
-    'digitalScan.onlineVisibility': 'Online Visibility',
-    'digitalScan.businessData': 'Business Data',
+    'digitalScan.title': 'Użyj naszego bezpłatnego skanowania cyfrowego',
+    'digitalScan.description': 'Chcesz sprawdzić jakość swojej firmy w sieci? Nasze skanowanie cyfrowe sprawdza, czy dane Twojej firmy są prawidłowo wymienione na ponad 30 platformach online.',
+    'digitalScan.button': 'Zeskanuj swoją stronę',
+    'digitalScan.websiteStatus': 'Status strony',
+    'digitalScan.seoOptimization': 'Optymalizacja SEO',
+    'digitalScan.onlineVisibility': 'Widoczność online',
+    'digitalScan.businessData': 'Dane firmowe',
     
     // Stats Section
-    'stats.happyClients': 'Happy clients',
-    'stats.websitesOnline': 'Websites online',
-    'stats.liveCampaigns': 'Live campaigns',
+    'stats.happyClients': 'Zadowoleni klienci',
+    'stats.websitesOnline': 'Strony online',
+    'stats.liveCampaigns': 'Aktywne kampanie',
     
-    // Online Presence & Branding Page
-    'branding.title': 'Everything About Online Presence & Branding',
-    'branding.subtitle': 'Build a strong digital identity that attracts and converts your target audience',
-    'branding.intro': 'In the digital age, your online presence is your digital business card. It determines how customers perceive you, trust you, and ultimately choose your services.',
-    
-    'branding.section1.title': 'What is Online Presence?',
-    'branding.section1.content': 'Online presence encompasses all digital touchpoints where your brand is visible. From your website to social media, from Google My Business to online reviews - every element contributes to your digital reputation.',
-    
-    'branding.section2.title': 'Why is Strong Branding Crucial?',
-    'branding.section2.point1': 'Increases brand recognition by 80%',
-    'branding.section2.point2': 'Generates 23% more revenue',
-    'branding.section2.point3': 'Builds customer trust and loyalty',
-    'branding.section2.point4': 'Differentiates from competitors',
-    
-    'branding.section3.title': 'Essential Elements of Online Branding',
-    'branding.section3.element1.title': 'Professional Website',
-    'branding.section3.element1.desc': 'Your digital headquarters with consistent branding, user-friendly navigation, and mobile optimization.',
-    'branding.section3.element2.title': 'Visual Identity',
-    'branding.section3.element2.desc': 'Logo, color palette, typography, and visual style that reflect your brand personality.',
-    'branding.section3.element3.title': 'Content Strategy',
-    'branding.section3.element3.desc': 'Valuable, relevant content that showcases your expertise and engages your target audience.',
-    'branding.section3.element4.title': 'Social Media Presence',
-    'branding.section3.element4.desc': 'Consistent communication and branding across all social platforms.',
-    
-    'branding.section4.title': 'Our Branding Process',
-    'branding.section4.step1.title': 'Brand Analysis & Strategy',
-    'branding.section4.step1.desc': 'We analyze your current position and develop a brand strategy aligned with your goals.',
-    'branding.section4.step2.title': 'Visual Identity Development',
-    'branding.section4.step2.desc': 'Creation of logo, color palette, and brand guidelines that bring your brand to life.',
-    'branding.section4.step3.title': 'Website & Digital Platforms',
-    'branding.section4.step3.desc': 'Implementation of your branding on website, social media, and other digital channels.',
-    'branding.section4.step4.title': 'Monitoring & Optimization',
-    'branding.section4.step4.desc': 'Continuous monitoring of your online reputation and optimization of your digital presence.',
-    
-    'branding.cta.title': 'Ready to Strengthen Your Online Presence?',
-    'branding.cta.description': 'Let us help you build a strong digital identity that delivers results.',
-    'branding.cta.button': 'Start Your Branding Project',
-    
-    // Solid Foundation Page
-    'solidFoundation.title': 'Build a Solid Digital Foundation for Your Business',
-    'solidFoundation.subtitle': 'Discover how a strong digital foundation can propel your business to new heights',
-    'solidFoundation.intro': 'In the modern business world, a solid digital foundation is no longer a luxury, but an absolute necessity. It forms the foundation on which all your digital marketing efforts rest.',
-
-    'solidFoundation.section1.title': 'Why is a Solid Digital Foundation Crucial?',
-    'solidFoundation.section1.content': 'A strong digital foundation ensures that your business appears professional, is easily findable, and inspires customer confidence. It\'s the first impression potential customers get of your business in the digital world.',
-
-    'solidFoundation.section2.title': 'The Pillars of a Strong Digital Foundation',
-    'solidFoundation.section2.pillar1.title': 'Professional Website',
-    'solidFoundation.section2.pillar1.desc': 'Your website is your digital business card. It must be fast, mobile-optimized, and user-friendly.',
-    'solidFoundation.section2.pillar2.title': 'SEO Optimization',
-    'solidFoundation.section2.pillar2.desc': 'Ensure your website is findable in search engines when customers search for your services.',
-    'solidFoundation.section2.pillar3.title': 'Correct Business Data',
-    'solidFoundation.section2.pillar3.desc': 'Consistent NAP data (Name, Address, Phone) across all online platforms.',
-    'solidFoundation.section2.pillar4.title': 'Online Reputation Management',
-    'solidFoundation.section2.pillar4.desc': 'Monitor and manage what is said about your business online.',
-
-    'solidFoundation.section3.title': 'Our Approach for Your Solid Foundation',
-    'solidFoundation.section3.step1.title': 'Website Audit & Optimization',
-    'solidFoundation.section3.step1.desc': 'We analyze your current website and identify improvement points for better performance.',
-    'solidFoundation.section3.step2.title': 'SEO Fundamentals',
-    'solidFoundation.section3.step2.desc': 'Implementation of basic SEO techniques for better findability.',
-    'solidFoundation.section3.step3.title': 'Business Data Synchronization',
-    'solidFoundation.section3.step3.desc': 'Ensuring consistent business information across all online channels.',
-    'solidFoundation.section3.step4.title': 'Monitoring & Reporting',
-    'solidFoundation.section3.step4.desc': 'Continuous monitoring of your online performance with monthly reports.',
-
-    'solidFoundation.benefits.title': 'Benefits of a Solid Digital Foundation',
-    'solidFoundation.benefits.benefit1': '75% more online visibility',
-    'solidFoundation.benefits.benefit2': '50% increase in website traffic',
-    'solidFoundation.benefits.benefit3': '40% more leads from online channels',
-    'solidFoundation.benefits.benefit4': 'Better customer experience and satisfaction',
-
-    'solidFoundation.cta.title': 'Ready to Strengthen Your Digital Foundation?',
-    'solidFoundation.cta.description': 'Let us help you build a solid foundation for your digital success.',
-    'solidFoundation.cta.button': 'Start Your Digital Transformation',
-
     // Common
-    'common.learnMore': 'Learn more',
-    'common.getStarted': 'Get started',
-    'common.contactUs': 'Contact us'
+    'common.learnMore': 'Dowiedz się więcej',
+    'common.getStarted': 'Rozpocznij',
+    'common.contactUs': 'Skontaktuj się z nami'
+  },
+  RU: {
+    // Navigation
+    'nav.services': 'Что вам нужно?',
+    'nav.offices': 'Наши офисы',
+    'nav.blog': 'Блог',
+    'nav.myMedia': 'My Media',
+    'nav.contact': 'Готовы к разговору?',
+    
+    // Hero Section
+    'hero.title': 'GROPPI DIGITAL MARKETING BUREAU ДЕЛАЕТ',
+    'hero.subtitle1': 'МСП',
+    'hero.subtitle2': 'УСПЕШНЫМИ ОНЛАЙН',
+    'hero.cta1': 'Записаться на встречу',
+    'hero.cta2': 'Позвоните мне',
+    'hero.trustIndicators.oneStop': 'Комплексное решение',
+    'hero.trustIndicators.budget': 'Для любого бюджета',
+    'hero.trustIndicators.reports': 'Ежемесячные отчеты',
+    
+    // Footer
+    'footer.services': 'Наши услуги',
+    'footer.websiteDevelopment': 'Разработка веб-сайтов',
+    'footer.webshopCreation': 'Создание интернет-магазинов',
+    'footer.seoOptimization': 'SEO-оптимизация',
+    'footer.digitalAdvertising': 'Цифровая реклама',
+    'footer.socialMediaMarketing': 'Маркетинг в социальных сетях',
+    'footer.contact': 'Контакты',
+    'footer.locations': 'Антверпен, Брюссель,\nВосточная и Западная Фландрия',
+    'footer.newsletter': 'Будьте в курсе',
+    'footer.newsletterDescription': 'Получайте советы и новости о цифровом маркетинге.',
+    'footer.emailPlaceholder': 'Ваш email адрес',
+    'footer.subscribe': 'Подписаться',
+    'footer.allRightsReserved': 'Все права защищены.',
+    'footer.privacy': 'Политика конфиденциальности',
+    'footer.terms': 'Условия использования',
+    
+    // Features Section
+    'features.title1': 'Все для вашего бизнеса',
+    'features.desc1': 'Комплексные цифровые решения под одной крышей',
+    'features.title2': 'Личный и локальный подход',
+    'features.desc2': 'Персонализированный сервис с личным контактом',
+    'features.title3': 'Для любого бюджета',
+    'features.desc3': 'Решения, соответствующие вашим финансовым возможностям',
+    
+    // Services Section
+    'services.mainTitle': 'Мы позаботимся обо всем',
+    'services.mainSubtitle': 'пока вы сосредоточены на своем бизнесе',
+    'services.solidBasisTitle': 'Начните с прочного фундамента',
+    'services.adverterenTitle': 'Растите с цифровой рекламой',
+    'services.website': 'Веб-сайт',
+    'services.websiteDesc': 'Профессиональное присутствие онлайн с индивидуальным веб-сайтом.',
+    'services.webshop': 'Интернет-магазин',
+    'services.webshopDesc': 'Ваши услуги и продукты в центре внимания.',
+    'services.seo': 'SEO',
+    'services.seoDesc': 'Ваш сайт выше в результатах поиска.',
+    'services.netsync': 'Netsync',
+    'services.netsyncDesc': 'Положительная репутация и правильные данные за один раз.',
+    'services.sea': 'SEA',
+    'services.seaDesc': 'Ваши объявления в Google, Bing и Youtube.',
+    'services.socialMedia': 'Реклама в социальных сетях',
+    'services.socialMediaDesc': 'Достигайте своей целевой аудитории на самых популярных каналах.',
+    'services.omni': 'Комплексная реклама с Omni',
+    'services.omniDesc': 'Больший охват в Google, Bing, Facebook и Instagram.',
+    'services.goudengids': 'Реклама на goudengids.be',
+    'services.goudengidsDesc': 'Ваш бизнес в крупнейшем бизнес-каталоге Бельгии.',
+    'services.solidBasisButton': 'Все о прочном фундаменте',
+    'services.adverterenButton': 'Все о цифровой рекламе',
+    
+    // Digital Scan Section
+    'digitalScan.title': 'Используйте наше бесплатное цифровое сканирование',
+    'digitalScan.description': 'Хотите проверить качество вашего бизнеса в сети? Наше цифровое сканирование проверяет, правильно ли указаны данные вашей компании на более чем 30 онлайн-платформах.',
+    'digitalScan.button': 'Сканировать ваш сайт',
+    'digitalScan.websiteStatus': 'Статус веб-сайта',
+    'digitalScan.seoOptimization': 'SEO-оптимизация',
+    'digitalScan.onlineVisibility': 'Онлайн-видимость',
+    'digitalScan.businessData': 'Бизнес-данные',
+    
+    // Stats Section
+    'stats.happyClients': 'Довольные клиенты',
+    'stats.websitesOnline': 'Сайты онлайн',
+    'stats.liveCampaigns': 'Активные кампании',
+    
+    // Common
+    'common.learnMore': 'Узнать больше',
+    'common.getStarted': 'Начать',
+    'common.contactUs': 'Связаться с нами'
+  },
+  DE: {
+    // Navigation
+    'nav.services': 'Was möchten Sie?',
+    'nav.offices': 'Unsere Büros',
+    'nav.blog': 'Blog',
+    'nav.myMedia': 'My Media',
+    'nav.contact': 'Bereit für ein Gespräch?',
+    
+    // Hero Section
+    'hero.title': 'GROPPI DIGITAL MARKETING BUREAU MACHT',
+    'hero.subtitle1': 'KMU',
+    'hero.subtitle2': 'ERFOLGREICH ONLINE',
+    'hero.cta1': 'Termin vereinbaren',
+    'hero.cta2': 'Rufen Sie mich an',
+    'hero.trustIndicators.oneStop': 'Komplettlösung',
+    'hero.trustIndicators.budget': 'Für jedes Budget',
+    'hero.trustIndicators.reports': 'Monatliche Berichte',
+    
+    // Footer
+    'footer.services': 'Unsere Dienstleistungen',
+    'footer.websiteDevelopment': 'Website-Entwicklung',
+    'footer.webshopCreation': 'Webshop-Erstellung',
+    'footer.seoOptimization': 'SEO-Optimierung',
+    'footer.digitalAdvertising': 'Digitale Werbung',
+    'footer.socialMediaMarketing': 'Social-Media-Marketing',
+    'footer.contact': 'Kontakt',
+    'footer.locations': 'Antwerpen, Brüssel,\nOst- & Westflandern',
+    'footer.newsletter': 'Bleiben Sie informiert',
+    'footer.newsletterDescription': 'Erhalten Sie Tipps und Neuigkeiten über digitales Marketing.',
+    'footer.emailPlaceholder': 'Ihre E-Mail-Adresse',
+    'footer.subscribe': 'Abonnieren',
+    'footer.allRightsReserved': 'Alle Rechte vorbehalten.',
+    'footer.privacy': 'Datenschutzrichtlinie',
+    'footer.terms': 'Allgemeine Geschäftsbedingungen',
+    
+    // Features Section
+    'features.title1': 'Alles für Ihr Unternehmen',
+    'features.desc1': 'Komplette digitale Lösungen unter einem Dach',
+    'features.title2': 'Persönlicher & lokaler Ansatz',
+    'features.desc2': 'Maßgeschneiderter Service mit persönlichem Kontakt',
+    'features.title3': 'Für jedes Budget',
+    'features.desc3': 'Lösungen, die zu Ihren finanziellen Möglichkeiten passen',
+    
+    // Services Section
+    'services.mainTitle': 'Wir kümmern uns um alles',
+    'services.mainSubtitle': 'während Sie sich auf Ihr Geschäft konzentrieren',
+    'services.solidBasisTitle': 'Beginnen Sie mit einer soliden Grundlage',
+    'services.adverterenTitle': 'Wachsen Sie mit digitaler Werbung',
+    'services.website': 'Website',
+    'services.websiteDesc': 'Professionelle Online-Präsenz mit maßgeschneiderter Website.',
+    'services.webshop': 'Webshop',
+    'services.webshopDesc': 'Ihre Dienstleistungen und Produkte im Rampenlicht.',
+    'services.seo': 'SEO',
+    'services.seoDesc': 'Ihre Website höher in Suchergebnissen.',
+    'services.netsync': 'Netsync',
+    'services.netsyncDesc': 'Positive Reputation und korrekte Daten auf einen Schlag.',
+    'services.sea': 'SEA',
+    'services.seaDesc': 'Ihre Anzeigen auf Google, Bing und Youtube.',
+    'services.socialMedia': 'Social-Media-Werbung',
+    'services.socialMediaDesc': 'Erreichen Sie Ihre Zielgruppe auf den beliebtesten Kanälen.',
+    'services.omni': 'All-in-One-Werbung mit Omni',
+    'services.omniDesc': 'Mehr Reichweite auf Google, Bing, Facebook und Instagram.',
+    'services.goudengids': 'Werbung auf goudengids.be',
+    'services.goudengidsDesc': 'Ihr Unternehmen im größten Unternehmensverzeichnis Belgiens.',
+    'services.solidBasisButton': 'Alles über Ihre solide Grundlage',
+    'services.adverterenButton': 'Alles über digitale Werbung',
+    
+    // Digital Scan Section
+    'digitalScan.title': 'Nutzen Sie unseren kostenlosen Digital-Scan',
+    'digitalScan.description': 'Möchten Sie die Qualität Ihres Unternehmens im Netz überprüfen? Unser Digital-Scan prüft, ob Ihre Unternehmensdaten auf mehr als 30 Online-Plattformen korrekt angegeben sind.',
+    'digitalScan.button': 'Scannen Sie Ihre Website',
+    'digitalScan.websiteStatus': 'Website-Status',
+    'digitalScan.seoOptimization': 'SEO-Optimierung',
+    'digitalScan.onlineVisibility': 'Online-Sichtbarkeit',
+    'digitalScan.businessData': 'Unternehmensdaten',
+    
+    // Stats Section
+    'stats.happyClients': 'Zufriedene Kunden',
+    'stats.websitesOnline': 'Websites online',
+    'stats.liveCampaigns': 'Aktive Kampagnen',
+    
+    // Common
+    'common.learnMore': 'Mehr erfahren',
+    'common.getStarted': 'Loslegen',
+    'common.contactUs': 'Kontaktieren Sie uns'
+  },
+  ES: {
+    // Navigation
+    'nav.services': '¿Qué deseas?',
+    'nav.offices': 'Nuestras oficinas',
+    'nav.blog': 'Blog',
+    'nav.myMedia': 'My Media',
+    'nav.contact': '¿Listo para una charla?',
+    
+    // Hero Section
+    'hero.title': 'GROPPI DIGITAL MARKETING BUREAU HACE QUE LAS',
+    'hero.subtitle1': 'PYMES',
+    'hero.subtitle2': 'TENGAN ÉXITO EN LÍNEA',
+    'hero.cta1': 'Solicitar cita',
+    'hero.cta2': 'Llámame',
+    'hero.trustIndicators.oneStop': 'Solución integral',
+    'hero.trustIndicators.budget': 'Para cada presupuesto',
+    'hero.trustIndicators.reports': 'Informes mensuales',
+    
+    // Footer
+    'footer.services': 'Nuestros servicios',
+    'footer.websiteDevelopment': 'Desarrollo de sitios web',
+    'footer.webshopCreation': 'Creación de tiendas online',
+    'footer.seoOptimization': 'Optimización SEO',
+    'footer.digitalAdvertising': 'Publicidad digital',
+    'footer.socialMediaMarketing': 'Marketing en redes sociales',
+    'footer.contact': 'Contacto',
+    'footer.locations': 'Amberes, Bruselas,\nFlandes Oriental y Occidental',
+    'footer.newsletter': 'Manténgase informado',
+    'footer.newsletterDescription': 'Reciba consejos y noticias sobre marketing digital.',
+    'footer.emailPlaceholder': 'Su dirección de correo electrónico',
+    'footer.subscribe': 'Suscribirse',
+    'footer.allRightsReserved': 'Todos los derechos reservados.',
+    'footer.privacy': 'Política de privacidad',
+    'footer.terms': 'Términos y condiciones',
+    
+    // Features Section
+    'features.title1': 'Todo para su negocio',
+    'features.desc1': 'Soluciones digitales completas bajo un mismo techo',
+    'features.title2': 'Enfoque personal y local',
+    'features.desc2': 'Servicio personalizado con contacto personal',
+    'features.title3': 'Para cada presupuesto',
+    'features.desc3': 'Soluciones que se ajustan a sus posibilidades financieras',
+    
+    // Services Section
+    'services.mainTitle': 'Nos encargamos de todo',
+    'services.mainSubtitle': 'mientras usted se concentra en su negocio',
+    'services.solidBasisTitle': 'Comience con una base sólida',
+    'services.adverterenTitle': 'Crezca con publicidad digital',
+    'services.website': 'Sitio web',
+    'services.websiteDesc': 'Presencia online profesional con un sitio web personalizado.',
+    'services.webshop': 'Tienda online',
+    'services.webshopDesc': 'Sus servicios y productos en el centro de atención.',
+    'services.seo': 'SEO',
+    'services.seoDesc': 'Su sitio web más alto en los resultados de búsqueda.',
+    'services.netsync': 'Netsync',
+    'services.netsyncDesc': 'Reputación positiva y datos correctos de una sola vez.',
+    'services.sea': 'SEA',
+    'services.seaDesc': 'Sus anuncios en Google, Bing y Youtube.',
+    'services.socialMedia': 'Publicidad en redes sociales',
+    'services.socialMediaDesc': 'Llegue a su público objetivo en los canales más populares.',
+    'services.omni': 'Publicidad todo en uno con Omni',
+    'services.omniDesc': 'Mayor alcance en Google, Bing, Facebook e Instagram.',
+    'services.goudengids': 'Publicidad en goudengids.be',
+    'services.goudengidsDesc': 'Su negocio en el directorio de empresas más grande de Bélgica.',
+    'services.solidBasisButton': 'Todo sobre su base sólida',
+    'services.adverterenButton': 'Todo sobre publicidad digital',
+    
+    // Digital Scan Section
+    'digitalScan.title': 'Use nuestro escaneo digital gratuito',
+    'digitalScan.description': '¿Quiere verificar la calidad de su empresa en la red? Nuestro escaneo digital comprueba si los datos de su empresa se mencionan correctamente en más de 30 plataformas en línea.',
+    'digitalScan.button': 'Escanee su sitio',
+    'digitalScan.websiteStatus': 'Estado del sitio web',
+    'digitalScan.seoOptimization': 'Optimización SEO',
+    'digitalScan.onlineVisibility': 'Visibilidad en línea',
+    'digitalScan.businessData': 'Datos empresariales',
+    
+    // Stats Section
+    'stats.happyClients': 'Clientes satisfechos',
+    'stats.websitesOnline': 'Sitios web en línea',
+    'stats.liveCampaigns': 'Campañas activas',
+    
+    // Common
+    'common.learnMore': 'Más información',
+    'common.getStarted': 'Comenzar',
+    'common.contactUs': 'Contáctenos'
+  },
+  IT: {
+    // Navigation
+    'nav.services': 'Cosa desideri?',
+    'nav.offices': 'I nostri uffici',
+    'nav.blog': 'Blog',
+    'nav.myMedia': 'My Media',
+    'nav.contact': 'Pronto per una chiacchierata?',
+    
+    // Hero Section
+    'hero.title': 'GROPPI DIGITAL MARKETING BUREAU RENDE LE',
+    'hero.subtitle1': 'PMI',
+    'hero.subtitle2': 'DI SUCCESSO ONLINE',
+    'hero.cta1': 'Fissa un appuntamento',
+    'hero.cta2': 'Chiamami',
+    'hero.trustIndicators.oneStop': 'Soluzione completa',
+    'hero.trustIndicators.budget': 'Per ogni budget',
+    'hero.trustIndicators.reports': 'Rapporti mensili',
+    
+    // Footer
+    'footer.services': 'I nostri servizi',
+    'footer.websiteDevelopment': 'Sviluppo siti web',
+    'footer.webshopCreation': 'Creazione e-commerce',
+    'footer.seoOptimization': 'Ottimizzazione SEO',
+    'footer.digitalAdvertising': 'Pubblicità digitale',
+    'footer.socialMediaMarketing': 'Marketing sui social media',
+    'footer.contact': 'Contatti',
+    'footer.locations': 'Anversa, Bruxelles,\nFiandre Orientali e Occidentali',
+    'footer.newsletter': 'Rimani informato',
+    'footer.newsletterDescription': 'Ricevi consigli e notizie sul marketing digitale.',
+    'footer.emailPlaceholder': 'Il tuo indirizzo email',
+    'footer.subscribe': 'Iscriviti',
+    'footer.allRightsReserved': 'Tutti i diritti riservati.',
+    'footer.privacy': 'Informativa sulla privacy',
+    'footer.terms': 'Termini e condizioni',
+    
+    // Features Section
+    'features.title1': 'Tutto per la tua azienda',
+    'features.desc1': 'Soluzioni digitali complete sotto un unico tetto',
+    'features.title2': 'Approccio personale e locale',
+    'features.desc2': 'Servizio personalizzato con contatto personale',
+    'features.title3': 'Per ogni budget',
+    'features.desc3': 'Soluzioni adatte alle tue possibilità finanziarie',
+    
+    // Services Section
+    'services.mainTitle': 'Ci occupiamo di tutto',
+    'services.mainSubtitle': 'mentre tu ti concentri sulla tua attività',
+    'services.solidBasisTitle': 'Inizia con una base solida',
+    'services.adverterenTitle': 'Cresci con la pubblicità digitale',
+    'services.website': 'Sito web',
+    'services.websiteDesc': 'Presenza online professionale con un sito web personalizzato.',
+    'services.webshop': 'E-commerce',
+    'services.webshopDesc': 'I tuoi servizi e prodotti sotto i riflettori.',
+    'services.seo': 'SEO',
+    'services.seoDesc': 'Il tuo sito web più in alto nei risultati di ricerca.',
+    'services.netsync': 'Netsync',
+    'services.netsyncDesc': 'Reputazione positiva e dati corretti in un colpo solo.',
+    'services.sea': 'SEA',
+    'services.seaDesc': 'I tuoi annunci su Google, Bing e Youtube.',
+    'services.socialMedia': 'Pubblicità sui social media',
+    'services.socialMediaDesc': 'Raggiungi il tuo pubblico target sui canali più popolari.',
+    'services.omni': 'Pubblicità all-in-one con Omni',
+    'services.omniDesc': 'Maggiore portata su Google, Bing, Facebook e Instagram.',
+    'services.goudengids': 'Pubblicità su goudengids.be',
+    'services.goudengidsDesc': 'La tua azienda nella più grande directory aziendale del Belgio.',
+    'services.solidBasisButton': 'Tutto sulla tua base solida',
+    'services.adverterenButton': 'Tutto sulla pubblicità digitale',
+    
+    // Digital Scan Section
+    'digitalScan.title': 'Usa la nostra scansione digitale gratuita',
+    'digitalScan.description': 'Vuoi verificare la qualità della tua azienda in rete? La nostra scansione digitale controlla se i dati della tua azienda sono correttamente menzionati su oltre 30 piattaforme online.',
+    'digitalScan.button': 'Scansiona il tuo sito',
+    'digitalScan.websiteStatus': 'Stato del sito web',
+    'digitalScan.seoOptimization': 'Ottimizzazione SEO',
+    'digitalScan.onlineVisibility': 'Visibilità online',
+    'digitalScan.businessData': 'Dati aziendali',
+    
+    // Stats Section
+    'stats.happyClients': 'Clienti soddisfatti',
+    'stats.websitesOnline': 'Siti web online',
+    'stats.liveCampaigns': 'Campagne attive',
+    
+    // Common
+    'common.learnMore': 'Scopri di più',
+    'common.getStarted': 'Inizia',
+    'common.contactUs': 'Contattaci'
+  },
+  UK: {
+    // Navigation
+    'nav.services': 'Що вам потрібно?',
+    'nav.offices': 'Наші офіси',
+    'nav.blog': 'Блог',
+    'nav.myMedia': 'My Media',
+    'nav.contact': 'Готові до розмови?',
+    
+    // Hero Section
+    'hero.title': 'GROPPI DIGITAL MARKETING BUREAU РОБИТЬ',
+    'hero.subtitle1': 'МСП',
+    'hero.subtitle2': 'УСПІШНИМИ ОНЛАЙН',
+    'hero.cta1': 'Записатися на зустріч',
+    'hero.cta2': 'Зателефонуйте мені',
+    'hero.trustIndicators.oneStop': 'Комплексне рішення',
+    'hero.trustIndicators.budget': 'Для будь-якого бюджету',
+    'hero.trustIndicators.reports': 'Щомісячні звіти',
+    
+    // Footer
+    'footer.services': 'Наші послуги',
+    'footer.websiteDevelopment': 'Розробка веб-сайтів',
+    'footer.webshopCreation': 'Створення інтернет-магазинів',
+    'footer.seoOptimization': 'SEO-оптимізація',
+    'footer.digitalAdvertising': 'Цифрова реклама',
+    'footer.socialMediaMarketing': 'Маркетинг у соціальних мережах',
+    'footer.contact': 'Контакти',
+    'footer.locations': 'Антверпен, Брюссель,\nСхідна та Західна Фландрія',
+    'footer.newsletter': 'Будьте в курсі',
+    'footer.newsletterDescription': 'Отримуйте поради та новини про цифровий маркетинг.',
+    'footer.emailPlaceholder': 'Ваша email адреса',
+    'footer.subscribe': 'Підписатися',
+    'footer.allRightsReserved': 'Всі права захищені.',
+    'footer.privacy': 'Політика конфіденційності',
+    'footer.terms': 'Умови використання',
+    
+    // Features Section
+    'features.title1': 'Все для вашого бізнесу',
+    'features.desc1': 'Комплексні цифрові рішення під одним дахом',
+    'features.title2': 'Особистий і локальний підхід',
+    'features.desc2': 'Персоналізований сервіс з особистим контактом',
+    'features.title3': 'Для будь-якого бюджету',
+    'features.desc3': 'Рішення, що відповідають вашим фінансовим можливостям',
+    
+    // Services Section
+    'services.mainTitle': 'Ми подбаємо про все',
+    'services.mainSubtitle': 'поки ви зосереджені на своєму бізнесі',
+    'services.solidBasisTitle': 'Почніть з міцного фундаменту',
+    'services.adverterenTitle': 'Зростайте з цифровою рекламою',
+    'services.website': 'Веб-сайт',
+    'services.websiteDesc': 'Професійна присутність онлайн з індивідуальним веб-сайтом.',
+    'services.webshop': 'Інтернет-магазин',
+    'services.webshopDesc': 'Ваші послуги та продукти в центрі уваги.',
+    'services.seo': 'SEO',
+    'services.seoDesc': 'Ваш сайт вище в результатах пошуку.',
+    'services.netsync': 'Netsync',
+    'services.netsyncDesc': 'Позитивна репутація та правильні дані за один раз.',
+    'services.sea': 'SEA',
+    'services.seaDesc': 'Ваші оголошення в Google, Bing та Youtube.',
+    'services.socialMedia': 'Реклама в соціальних мережах',
+    'services.socialMediaDesc': 'Досягайте своєї цільової аудиторії на найпопулярніших каналах.',
+    'services.omni': 'Комплексна реклама з Omni',
+    'services.omniDesc': 'Більший охоплення в Google, Bing, Facebook та Instagram.',
+    'services.goudengids': 'Реклама на goudengids.be',
+    'services.goudengidsDesc': 'Ваш бізнес у найбільшому бізнес-каталозі Бельгії.',
+    'services.solidBasisButton': 'Все про міцний фундамент',
+    'services.adverterenButton': 'Все про цифрову рекламу',
+    
+    // Digital Scan Section
+    'digitalScan.title': 'Використайте наше безкоштовне цифрове сканування',
+    'digitalScan.description': 'Хочете перевірити якість вашого бізнесу в мережі? Наше цифрове сканування перевіряє, чи правильно вказані дані вашої компанії на понад 30 онлайн-платформах.',
+    'digitalScan.button': 'Сканувати ваш сайт',
+    'digitalScan.websiteStatus': 'Статус веб-сайту',
+    'digitalScan.seoOptimization': 'SEO-оптимізація',
+    'digitalScan.onlineVisibility': 'Онлайн-видимість',
+    'digitalScan.businessData': 'Бізнес-дані',
+    
+    // Stats Section
+    'stats.happyClients': 'Задоволені клієнти',
+    'stats.websitesOnline': 'Сайти онлайн',
+    'stats.liveCampaigns': 'Активні кампанії',
+    
+    // Common
+    'common.learnMore': 'Дізнатися більше',
+    'common.getStarted': 'Почати',
+    'common.contactUs': 'Зв\'язатися з нами'
+  },
+  TR: {
+    // Navigation
+    'nav.services': 'Ne istersiniz?',
+    'nav.offices': 'Ofislerimiz',
+    'nav.blog': 'Blog',
+    'nav.myMedia': 'My Media',
+    'nav.contact': 'Sohbet için hazır mısınız?',
+    
+    // Hero Section
+    'hero.title': 'GROPPI DIGITAL MARKETING BUREAU',
+    'hero.subtitle1': 'KOBİ\'LERİ',
+    'hero.subtitle2': 'ONLİNE BAŞARILI KILAR',
+    'hero.cta1': 'Randevu al',
+    'hero.cta2': 'Beni ara',
+    'hero.trustIndicators.oneStop': 'Tek durak çözüm',
+    'hero.trustIndicators.budget': 'Her bütçe için',
+    'hero.trustIndicators.reports': 'Aylık raporlar',
+    
+    // Footer
+    'footer.services': 'Hizmetlerimiz',
+    'footer.websiteDevelopment': 'Web Sitesi Geliştirme',
+    'footer.webshopCreation': 'E-ticaret Oluşturma',
+    'footer.seoOptimization': 'SEO Optimizasyonu',
+    'footer.digitalAdvertising': 'Dijital Reklamcılık',
+    'footer.socialMediaMarketing': 'Sosyal Medya Pazarlama',
+    'footer.contact': 'İletişim',
+    'footer.locations': 'Anvers, Brüksel,\nDoğu ve Batı Flandra',
+    'footer.newsletter': 'Bilgilendirilmeye devam edin',
+    'footer.newsletterDescription': 'Dijital pazarlama hakkında ipuçları ve haberler alın.',
+    'footer.emailPlaceholder': 'E-posta adresiniz',
+    'footer.subscribe': 'Abone ol',
+    'footer.allRightsReserved': 'Tüm hakları saklıdır.',
+    'footer.privacy': 'Gizlilik Politikası',
+    'footer.terms': 'Şartlar ve Koşullar',
+    
+    // Features Section
+    'features.title1': 'İşletmeniz için her şey',
+    'features.desc1': 'Tek çatı altında eksiksiz dijital çözümler',
+    'features.title2': 'Kişisel ve yerel yaklaşım',
+    'features.desc2': 'Kişisel temas ile özelleştirilmiş hizmet',
+    'features.title3': 'Her bütçe için',
+    'features.desc3': 'Finansal imkanlarınıza uygun çözümler',
+    
+    // Services Section
+    'services.mainTitle': 'Her şeyle biz ilgileniriz',
+    'services.mainSubtitle': 'siz işinize odaklanırken',
+    'services.solidBasisTitle': 'Sağlam bir temelle başlayın',
+    'services.adverterenTitle': 'Dijital reklamla büyüyün',
+    'services.website': 'Web Sitesi',
+    'services.websiteDesc': 'Özel web sitesiyle profesyonel çevrimiçi varlık.',
+    'services.webshop': 'E-ticaret',
+    'services.webshopDesc': 'Hizmetleriniz ve ürünleriniz spot ışıklarında.',
+    'services.seo': 'SEO',
+    'services.seoDesc': 'Web siteniz arama sonuçlarında daha yüksek.',
+    'services.netsync': 'Netsync',
+    'services.netsyncDesc': 'Olumlu itibar ve doğru veriler tek seferde.',
+    'services.sea': 'SEA',
+    'services.seaDesc': 'Google, Bing ve Youtube\'da reklamlarınız.',
+    'services.socialMedia': 'Sosyal medya reklamcılığı',
+    'services.socialMediaDesc': 'En popüler kanallarda hedef kitlenize ulaşın.',
+    'services.omni': 'Omni ile hepsi bir arada reklamcılık',
+    'services.omniDesc': 'Google, Bing, Facebook ve Instagram\'da daha fazla erişim.',
+    'services.goudengids': 'goudengids.be\'de reklamcılık',
+    'services.goudengidsDesc': 'İşletmeniz Belçika\'nın en büyük iş dizininde.',
+    'services.solidBasisButton': 'Sağlam temeli hakkında her şey',
+    'services.adverterenButton': 'Dijital reklamcılık hakkında her şey',
+    
+    // Digital Scan Section
+    'digitalScan.title': 'Ücretsiz Dijital tarama hizmetimizi kullanın',
+    'digitalScan.description': 'İşletmenizin internetteki kalitesini kontrol etmek ister misiniz? Dijital taramamız, işletme bilgilerinizin 30\'dan fazla çevrimiçi platformda doğru bir şekilde belirtilip belirtilmediğini kontrol eder.',
+    'digitalScan.button': 'Sitenizi tarayın',
+    'digitalScan.websiteStatus': 'Web Sitesi Durumu',
+    'digitalScan.seoOptimization': 'SEO Optimizasyonu',
+    'digitalScan.onlineVisibility': 'Çevrimiçi Görünürlük',
+    'digitalScan.businessData': 'İşletme Verileri',
+    
+    // Stats Section
+    'stats.happyClients': 'Mutlu müşteriler',
+    'stats.websitesOnline': 'Çevrimiçi web siteleri',
+    'stats.liveCampaigns': 'Canlı kampanyalar',
+    
+    // Common
+    'common.learnMore': 'Daha fazla bilgi',
+    'common.getStarted': 'Başlayın',
+    'common.contactUs': 'Bize ulaşın'
   }
 };
 
-interface LanguageProviderProps {
-  children: ReactNode;
-}
-
-export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
+export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [language, setLanguage] = useState('NL');
 
   const t = (key: string): string => {
-    try {
-      const translation = translations[language as keyof typeof translations]?.[key as keyof typeof translations.NL];
-      return translation || key;
-    } catch (error) {
-      console.warn(`Translation missing for key: ${key}`);
-      return key;
-    }
+    const translation = translations[language as keyof typeof translations];
+    return (translation && translation[key as keyof typeof translation]) || key;
   };
 
-  const contextValue = React.useMemo(
-    () => ({ language, setLanguage, t }),
-    [language]
-  );
-
   return (
-    <LanguageContext.Provider value={contextValue}>
+    <LanguageContext.Provider value={{ language, setLanguage, t }}>
       {children}
     </LanguageContext.Provider>
   );
 };
 
-export const useLanguage = (): LanguageContextType => {
+export const useLanguage = () => {
   const context = useContext(LanguageContext);
-  if (!context) {
+  if (context === undefined) {
     throw new Error('useLanguage must be used within a LanguageProvider');
   }
   return context;
