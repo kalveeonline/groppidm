@@ -31,19 +31,19 @@ export const Footer = () => {
             </p>
             <div className="flex space-x-2">
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Facebook className="h-5 w-5 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
+                <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Twitter className="h-5 w-5 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
+                <Twitter className="h-6 w-6 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Instagram className="h-5 w-5 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
+                <Instagram className="h-6 w-6 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Linkedin className="h-5 w-5 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
+                <Linkedin className="h-6 w-6 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Youtube className="h-5 w-5 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
+                <Youtube className="h-6 w-6 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
               </Button>
             </div>
           </div>

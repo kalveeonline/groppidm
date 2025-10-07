@@ -90,10 +90,10 @@ export const ServicesCarousel = () => {
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-6xl font-bold text-foreground bg-gradient-to-r from-primary via-primary-light to-primary bg-clip-text text-transparent">
-            What Do You Want?
+            {t('carousel.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Discover our premium digital marketing services designed to elevate your business
+            {t('carousel.subtitle')}
           </p>
         </div>
 
@@ -125,7 +125,7 @@ export const ServicesCarousel = () => {
                       />
                       {/* Overlay Badge */}
                       <div className="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm text-primary-foreground px-4 py-2 rounded-full text-xs font-bold shadow-glow z-20">
-                        Premium Service
+                        {t('carousel.premiumService')}
                       </div>
                     </div>
 
@@ -147,7 +147,7 @@ export const ServicesCarousel = () => {
                           className="flex-1 bg-primary hover:bg-primary-dark text-primary-foreground font-semibold shadow-lg shadow-primary/30 hover:shadow-glow transition-all duration-300 group/btn"
                         >
                           <Calendar className="mr-2 h-4 w-4 group-hover/btn:animate-pulse" />
-                          Make An Appointment
+                          {t('carousel.makeAppointment')}
                         </Button>
                         <Button
                           onClick={handleCallMe}
@@ -155,7 +155,7 @@ export const ServicesCarousel = () => {
                           className="flex-1 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold transition-all duration-300 group/btn"
                         >
                           <Phone className="mr-2 h-4 w-4 group-hover/btn:animate-pulse" />
-                          Call Me
+                          {t('carousel.callMe')}
                         </Button>
                       </div>
                     </div>
@@ -171,14 +171,14 @@ export const ServicesCarousel = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-16 animate-fade-in">
           <p className="text-muted-foreground mb-4">
-            Ready to transform your digital presence?
+            {t('carousel.readyToTransform')}
           </p>
           <Button
             size="lg"
             onClick={handleAppointment}
             className="bg-gradient-to-r from-primary via-primary-light to-primary hover:shadow-glow text-primary-foreground font-bold px-8 py-6 text-lg shadow-hero transition-all duration-300 hover:scale-105"
           >
-            Get Started Today
+            {t('carousel.getStarted')}
           </Button>
         </div>
       </div>

@@ -81,19 +81,19 @@ export const Header = () => {
             {/* Social Media Icons with Brand Colors - Before Language Selector */}
             <div className="flex items-center gap-1 pr-3 border-r border-primary/30">
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Facebook className="h-5 w-5 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
+                <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Twitter className="h-5 w-5 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
+                <Twitter className="h-6 w-6 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Instagram className="h-5 w-5 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
+                <Instagram className="h-6 w-6 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Linkedin className="h-5 w-5 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
+                <Linkedin className="h-6 w-6 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Youtube className="h-5 w-5 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
+                <Youtube className="h-6 w-6 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
               </Button>
             </div>
             
@@ -184,16 +184,16 @@ export const Header = () => {
               </DropdownMenuContent>
             </DropdownMenu>
             <a href="/prices" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
-              Prices
+              {t('nav.prices')}
             </a>
             <a href="/blog" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.blog')}
             </a>
             <a href="/about" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
-              About Us
+              {t('nav.aboutUs')}
             </a>
             <a href="/jobs" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
-              Jobs
+              {t('nav.jobs')}
             </a>
           </nav>
         </div>
@@ -206,19 +206,19 @@ export const Header = () => {
             {/* Social Media Icons */}
             <div className="flex items-center gap-2 pb-3 border-b border-primary/20">
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Facebook className="h-5 w-5 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
+                <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Twitter className="h-5 w-5 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
+                <Twitter className="h-6 w-6 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Instagram className="h-5 w-5 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
+                <Instagram className="h-6 w-6 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Linkedin className="h-5 w-5 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
+                <Linkedin className="h-6 w-6 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
               </Button>
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Youtube className="h-5 w-5 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
+                <Youtube className="h-6 w-6 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
               </Button>
             </div>
             
@@ -226,16 +226,16 @@ export const Header = () => {
               {t('nav.services')}
             </a>
             <a href="/prices" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
-              Prices
+              {t('nav.prices')}
             </a>
             <a href="/blog" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.blog')}
             </a>
             <a href="/about" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
-              About Us
+              {t('nav.aboutUs')}
             </a>
             <a href="/jobs" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
-              Jobs
+              {t('nav.jobs')}
             </a>
             <div className="flex flex-col gap-2 pt-3 border-t border-primary/20">
               <DropdownMenu>
