@@ -13,6 +13,7 @@ import {
 import { useLanguage, SUPPORTED_LANGUAGES } from "@/contexts/LanguageContext";
 import groppiLogo from "@/assets/groppi-logo-new.png";
 import groppiLogoCircle from "@/assets/groppi-logo-circle.png";
+import groppiTextLogo from "@/assets/groppi-text-logo.jpg";
 
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -71,7 +72,11 @@ export const Header = () => {
               className="h-12 w-12 object-contain group-hover:scale-105 transition-all duration-300"
             />
             <div className="flex flex-col">
-              <span className="text-base font-bold text-primary tracking-wider">GROPPI</span>
+              <img 
+                src={groppiTextLogo} 
+                alt="GROPPI" 
+                className="h-5 w-auto object-contain"
+              />
               <span className="text-[10px] text-primary/70">Digital Marketing Bureau</span>
             </div>
           </Link>
