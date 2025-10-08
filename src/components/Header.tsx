@@ -75,9 +75,9 @@ export const Header = () => {
               <img 
                 src={groppiTextLogo} 
                 alt="GROPPI" 
-                className="h-8 w-auto object-contain"
+                className="h-6 w-full object-contain"
               />
-              <span className="text-[10px] text-primary/70 mt-0.5">Digital Marketing Bureau</span>
+              <span className="text-[10px] text-primary/70 mt-0.5 whitespace-nowrap">Digital Marketing Bureau</span>
             </div>
           </Link>
 
