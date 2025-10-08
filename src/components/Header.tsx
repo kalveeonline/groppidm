@@ -71,13 +71,13 @@ export const Header = () => {
               alt="GROPPI Logo" 
               className="h-12 w-12 object-contain group-hover:scale-105 transition-all duration-300"
             />
-            <div className="flex flex-col">
+            <div className="flex flex-col justify-center">
               <img 
                 src={groppiTextLogo} 
                 alt="GROPPI" 
-                className="h-5 w-auto object-contain"
+                className="h-8 w-auto object-contain"
               />
-              <span className="text-[10px] text-primary/70">Digital Marketing Bureau</span>
+              <span className="text-[10px] text-primary/70 mt-0.5">Digital Marketing Bureau</span>
             </div>
           </Link>
 
