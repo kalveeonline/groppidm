@@ -77,7 +77,7 @@ export const Header = () => {
                 alt="GROPPI" 
                 className="h-10 w-full object-contain mt-1"
               />
-              <span className="text-xs text-primary/70 mt-1 whitespace-nowrap">Digital Marketing Bureau</span>
+              <span className="text-xs text-primary/70 mt-0 whitespace-nowrap">Digital Marketing Bureau</span>
             </div>
           </Link>
 
