@@ -4,7 +4,8 @@ import { Facebook, Linkedin, Twitter, Instagram, Youtube, Mail, Phone, MapPin } 
 import { useLanguage } from "@/contexts/LanguageContext";
 import { LanguageSelector } from "@/components/ui/language-selector";
 import { Link } from "react-router-dom";
-import groppiLogo from "@/assets/groppi-logo-gold.png";
+import groppiLogoCircle from "@/assets/groppi-logo-circle.png";
+import groppiTextLogo from "@/assets/groppi-text-logo.jpg";
 
 export const Footer = () => {
   const { t } = useLanguage();
@@ -15,15 +16,19 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity group">
               <img 
-                src={groppiLogo} 
+                src={groppiLogoCircle} 
                 alt="GROPPI Logo" 
-                className="h-12 w-auto"
+                className="h-12 w-12 object-contain group-hover:scale-105 transition-all duration-300"
               />
-              <div className="flex flex-col">
-                <span className="text-lg font-bold text-foreground">{t('footer.companyName')}</span>
-                <span className="text-xs text-muted-foreground">{t('footer.companyTagline')}</span>
+              <div className="flex flex-col justify-center">
+                <img 
+                  src={groppiTextLogo} 
+                  alt="GROPPI" 
+                  className="h-10 w-full object-contain mt-1"
+                />
+                <span className="text-xs text-primary/70 mt-0 whitespace-nowrap">Digital Marketing Bureau</span>
               </div>
             </Link>
             <p className="text-muted-foreground text-sm">
