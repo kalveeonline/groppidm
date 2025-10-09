@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { PricingCalculator } from "@/components/PricingCalculator";
 
 export const PricesPage = () => {
   const { t } = useLanguage();
@@ -85,8 +86,11 @@ export const PricesPage = () => {
             </p>
           </div>
 
+          {/* Pricing Calculator */}
+          <PricingCalculator />
+
           {/* Pricing Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 mt-16">
             {pricingPlans.map((plan, index) => (
               <Card 
                 key={index}
