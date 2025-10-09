@@ -79,10 +79,10 @@ export const PricesPage = () => {
           {/* Header Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl lg:text-5xl font-bold text-primary mb-4">
-              Transparent Pricing for Digital Success
+              {t("prices.title")}
             </h1>
             <p className="text-xl text-primary/70 max-w-3xl mx-auto">
-              Choose the perfect plan for your business. All plans include our core services with no hidden fees.
+              {t("prices.subtitle")}
             </p>
           </div>
 
@@ -98,7 +98,7 @@ export const PricesPage = () => {
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                     <span className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold">
-                      Most Popular
+                      {t("prices.mostPopular")}
                     </span>
                   </div>
                 )}
@@ -134,7 +134,7 @@ export const PricesPage = () => {
                     }`}
                     onClick={() => window.open('/appointment', '_blank')}
                   >
-                    Get Started
+                    {t("prices.getStarted")}
                   </Button>
                 </CardContent>
               </Card>
@@ -147,7 +147,7 @@ export const PricesPage = () => {
           {/* Add-ons Section */}
           <div className="bg-card border border-primary/30 rounded-lg p-8 mt-16">
             <h2 className="text-3xl font-bold text-primary mb-6 text-center">
-              Optional Add-ons
+              {t("prices.addons")}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {addOns.map((addon, index) => (
@@ -165,33 +165,33 @@ export const PricesPage = () => {
           {/* FAQ Section */}
           <div className="mt-16 max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              Frequently Asked Questions
+              {t("prices.faq")}
             </h2>
             <div className="space-y-6">
               <div className="bg-card border border-primary/30 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-primary mb-2">
-                  Can I upgrade or downgrade my plan?
+                  {t("prices.faqUpgrade")}
                 </h3>
                 <p className="text-primary/70">
-                  Yes! You can change your plan at any time. Changes take effect at the start of your next billing cycle.
+                  {t("prices.faqUpgradeAnswer")}
                 </p>
               </div>
               
               <div className="bg-card border border-primary/30 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-primary mb-2">
-                  What payment methods do you accept?
+                  {t("prices.faqPayment")}
                 </h3>
                 <p className="text-primary/70">
-                  We accept all major credit cards, bank transfers, and SEPA direct debit for European customers.
+                  {t("prices.faqPaymentAnswer")}
                 </p>
               </div>
               
               <div className="bg-card border border-primary/30 rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-primary mb-2">
-                  Is there a setup fee?
+                  {t("prices.faqSetup")}
                 </h3>
                 <p className="text-primary/70">
-                  No setup fees! All our plans include initial setup and configuration at no additional cost.
+                  {t("prices.faqSetupAnswer")}
                 </p>
               </div>
             </div>
@@ -200,17 +200,17 @@ export const PricesPage = () => {
           {/* CTA Section */}
           <div className="mt-16 text-center">
             <h2 className="text-3xl font-bold text-primary mb-4">
-              Ready to Get Started?
+              {t("prices.readyTitle")}
             </h2>
             <p className="text-xl text-primary/70 mb-8">
-              Schedule a free consultation to discuss your needs
+              {t("prices.readySubtitle")}
             </p>
             <Button 
               size="lg"
               className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero"
               onClick={() => window.open('/appointment', '_blank')}
             >
-              Book Free Consultation
+              {t("prices.bookConsultation")}
             </Button>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
 interface LanguageContextType {
   language: string;
@@ -164,7 +164,51 @@ const translations = {
     // Common
     'common.learnMore': 'Meer informatie',
     'common.getStarted': 'Aan de slag',
-    'common.contactUs': 'Contact opnemen'
+    'common.contactUs': 'Contact opnemen',
+    
+    // Pricing Calculator
+    'calculator.title': 'Pricing Calculator',
+    'calculator.subtitle': 'Stel je perfect social media managementpakket samen',
+    'calculator.step1': 'Kies je pakket',
+    'calculator.step2': 'Registreer online',
+    'calculator.step3': 'Bevestig je pakket',
+    'calculator.step4': 'We gaan aan de slag',
+    'calculator.channels': 'Kies je social media kanalen:',
+    'calculator.frequency': 'Hoe vaak wil je posts zien verschijnen?',
+    'calculator.campaigns': 'Betaalde campagnes om je bereik te vergroten?',
+    'calculator.startAmount': 'Startbedrag',
+    'calculator.perMonth': '/maand',
+    'calculator.exclVat': '*excl. btw',
+    'calculator.startNow': 'START NU',
+    'calculator.pauseAnytime': '*Pauzeer of stop wanneer je wilt',
+    'calculator.partnerCode': 'Partner code',
+    'calculator.apply': 'APPLY',
+    'calculator.socialChannels': 'Social Channels:',
+    'calculator.postFrequency': 'Post Frequency:',
+    'calculator.campaignBudget': 'Campaign Budget:',
+    'calculator.postsPerMonth': 'posts per maand',
+    'calculator.postsPerWeek': 'posts per week',
+    'calculator.noCampaigns': 'Geen betaalde campagnes',
+    
+    // Pricing Page
+    'prices.title': 'Transparante prijzen voor digitaal succes',
+    'prices.subtitle': 'Kies het perfecte plan voor uw bedrijf. Alle plannen bevatten onze kerndiensten zonder verborgen kosten.',
+    'prices.starter': 'Starter',
+    'prices.professional': 'Professioneel',
+    'prices.enterprise': 'Enterprise',
+    'prices.mostPopular': 'Meest Populair',
+    'prices.getStarted': 'Start',
+    'prices.addons': 'Optionele Add-ons',
+    'prices.faq': 'Veelgestelde Vragen',
+    'prices.faqUpgrade': 'Kan ik mijn plan upgraden of downgraden?',
+    'prices.faqUpgradeAnswer': 'Ja! U kunt uw plan op elk moment wijzigen. Wijzigingen worden van kracht aan het begin van uw volgende facturatiecyclus.',
+    'prices.faqPayment': 'Welke betaalmethoden accepteren jullie?',
+    'prices.faqPaymentAnswer': 'We accepteren alle belangrijke creditcards, bankoverschrijvingen en SEPA-domiciliëring voor Europese klanten.',
+    'prices.faqSetup': 'Is er een installatiekost?',
+    'prices.faqSetupAnswer': 'Geen installatiekosten! Alle onze plannen omvatten initiële installatie en configuratie zonder extra kosten.',
+    'prices.readyTitle': 'Klaar om te beginnen?',
+    'prices.readySubtitle': 'Plan een gratis consult om uw behoeften te bespreken',
+    'prices.bookConsultation': 'Boek gratis consult'
   },
   EN: {
     // Navigation
@@ -302,7 +346,51 @@ const translations = {
     // Common
     'common.learnMore': 'Learn more',
     'common.getStarted': 'Get started',
-    'common.contactUs': 'Contact us'
+    'common.contactUs': 'Contact us',
+    
+    // Pricing Calculator
+    'calculator.title': 'Pricing Calculator',
+    'calculator.subtitle': 'Customize your perfect social media management package',
+    'calculator.step1': 'Choose your package',
+    'calculator.step2': 'Register online',
+    'calculator.step3': 'Confirm your package',
+    'calculator.step4': 'We get started',
+    'calculator.channels': 'Choose your social media channels:',
+    'calculator.frequency': 'How often do you want posts to appear?',
+    'calculator.campaigns': 'Paid campaigns to expand your reach?',
+    'calculator.startAmount': 'Starting Amount',
+    'calculator.perMonth': '/month',
+    'calculator.exclVat': '*excl. VAT',
+    'calculator.startNow': 'START NOW',
+    'calculator.pauseAnytime': '*Pause or stop whenever you want',
+    'calculator.partnerCode': 'Partner code',
+    'calculator.apply': 'APPLY',
+    'calculator.socialChannels': 'Social Channels:',
+    'calculator.postFrequency': 'Post Frequency:',
+    'calculator.campaignBudget': 'Campaign Budget:',
+    'calculator.postsPerMonth': 'posts per month',
+    'calculator.postsPerWeek': 'posts per week',
+    'calculator.noCampaigns': 'No paid campaigns',
+    
+    // Pricing Page
+    'prices.title': 'Transparent Pricing for Digital Success',
+    'prices.subtitle': 'Choose the perfect plan for your business. All plans include our core services with no hidden fees.',
+    'prices.starter': 'Starter',
+    'prices.professional': 'Professional',
+    'prices.enterprise': 'Enterprise',
+    'prices.mostPopular': 'Most Popular',
+    'prices.getStarted': 'Get Started',
+    'prices.addons': 'Optional Add-ons',
+    'prices.faq': 'Frequently Asked Questions',
+    'prices.faqUpgrade': 'Can I upgrade or downgrade my plan?',
+    'prices.faqUpgradeAnswer': 'Yes! You can change your plan at any time. Changes take effect at the start of your next billing cycle.',
+    'prices.faqPayment': 'What payment methods do you accept?',
+    'prices.faqPaymentAnswer': 'We accept all major credit cards, bank transfers, and SEPA direct debit for European customers.',
+    'prices.faqSetup': 'Is there a setup fee?',
+    'prices.faqSetupAnswer': 'No setup fees! All our plans include initial setup and configuration at no additional cost.',
+    'prices.readyTitle': 'Ready to Get Started?',
+    'prices.readySubtitle': 'Schedule a free consultation to discuss your needs',
+    'prices.bookConsultation': 'Book Free Consultation'
   },
   FR: {
     // Navigation
@@ -2239,7 +2327,16 @@ const translations = {
 };
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [language, setLanguage] = useState('NL');
+  const [language, setLanguage] = useState(() => {
+    // Load language from localStorage or default to 'NL'
+    const saved = localStorage.getItem('selectedLanguage');
+    return saved || 'NL';
+  });
+
+  // Save language to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem('selectedLanguage', language);
+  }, [language]);
 
   const t = (key: string): string => {
     const translation = translations[language as keyof typeof translations];

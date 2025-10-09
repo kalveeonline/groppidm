@@ -25,16 +25,16 @@ const socialChannels: SocialChannel[] = [
 ];
 
 const postFrequencies = [
-  { value: 2, label: "2 posts per maand", basePrice: 99 },
-  { value: 4, label: "1 post per week", basePrice: 149 },
-  { value: 8, label: "2 posts per week", basePrice: 249 },
-  { value: 12, label: "3 posts per week", basePrice: 349 },
-  { value: 16, label: "4 posts per week", basePrice: 449 },
-  { value: 20, label: "5 posts per week", basePrice: 549 },
+  { value: 2, label: "calculator.postsPerMonth", basePrice: 99, count: 2 },
+  { value: 4, label: "calculator.postsPerWeek", basePrice: 149, count: 1 },
+  { value: 8, label: "calculator.postsPerWeek", basePrice: 249, count: 2 },
+  { value: 12, label: "calculator.postsPerWeek", basePrice: 349, count: 3 },
+  { value: 16, label: "calculator.postsPerWeek", basePrice: 449, count: 4 },
+  { value: 20, label: "calculator.postsPerWeek", basePrice: 549, count: 5 },
 ];
 
 const campaignBudgets = [
-  { value: 0, label: "Geen betaalde campagnes", price: 0 },
+  { value: 0, label: "calculator.noCampaigns", price: 0 },
   { value: 100, label: "€100/maand", price: 100 },
   { value: 250, label: "€250/maand", price: 250 },
   { value: 500, label: "€500/maand", price: 500 },
@@ -50,10 +50,10 @@ export const PricingCalculator = () => {
   const [partnerCode, setPartnerCode] = useState("");
 
   const steps = [
-    { number: 1, title: "Kies je pakket" },
-    { number: 2, title: "Registreer online" },
-    { number: 3, title: "Bevestig je pakket" },
-    { number: 4, title: "We gaan aan de slag" },
+    { number: 1, title: t("calculator.step1") },
+    { number: 2, title: t("calculator.step2") },
+    { number: 3, title: t("calculator.step3") },
+    { number: 4, title: t("calculator.step4") },
   ];
 
   const toggleChannel = (channelId: string) => {
@@ -78,10 +78,10 @@ export const PricingCalculator = () => {
       <div className="container px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-primary mb-4">
-            Pricing Calculator
+            {t("calculator.title")}
           </h2>
           <p className="text-xl text-primary/70 max-w-3xl mx-auto">
-            Customize your perfect social media management package
+            {t("calculator.subtitle")}
           </p>
         </div>
 
@@ -124,7 +124,7 @@ export const PricingCalculator = () => {
             <Card className="border-primary/30">
               <CardHeader>
                 <CardTitle className="text-2xl text-primary">
-                  Kies je social media kanalen:
+                  {t("calculator.channels")}
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -158,7 +158,7 @@ export const PricingCalculator = () => {
             <Card className="border-primary/30">
               <CardHeader>
                 <CardTitle className="text-2xl text-primary">
-                  Hoe vaak wil je posts zien verschijnen?
+                  {t("calculator.frequency")}
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -174,10 +174,10 @@ export const PricingCalculator = () => {
                       }`}
                     >
                       <div className="text-3xl font-bold text-primary mb-1">
-                        {frequency.value}
+                        {frequency.count}
                       </div>
                       <div className="text-sm text-primary/70">
-                        {frequency.label}
+                        {frequency.count} {t(frequency.label)}
                       </div>
                     </button>
                   ))}
@@ -189,7 +189,7 @@ export const PricingCalculator = () => {
             <Card className="border-primary/30">
               <CardHeader>
                 <CardTitle className="text-2xl text-primary">
-                  Betaalde campagnes om je bereik te vergroten?
+                  {t("calculator.campaigns")}
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -205,7 +205,7 @@ export const PricingCalculator = () => {
                       }`}
                     >
                       <div className="text-lg font-bold text-primary">
-                        {budget.label}
+                        {budget.value === 0 ? t(budget.label) : budget.label}
                       </div>
                     </button>
                   ))}
@@ -219,7 +219,7 @@ export const PricingCalculator = () => {
             <Card className="border-primary sticky top-4 shadow-glow">
               <CardHeader>
                 <CardTitle className="text-center text-primary">
-                  Startbedrag
+                  {t("calculator.startAmount")}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -227,25 +227,25 @@ export const PricingCalculator = () => {
                   <div className="text-5xl font-bold text-primary mb-2">
                     €{totalPrice}
                   </div>
-                  <div className="text-primary/70">/maand</div>
-                  <div className="text-sm text-primary/50 mt-2">*excl. btw</div>
+                  <div className="text-primary/70">{t("calculator.perMonth")}</div>
+                  <div className="text-sm text-primary/50 mt-2">{t("calculator.exclVat")}</div>
                 </div>
 
                 <div className="space-y-3 pt-4 border-t border-primary/30">
                   <div className="flex justify-between text-sm">
-                    <span className="text-primary/70">Social Channels:</span>
+                    <span className="text-primary/70">{t("calculator.socialChannels")}</span>
                     <span className="font-medium text-primary">
                       {selectedChannels.length} × €25
                     </span>
                   </div>
                   <div className="flex justify-between text-sm">
-                    <span className="text-primary/70">Post Frequency:</span>
+                    <span className="text-primary/70">{t("calculator.postFrequency")}</span>
                     <span className="font-medium text-primary">
                       €{postFrequency.basePrice}
                     </span>
                   </div>
                   <div className="flex justify-between text-sm">
-                    <span className="text-primary/70">Campaign Budget:</span>
+                    <span className="text-primary/70">{t("calculator.campaignBudget")}</span>
                     <span className="font-medium text-primary">
                       €{campaignBudget.price}
                     </span>
@@ -257,17 +257,17 @@ export const PricingCalculator = () => {
                   size="lg"
                   onClick={() => window.open('/appointment', '_blank')}
                 >
-                  START NU
+                  {t("calculator.startNow")}
                 </Button>
 
                 <p className="text-xs text-center text-primary/60">
-                  *Pauzeer of stop wanneer je wilt
+                  {t("calculator.pauseAnytime")}
                 </p>
 
                 {/* Partner Code */}
                 <div className="pt-4 border-t border-primary/30">
                   <Label htmlFor="partner-code" className="text-primary/70 text-sm">
-                    Partner code
+                    {t("calculator.partnerCode")}
                   </Label>
                   <div className="flex gap-2 mt-2">
                     <Input
@@ -278,7 +278,7 @@ export const PricingCalculator = () => {
                       className="flex-1"
                     />
                     <Button variant="outline" size="sm">
-                      APPLY
+                      {t("calculator.apply")}
                     </Button>
                   </div>
                 </div>
