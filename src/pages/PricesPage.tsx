@@ -86,11 +86,8 @@ export const PricesPage = () => {
             </p>
           </div>
 
-          {/* Pricing Calculator */}
-          <PricingCalculator />
-
           {/* Pricing Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 mt-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             {pricingPlans.map((plan, index) => (
               <Card 
                 key={index}
@@ -144,8 +141,11 @@ export const PricesPage = () => {
             ))}
           </div>
 
+          {/* Pricing Calculator */}
+          <PricingCalculator />
+
           {/* Add-ons Section */}
-          <div className="bg-card border border-primary/30 rounded-lg p-8">
+          <div className="bg-card border border-primary/30 rounded-lg p-8 mt-16">
             <h2 className="text-3xl font-bold text-primary mb-6 text-center">
               Optional Add-ons
             </h2>
