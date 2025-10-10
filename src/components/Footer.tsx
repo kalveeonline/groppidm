@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Facebook, Linkedin, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Linkedin, Twitter, Instagram, Youtube, Mail, Phone, MapPin, Music } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { LanguageSelector } from "@/components/ui/language-selector";
 import { Link } from "react-router-dom";
@@ -35,20 +35,35 @@ export const Footer = () => {
               {t('footer.companyDescription')}
             </p>
             <div className="flex space-x-2">
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.facebook.com/profile.php?id=61582120887290" target="_blank" rel="noopener noreferrer">
+                  <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Twitter className="h-6 w-6 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://x.com/Groppimarketing" target="_blank" rel="noopener noreferrer">
+                  <Twitter className="h-6 w-6 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Instagram className="h-6 w-6 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.instagram.com/groppimarketingbureau/" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="h-6 w-6 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Linkedin className="h-6 w-6 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.linkedin.com/company/groppi-marketing" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-6 w-6 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Youtube className="h-6 w-6 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.youtube.com/@GroppiMarketing" target="_blank" rel="noopener noreferrer">
+                  <Youtube className="h-6 w-6 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
+                </a>
+              </Button>
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.tiktok.com/@groppimarketingbureau?lang=nl-NL" target="_blank" rel="noopener noreferrer">
+                  <Music className="h-6 w-6 text-[hsl(var(--tiktok))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
             </div>
           </div>
@@ -105,7 +120,9 @@ export const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary" />
-                <span className="text-muted-foreground">info@groppi.be</span>
+                <a href="mailto:groppimarketing@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
+                  groppimarketing@gmail.com
+                </a>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 text-primary mt-0.5" />

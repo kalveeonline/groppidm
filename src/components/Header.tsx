@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Menu, X, ChevronDown, Globe, Monitor, ShoppingCart, Search, RefreshCw, MousePointer, Share2, Target, FileText, User, CheckCircle, Star, MessageSquare, Facebook, Linkedin, Twitter, Instagram, Youtube } from "lucide-react";
+import { Menu, X, ChevronDown, Globe, Monitor, ShoppingCart, Search, RefreshCw, MousePointer, Share2, Target, FileText, User, CheckCircle, Star, MessageSquare, Facebook, Linkedin, Twitter, Instagram, Youtube, Music } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -85,20 +85,35 @@ export const Header = () => {
           <div className="hidden md:flex items-center gap-3">
             {/* Social Media Icons with Brand Colors - Before Language Selector */}
             <div className="flex items-center gap-1 pr-3 border-r border-primary/30">
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.facebook.com/profile.php?id=61582120887290" target="_blank" rel="noopener noreferrer">
+                  <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Twitter className="h-6 w-6 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://x.com/Groppimarketing" target="_blank" rel="noopener noreferrer">
+                  <Twitter className="h-6 w-6 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Instagram className="h-6 w-6 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.instagram.com/groppimarketingbureau/" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="h-6 w-6 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Linkedin className="h-6 w-6 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.linkedin.com/company/groppi-marketing" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-6 w-6 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Youtube className="h-6 w-6 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.youtube.com/@GroppiMarketing" target="_blank" rel="noopener noreferrer">
+                  <Youtube className="h-6 w-6 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
+                </a>
+              </Button>
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.tiktok.com/@groppimarketingbureau?lang=nl-NL" target="_blank" rel="noopener noreferrer">
+                  <Music className="h-6 w-6 text-[hsl(var(--tiktok))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
             </div>
             
@@ -210,20 +225,35 @@ export const Header = () => {
           <div className="container px-4 py-4 space-y-3">
             {/* Social Media Icons */}
             <div className="flex items-center gap-2 pb-3 border-b border-primary/20">
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.facebook.com/profile.php?id=61582120887290" target="_blank" rel="noopener noreferrer">
+                  <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Twitter className="h-6 w-6 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://x.com/Groppimarketing" target="_blank" rel="noopener noreferrer">
+                  <Twitter className="h-6 w-6 text-[hsl(var(--twitter))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Instagram className="h-6 w-6 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.instagram.com/groppimarketingbureau/" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="h-6 w-6 text-[hsl(var(--instagram))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Linkedin className="h-6 w-6 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.linkedin.com/company/groppi-marketing" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-6 w-6 text-[hsl(var(--linkedin))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
-              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group">
-                <Youtube className="h-6 w-6 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.youtube.com/@GroppiMarketing" target="_blank" rel="noopener noreferrer">
+                  <Youtube className="h-6 w-6 text-[hsl(var(--youtube))] group-hover:scale-110 transition-transform" />
+                </a>
+              </Button>
+              <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
+                <a href="https://www.tiktok.com/@groppimarketingbureau?lang=nl-NL" target="_blank" rel="noopener noreferrer">
+                  <Music className="h-6 w-6 text-[hsl(var(--tiktok))] group-hover:scale-110 transition-transform" />
+                </a>
               </Button>
             </div>
             
