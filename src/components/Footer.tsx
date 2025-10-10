@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Facebook, Linkedin, Twitter, Instagram, Youtube, Mail, Phone, MapPin, Music } from "lucide-react";
@@ -6,9 +7,68 @@ import { LanguageSelector } from "@/components/ui/language-selector";
 import { Link } from "react-router-dom";
 import groppiLogoCircle from "@/assets/groppi-logo-circle.png";
 import groppiTextLogo from "@/assets/groppi-text-logo.jpg";
+import { supabase } from "@/integrations/supabase/client";
+import { useToast } from "@/hooks/use-toast";
+import { z } from "zod";
 
 export const Footer = () => {
   const { t } = useLanguage();
+  const { toast } = useToast();
+  const [email, setEmail] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const emailSchema = z.object({
+    email: z.string().trim().email({ message: "Invalid email address" }).max(255, { message: "Email must be less than 255 characters" })
+  });
+
+  const handleSubscribe = async () => {
+    if (isSubmitting) return;
+    
+    try {
+      // Validate email
+      emailSchema.parse({ email });
+      
+      setIsSubmitting(true);
+      
+      // Insert into database
+      const { error } = await supabase
+        .from('newsletter_subscriptions')
+        .insert([{ email: email.trim().toLowerCase() }]);
+      
+      if (error) {
+        // Check if email already exists
+        if (error.code === '23505') {
+          toast({
+            title: t('footer.alreadySubscribed'),
+            variant: "default"
+          });
+        } else {
+          throw error;
+        }
+      } else {
+        toast({
+          title: t('footer.subscribeSuccess'),
+          variant: "default"
+        });
+        setEmail(""); // Clear input on success
+      }
+    } catch (error) {
+      if (error instanceof z.ZodError) {
+        toast({
+          title: error.errors[0].message,
+          variant: "destructive"
+        });
+      } else {
+        console.error("Newsletter subscription error:", error);
+        toast({
+          title: t('footer.subscribeError'),
+          variant: "destructive"
+        });
+      }
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
   
   return (
     <footer className="bg-background text-foreground border-t border-primary/30">
@@ -141,11 +201,20 @@ export const Footer = () => {
             </p>
             <div className="space-y-2">
               <Input 
+                type="email"
                 placeholder={t('footer.emailPlaceholder')} 
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                onKeyDown={(e) => e.key === 'Enter' && handleSubscribe()}
+                disabled={isSubmitting}
                 className="bg-background/50 border-border/30 text-foreground placeholder:text-muted-foreground/70"
               />
-              <Button className="w-full bg-primary hover:bg-primary-dark text-primary-foreground">
-                {t('footer.subscribe')}
+              <Button 
+                onClick={handleSubscribe}
+                disabled={isSubmitting}
+                className="w-full bg-primary hover:bg-primary-dark text-primary-foreground"
+              >
+                {isSubmitting ? t('footer.subscribing') || 'Subscribing...' : t('footer.subscribe')}
               </Button>
             </div>
           </div>

@@ -93,6 +93,10 @@ const translations = {
     'footer.allRightsReserved': 'Alle rechten voorbehouden.',
     'footer.privacy': 'Privacy Beleid',
     'footer.terms': 'Algemene Voorwaarden',
+    'footer.subscribeSuccess': 'Succesvol geabonneerd op onze nieuwsbrief!',
+    'footer.subscribeError': 'Abonneren mislukt. Probeer het opnieuw.',
+    'footer.alreadySubscribed': 'Dit e-mailadres is al geabonneerd.',
+    'footer.subscribing': 'Bezig met abonneren...',
     
     // Features Section
     'features.title1': 'Alles voor jouw zaak',
@@ -275,6 +279,10 @@ const translations = {
     'footer.allRightsReserved': 'All rights reserved.',
     'footer.privacy': 'Privacy Policy',
     'footer.terms': 'Terms and Conditions',
+    'footer.subscribeSuccess': 'Successfully subscribed to our newsletter!',
+    'footer.subscribeError': 'Failed to subscribe. Please try again.',
+    'footer.alreadySubscribed': 'This email is already subscribed.',
+    'footer.subscribing': 'Subscribing...',
     
     // Features Section
     'features.title1': 'Everything for your Needs',
@@ -457,6 +465,10 @@ const translations = {
     'footer.allRightsReserved': 'Tous droits réservés.',
     'footer.privacy': 'Politique de Confidentialité',
     'footer.terms': 'Conditions Générales',
+    'footer.subscribeSuccess': 'Abonnement à notre newsletter réussi!',
+    'footer.subscribeError': 'Échec de l\'abonnement. Veuillez réessayer.',
+    'footer.alreadySubscribed': 'Cet e-mail est déjà abonné.',
+    'footer.subscribing': 'Abonnement...',
     
     // Features Section
     'features.title1': 'Tout pour votre entreprise',
@@ -595,6 +607,10 @@ const translations = {
     'footer.allRightsReserved': 'Wszelkie prawa zastrzeżone.',
     'footer.privacy': 'Polityka prywatności',
     'footer.terms': 'Warunki użytkowania',
+    'footer.subscribeSuccess': 'Pomyślnie zapisano do naszego newslettera!',
+    'footer.subscribeError': 'Nie udało się zapisać. Spróbuj ponownie.',
+    'footer.alreadySubscribed': 'Ten adres e-mail jest już zapisany.',
+    'footer.subscribing': 'Zapisywanie...',
     
     // Features Section
     'features.title1': 'Wszystko dla Twojej firmy',
@@ -733,6 +749,10 @@ const translations = {
     'footer.allRightsReserved': 'Все права защищены.',
     'footer.privacy': 'Политика конфиденциальности',
     'footer.terms': 'Условия использования',
+    'footer.subscribeSuccess': 'Успешно подписаны на нашу рассылку!',
+    'footer.subscribeError': 'Не удалось подписаться. Пожалуйста, попробуйте снова.',
+    'footer.alreadySubscribed': 'Этот адрес электронной почты уже подписан.',
+    'footer.subscribing': 'Подписка...',
     
     // Features Section
     'features.title1': 'Все для вашего бизнеса',
@@ -871,6 +891,10 @@ const translations = {
     'footer.allRightsReserved': 'Alle Rechte vorbehalten.',
     'footer.privacy': 'Datenschutzrichtlinie',
     'footer.terms': 'Allgemeine Geschäftsbedingungen',
+    'footer.subscribeSuccess': 'Erfolgreich für unseren Newsletter angemeldet!',
+    'footer.subscribeError': 'Anmeldung fehlgeschlagen. Bitte versuchen Sie es erneut.',
+    'footer.alreadySubscribed': 'Diese E-Mail ist bereits angemeldet.',
+    'footer.subscribing': 'Abonnement läuft...',
     
     // Features Section
     'features.title1': 'Alles für Ihr Unternehmen',
@@ -1009,6 +1033,10 @@ const translations = {
     'footer.allRightsReserved': 'Todos los derechos reservados.',
     'footer.privacy': 'Política de privacidad',
     'footer.terms': 'Términos y condiciones',
+    'footer.subscribeSuccess': '¡Suscrito exitosamente a nuestro boletín!',
+    'footer.subscribeError': 'Error al suscribirse. Por favor, inténtelo de nuevo.',
+    'footer.alreadySubscribed': 'Este correo electrónico ya está suscrito.',
+    'footer.subscribing': 'Suscribiendo...',
     
     // Features Section
     'features.title1': 'Todo para su negocio',
@@ -1147,6 +1175,10 @@ const translations = {
     'footer.allRightsReserved': 'Tutti i diritti riservati.',
     'footer.privacy': 'Informativa sulla privacy',
     'footer.terms': 'Termini e condizioni',
+    'footer.subscribeSuccess': 'Iscritto con successo alla nostra newsletter!',
+    'footer.subscribeError': 'Iscrizione fallita. Riprova.',
+    'footer.alreadySubscribed': 'Questa email è già iscritta.',
+    'footer.subscribing': 'Iscrizione...',
     
     // Features Section
     'features.title1': 'Tutto per la tua azienda',
@@ -1285,6 +1317,10 @@ const translations = {
     'footer.allRightsReserved': 'Всі права захищені.',
     'footer.privacy': 'Політика конфіденційності',
     'footer.terms': 'Умови використання',
+    'footer.subscribeSuccess': 'Успішно підписано на нашу розсилку!',
+    'footer.subscribeError': 'Не вдалося підписатися. Спробуйте ще раз.',
+    'footer.alreadySubscribed': 'Цей email вже підписаний.',
+    'footer.subscribing': 'Підписка...',
     
     // Features Section
     'features.title1': 'Все для вашого бізнесу',
@@ -1423,6 +1459,10 @@ const translations = {
     'footer.allRightsReserved': 'Tüm hakları saklıdır.',
     'footer.privacy': 'Gizlilik Politikası',
     'footer.terms': 'Şartlar ve Koşullar',
+    'footer.subscribeSuccess': 'Bültenimize başarıyla abone oldunuz!',
+    'footer.subscribeError': 'Abonelik başarısız oldu. Lütfen tekrar deneyin.',
+    'footer.alreadySubscribed': 'Bu e-posta zaten abone.',
+    'footer.subscribing': 'Abone oluyor...',
     
     // Features Section
     'features.title1': 'İşletmeniz için her şey',
@@ -1561,6 +1601,10 @@ const translations = {
     'footer.allRightsReserved': 'Alla rättigheter förbehållna.',
     'footer.privacy': 'Integritetspolicy',
     'footer.terms': 'Villkor',
+    'footer.subscribeSuccess': 'Prenumerationen på vårt nyhetsbrev lyckades!',
+    'footer.subscribeError': 'Prenumerationen misslyckades. Försök igen.',
+    'footer.alreadySubscribed': 'Denna e-post är redan prenumererad.',
+    'footer.subscribing': 'Prenumererar...',
     
     // Features Section
     'features.title1': 'Allt för ditt företag',
@@ -1699,6 +1743,10 @@ const translations = {
     'footer.allRightsReserved': '版权所有。',
     'footer.privacy': '隐私政策',
     'footer.terms': '条款和条件',
+    'footer.subscribeSuccess': '成功订阅我们的新闻通讯！',
+    'footer.subscribeError': '订阅失败。请重试。',
+    'footer.alreadySubscribed': '此电子邮件已订阅。',
+    'footer.subscribing': '订阅中...',
     
     // Features Section
     'features.title1': '为您的业务提供一切',
@@ -1837,6 +1885,10 @@ const translations = {
     'footer.allRightsReserved': 'Kaikki oikeudet pidätetään.',
     'footer.privacy': 'Tietosuojakäytäntö',
     'footer.terms': 'Käyttöehdot',
+    'footer.subscribeSuccess': 'Uutiskirjeen tilaus onnistui!',
+    'footer.subscribeError': 'Tilaus epäonnistui. Yritä uudelleen.',
+    'footer.alreadySubscribed': 'Tämä sähköposti on jo tilattu.',
+    'footer.subscribing': 'Tilataan...',
     
     // Features Section
     'features.title1': 'Kaikki yrityksellesi',
@@ -1975,6 +2027,10 @@ const translations = {
     'footer.allRightsReserved': 'جميع الحقوق محفوظة.',
     'footer.privacy': 'سياسة الخصوصية',
     'footer.terms': 'الشروط والأحكام',
+    'footer.subscribeSuccess': 'تم الاشتراك بنجاح في نشرتنا الإخبارية!',
+    'footer.subscribeError': 'فشل الاشتراك. يرجى المحاولة مرة أخرى.',
+    'footer.alreadySubscribed': 'هذا البريد الإلكتروني مشترك بالفعل.',
+    'footer.subscribing': 'جارٍ الاشتراك...',
     
     // Features Section
     'features.title1': 'كل شيء لعملك',
@@ -2113,6 +2169,10 @@ const translations = {
     'footer.allRightsReserved': 'Alle rettigheder forbeholdes.',
     'footer.privacy': 'Privatlivspolitik',
     'footer.terms': 'Vilkår og betingelser',
+    'footer.subscribeSuccess': 'Tilmeldt vores nyhedsbrev med succes!',
+    'footer.subscribeError': 'Tilmelding mislykkedes. Prøv igen.',
+    'footer.alreadySubscribed': 'Denne e-mail er allerede tilmeldt.',
+    'footer.subscribing': 'Tilmelder...',
     
     // Features Section
     'features.title1': 'Alt til din virksomhed',
@@ -2248,9 +2308,13 @@ const translations = {
     'footer.newsletterDescription': 'Motta tips og nyheter om digital markedsføring.',
     'footer.emailPlaceholder': 'Din e-postadresse',
     'footer.subscribe': 'Abonner',
-    'footer.allRightsReserved': 'Alle rettigheter reservert.',
-    'footer.privacy': 'Personvernregler',
+    'footer.allRightsReserved': 'Alle rettigheter forbeholdt.',
+    'footer.privacy': 'Personvernpolicy',
     'footer.terms': 'Vilkår og betingelser',
+    'footer.subscribeSuccess': 'Vellykket abonnement på vårt nyhetsbrev!',
+    'footer.subscribeError': 'Kunne ikke abonnere. Vennligst prøv igjen.',
+    'footer.alreadySubscribed': 'Denne e-posten er allerede abonnert.',
+    'footer.subscribing': 'Abonnerer...',
     
     // Features Section
     'features.title1': 'Alt for din bedrift',
