@@ -10,6 +10,16 @@ import { useToast } from "@/hooks/use-toast";
 import { Calendar, User, MapPin, Phone, MessageSquare, Clock } from "lucide-react";
 import { LanguageSelector } from "@/components/ui/language-selector";
 import { Footer } from "@/components/Footer";
+import { z } from "zod";
+
+const appointmentSchema = z.object({
+  name: z.string().trim().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
+  address: z.string().trim().max(500, "Address must be less than 500 characters").optional(),
+  phone: z.string().trim().min(1, "Phone is required").max(20, "Phone must be less than 20 characters").regex(/^[+]?[(]?[0-9]{1,4}[)]?[-\s.]?[(]?[0-9]{1,4}[)]?[-\s.]?[0-9]{1,9}$/, "Invalid phone number format"),
+  email: z.string().trim().email("Invalid email address").max(255, "Email must be less than 255 characters").optional().or(z.literal('')),
+  requirement: z.string().trim().min(1, "Requirement is required").max(1000, "Requirement must be less than 1000 characters"),
+  contactTime: z.string().optional()
+});
 
 export const AppointmentPage = () => {
   const { t } = useLanguage();
@@ -27,31 +37,41 @@ export const AppointmentPage = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Basic validation
-    if (!formData.name || !formData.phone || !formData.requirement) {
+    // Validate form data with zod
+    try {
+      const validatedData = appointmentSchema.parse(formData);
+      
+      // Here you would typically send the validated data to your backend
       toast({
-        title: t('appointment.error'),
-        description: t('appointment.errorMessage'),
-        variant: "destructive",
+        title: t('appointment.success'),
+        description: t('appointment.successMessage'),
       });
-      return;
+      
+      // Reset form
+      setFormData({
+        name: '',
+        address: '',
+        phone: '',
+        email: '',
+        requirement: '',
+        contactTime: ''
+      });
+    } catch (error) {
+      if (error instanceof z.ZodError) {
+        const firstError = error.errors[0];
+        toast({
+          title: t('appointment.error'),
+          description: firstError.message,
+          variant: "destructive",
+        });
+      } else {
+        toast({
+          title: t('appointment.error'),
+          description: t('appointment.errorMessage'),
+          variant: "destructive",
+        });
+      }
     }
-
-    // Here you would typically send the data to your backend
-    toast({
-      title: t('appointment.success'),
-      description: t('appointment.successMessage'),
-    });
-    
-    // Reset form
-    setFormData({
-      name: '',
-      address: '',
-      phone: '',
-      email: '',
-      requirement: '',
-      contactTime: ''
-    });
   };
 
   const handleInputChange = (field: string, value: string) => {
