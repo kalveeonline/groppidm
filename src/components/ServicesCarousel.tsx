@@ -26,50 +26,50 @@ export const ServicesCarousel = () => {
 
   const services = [
     {
-      title: "Corporate Identity",
-      description: "Stand out with a unique corporate identity that reflects your brand's values and vision",
+      title: t('carousel.service.corporateIdentity'),
+      description: t('carousel.service.corporateIdentityDesc'),
       image: corporateIdentityImg,
       slug: "corporate-identity"
     },
     {
-      title: "Website Development",
-      description: "The online center of your business - professional, responsive, and user-friendly",
+      title: t('carousel.service.websiteDevelopment'),
+      description: t('carousel.service.websiteDevelopmentDesc'),
       image: websiteDevelopmentImg,
       slug: "website"
     },
     {
-      title: "Webshop Creation",
-      description: "24/7 online sales with a powerful e-commerce platform tailored to your needs",
+      title: t('carousel.service.webshopCreation'),
+      description: t('carousel.service.webshopCreationDesc'),
       image: webshopCreationImg,
       slug: "webshop"
     },
     {
-      title: "SEO Optimization",
-      description: "Get found online with expert search engine optimization strategies",
+      title: t('carousel.service.seoOptimization'),
+      description: t('carousel.service.seoOptimizationDesc'),
       image: seoOptimizationImg,
       slug: "seo"
     },
     {
-      title: "Social Media Marketing",
-      description: "Engage your audience and grow your brand on Facebook, Instagram, and LinkedIn",
+      title: t('carousel.service.socialMediaMarketing'),
+      description: t('carousel.service.socialMediaMarketingDesc'),
       image: socialMediaMarketingImg,
       slug: "social-media-ads"
     },
     {
-      title: "Digital Advertising",
-      description: "Reach your target audience with Google Ads, Bing Ads, and social media campaigns",
+      title: t('carousel.service.digitalAdvertising'),
+      description: t('carousel.service.digitalAdvertisingDesc'),
       image: digitalAdvertisingImg,
       slug: "sea"
     },
     {
-      title: "Review Management",
-      description: "Build trust and credibility with Google Review Cards and reputation management",
+      title: t('carousel.service.reviewManagement'),
+      description: t('carousel.service.reviewManagementDesc'),
       image: reviewManagementImg,
       slug: "review-cards"
     },
     {
-      title: "NetSync",
-      description: "Keep your business information synchronized across all online platforms",
+      title: t('carousel.service.netsync'),
+      description: t('carousel.service.netsyncDesc'),
       image: netsyncImg,
       slug: "netsync"
     }

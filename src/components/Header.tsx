@@ -21,40 +21,40 @@ export const Header = () => {
 
   const serviceCategories = [
     {
-      title: "BEING ONLINE",
+      title: t('header.categories.beingOnline'),
       items: [
-        { name: "Your own corporate identity", slug: "corporate-identity", icon: User, description: "Stand out with a unique corporate identity" },
-        { name: "Website", slug: "website", icon: Monitor, description: "The online center of your business" },
-        { name: "Webshop", slug: "webshop", icon: ShoppingCart, description: "24/7 online sales" },
-        { name: "WebCheck", slug: "webcheck", icon: CheckCircle, description: "Always up to date with your performance" },
-        { name: "Social Post Pro", slug: "social-post-pro", icon: Share2, description: "Professional on social media" },
-        { name: "NetSync", slug: "netsync", icon: RefreshCw, description: "For a solid reputation" },
-        { name: "Site", slug: "site", icon: Monitor, description: "The online platform for your business" }
+        { name: t('header.services.corporateIdentity'), slug: "corporate-identity", icon: User, description: t('header.services.corporateIdentityDesc') },
+        { name: t('header.services.website'), slug: "website", icon: Monitor, description: t('header.services.websiteDesc') },
+        { name: t('header.services.webshop'), slug: "webshop", icon: ShoppingCart, description: t('header.services.webshopDesc') },
+        { name: t('header.services.webcheck'), slug: "webcheck", icon: CheckCircle, description: t('header.services.webcheckDesc') },
+        { name: t('header.services.socialPostPro'), slug: "social-post-pro", icon: Share2, description: t('header.services.socialPostProDesc') },
+        { name: t('header.services.netsync'), slug: "netsync", icon: RefreshCw, description: t('header.services.netsyncDesc') },
+        { name: t('header.services.site'), slug: "site", icon: Monitor, description: t('header.services.siteDesc') }
       ]
     },
     {
-      title: "TO BE FOUND", 
+      title: t('header.categories.toBeFound'), 
       items: [
-        { name: "SEO", slug: "seo", icon: Search, description: "For a website that is easy to find" },
-        { name: "SEA", slug: "sea", icon: MousePointer, description: "Advertising on Google and Bing" },
-        { name: "Goudengids.be", slug: "goudengids", icon: FileText, description: "Choose the largest business directory" },
-        { name: "NetSync", slug: "netsync-found", icon: RefreshCw, description: "Always correct data everywhere" }
+        { name: t('header.services.seo'), slug: "seo", icon: Search, description: t('header.services.seoDesc') },
+        { name: t('header.services.sea'), slug: "sea", icon: MousePointer, description: t('header.services.seaDesc') },
+        { name: t('header.services.goudengids'), slug: "goudengids", icon: FileText, description: t('header.services.goudengidsDesc') },
+        { name: t('header.services.netsyncFound'), slug: "netsync-found", icon: RefreshCw, description: t('header.services.netsyncFoundDesc') }
       ]
     },
     {
-      title: "TO STAND OUT",
+      title: t('header.categories.toStandOut'),
       items: [
-        { name: "Advertising on Goudengids.be", slug: "advertising-goudengids", icon: Target, description: "Conquer the largest business directory" },
-        { name: "Advertising on social media", slug: "social-media-ads", icon: Share2, description: "Success on Facebook and Instagram" },
-        { name: "Advertising with OMNI", slug: "omni-advertising", icon: Target, description: "On Google, Bing, Facebook and Instagram" },
-        { name: "OMNI Customization", slug: "omni-customization", icon: Star, description: "Reach your customers everywhere" }
+        { name: t('header.services.advertisingGoudengids'), slug: "advertising-goudengids", icon: Target, description: t('header.services.advertisingGoudengidsDesc') },
+        { name: t('header.services.socialMediaAds'), slug: "social-media-ads", icon: Share2, description: t('header.services.socialMediaAdsDesc') },
+        { name: t('header.services.omniAdvertising'), slug: "omni-advertising", icon: Target, description: t('header.services.omniAdvertisingDesc') },
+        { name: t('header.services.omniCustomization'), slug: "omni-customization", icon: Star, description: t('header.services.omniCustomizationDesc') }
       ]
     },
     {
-      title: "SATISFIED CUSTOMERS",
+      title: t('header.categories.satisfiedCustomers'),
       items: [
-        { name: "Site", slug: "customer-site", icon: Monitor, description: "Manage all your customers with 1 platform" },
-        { name: "Google Review Cards", slug: "review-cards", icon: MessageSquare, description: "The best way to score" }
+        { name: t('header.services.customerSite'), slug: "customer-site", icon: Monitor, description: t('header.services.customerSiteDesc') },
+        { name: t('header.services.reviewCards'), slug: "review-cards", icon: MessageSquare, description: t('header.services.reviewCardsDesc') }
       ]
     }
   ];
