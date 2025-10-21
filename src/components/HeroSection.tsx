@@ -33,7 +33,7 @@ export const HeroSection = () => {
 
           {/* Hero Illustration */}
           <div className="relative">
-            <div className="relative rounded-full bg-gradient-card p-4 shadow-hero w-80 h-80 mx-auto">
+            <div className="relative rounded-full bg-gradient-card p-4 shadow-hero w-full max-w-2xl h-auto aspect-square mx-auto">
               <img src={websiteDiagram} alt="Website Digital Marketing Ecosystem" className="w-full h-full object-cover rounded-full" />
               
               {/* Rotating container for floating elements */}
