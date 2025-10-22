@@ -6,6 +6,7 @@ import { DigitalScanSection } from "@/components/DigitalScanSection";
 import { StatsSection } from "@/components/StatsSection";
 import { Footer } from "@/components/Footer";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
+import { ChatWidget } from "@/components/ChatWidget";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       </main>
       <TestimonialsSection />
       <Footer />
+      <ChatWidget />
     </div>
   );
 };
