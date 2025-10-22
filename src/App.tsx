@@ -21,6 +21,16 @@ import { JobsPage } from "./pages/JobsPage";
 import NotFound from "./pages/NotFound";
 import RealEstateDemo from "./pages/demos/RealEstateDemo";
 import EcommerceDemo from "./pages/demos/EcommerceDemo";
+import MedicalIndustryPage from "./pages/industries/MedicalIndustryPage";
+import EngineeringIndustryPage from "./pages/industries/EngineeringIndustryPage";
+import SalesIndustryPage from "./pages/industries/SalesIndustryPage";
+import MarketingIndustryPage from "./pages/industries/MarketingIndustryPage";
+import ConstructionIndustryPage from "./pages/industries/ConstructionIndustryPage";
+import RealEstateIndustryPage from "./pages/industries/RealEstateIndustryPage";
+import EcommerceIndustryPage from "./pages/industries/EcommerceIndustryPage";
+import BusinessIndustryPage from "./pages/industries/BusinessIndustryPage";
+import ServiceIndustryPage from "./pages/industries/ServiceIndustryPage";
+import ExportBusinessIndustryPage from "./pages/industries/ExportBusinessIndustryPage";
 import RestaurantDemo from "./pages/demos/RestaurantDemo";
 import FitnessDemo from "./pages/demos/FitnessDemo";
 
@@ -52,6 +62,19 @@ const App = () => (
             <Route path="/demo/ecommerce" element={<EcommerceDemo />} />
             <Route path="/demo/restaurant" element={<RestaurantDemo />} />
             <Route path="/demo/fitness" element={<FitnessDemo />} />
+            
+            {/* Industry Pages */}
+            <Route path="/industry/medical" element={<MedicalIndustryPage />} />
+            <Route path="/industry/engineering" element={<EngineeringIndustryPage />} />
+            <Route path="/industry/sales" element={<SalesIndustryPage />} />
+            <Route path="/industry/marketing" element={<MarketingIndustryPage />} />
+            <Route path="/industry/construction" element={<ConstructionIndustryPage />} />
+            <Route path="/industry/real-estate" element={<RealEstateIndustryPage />} />
+            <Route path="/industry/ecommerce" element={<EcommerceIndustryPage />} />
+            <Route path="/industry/business" element={<BusinessIndustryPage />} />
+            <Route path="/industry/service-industry" element={<ServiceIndustryPage />} />
+            <Route path="/industry/export-business" element={<ExportBusinessIndustryPage />} />
+            
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
