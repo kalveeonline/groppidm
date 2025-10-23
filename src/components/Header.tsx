@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Menu, X, ChevronDown, Globe, Monitor, ShoppingCart, Search, RefreshCw, MousePointer, Share2, Target, FileText, User, CheckCircle, Star, MessageSquare, Facebook, Linkedin, Twitter, Instagram, Youtube, Music } from "lucide-react";
+import { Menu, X, ChevronDown, Globe, Monitor, ShoppingCart, Search, RefreshCw, MousePointer, Share2, Target, FileText, User, CheckCircle, Star, MessageSquare, Facebook, Linkedin, Twitter, Instagram, Youtube, Music, Stethoscope, Wrench, TrendingUp, Megaphone, HardHat, Home, Package, Briefcase, Users, Plane } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -57,6 +57,19 @@ export const Header = () => {
         { name: t('header.services.reviewCards'), slug: "review-cards", icon: MessageSquare, description: t('header.services.reviewCardsDesc') }
       ]
     }
+  ];
+
+  const industries = [
+    { name: t('industries.medical'), slug: "medical", icon: Stethoscope },
+    { name: t('industries.engineering'), slug: "engineering", icon: Wrench },
+    { name: t('industries.sales'), slug: "sales", icon: TrendingUp },
+    { name: t('industries.marketing'), slug: "marketing", icon: Megaphone },
+    { name: t('industries.construction'), slug: "construction", icon: HardHat },
+    { name: t('industries.realEstate'), slug: "real-estate", icon: Home },
+    { name: t('industries.ecommerce'), slug: "ecommerce", icon: Package },
+    { name: t('industries.business'), slug: "business", icon: Briefcase },
+    { name: t('industries.serviceIndustry'), slug: "service-industry", icon: Users },
+    { name: t('industries.exportBusiness'), slug: "export-business", icon: Plane }
   ];
 
   return (
@@ -212,6 +225,30 @@ export const Header = () => {
             <a href="/about" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.aboutUs')}
             </a>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="ghost" className="text-base font-semibold text-primary hover:text-primary-light transition-colors gap-1">
+                  {t('nav.industrySupport')}
+                  <ChevronDown className="h-4 w-4" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start" className="w-[300px] bg-popover border border-primary/40 shadow-lg p-4 z-[100]">
+                <div className="space-y-2">
+                  {industries.map((industry, index) => (
+                    <Link to={`/industry/${industry.slug}`} key={index}>
+                      <DropdownMenuItem 
+                        className="cursor-pointer hover:bg-muted/50 p-3 rounded-lg"
+                      >
+                        <div className="flex items-center gap-3">
+                          <industry.icon className="h-5 w-5 text-primary flex-shrink-0" />
+                          <div className="font-medium text-sm text-primary">{industry.name}</div>
+                        </div>
+                      </DropdownMenuItem>
+                    </Link>
+                  ))}
+                </div>
+              </DropdownMenuContent>
+            </DropdownMenu>
             <a href="/jobs" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.jobs')}
             </a>
@@ -269,6 +306,26 @@ export const Header = () => {
             <a href="/about" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.aboutUs')}
             </a>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="ghost" size="sm" className="justify-start text-primary gap-2 w-full">
+                  {t('nav.industrySupport')}
+                  <ChevronDown className="h-3 w-3 ml-auto" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start" className="w-[280px] bg-popover border border-primary/40 shadow-md z-[100]">
+                <div className="space-y-1">
+                  {industries.map((industry, index) => (
+                    <Link to={`/industry/${industry.slug}`} key={index}>
+                      <DropdownMenuItem className="cursor-pointer hover:bg-muted text-primary">
+                        <industry.icon className="h-4 w-4 mr-2" />
+                        {industry.name}
+                      </DropdownMenuItem>
+                    </Link>
+                  ))}
+                </div>
+              </DropdownMenuContent>
+            </DropdownMenu>
             <a href="/jobs" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.jobs')}
             </a>

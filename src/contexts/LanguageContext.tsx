@@ -37,7 +37,20 @@ const translations = {
     'nav.contact': 'Klaar voor een babbel?',
     'nav.prices': 'Prijzen',
     'nav.aboutUs': 'Over ons',
+    'nav.industrySupport': 'Sector Ondersteuning',
     'nav.jobs': 'Vacatures',
+    
+    // Industries
+    'industries.medical': 'Medisch',
+    'industries.engineering': 'Engineering',
+    'industries.sales': 'Verkoop',
+    'industries.marketing': 'Marketing',
+    'industries.construction': 'Bouw',
+    'industries.realEstate': 'Vastgoed',
+    'industries.ecommerce': 'E-commerce',
+    'industries.business': 'Zakelijk',
+    'industries.serviceIndustry': 'Dienstenindustrie',
+    'industries.exportBusiness': 'Exportbedrijf',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU MAAKT',
@@ -271,7 +284,20 @@ const translations = {
     'nav.contact': 'Ready for a chat?',
     'nav.prices': 'Prices',
     'nav.aboutUs': 'About Us',
+    'nav.industrySupport': 'Industry Support',
     'nav.jobs': 'Jobs',
+    
+    // Industries
+    'industries.medical': 'Medical',
+    'industries.engineering': 'Engineering',
+    'industries.sales': 'Sales',
+    'industries.marketing': 'Marketing',
+    'industries.construction': 'Construction',
+    'industries.realEstate': 'Real Estate',
+    'industries.ecommerce': 'E-commerce',
+    'industries.business': 'Business',
+    'industries.serviceIndustry': 'Service Industry',
+    'industries.exportBusiness': 'Export Business',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU MAKES',
@@ -505,7 +531,20 @@ const translations = {
     'nav.contact': 'Prêt pour une discussion?',
     'nav.prices': 'Prix',
     'nav.aboutUs': 'À propos',
+    'nav.industrySupport': 'Support Sectoriel',
     'nav.jobs': 'Emplois',
+    
+    // Industries
+    'industries.medical': 'Médical',
+    'industries.engineering': 'Ingénierie',
+    'industries.sales': 'Ventes',
+    'industries.marketing': 'Marketing',
+    'industries.construction': 'Construction',
+    'industries.realEstate': 'Immobilier',
+    'industries.ecommerce': 'E-commerce',
+    'industries.business': 'Affaires',
+    'industries.serviceIndustry': 'Industrie des Services',
+    'industries.exportBusiness': 'Commerce Export',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU REND LES',
@@ -695,7 +734,20 @@ const translations = {
     'nav.contact': 'Gotowy na rozmowę?',
     'nav.prices': 'Ceny',
     'nav.aboutUs': 'O nas',
+    'nav.industrySupport': 'Wsparcie Branżowe',
     'nav.jobs': 'Praca',
+    
+    // Industries
+    'industries.medical': 'Medyczny',
+    'industries.engineering': 'Inżynieria',
+    'industries.sales': 'Sprzedaż',
+    'industries.marketing': 'Marketing',
+    'industries.construction': 'Budownictwo',
+    'industries.realEstate': 'Nieruchomości',
+    'industries.ecommerce': 'E-commerce',
+    'industries.business': 'Biznes',
+    'industries.serviceIndustry': 'Branża Usługowa',
+    'industries.exportBusiness': 'Biznes Eksportowy',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU POMAGA',
@@ -885,7 +937,20 @@ const translations = {
     'nav.contact': 'Готовы к разговору?',
     'nav.prices': 'Цены',
     'nav.aboutUs': 'О нас',
+    'nav.industrySupport': 'Отраслевая Поддержка',
     'nav.jobs': 'Вакансии',
+    
+    // Industries
+    'industries.medical': 'Медицинский',
+    'industries.engineering': 'Инженерия',
+    'industries.sales': 'Продажи',
+    'industries.marketing': 'Маркетинг',
+    'industries.construction': 'Строительство',
+    'industries.realEstate': 'Недвижимость',
+    'industries.ecommerce': 'Электронная коммерция',
+    'industries.business': 'Бизнес',
+    'industries.serviceIndustry': 'Сфера Услуг',
+    'industries.exportBusiness': 'Экспортный Бизнес',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU ДЕЛАЕТ',
@@ -1075,7 +1140,20 @@ const translations = {
     'nav.contact': 'Bereit für ein Gespräch?',
     'nav.prices': 'Preise',
     'nav.aboutUs': 'Über uns',
+    'nav.industrySupport': 'Branchenunterstützung',
     'nav.jobs': 'Jobs',
+    
+    // Industries
+    'industries.medical': 'Medizinisch',
+    'industries.engineering': 'Ingenieurwesen',
+    'industries.sales': 'Vertrieb',
+    'industries.marketing': 'Marketing',
+    'industries.construction': 'Bauwesen',
+    'industries.realEstate': 'Immobilien',
+    'industries.ecommerce': 'E-Commerce',
+    'industries.business': 'Geschäftlich',
+    'industries.serviceIndustry': 'Dienstleistungsbranche',
+    'industries.exportBusiness': 'Exportgeschäft',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU MACHT',
@@ -1265,7 +1343,20 @@ const translations = {
     'nav.contact': '¿Listo para una charla?',
     'nav.prices': 'Precios',
     'nav.aboutUs': 'Sobre nosotros',
+    'nav.industrySupport': 'Soporte Industrial',
     'nav.jobs': 'Empleos',
+    
+    // Industries
+    'industries.medical': 'Médico',
+    'industries.engineering': 'Ingeniería',
+    'industries.sales': 'Ventas',
+    'industries.marketing': 'Marketing',
+    'industries.construction': 'Construcción',
+    'industries.realEstate': 'Bienes Raíces',
+    'industries.ecommerce': 'Comercio Electrónico',
+    'industries.business': 'Negocios',
+    'industries.serviceIndustry': 'Industria de Servicios',
+    'industries.exportBusiness': 'Negocio de Exportación',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU HACE QUE LAS',
@@ -1455,7 +1546,20 @@ const translations = {
     'nav.contact': 'Pronto per una chiacchierata?',
     'nav.prices': 'Prezzi',
     'nav.aboutUs': 'Chi siamo',
+    'nav.industrySupport': 'Supporto Settoriale',
     'nav.jobs': 'Lavoro',
+    
+    // Industries
+    'industries.medical': 'Medico',
+    'industries.engineering': 'Ingegneria',
+    'industries.sales': 'Vendite',
+    'industries.marketing': 'Marketing',
+    'industries.construction': 'Costruzione',
+    'industries.realEstate': 'Immobiliare',
+    'industries.ecommerce': 'E-commerce',
+    'industries.business': 'Affari',
+    'industries.serviceIndustry': 'Industria dei Servizi',
+    'industries.exportBusiness': 'Business Esportazione',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU RENDE LE',
@@ -1639,7 +1743,20 @@ const translations = {
     'nav.contact': 'Готові до розмови?',
     'nav.prices': 'Ціни',
     'nav.aboutUs': 'Про нас',
+    'nav.industrySupport': 'Галузева Підтримка',
     'nav.jobs': 'Вакансії',
+    
+    // Industries
+    'industries.medical': 'Медичний',
+    'industries.engineering': 'Інженерія',
+    'industries.sales': 'Продажі',
+    'industries.marketing': 'Маркетинг',
+    'industries.construction': 'Будівництво',
+    'industries.realEstate': 'Нерухомість',
+    'industries.ecommerce': 'Електронна комерція',
+    'industries.business': 'Бізнес',
+    'industries.serviceIndustry': 'Сфера Послуг',
+    'industries.exportBusiness': 'Експортний Бізнес',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU РОБИТЬ',
@@ -1823,7 +1940,20 @@ const translations = {
     'nav.contact': 'Sohbet için hazır mısınız?',
     'nav.prices': 'Fiyatlar',
     'nav.aboutUs': 'Hakkımızda',
+    'nav.industrySupport': 'Sektör Desteği',
     'nav.jobs': 'İş ilanları',
+    
+    // Industries
+    'industries.medical': 'Tıbbi',
+    'industries.engineering': 'Mühendislik',
+    'industries.sales': 'Satış',
+    'industries.marketing': 'Pazarlama',
+    'industries.construction': 'İnşaat',
+    'industries.realEstate': 'Gayrimenkul',
+    'industries.ecommerce': 'E-ticaret',
+    'industries.business': 'İş',
+    'industries.serviceIndustry': 'Hizmet Sektörü',
+    'industries.exportBusiness': 'İhracat İşi',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU',
@@ -1965,7 +2095,20 @@ const translations = {
     'nav.contact': 'Redo för ett samtal?',
     'nav.prices': 'Priser',
     'nav.aboutUs': 'Om oss',
+    'nav.industrySupport': 'Branschstöd',
     'nav.jobs': 'Jobb',
+    
+    // Industries
+    'industries.medical': 'Medicinskt',
+    'industries.engineering': 'Ingenjörskonst',
+    'industries.sales': 'Försäljning',
+    'industries.marketing': 'Marknadsföring',
+    'industries.construction': 'Byggnad',
+    'industries.realEstate': 'Fastigheter',
+    'industries.ecommerce': 'E-handel',
+    'industries.business': 'Affärer',
+    'industries.serviceIndustry': 'Tjänsteindustri',
+    'industries.exportBusiness': 'Exportverksamhet',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU GÖR',
@@ -2107,7 +2250,20 @@ const translations = {
     'nav.contact': '准备好聊天了吗？',
     'nav.prices': '价格',
     'nav.aboutUs': '关于我们',
+    'nav.industrySupport': '行业支持',
     'nav.jobs': '工作机会',
+    
+    // Industries
+    'industries.medical': '医疗',
+    'industries.engineering': '工程',
+    'industries.sales': '销售',
+    'industries.marketing': '营销',
+    'industries.construction': '建筑',
+    'industries.realEstate': '房地产',
+    'industries.ecommerce': '电子商务',
+    'industries.business': '商业',
+    'industries.serviceIndustry': '服务业',
+    'industries.exportBusiness': '出口业务',
     
     // Hero Section
     'hero.title': 'GROPPI数字营销局让',
@@ -2249,7 +2405,20 @@ const translations = {
     'nav.contact': 'Valmis keskusteluun?',
     'nav.prices': 'Hinnat',
     'nav.aboutUs': 'Tietoa meistä',
+    'nav.industrySupport': 'Toimialatuki',
     'nav.jobs': 'Työpaikat',
+    
+    // Industries
+    'industries.medical': 'Lääketieteellinen',
+    'industries.engineering': 'Insinöörityö',
+    'industries.sales': 'Myynti',
+    'industries.marketing': 'Markkinointi',
+    'industries.construction': 'Rakentaminen',
+    'industries.realEstate': 'Kiinteistöt',
+    'industries.ecommerce': 'Verkkokauppa',
+    'industries.business': 'Liiketoiminta',
+    'industries.serviceIndustry': 'Palveluala',
+    'industries.exportBusiness': 'Vientiliiketoiminta',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU TEKEE',
@@ -2391,7 +2560,20 @@ const translations = {
     'nav.contact': 'هل أنت مستعد للدردشة؟',
     'nav.prices': 'الأسعار',
     'nav.aboutUs': 'من نحن',
+    'nav.industrySupport': 'دعم القطاع',
     'nav.jobs': 'الوظائف',
+    
+    // Industries
+    'industries.medical': 'طبي',
+    'industries.engineering': 'هندسة',
+    'industries.sales': 'مبيعات',
+    'industries.marketing': 'تسويق',
+    'industries.construction': 'بناء',
+    'industries.realEstate': 'عقارات',
+    'industries.ecommerce': 'التجارة الإلكترونية',
+    'industries.business': 'أعمال',
+    'industries.serviceIndustry': 'قطاع الخدمات',
+    'industries.exportBusiness': 'أعمال التصدير',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU يجعل',
@@ -2533,7 +2715,20 @@ const translations = {
     'nav.contact': 'Klar til en snak?',
     'nav.prices': 'Priser',
     'nav.aboutUs': 'Om os',
+    'nav.industrySupport': 'Branchestøtte',
     'nav.jobs': 'Jobs',
+    
+    // Industries
+    'industries.medical': 'Medicinsk',
+    'industries.engineering': 'Ingeniørarbejde',
+    'industries.sales': 'Salg',
+    'industries.marketing': 'Marketing',
+    'industries.construction': 'Byggeri',
+    'industries.realEstate': 'Fast Ejendom',
+    'industries.ecommerce': 'E-handel',
+    'industries.business': 'Forretning',
+    'industries.serviceIndustry': 'Serviceindustri',
+    'industries.exportBusiness': 'Eksportforretning',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU GØR',
@@ -2675,7 +2870,20 @@ const translations = {
     'nav.contact': 'Klar for en prat?',
     'nav.prices': 'Priser',
     'nav.aboutUs': 'Om oss',
+    'nav.industrySupport': 'Bransjetøtte',
     'nav.jobs': 'Jobber',
+    
+    // Industries
+    'industries.medical': 'Medisinsk',
+    'industries.engineering': 'Ingeniørarbeid',
+    'industries.sales': 'Salg',
+    'industries.marketing': 'Markedsføring',
+    'industries.construction': 'Bygg',
+    'industries.realEstate': 'Eiendom',
+    'industries.ecommerce': 'E-handel',
+    'industries.business': 'Virksomhet',
+    'industries.serviceIndustry': 'Tjenesteindustri',
+    'industries.exportBusiness': 'Eksportvirksomhet',
     
     // Hero Section
     'hero.title': 'GROPPI DIGITAL MARKETING BUREAU GJØR',
