@@ -59,8 +59,11 @@ const translations = {
     'hero.cta1': 'Maak een afspraak',
     'hero.cta2': 'Bel me op',
     'hero.trustIndicators.oneStop': 'One-stop-shop',
+    'hero.trustIndicators.oneStopDesc': 'Alle diensten onder één dak - van ontwerp tot onderhoud',
     'hero.trustIndicators.budget': 'Voor ieder budget',
+    'hero.trustIndicators.budgetDesc': 'Flexibele oplossingen die passen bij uw financiële mogelijkheden',
     'hero.trustIndicators.reports': 'Maandelijkse rapporten',
+    'hero.trustIndicators.reportsDesc': 'Transparante rapportage over uw online prestaties en groei',
     
     // Services Carousel
     'carousel.title': 'Wat wil je?',
@@ -306,8 +309,11 @@ const translations = {
     'hero.cta1': 'Make an appointment',
     'hero.cta2': 'Call me',
     'hero.trustIndicators.oneStop': 'One-stop-shop',
+    'hero.trustIndicators.oneStopDesc': 'All services under one roof - from design to maintenance',
     'hero.trustIndicators.budget': 'For every budget',
+    'hero.trustIndicators.budgetDesc': 'Flexible solutions that fit your financial capabilities',
     'hero.trustIndicators.reports': 'Monthly reports',
+    'hero.trustIndicators.reportsDesc': 'Transparent reporting on your online performance and growth',
     
     // Services Carousel
     'carousel.title': 'What Do You Want?',
@@ -553,8 +559,11 @@ const translations = {
     'hero.cta1': 'Prendre rendez-vous',
     'hero.cta2': "M'appeler",
     'hero.trustIndicators.oneStop': 'Solution tout-en-un',
+    'hero.trustIndicators.oneStopDesc': 'Tous les services sous un même toit - de la conception à la maintenance',
     'hero.trustIndicators.budget': 'Pour chaque budget',
+    'hero.trustIndicators.budgetDesc': 'Solutions flexibles adaptées à vos capacités financières',
     'hero.trustIndicators.reports': 'Rapports mensuels',
+    'hero.trustIndicators.reportsDesc': 'Rapports transparents sur vos performances en ligne et votre croissance',
     
     // Services Carousel
     'carousel.title': 'Que voulez-vous?',
@@ -756,8 +765,11 @@ const translations = {
     'hero.cta1': 'Umów się na spotkanie',
     'hero.cta2': 'Zadzwoń do mnie',
     'hero.trustIndicators.oneStop': 'Kompleksowa obsługa',
+    'hero.trustIndicators.oneStopDesc': 'Wszystkie usługi w jednym miejscu - od projektu do utrzymania',
     'hero.trustIndicators.budget': 'Dla każdego budżetu',
+    'hero.trustIndicators.budgetDesc': 'Elastyczne rozwiązania dopasowane do Twoich możliwości finansowych',
     'hero.trustIndicators.reports': 'Miesięczne raporty',
+    'hero.trustIndicators.reportsDesc': 'Przejrzyste raporty o Twojej obecności online i wzroście',
     
     // Services Carousel
     'carousel.title': 'Czego potrzebujesz?',
@@ -959,8 +971,11 @@ const translations = {
     'hero.cta1': 'Записаться на встречу',
     'hero.cta2': 'Позвоните мне',
     'hero.trustIndicators.oneStop': 'Комплексное решение',
+    'hero.trustIndicators.oneStopDesc': 'Все услуги в одном месте - от дизайна до обслуживания',
     'hero.trustIndicators.budget': 'Для любого бюджета',
+    'hero.trustIndicators.budgetDesc': 'Гибкие решения, соответствующие вашим финансовым возможностям',
     'hero.trustIndicators.reports': 'Ежемесячные отчеты',
+    'hero.trustIndicators.reportsDesc': 'Прозрачная отчетность о вашей онлайн-активности и росте',
     
     // Services Carousel
     'carousel.title': 'Что вам нужно?',
@@ -1162,8 +1177,11 @@ const translations = {
     'hero.cta1': 'Termin vereinbaren',
     'hero.cta2': 'Rufen Sie mich an',
     'hero.trustIndicators.oneStop': 'Komplettlösung',
+    'hero.trustIndicators.oneStopDesc': 'Alle Dienstleistungen unter einem Dach - vom Design bis zur Wartung',
     'hero.trustIndicators.budget': 'Für jedes Budget',
+    'hero.trustIndicators.budgetDesc': 'Flexible Lösungen, die zu Ihren finanziellen Möglichkeiten passen',
     'hero.trustIndicators.reports': 'Monatliche Berichte',
+    'hero.trustIndicators.reportsDesc': 'Transparente Berichterstattung über Ihre Online-Performance und Wachstum',
     
     // Services Carousel
     'carousel.title': 'Was möchten Sie?',
@@ -1365,8 +1383,11 @@ const translations = {
     'hero.cta1': 'Solicitar cita',
     'hero.cta2': 'Llámame',
     'hero.trustIndicators.oneStop': 'Solución integral',
+    'hero.trustIndicators.oneStopDesc': 'Todos los servicios bajo un mismo techo - desde el diseño hasta el mantenimiento',
     'hero.trustIndicators.budget': 'Para cada presupuesto',
+    'hero.trustIndicators.budgetDesc': 'Soluciones flexibles que se adaptan a sus capacidades financieras',
     'hero.trustIndicators.reports': 'Informes mensuales',
+    'hero.trustIndicators.reportsDesc': 'Informes transparentes sobre su rendimiento en línea y crecimiento',
     
     // Services Carousel
     'carousel.title': '¿Qué deseas?',
@@ -1568,8 +1589,11 @@ const translations = {
     'hero.cta1': 'Fissa un appuntamento',
     'hero.cta2': 'Chiamami',
     'hero.trustIndicators.oneStop': 'Soluzione completa',
+    'hero.trustIndicators.oneStopDesc': 'Tutti i servizi sotto lo stesso tetto - dal design alla manutenzione',
     'hero.trustIndicators.budget': 'Per ogni budget',
+    'hero.trustIndicators.budgetDesc': 'Soluzioni flessibili adatte alle tue capacità finanziarie',
     'hero.trustIndicators.reports': 'Rapporti mensili',
+    'hero.trustIndicators.reportsDesc': 'Reportistica trasparente sulle tue prestazioni online e crescita',
     
     // Services Carousel
     'carousel.title': 'Cosa desideri?',
@@ -1765,8 +1789,11 @@ const translations = {
     'hero.cta1': 'Записатися на зустріч',
     'hero.cta2': 'Зателефонуйте мені',
     'hero.trustIndicators.oneStop': 'Комплексне рішення',
+    'hero.trustIndicators.oneStopDesc': 'Усі послуги в одному місці - від дизайну до обслуговування',
     'hero.trustIndicators.budget': 'Для будь-якого бюджету',
+    'hero.trustIndicators.budgetDesc': 'Гнучкі рішення, що відповідають вашим фінансовим можливостям',
     'hero.trustIndicators.reports': 'Щомісячні звіти',
+    'hero.trustIndicators.reportsDesc': 'Прозора звітність про вашу онлайн-активність та зростання',
     
     // Services Carousel
     'carousel.title': 'Що вам потрібно?',
@@ -1962,8 +1989,11 @@ const translations = {
     'hero.cta1': 'Randevu al',
     'hero.cta2': 'Beni ara',
     'hero.trustIndicators.oneStop': 'Tek durak çözüm',
+    'hero.trustIndicators.oneStopDesc': 'Tasarımdan bakıma kadar tüm hizmetler tek çatı altında',
     'hero.trustIndicators.budget': 'Her bütçe için',
+    'hero.trustIndicators.budgetDesc': 'Finansal imkanlarınıza uygun esnek çözümler',
     'hero.trustIndicators.reports': 'Aylık raporlar',
+    'hero.trustIndicators.reportsDesc': 'Çevrimiçi performansınız ve büyümeniz hakkında şeffaf raporlama',
     
     // Services Carousel
     'carousel.title': 'Ne istersiniz?',
@@ -2117,8 +2147,11 @@ const translations = {
     'hero.cta1': 'Boka möte',
     'hero.cta2': 'Ring mig',
     'hero.trustIndicators.oneStop': 'Allt-i-ett-lösning',
+    'hero.trustIndicators.oneStopDesc': 'Alla tjänster under ett tak - från design till underhåll',
     'hero.trustIndicators.budget': 'För varje budget',
+    'hero.trustIndicators.budgetDesc': 'Flexibla lösningar som passar dina ekonomiska möjligheter',
     'hero.trustIndicators.reports': 'Månadsrapporter',
+    'hero.trustIndicators.reportsDesc': 'Transparent rapportering om din onlineprestanda och tillväxt',
     
     // Services Carousel
     'carousel.title': 'Vad vill du ha?',
@@ -2272,8 +2305,11 @@ const translations = {
     'hero.cta1': '预约',
     'hero.cta2': '给我打电话',
     'hero.trustIndicators.oneStop': '一站式服务',
+    'hero.trustIndicators.oneStopDesc': '从设计到维护的所有服务一应俱全',
     'hero.trustIndicators.budget': '适合每个预算',
+    'hero.trustIndicators.budgetDesc': '适合您财务能力的灵活解决方案',
     'hero.trustIndicators.reports': '月度报告',
+    'hero.trustIndicators.reportsDesc': '关于您的在线表现和增长的透明报告',
     
     // Services Carousel
     'carousel.title': '您需要什么？',
@@ -2427,8 +2463,11 @@ const translations = {
     'hero.cta1': 'Varaa tapaaminen',
     'hero.cta2': 'Soita minulle',
     'hero.trustIndicators.oneStop': 'Kaikki yhdestä paikasta',
+    'hero.trustIndicators.oneStopDesc': 'Kaikki palvelut saman katon alla - suunnittelusta ylläpitoon',
     'hero.trustIndicators.budget': 'Jokaiseen budjettiin',
+    'hero.trustIndicators.budgetDesc': 'Joustavat ratkaisut, jotka sopivat taloudellisiin mahdollisuuksiisi',
     'hero.trustIndicators.reports': 'Kuukausiraportit',
+    'hero.trustIndicators.reportsDesc': 'Läpinäkyvä raportointi verkkosuorituksestasi ja kasvustasi',
     
     // Services Carousel
     'carousel.title': 'Mitä haluat?',
@@ -2582,8 +2621,11 @@ const translations = {
     'hero.cta1': 'حجز موعد',
     'hero.cta2': 'اتصل بي',
     'hero.trustIndicators.oneStop': 'حل شامل',
+    'hero.trustIndicators.oneStopDesc': 'جميع الخدمات تحت سقف واحد - من التصميم إلى الصيانة',
     'hero.trustIndicators.budget': 'لكل ميزانية',
+    'hero.trustIndicators.budgetDesc': 'حلول مرنة تناسب قدراتك المالية',
     'hero.trustIndicators.reports': 'تقارير شهرية',
+    'hero.trustIndicators.reportsDesc': 'تقارير شفافة عن أدائك عبر الإنترنت ونموك',
     
     // Services Carousel
     'carousel.title': 'ماذا تريد؟',
@@ -2737,8 +2779,11 @@ const translations = {
     'hero.cta1': 'Book møde',
     'hero.cta2': 'Ring til mig',
     'hero.trustIndicators.oneStop': 'Alt-i-én-løsning',
+    'hero.trustIndicators.oneStopDesc': 'Alle tjenester under ét tag - fra design til vedligeholdelse',
     'hero.trustIndicators.budget': 'Til ethvert budget',
+    'hero.trustIndicators.budgetDesc': 'Fleksible løsninger, der passer til dine økonomiske muligheder',
     'hero.trustIndicators.reports': 'Månedlige rapporter',
+    'hero.trustIndicators.reportsDesc': 'Gennemsigtig rapportering om din online performance og vækst',
     
     // Services Carousel
     'carousel.title': 'Hvad vil du have?',
@@ -2892,8 +2937,11 @@ const translations = {
     'hero.cta1': 'Bestill møte',
     'hero.cta2': 'Ring meg',
     'hero.trustIndicators.oneStop': 'Alt-i-ett-løsning',
+    'hero.trustIndicators.oneStopDesc': 'Alle tjenester under ett tak - fra design til vedlikehold',
     'hero.trustIndicators.budget': 'For ethvert budsjett',
+    'hero.trustIndicators.budgetDesc': 'Fleksible løsninger som passer dine økonomiske muligheter',
     'hero.trustIndicators.reports': 'Månedlige rapporter',
+    'hero.trustIndicators.reportsDesc': 'Transparent rapportering om din online-ytelse og vekst',
     
     // Services Carousel
     'carousel.title': 'Hva vil du ha?',

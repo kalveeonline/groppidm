@@ -15,18 +15,27 @@ export const HeroSection = () => {
           {/* Text Content */}
           <div>
             {/* Trust Indicators */}
-            <div className="flex flex-wrap items-center justify-center gap-6">
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-primary"></div>
-                <span className="text-base font-semibold text-foreground">{t('hero.trustIndicators.oneStop')}</span>
+            <div className="space-y-4 mb-8">
+              <div className="flex items-start gap-3 p-4 bg-background/80 backdrop-blur-sm rounded-lg border border-primary/20 shadow-sm hover:shadow-md transition-shadow">
+                <div className="h-3 w-3 rounded-full bg-primary mt-1 flex-shrink-0"></div>
+                <div>
+                  <h3 className="text-lg font-bold text-foreground mb-1">{t('hero.trustIndicators.oneStop')}</h3>
+                  <p className="text-sm text-muted-foreground">{t('hero.trustIndicators.oneStopDesc')}</p>
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-primary"></div>
-                <span className="text-base font-semibold text-foreground">{t('hero.trustIndicators.budget')}</span>
+              <div className="flex items-start gap-3 p-4 bg-background/80 backdrop-blur-sm rounded-lg border border-primary/20 shadow-sm hover:shadow-md transition-shadow">
+                <div className="h-3 w-3 rounded-full bg-primary mt-1 flex-shrink-0"></div>
+                <div>
+                  <h3 className="text-lg font-bold text-foreground mb-1">{t('hero.trustIndicators.budget')}</h3>
+                  <p className="text-sm text-muted-foreground">{t('hero.trustIndicators.budgetDesc')}</p>
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-primary"></div>
-                <span className="text-base font-semibold text-foreground">{t('hero.trustIndicators.reports')}</span>
+              <div className="flex items-start gap-3 p-4 bg-background/80 backdrop-blur-sm rounded-lg border border-primary/20 shadow-sm hover:shadow-md transition-shadow">
+                <div className="h-3 w-3 rounded-full bg-primary mt-1 flex-shrink-0"></div>
+                <div>
+                  <h3 className="text-lg font-bold text-foreground mb-1">{t('hero.trustIndicators.reports')}</h3>
+                  <p className="text-sm text-muted-foreground">{t('hero.trustIndicators.reportsDesc')}</p>
+                </div>
               </div>
             </div>
           </div>
