@@ -99,7 +99,7 @@ export const Header = () => {
             {/* Social Media Icons with Brand Colors - Before Language Selector */}
             <div className="flex items-center gap-1 pr-3 border-r border-primary/30">
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
-                <a href="https://www.facebook.com/profile.php?id=61582120887290" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/profile.php?id=61582782063217" target="_blank" rel="noopener noreferrer">
                   <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
                 </a>
               </Button>
@@ -263,7 +263,7 @@ export const Header = () => {
             {/* Social Media Icons */}
             <div className="flex items-center gap-2 pb-3 border-b border-primary/20">
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
-                <a href="https://www.facebook.com/profile.php?id=61582120887290" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/profile.php?id=61582782063217" target="_blank" rel="noopener noreferrer">
                   <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
                 </a>
               </Button>

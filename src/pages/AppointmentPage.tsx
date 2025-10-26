@@ -231,14 +231,14 @@ export const AppointmentPage = () => {
               <Button
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                onClick={() => window.open('https://wa.me/32495633832', '_blank')}
+                onClick={() => window.open('https://wa.me/32494311119', '_blank')}
               >
                 {t('appointment.whatsapp')}
               </Button>
               <Button
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                onClick={() => window.location.href = 'tel:+32495633832'}
+                onClick={() => window.location.href = 'tel:+32494311119'}
               >
                 {t('appointment.call')}
               </Button>

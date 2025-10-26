@@ -96,7 +96,7 @@ export const Footer = () => {
             </p>
             <div className="flex space-x-2">
               <Button size="sm" variant="ghost" className="hover:bg-transparent p-2 group" asChild>
-                <a href="https://www.facebook.com/profile.php?id=61582120887290" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/profile.php?id=61582782063217" target="_blank" rel="noopener noreferrer">
                   <Facebook className="h-6 w-6 text-[hsl(var(--facebook))] group-hover:scale-110 transition-transform" />
                 </a>
               </Button>
@@ -176,18 +176,18 @@ export const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-primary" />
-                <span className="text-muted-foreground">+32 (0)3 123 45 67</span>
+                <span className="text-muted-foreground">+32 (0) 49 43 1111 9</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary" />
-                <a href="mailto:groppimarketing@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
-                  groppimarketing@gmail.com
+                <a href="mailto:info@groppi.be" className="text-muted-foreground hover:text-foreground transition-colors">
+                  info@groppi.be
                 </a>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 text-primary mt-0.5" />
                 <span className="text-muted-foreground">
-                  {t('footer.locations')}
+                  Het Steeke 51, 2330 Merksplas
                 </span>
               </div>
             </div>
