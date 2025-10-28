@@ -3,6 +3,8 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Users, Award, TrendingUp } from "lucide-react";
+import koenImage from "@/assets/team/koen-van-gorp.jpg";
+import lokmanImage from "@/assets/team/lokman-dinc.jpg";
 
 export const AboutUsPage = () => {
   const values = [
@@ -37,28 +39,16 @@ export const AboutUsPage = () => {
 
   const team = [
     {
-      name: "Marc Groppi",
-      role: "Founder & CEO",
-      description: "20+ years of experience in digital marketing and business strategy.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
+      name: "Koen van gorp",
+      role: "Managing Partner",
+      description: "Strategic leader driving digital transformation and business growth.",
+      image: koenImage
     },
     {
-      name: "Sophie Vermeulen",
-      role: "Head of SEO",
-      description: "Expert in search engine optimization with proven track record of top rankings.",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop"
-    },
-    {
-      name: "Thomas De Bruyn",
-      role: "Creative Director",
-      description: "Award-winning designer specializing in user experience and brand identity.",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop"
-    },
-    {
-      name: "Emma Janssens",
-      role: "Social Media Lead",
-      description: "Social media strategist helping brands build engaged communities.",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop"
+      name: "Lokman Dinç",
+      role: "Managing Partner",
+      description: "Innovative partner focused on delivering excellence in digital marketing.",
+      image: lokmanImage
     }
   ];
 
@@ -168,14 +158,14 @@ export const AboutUsPage = () => {
           <h2 className="text-3xl font-bold text-primary mb-12 text-center">
             Meet Our Leadership Team
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {team.map((member, index) => (
               <Card key={index} className="bg-card border-primary/30 overflow-hidden hover:border-primary transition-all duration-300 group">
                 <div className="relative">
                   <img 
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
