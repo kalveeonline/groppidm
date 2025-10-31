@@ -187,7 +187,7 @@ export const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 text-primary mt-0.5" />
                 <span className="text-muted-foreground">
-                  Het Steeke 51, 2330 Merksplas
+                  Het Steeke 5A, 2330 Merksplas
                 </span>
               </div>
             </div>
