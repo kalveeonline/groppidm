@@ -31,16 +31,15 @@ export const AboutUsPage = () => {
   ];
 
   const stats = [
-    { number: "3,780+", label: "Happy Clients" },
-    { number: "1,188", label: "Websites Launched" },
-    { number: "440", label: "Active Campaigns" },
-    { number: "95%", label: "Client Satisfaction" }
+    { number: "50+", label: "Happy Clients" },
+    { number: "30+", label: "Websites Launched" },
+    { number: "15+", label: "Active Campaigns" }
   ];
 
   const team = [
     {
       name: "Koen van gorp",
-      role: "Managing Partner",
+      role: "Founder and CEO",
       description: "Strategic leader driving digital transformation and business growth.",
       image: koenImage
     },
@@ -61,7 +60,7 @@ export const AboutUsPage = () => {
         <div className="container px-4 mb-16">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold text-primary mb-6">
-              Empowering SMEs to Succeed Online Since 2005
+              Empowering SMEs to Succeed Online Since 2025
             </h1>
             <p className="text-xl text-primary/70 leading-relaxed">
               GROPPI Digital Marketing Bureau is Belgium's trusted partner for small and medium-sized enterprises 
@@ -73,7 +72,7 @@ export const AboutUsPage = () => {
         {/* Stats Section */}
         <div className="bg-card border-y border-primary/30 py-12 mb-16">
           <div className="container px-4">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="text-4xl font-bold text-primary mb-2">
@@ -95,9 +94,9 @@ export const AboutUsPage = () => {
               <h2 className="text-3xl font-bold text-primary mb-6">
                 Our Story
               </h2>
-              <div className="space-y-4 text-primary/70">
+              <div className="space-y-4 text-primary/70 text-justify">
                 <p>
-                  Founded in 2005, GROPPI began with a simple mission: to help small and medium-sized businesses 
+                  Founded in 2025, GROPPI began with a simple mission: to help small and medium-sized businesses 
                   harness the power of digital marketing. What started as a web design studio has evolved into a 
                   full-service digital marketing agency serving clients across Belgium and beyond.
                 </p>
@@ -193,28 +192,13 @@ export const AboutUsPage = () => {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
-                <h3 className="text-xl font-semibold text-primary mb-2">Antwerp</h3>
-                <p className="text-primary/70 text-sm">
-                  Main Office<br />
-                  Meir 45<br />
-                  2000 Antwerpen
-                </p>
+                <h3 className="text-xl font-semibold text-primary">Antwerp</h3>
               </div>
               <div className="text-center">
-                <h3 className="text-xl font-semibold text-primary mb-2">Brussels</h3>
-                <p className="text-primary/70 text-sm">
-                  Satellite Office<br />
-                  Avenue Louise 123<br />
-                  1050 Brussels
-                </p>
+                <h3 className="text-xl font-semibold text-primary">Brussels</h3>
               </div>
               <div className="text-center">
-                <h3 className="text-xl font-semibold text-primary mb-2">Ghent</h3>
-                <p className="text-primary/70 text-sm">
-                  Regional Office<br />
-                  Korenmarkt 7<br />
-                  9000 Gent
-                </p>
+                <h3 className="text-xl font-semibold text-primary">Ghent</h3>
               </div>
             </div>
           </div>
@@ -233,7 +217,7 @@ export const AboutUsPage = () => {
               <Button 
                 size="lg"
                 className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero"
-                onClick={() => window.open('/appointment', '_blank')}
+                onClick={() => window.location.href = '/appointment'}
               >
                 Schedule Consultation
               </Button>
@@ -241,6 +225,7 @@ export const AboutUsPage = () => {
                 size="lg"
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary/10"
+                onClick={() => window.location.href = '/#services'}
               >
                 View Our Work
               </Button>
