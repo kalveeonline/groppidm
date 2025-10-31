@@ -18,6 +18,8 @@ import { PricesPage } from "./pages/PricesPage";
 import { BlogPage } from "./pages/BlogPage";
 import { AboutUsPage } from "./pages/AboutUsPage";
 import { JobsPage } from "./pages/JobsPage";
+import { MyMediaPage } from "./pages/MyMediaPage";
+import { ContactPage } from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
 import RealEstateDemo from "./pages/demos/RealEstateDemo";
 import EcommerceDemo from "./pages/demos/EcommerceDemo";
@@ -58,6 +60,8 @@ const App = () => (
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/about" element={<AboutUsPage />} />
             <Route path="/jobs" element={<JobsPage />} />
+            <Route path="/my-media" element={<MyMediaPage />} />
+            <Route path="/contact" element={<ContactPage />} />
             <Route path="/demo/real-estate" element={<RealEstateDemo />} />
             <Route path="/demo/ecommerce" element={<EcommerceDemo />} />
             <Route path="/demo/restaurant" element={<RestaurantDemo />} />

@@ -150,10 +150,19 @@ export const Header = () => {
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
-            <Button variant="ghost" size="sm" className="text-primary hover:text-primary-light text-sm">
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="text-primary hover:text-primary-light text-sm"
+              onClick={() => window.location.href = '/my-media'}
+            >
               {t('nav.myMedia')}
             </Button>
-            <Button size="sm" className="bg-primary hover:bg-primary-dark text-primary-foreground font-semibold text-sm shadow-lg shadow-primary/30">
+            <Button 
+              size="sm" 
+              className="bg-primary hover:bg-primary-dark text-primary-foreground font-semibold text-sm shadow-lg shadow-primary/30"
+              onClick={() => window.location.href = '/contact'}
+            >
               {t('nav.contact')}
             </Button>
           </div>
@@ -350,10 +359,19 @@ export const Header = () => {
                   ))}
                 </DropdownMenuContent>
               </DropdownMenu>
-              <Button variant="ghost" size="sm" className="justify-start text-primary">
+              <Button 
+                variant="ghost" 
+                size="sm" 
+                className="justify-start text-primary"
+                onClick={() => window.location.href = '/my-media'}
+              >
                 {t('nav.myMedia')}
               </Button>
-              <Button size="sm" className="bg-primary hover:bg-primary-dark text-primary-foreground font-semibold shadow-lg shadow-primary/30">
+              <Button 
+                size="sm" 
+                className="bg-primary hover:bg-primary-dark text-primary-foreground font-semibold shadow-lg shadow-primary/30"
+                onClick={() => window.location.href = '/contact'}
+              >
                 {t('nav.contact')}
               </Button>
             </div>
