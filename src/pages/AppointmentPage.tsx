@@ -7,8 +7,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-import { Calendar, User, MapPin, Phone, MessageSquare, Clock } from "lucide-react";
-import { LanguageSelector } from "@/components/ui/language-selector";
+import { Calendar, User, MapPin, Phone, MessageSquare, Clock, Mail, CheckCircle } from "lucide-react";
+import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { z } from "zod";
 
@@ -82,35 +82,75 @@ export const AppointmentPage = () => {
   };
 
   return (
-    <div className="min-h-screen pt-20 bg-gradient-subtle">
-      <div className="container px-4 py-12">
-        {/* Language Selector */}
-        <div className="absolute top-24 right-6 z-10">
-          <LanguageSelector variant="outline" />
-        </div>
-        
-        <div className="max-w-2xl mx-auto">
-          {/* Header */}
-          <div className="text-center mb-8">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-4">
-              <Calendar className="w-8 h-8 text-primary" />
+    <div className="min-h-screen bg-background">
+      <Header />
+      
+      <main className="py-16">
+        {/* Hero Section */}
+        <div className="container px-4 mb-12">
+          <div className="text-center max-w-4xl mx-auto">
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-primary rounded-full mb-6 shadow-hero">
+              <Calendar className="w-10 h-10 text-primary-foreground" />
             </div>
-            <h1 className="text-4xl font-bold text-foreground mb-4">
+            <h1 className="text-4xl lg:text-5xl font-bold text-primary mb-6">
               {t('appointment.title')}
             </h1>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-primary/70 leading-relaxed">
               {t('appointment.description')}
             </p>
           </div>
+        </div>
+
+        {/* Why Choose Us Section */}
+        <div className="container px-4 mb-12">
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <Card className="bg-card border-primary/30 text-center hover:border-primary transition-all duration-300">
+              <CardContent className="pt-6">
+                <div className="flex justify-center mb-4">
+                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
+                    <CheckCircle className="h-6 w-6 text-primary" />
+                  </div>
+                </div>
+                <h3 className="text-lg font-semibold text-primary mb-2">Free Consultation</h3>
+                <p className="text-primary/70 text-sm">Get expert advice tailored to your business needs</p>
+              </CardContent>
+            </Card>
+            <Card className="bg-card border-primary/30 text-center hover:border-primary transition-all duration-300">
+              <CardContent className="pt-6">
+                <div className="flex justify-center mb-4">
+                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Clock className="h-6 w-6 text-primary" />
+                  </div>
+                </div>
+                <h3 className="text-lg font-semibold text-primary mb-2">Quick Response</h3>
+                <p className="text-primary/70 text-sm">We'll contact you within 24 hours</p>
+              </CardContent>
+            </Card>
+            <Card className="bg-card border-primary/30 text-center hover:border-primary transition-all duration-300">
+              <CardContent className="pt-6">
+                <div className="flex justify-center mb-4">
+                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
+                    <MessageSquare className="h-6 w-6 text-primary" />
+                  </div>
+                </div>
+                <h3 className="text-lg font-semibold text-primary mb-2">Personalized Strategy</h3>
+                <p className="text-primary/70 text-sm">Custom solutions for your unique goals</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+        
+        <div className="container px-4">
+          <div className="max-w-3xl mx-auto">
 
           {/* Appointment Form */}
-          <Card className="shadow-elegant border-0 bg-card/50 backdrop-blur-sm">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <MessageSquare className="w-5 h-5 text-primary" />
+          <Card className="shadow-elegant border-primary/30 bg-card hover:border-primary transition-all duration-300">
+            <CardHeader className="border-b border-primary/20">
+              <CardTitle className="flex items-center gap-2 text-2xl text-primary">
+                <MessageSquare className="w-6 h-6 text-primary" />
                 {t('appointment.formTitle')}
               </CardTitle>
-              <CardDescription>
+              <CardDescription className="text-primary/60">
                 {t('appointment.formDescription')}
               </CardDescription>
             </CardHeader>
@@ -118,8 +158,8 @@ export const AppointmentPage = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 {/* Name Field */}
                 <div className="space-y-2">
-                  <Label htmlFor="name" className="flex items-center gap-2">
-                    <User className="w-4 h-4" />
+                  <Label htmlFor="name" className="flex items-center gap-2 text-primary">
+                    <User className="w-4 h-4 text-primary" />
                     {t('appointment.name')}
                   </Label>
                   <Input
@@ -127,14 +167,15 @@ export const AppointmentPage = () => {
                     value={formData.name}
                     onChange={(e) => handleInputChange('name', e.target.value)}
                     placeholder={t('appointment.namePlaceholder')}
+                    className="bg-input border-primary/30 text-primary focus:border-primary"
                     required
                   />
                 </div>
 
                 {/* Address Field */}
                 <div className="space-y-2">
-                  <Label htmlFor="address" className="flex items-center gap-2">
-                    <MapPin className="w-4 h-4" />
+                  <Label htmlFor="address" className="flex items-center gap-2 text-primary">
+                    <MapPin className="w-4 h-4 text-primary" />
                     {t('appointment.address')}
                   </Label>
                   <Textarea
@@ -142,6 +183,7 @@ export const AppointmentPage = () => {
                     value={formData.address}
                     onChange={(e) => handleInputChange('address', e.target.value)}
                     placeholder={t('appointment.addressPlaceholder')}
+                    className="bg-input border-primary/30 text-primary focus:border-primary"
                     rows={3}
                   />
                 </div>
@@ -149,8 +191,8 @@ export const AppointmentPage = () => {
                 {/* Contact Details */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <Label htmlFor="phone" className="flex items-center gap-2">
-                      <Phone className="w-4 h-4" />
+                    <Label htmlFor="phone" className="flex items-center gap-2 text-primary">
+                      <Phone className="w-4 h-4 text-primary" />
                       {t('appointment.phone')}
                     </Label>
                     <Input
@@ -159,11 +201,13 @@ export const AppointmentPage = () => {
                       value={formData.phone}
                       onChange={(e) => handleInputChange('phone', e.target.value)}
                       placeholder={t('appointment.phonePlaceholder')}
+                      className="bg-input border-primary/30 text-primary focus:border-primary"
                       required
                     />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="email">
+                    <Label htmlFor="email" className="flex items-center gap-2 text-primary">
+                      <Mail className="w-4 h-4 text-primary" />
                       {t('appointment.email')}
                     </Label>
                     <Input
@@ -172,13 +216,15 @@ export const AppointmentPage = () => {
                       value={formData.email}
                       onChange={(e) => handleInputChange('email', e.target.value)}
                       placeholder={t('appointment.emailPlaceholder')}
+                      className="bg-input border-primary/30 text-primary focus:border-primary"
                     />
                   </div>
                 </div>
 
                 {/* Requirement Field */}
                 <div className="space-y-2">
-                  <Label htmlFor="requirement">
+                  <Label htmlFor="requirement" className="flex items-center gap-2 text-primary">
+                    <MessageSquare className="w-4 h-4 text-primary" />
                     {t('appointment.requirement')}
                   </Label>
                   <Textarea
@@ -186,6 +232,7 @@ export const AppointmentPage = () => {
                     value={formData.requirement}
                     onChange={(e) => handleInputChange('requirement', e.target.value)}
                     placeholder={t('appointment.requirementPlaceholder')}
+                    className="bg-input border-primary/30 text-primary focus:border-primary"
                     rows={4}
                     required
                   />
@@ -193,15 +240,15 @@ export const AppointmentPage = () => {
 
                 {/* Contact Time */}
                 <div className="space-y-2">
-                  <Label htmlFor="contactTime" className="flex items-center gap-2">
-                    <Clock className="w-4 h-4" />
+                  <Label htmlFor="contactTime" className="flex items-center gap-2 text-primary">
+                    <Clock className="w-4 h-4 text-primary" />
                     {t('appointment.contactTime')}
                   </Label>
                   <Select value={formData.contactTime} onValueChange={(value) => handleInputChange('contactTime', value)}>
-                    <SelectTrigger>
+                    <SelectTrigger className="bg-input border-primary/30 text-primary focus:border-primary">
                       <SelectValue placeholder={t('appointment.contactTimePlaceholder')} />
                     </SelectTrigger>
-                    <SelectContent>
+                    <SelectContent className="bg-popover border-primary/30">
                       <SelectItem value="morning">{t('appointment.morning')}</SelectItem>
                       <SelectItem value="afternoon">{t('appointment.afternoon')}</SelectItem>
                       <SelectItem value="evening">{t('appointment.evening')}</SelectItem>
@@ -213,7 +260,7 @@ export const AppointmentPage = () => {
                 {/* Submit Button */}
                 <Button 
                   type="submit" 
-                  className="w-full bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero transition-all duration-300 hover:shadow-lg hover:scale-105"
+                  className="w-full bg-gradient-primary hover:shadow-hero text-primary-foreground shadow-elegant transition-all duration-300 hover:scale-105 font-semibold"
                   size="lg"
                 >
                   {t('appointment.submit')}
@@ -223,29 +270,59 @@ export const AppointmentPage = () => {
           </Card>
 
           {/* Contact Info */}
-          <div className="mt-8 text-center">
-            <p className="text-muted-foreground mb-4">
-              {t('appointment.contactInfo')}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                onClick={() => window.open('https://wa.me/32494311119', '_blank')}
-              >
-                {t('appointment.whatsapp')}
-              </Button>
-              <Button
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                onClick={() => window.location.href = 'tel:+32494311119'}
-              >
-                {t('appointment.call')}
-              </Button>
-            </div>
+          <div className="mt-12">
+            <Card className="bg-gradient-card border-primary/30 hover:border-primary transition-all duration-300">
+              <CardContent className="pt-8 pb-8">
+                <div className="text-center">
+                  <h3 className="text-2xl font-bold text-primary mb-3">
+                    Prefer to Contact Us Directly?
+                  </h3>
+                  <p className="text-primary/70 mb-6 max-w-xl mx-auto">
+                    {t('appointment.contactInfo')}
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Button
+                      size="lg"
+                      variant="outline"
+                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                      onClick={() => window.open('https://wa.me/32494311119', '_blank')}
+                    >
+                      <MessageSquare className="w-4 h-4 mr-2" />
+                      {t('appointment.whatsapp')}
+                    </Button>
+                    <Button
+                      size="lg"
+                      variant="outline"
+                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                      onClick={() => window.location.href = 'tel:+32494311119'}
+                    >
+                      <Phone className="w-4 h-4 mr-2" />
+                      {t('appointment.call')}
+                    </Button>
+                  </div>
+                  <div className="mt-6 pt-6 border-t border-primary/20">
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm text-primary/70">
+                      <div className="flex items-center gap-2">
+                        <Phone className="w-4 h-4 text-primary" />
+                        <span>+32 494 31 11 19</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <Mail className="w-4 h-4 text-primary" />
+                        <span>info@groppi.be</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <MapPin className="w-4 h-4 text-primary" />
+                        <span>Het Steeke 5A, 2330 Merksplas</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   );
