@@ -1,10 +1,17 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
+import { toast } from "sonner";
 
 export const BlogPage = () => {
+  const navigate = useNavigate();
+  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [email, setEmail] = useState("");
+
   const blogPosts = [
     {
       title: "10 Essential SEO Tips for Small Businesses in 2025",
@@ -58,6 +65,32 @@ export const BlogPage = () => {
 
   const categories = ["All", "SEO", "Social Media", "Web Design", "Digital Advertising", "E-commerce", "Content Marketing"];
 
+  const filteredPosts = selectedCategory === "All" 
+    ? blogPosts 
+    : blogPosts.filter(post => post.category === selectedCategory);
+
+  const handleReadMore = (post: typeof blogPosts[0]) => {
+    toast.info(`Opening: ${post.title}`, {
+      description: "This is a demo blog post. Full article coming soon!"
+    });
+  };
+
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email) {
+      toast.error("Please enter your email address");
+      return;
+    }
+    if (!email.includes("@")) {
+      toast.error("Please enter a valid email address");
+      return;
+    }
+    toast.success("Successfully subscribed!", {
+      description: "You'll receive our latest insights and tips via email."
+    });
+    setEmail("");
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -79,8 +112,9 @@ export const BlogPage = () => {
             {categories.map((category, index) => (
               <Button
                 key={index}
-                variant={index === 0 ? "default" : "outline"}
-                className={index === 0 
+                variant={selectedCategory === category ? "default" : "outline"}
+                onClick={() => setSelectedCategory(category)}
+                className={selectedCategory === category
                   ? "bg-primary hover:bg-primary-dark" 
                   : "border-primary/30 text-primary hover:bg-primary/10"
                 }
@@ -91,47 +125,50 @@ export const BlogPage = () => {
           </div>
 
           {/* Featured Post */}
-          <Card className="mb-12 overflow-hidden border-primary/30 bg-card hover:border-primary transition-all duration-300">
-            <div className="grid md:grid-cols-2 gap-0">
-              <div 
-                className="h-64 md:h-auto bg-cover bg-center"
-                style={{ backgroundImage: `url(${blogPosts[0].image})` }}
-              />
-              <div className="p-8 flex flex-col justify-center">
-                <div className="flex items-center gap-4 mb-4">
-                  <span className="bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-semibold">
-                    Featured
-                  </span>
-                  <span className="text-primary/70 text-sm">{blogPosts[0].category}</span>
-                </div>
-                <h2 className="text-3xl font-bold text-primary mb-4">
-                  {blogPosts[0].title}
-                </h2>
-                <p className="text-primary/70 mb-6">
-                  {blogPosts[0].excerpt}
-                </p>
-                <div className="flex items-center gap-4 text-sm text-primary/60 mb-6">
-                  <div className="flex items-center gap-2">
-                    <Calendar className="h-4 w-4" />
-                    {blogPosts[0].date}
+          {filteredPosts.length > 0 && (
+            <Card className="mb-12 overflow-hidden border-primary/30 bg-card hover:border-primary transition-all duration-300 cursor-pointer">
+              <div className="grid md:grid-cols-2 gap-0" onClick={() => handleReadMore(filteredPosts[0])}>
+                <div 
+                  className="h-64 md:h-auto bg-cover bg-center"
+                  style={{ backgroundImage: `url(${filteredPosts[0].image})` }}
+                />
+                <div className="p-8 flex flex-col justify-center">
+                  <div className="flex items-center gap-4 mb-4">
+                    <span className="bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-semibold">
+                      Featured
+                    </span>
+                    <span className="text-primary/70 text-sm">{filteredPosts[0].category}</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Clock className="h-4 w-4" />
-                    {blogPosts[0].readTime}
+                  <h2 className="text-3xl font-bold text-primary mb-4">
+                    {filteredPosts[0].title}
+                  </h2>
+                  <p className="text-primary/70 mb-6">
+                    {filteredPosts[0].excerpt}
+                  </p>
+                  <div className="flex items-center gap-4 text-sm text-primary/60 mb-6">
+                    <div className="flex items-center gap-2">
+                      <Calendar className="h-4 w-4" />
+                      {filteredPosts[0].date}
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Clock className="h-4 w-4" />
+                      {filteredPosts[0].readTime}
+                    </div>
                   </div>
+                  <Button className="bg-primary hover:bg-primary-dark w-fit">
+                    Read More <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
                 </div>
-                <Button className="bg-primary hover:bg-primary-dark w-fit">
-                  Read More <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
               </div>
-            </div>
-          </Card>
+            </Card>
+          )}
 
           {/* Blog Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {blogPosts.slice(1).map((post, index) => (
+            {filteredPosts.slice(1).map((post, index) => (
               <Card 
                 key={index}
+                onClick={() => handleReadMore(post)}
                 className="overflow-hidden border-primary/30 bg-card hover:border-primary hover:shadow-glow transition-all duration-300 group cursor-pointer"
               >
                 <div 
@@ -167,6 +204,15 @@ export const BlogPage = () => {
             ))}
           </div>
 
+          {/* No Results Message */}
+          {filteredPosts.length === 0 && (
+            <div className="text-center py-16">
+              <p className="text-xl text-primary/70">
+                No posts found in this category. Check back soon!
+              </p>
+            </div>
+          )}
+
           {/* Newsletter Section */}
           <div className="mt-16 bg-card border border-primary/30 rounded-lg p-8 text-center">
             <h2 className="text-3xl font-bold text-primary mb-4">
@@ -175,16 +221,18 @@ export const BlogPage = () => {
             <p className="text-primary/70 mb-6 max-w-2xl mx-auto">
               Get the latest digital marketing insights, tips, and strategies delivered directly to your inbox every week.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+            <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
               <input
                 type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
                 className="flex-1 px-4 py-2 bg-background border border-primary/30 rounded-lg text-primary placeholder:text-primary/50 focus:outline-none focus:border-primary"
               />
-              <Button className="bg-primary hover:bg-primary-dark">
+              <Button type="submit" className="bg-primary hover:bg-primary-dark">
                 Subscribe
               </Button>
-            </div>
+            </form>
           </div>
         </div>
       </main>

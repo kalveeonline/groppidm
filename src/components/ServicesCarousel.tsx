@@ -80,8 +80,7 @@ export const ServicesCarousel = () => {
   };
 
   const handleCallMe = () => {
-    // You can implement phone call functionality or open a contact form
-    window.open('tel:+1234567890', '_self');
+    window.open('tel:+32494311119', '_self');
   };
 
   return (
