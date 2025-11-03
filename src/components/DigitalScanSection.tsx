@@ -27,7 +27,7 @@ export const DigitalScanSection = () => {
             <Button 
               size="lg"
               className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero hover:shadow-lg hover:scale-105 transition-all duration-300 text-lg px-8 py-6"
-              onClick={() => window.location.href = '/appointment'}
+              onClick={() => window.location.href = '/site-scan'}
             >
               {t('digitalScan.button')}
             </Button>

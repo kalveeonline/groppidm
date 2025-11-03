@@ -306,7 +306,30 @@ const translations = {
     'appointment.success': 'Afspraak Aangevraagd!',
     'appointment.successMessage': 'Bedankt voor uw aanvraag. We nemen binnen 24 uur contact met u op om uw consultatie te bevestigen.',
     'appointment.error': 'Oeps! Er is iets misgegaan',
-    'appointment.errorMessage': 'Er is een fout opgetreden bij het verzenden van uw aanvraag. Probeer het opnieuw of neem direct contact met ons op.'
+    'appointment.errorMessage': 'Er is een fout opgetreden bij het verzenden van uw aanvraag. Probeer het opnieuw of neem direct contact met ons op.',
+    
+    // Site Scan Page
+    'siteScan.title': 'Gratis Website Analyse',
+    'siteScan.description': 'Krijg binnen enkele seconden een uitgebreide AI-analyse van de prestaties, SEO, design en meer van uw website.',
+    'siteScan.websiteUrl': 'Website URL',
+    'siteScan.scanButton': 'Analyseer Mijn Website',
+    'siteScan.analyzing': 'Uw website wordt geanalyseerd...',
+    'siteScan.seoScore': 'SEO',
+    'siteScan.designScore': 'Design',
+    'siteScan.performanceScore': 'Prestaties',
+    'siteScan.mobileScore': 'Mobiel',
+    'siteScan.contentScore': 'Content',
+    'siteScan.strengths': 'Belangrijkste Sterke Punten',
+    'siteScan.improvements': 'Verbeterpunten',
+    'siteScan.recommendations': 'Aanbevolen Acties',
+    'siteScan.ctaTitle': 'Klaar om Uw Website te Verbeteren?',
+    'siteScan.ctaDescription': 'Laat onze experts u helpen deze aanbevelingen te implementeren en uw online aanwezigheid naar een hoger niveau te tillen.',
+    'siteScan.ctaButton': 'Plan een Gratis Consult',
+    'siteScan.success': 'Succes',
+    'siteScan.error': 'Fout',
+    'siteScan.analysisComplete': 'Website analyse succesvol voltooid',
+    'siteScan.analysisFailed': 'Website analyse mislukt. Probeer het opnieuw.',
+    'siteScan.enterUrl': 'Voer een geldige website URL in',
   },
   EN: {
     // Navigation
@@ -586,7 +609,30 @@ const translations = {
     'appointment.success': 'Appointment Requested!',
     'appointment.successMessage': 'Thank you for your request. We\'ll contact you within 24 hours to confirm your consultation.',
     'appointment.error': 'Oops! Something went wrong',
-    'appointment.errorMessage': 'An error occurred while submitting your request. Please try again or contact us directly.'
+    'appointment.errorMessage': 'An error occurred while submitting your request. Please try again or contact us directly.',
+    
+    // Site Scan Page
+    'siteScan.title': 'Free Website Analysis',
+    'siteScan.description': 'Get a comprehensive AI-powered analysis of your website\'s performance, SEO, design, and more in seconds.',
+    'siteScan.websiteUrl': 'Website URL',
+    'siteScan.scanButton': 'Analyze My Website',
+    'siteScan.analyzing': 'Analyzing your website...',
+    'siteScan.seoScore': 'SEO',
+    'siteScan.designScore': 'Design',
+    'siteScan.performanceScore': 'Performance',
+    'siteScan.mobileScore': 'Mobile',
+    'siteScan.contentScore': 'Content',
+    'siteScan.strengths': 'Key Strengths',
+    'siteScan.improvements': 'Areas for Improvement',
+    'siteScan.recommendations': 'Recommended Actions',
+    'siteScan.ctaTitle': 'Ready to Improve Your Website?',
+    'siteScan.ctaDescription': 'Let our experts help you implement these recommendations and take your online presence to the next level.',
+    'siteScan.ctaButton': 'Schedule Free Consultation',
+    'siteScan.success': 'Success',
+    'siteScan.error': 'Error',
+    'siteScan.analysisComplete': 'Website analysis completed successfully',
+    'siteScan.analysisFailed': 'Failed to analyze website. Please try again.',
+    'siteScan.enterUrl': 'Please enter a valid website URL',
   },
   FR: {
     // Navigation

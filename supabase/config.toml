@@ -2,3 +2,6 @@ project_id = "romqubyighcxxdbpwzwx"
 
 [functions.chat]
 verify_jwt = false
+
+[functions.site-analysis]
+verify_jwt = false
