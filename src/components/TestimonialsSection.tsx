@@ -7,21 +7,21 @@ export const TestimonialsSection = () => {
 
   const testimonials = [
     {
-      name: "Jan Peeters",
-      company: "Peeters Bouwbedrijf",
-      text: "GROPPI heeft onze online aanwezigheid volledig getransformeerd. Onze website trekt nu meer klanten aan dan ooit tevoren!",
+      name: "Dirk Van den Bergh",
+      company: "Van den Bergh Installatiebedrijf - Antwerpen",
+      text: "Sinds we met GROPPI werken, is ons aantal online aanvragen met 230% gestegen. Hun SEO-optimalisatie heeft ons bedrijf bovenaan Google geplaatst. De professionele website en Google Ads campagnes leveren dagelijks nieuwe klanten op. Een investering die zichzelf dubbel en dwars terugbetaalt!",
       rating: 5
     },
     {
-      name: "Sophie Dubois",
-      company: "Boutique Sophie",
-      text: "Dankzij GROPPI's digitale marketing strategie is onze webshop omzet met 150% gestegen. Ongelooflijk resultaat!",
+      name: "Isabelle Claes",
+      company: "Claes Mode & Lifestyle - Mechelen",
+      text: "GROPPI heeft onze boutique volledig digitaal getransformeerd. Ze hebben een prachtige webshop ontwikkeld die perfect aansluit bij onze merkidentiteit. Dankzij hun social media marketing op Instagram en Facebook hebben we nu een trouwe online community. Onze online omzet is in 6 maanden tijd verdrievoudigd!",
       rating: 5
     },
     {
-      name: "Marc Janssens",
-      company: "Restaurant De Smaken",
-      text: "De social media campagnes van GROPPI hebben ons restaurant op de kaart gezet. Reservaties stromen binnen!",
+      name: "Thomas Verstraeten",
+      company: "Verstraeten Advocatenkantoor - Leuven",
+      text: "Als advocatenkantoor waren we sceptisch over digitale marketing, maar GROPPI heeft ons overtuigd. Ze hebben een stijlvolle, professionele website gebouwd die vertrouwen uitstraalt. Hun aanpak van lokale SEO heeft gezorgd dat potentiële klanten ons nu makkelijk vinden. Het aantal consultatie-aanvragen is significant toegenomen. Uitstekende service en duidelijke communicatie!",
       rating: 5
     }
   ];
