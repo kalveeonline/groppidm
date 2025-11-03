@@ -83,8 +83,7 @@ export const TestimonialsSection = () => {
                   "{testimonial.text}"
                 </p>
                 <div className="border-t border-border/30 pt-4">
-                  <p className="font-semibold text-foreground">{testimonial.name}</p>
-                  <p className="text-sm text-muted-foreground">{testimonial.company}</p>
+                  <p className="font-semibold text-foreground">{testimonial.company}</p>
                 </div>
               </div>
             ))}
