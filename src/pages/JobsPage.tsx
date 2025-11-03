@@ -2,16 +2,15 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { MapPin, Clock, Euro, Briefcase } from "lucide-react";
+import { Clock, Briefcase } from "lucide-react";
 
 export const JobsPage = () => {
   const jobListings = [
     {
       title: "Senior SEO Specialist",
       department: "Marketing",
-      location: "Antwerp",
+      location: "Remote",
       type: "Full-time",
-      salary: "€45,000 - €60,000",
       description: "We're looking for an experienced SEO specialist to lead our optimization strategies and help our clients rank higher in search results.",
       requirements: [
         "5+ years of SEO experience",
@@ -24,9 +23,8 @@ export const JobsPage = () => {
     {
       title: "Social Media Manager",
       department: "Marketing",
-      location: "Brussels",
+      location: "Remote",
       type: "Full-time",
-      salary: "€35,000 - €48,000",
       description: "Join our team to manage social media campaigns for multiple clients, create engaging content, and grow online communities.",
       requirements: [
         "3+ years of social media management experience",
@@ -39,9 +37,8 @@ export const JobsPage = () => {
     {
       title: "Web Developer",
       department: "Development",
-      location: "Antwerp / Remote",
+      location: "Remote",
       type: "Full-time",
-      salary: "€40,000 - €55,000",
       description: "We need a talented web developer to create stunning, responsive websites for our SME clients using modern technologies.",
       requirements: [
         "3+ years of web development experience",
@@ -54,9 +51,8 @@ export const JobsPage = () => {
     {
       title: "Digital Marketing Consultant",
       department: "Strategy",
-      location: "Ghent",
+      location: "Remote",
       type: "Full-time",
-      salary: "€38,000 - €52,000",
       description: "Help SMEs develop and execute comprehensive digital marketing strategies to achieve their business goals.",
       requirements: [
         "4+ years in digital marketing consulting",
@@ -71,7 +67,6 @@ export const JobsPage = () => {
       department: "Content",
       location: "Remote",
       type: "Part-time / Freelance",
-      salary: "€25 - €40 /hour",
       description: "Create compelling content for websites, blogs, and social media that engages audiences and drives results.",
       requirements: [
         "2+ years of content writing experience",
@@ -84,9 +79,8 @@ export const JobsPage = () => {
     {
       title: "Graphic Designer",
       department: "Design",
-      location: "Antwerp",
+      location: "Remote",
       type: "Full-time",
-      salary: "€32,000 - €45,000",
       description: "Design beautiful graphics, logos, and marketing materials for our diverse client portfolio.",
       requirements: [
         "3+ years of graphic design experience",
@@ -198,22 +192,14 @@ export const JobsPage = () => {
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <div className="grid md:grid-cols-4 gap-4 mb-6">
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div className="flex items-center gap-2 text-primary/70">
                         <Briefcase className="h-4 w-4" />
                         <span className="text-sm">{job.department}</span>
                       </div>
                       <div className="flex items-center gap-2 text-primary/70">
-                        <MapPin className="h-4 w-4" />
-                        <span className="text-sm">{job.location}</span>
-                      </div>
-                      <div className="flex items-center gap-2 text-primary/70">
                         <Clock className="h-4 w-4" />
                         <span className="text-sm">{job.type}</span>
-                      </div>
-                      <div className="flex items-center gap-2 text-primary/70">
-                        <Euro className="h-4 w-4" />
-                        <span className="text-sm">{job.salary}</span>
                       </div>
                     </div>
                     <div>
