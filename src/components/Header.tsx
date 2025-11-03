@@ -139,15 +139,15 @@ export const Header = () => {
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="bg-popover border border-primary/40 shadow-lg z-[100]">
-                {SUPPORTED_LANGUAGES.map((lang) => (
-                  <DropdownMenuItem
-                    key={lang.code}
-                    onClick={() => setLanguage(lang.code)}
-                    className="cursor-pointer hover:bg-muted text-primary hover:text-primary-light"
-                  >
-                    {lang.name}
-                  </DropdownMenuItem>
-                ))}
+                  {SUPPORTED_LANGUAGES.map((lang) => (
+                    <DropdownMenuItem
+                      key={lang.code}
+                      onClick={() => setLanguage(lang.code)}
+                      className="cursor-pointer hover:bg-primary/20 text-primary hover:text-primary-light transition-colors"
+                    >
+                      {lang.name}
+                    </DropdownMenuItem>
+                  ))}
               </DropdownMenuContent>
             </DropdownMenu>
             <Button 
@@ -207,13 +207,13 @@ export const Header = () => {
                         {category.items.map((item, itemIndex) => (
                           <Link to={`/service/${item.slug}`} key={itemIndex}>
                             <DropdownMenuItem 
-                              className="cursor-pointer hover:bg-muted/50 p-3 rounded-lg"
+                              className="cursor-pointer hover:bg-primary/20 p-3 rounded-lg transition-colors"
                             >
                               <div className="flex items-start gap-3">
                                 <item.icon className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                                 <div className="space-y-1">
-                                  <div className="font-medium text-sm text-primary">{item.name}</div>
-                                  <div className="text-xs text-primary/60">{item.description}</div>
+                                  <div className="font-medium text-sm text-primary hover:text-primary-light">{item.name}</div>
+                                  <div className="text-xs text-primary/70 hover:text-primary/90">{item.description}</div>
                                 </div>
                               </div>
                             </DropdownMenuItem>
@@ -246,11 +246,11 @@ export const Header = () => {
                   {industries.map((industry, index) => (
                     <Link to={`/industry/${industry.slug}`} key={index}>
                       <DropdownMenuItem 
-                        className="cursor-pointer hover:bg-muted/50 p-3 rounded-lg"
+                        className="cursor-pointer hover:bg-primary/20 p-3 rounded-lg transition-colors"
                       >
                         <div className="flex items-center gap-3">
                           <industry.icon className="h-5 w-5 text-primary flex-shrink-0" />
-                          <div className="font-medium text-sm text-primary">{industry.name}</div>
+                          <div className="font-medium text-sm text-primary hover:text-primary-light">{industry.name}</div>
                         </div>
                       </DropdownMenuItem>
                     </Link>
@@ -326,7 +326,7 @@ export const Header = () => {
                 <div className="space-y-1">
                   {industries.map((industry, index) => (
                     <Link to={`/industry/${industry.slug}`} key={index}>
-                      <DropdownMenuItem className="cursor-pointer hover:bg-muted text-primary">
+                      <DropdownMenuItem className="cursor-pointer hover:bg-primary/20 text-primary hover:text-primary-light transition-colors">
                         <industry.icon className="h-4 w-4 mr-2" />
                         {industry.name}
                       </DropdownMenuItem>
@@ -352,7 +352,7 @@ export const Header = () => {
                     <DropdownMenuItem
                       key={lang.code}
                       onClick={() => setLanguage(lang.code)}
-                      className="cursor-pointer hover:bg-muted text-primary"
+                      className="cursor-pointer hover:bg-primary/20 text-primary hover:text-primary-light transition-colors"
                     >
                       {lang.name}
                     </DropdownMenuItem>
