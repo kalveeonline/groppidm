@@ -226,12 +226,12 @@ export const Footer = () => {
           </div>
           <div className="flex items-center gap-6">
             <LanguageSelector variant="compact" className="text-muted-foreground hover:text-foreground" />
-            <a href="#" className="hover:text-foreground transition-colors">
+            <Link to="/privacy" className="hover:text-foreground transition-colors">
               {t('footer.privacy')}
-            </a>
-            <a href="#" className="hover:text-foreground transition-colors">
+            </Link>
+            <Link to="/terms" className="hover:text-foreground transition-colors">
               {t('footer.terms')}
-            </a>
+            </Link>
           </div>
         </div>
       </div>
