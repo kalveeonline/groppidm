@@ -78,19 +78,19 @@ export const Header = () => {
       <div className="border-b border-primary/20">
         <div className="container flex h-14 items-center justify-between px-4">
           {/* Company Name */}
-          <Link to="/" className="flex items-center gap-3 group">
+          <Link to="/" className="flex items-center gap-2 md:gap-3 group">
             <img 
               src={groppiLogoCircle} 
               alt="GROPPI Logo" 
-              className="h-12 w-12 object-contain group-hover:scale-105 transition-all duration-300"
+              className="h-10 w-10 md:h-12 md:w-12 object-contain group-hover:scale-105 transition-all duration-300"
             />
             <div className="flex flex-col justify-center">
               <img 
                 src={groppiTextLogo} 
                 alt="GROPPI" 
-                className="h-10 w-full object-contain mt-1"
+                className="h-8 md:h-10 w-full object-contain mt-1"
               />
-              <span className="text-xs text-primary/70 mt-0 whitespace-nowrap">Digital Marketing Bureau</span>
+              <span className="text-[10px] md:text-xs text-primary/70 mt-0 whitespace-nowrap">Digital Marketing Bureau</span>
             </div>
           </Link>
 

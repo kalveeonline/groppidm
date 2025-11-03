@@ -41,19 +41,19 @@ export const HeroSection = () => {
           </div>
 
           {/* Hero Illustration */}
-          <div className="relative">
-            <div className="relative rounded-full bg-gradient-card p-4 shadow-hero w-full max-w-2xl h-auto aspect-square mx-auto">
+          <div className="relative mt-8 lg:mt-0">
+            <div className="relative rounded-full bg-gradient-card p-3 md:p-4 shadow-hero w-full max-w-md md:max-w-xl lg:max-w-2xl h-auto aspect-square mx-auto">
               <img src={websiteDiagram} alt="Website Digital Marketing Ecosystem" className="w-full h-full object-cover rounded-full" />
               
               {/* Rotating container for floating elements */}
               <div className="absolute inset-0 animate-spin-slow">
-                {/* Floating elements */}
-                <div className="absolute -top-4 -right-4 h-16 w-16 rounded-full bg-primary/20 blur-xl"></div>
-                <div className="absolute -bottom-4 -left-4 h-20 w-20 rounded-full bg-primary/10 blur-2xl"></div>
-                <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 h-12 w-12 rounded-full bg-primary/15 blur-lg"></div>
-                <div className="absolute bottom-0 right-8 h-14 w-14 rounded-full bg-primary/25 blur-xl"></div>
-                <div className="absolute top-1/2 -left-8 transform -translate-y-1/2 h-10 w-10 rounded-full bg-primary/20 blur-md"></div>
-                <div className="absolute top-1/4 right-0 h-8 w-8 rounded-full bg-primary/30 blur-sm"></div>
+                {/* Floating elements - scaled for mobile */}
+                <div className="absolute -top-2 -right-2 md:-top-4 md:-right-4 h-8 w-8 md:h-16 md:w-16 rounded-full bg-primary/20 blur-xl"></div>
+                <div className="absolute -bottom-2 -left-2 md:-bottom-4 md:-left-4 h-10 w-10 md:h-20 md:w-20 rounded-full bg-primary/10 blur-2xl"></div>
+                <div className="absolute -top-4 md:-top-8 left-1/2 transform -translate-x-1/2 h-6 w-6 md:h-12 md:w-12 rounded-full bg-primary/15 blur-lg"></div>
+                <div className="absolute bottom-0 right-4 md:right-8 h-8 w-8 md:h-14 md:w-14 rounded-full bg-primary/25 blur-xl"></div>
+                <div className="absolute top-1/2 -left-4 md:-left-8 transform -translate-y-1/2 h-6 w-6 md:h-10 md:w-10 rounded-full bg-primary/20 blur-md"></div>
+                <div className="absolute top-1/4 right-0 h-4 w-4 md:h-8 md:w-8 rounded-full bg-primary/30 blur-sm"></div>
               </div>
             </div>
           </div>
