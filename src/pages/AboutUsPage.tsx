@@ -31,9 +31,9 @@ export const AboutUsPage = () => {
   ];
 
   const stats = [
-    { number: "50+", label: "Happy Clients" },
-    { number: "30+", label: "Websites Launched" },
-    { number: "15+", label: "Active Campaigns" }
+    { number: "158+", label: "Happy Clients" },
+    { number: "34+", label: "Websites Launched" },
+    { number: "29+", label: "Active Campaigns" }
   ];
 
   const team = [

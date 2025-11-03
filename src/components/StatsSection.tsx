@@ -7,17 +7,17 @@ export const StatsSection = () => {
   const stats = [
     {
       icon: Users,
-      number: "50+",
+      number: "158+",
       label: t('stats.happyClients')
     },
     {
       icon: Monitor,
-      number: "30+",
+      number: "34+",
       label: t('stats.websitesOnline')
     },
     {
       icon: Target,
-      number: "15+",
+      number: "29+",
       label: t('stats.liveCampaigns')
     }
   ];
