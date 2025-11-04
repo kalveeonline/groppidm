@@ -110,7 +110,7 @@ const RealEstateIndustryPage = () => {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link to="/appointment">
-                <Button size="lg" className="text-lg px-8">Schedule Consultation</Button>
+                <Button size="lg" className="text-lg px-8 bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black">Schedule Consultation</Button>
               </Link>
               <Link to="/prices">
                 <Button size="lg" variant="outline" className="text-lg px-8">View Pricing</Button>

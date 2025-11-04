@@ -175,7 +175,7 @@ export const ServicesCarousel = () => {
           <Button
             size="lg"
             onClick={handleAppointment}
-            className="bg-gradient-to-r from-primary via-primary-light to-primary hover:shadow-glow text-primary-foreground font-bold px-8 py-6 text-lg shadow-hero transition-all duration-300 hover:scale-105"
+            className="bg-gradient-to-r from-primary via-primary-light to-primary hover:shadow-glow text-primary-foreground hover:text-black font-bold px-8 py-6 text-lg shadow-hero transition-all duration-300 hover:scale-105"
           >
             {t('carousel.getStarted')}
           </Button>

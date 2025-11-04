@@ -256,7 +256,7 @@ export const ContactPage = () => {
                 </p>
                 <Button 
                   size="lg"
-                  className="bg-gradient-primary hover:shadow-hero text-primary-foreground shadow-elegant transition-all duration-300 hover:scale-105 font-semibold"
+                  className="bg-gradient-primary hover:shadow-hero text-primary-foreground hover:text-black shadow-elegant transition-all duration-300 hover:scale-105 font-semibold"
                   onClick={() => window.location.href = '/appointment'}
                 >
                   Book Your Free Consultation

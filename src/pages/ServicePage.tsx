@@ -59,7 +59,7 @@ const ServicePage = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
                   size="lg" 
-                  className="bg-primary hover:bg-primary-dark text-primary-foreground"
+                  className="bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black"
                   onClick={() => window.location.href = '/appointment'}
                 >
                   {t('common.getStarted')}

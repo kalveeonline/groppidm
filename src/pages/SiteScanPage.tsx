@@ -220,7 +220,7 @@ const SiteScanPage = () => {
               </p>
               <Button 
                 size="lg"
-                className="bg-background text-foreground hover:bg-background/90"
+                className="bg-background text-foreground hover:bg-background/90 hover:text-black"
                 onClick={() => window.location.href = '/appointment'}
               >
                 {t('siteScan.ctaButton')}

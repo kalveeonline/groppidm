@@ -253,7 +253,7 @@ export const PricingCalculator = () => {
                 </div>
 
                 <Button
-                  className="w-full bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero"
+                  className="w-full bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black shadow-hero"
                   size="lg"
                   onClick={() => window.open('/appointment', '_blank')}
                 >

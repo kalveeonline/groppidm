@@ -129,7 +129,7 @@ export const PricesPage = () => {
                   <Button 
                     className={`w-full ${
                       plan.popular 
-                        ? 'bg-primary hover:bg-primary-dark' 
+                        ? 'bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black' 
                         : 'bg-primary/20 hover:bg-primary/30 text-primary'
                     }`}
                     onClick={() => window.open('/appointment', '_blank')}
@@ -207,7 +207,7 @@ export const PricesPage = () => {
             </p>
             <Button 
               size="lg"
-              className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero"
+              className="bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black shadow-hero"
               onClick={() => window.open('/appointment', '_blank')}
             >
               {t("prices.bookConsultation")}
