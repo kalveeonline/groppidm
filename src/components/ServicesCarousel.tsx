@@ -151,7 +151,7 @@ export const ServicesCarousel = () => {
                         <Button
                           onClick={handleCallMe}
                           variant="outline"
-                          className="flex-1 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold transition-all duration-300 group/btn text-sm sm:text-base"
+                          className="flex-1 border-2 border-primary text-primary hover:bg-primary hover:text-black font-semibold transition-all duration-300 group/btn text-sm sm:text-base"
                         >
                           <Phone className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" />
                           <span className="truncate">{t('carousel.callMe')}</span>
