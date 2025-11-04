@@ -261,6 +261,9 @@ export const Header = () => {
             <a href="/jobs" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.jobs')}
             </a>
+            <a href="/franchise" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+              {t('nav.franchise')}
+            </a>
           </nav>
         </div>
       </div>
@@ -337,6 +340,9 @@ export const Header = () => {
             </DropdownMenu>
             <a href="/jobs" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.jobs')}
+            </a>
+            <a href="/franchise" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+              {t('nav.franchise')}
             </a>
             <div className="flex flex-col gap-2 pt-3 border-t border-primary/20">
               <DropdownMenu>

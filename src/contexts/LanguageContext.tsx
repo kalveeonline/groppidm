@@ -39,6 +39,7 @@ const translations = {
     'nav.aboutUs': 'Over ons',
     'nav.industrySupport': 'Sector Ondersteuning',
     'nav.jobs': 'Vacatures',
+    'nav.franchise': 'Franchise',
     
     // Industries
     'industries.medical': 'Medisch',
@@ -402,6 +403,7 @@ const translations = {
     'nav.aboutUs': 'About Us',
     'nav.industrySupport': 'Industry Support',
     'nav.jobs': 'Jobs',
+    'nav.franchise': 'Franchise',
     
     // Industries
     'industries.medical': 'Medical',
@@ -765,6 +767,7 @@ const translations = {
     'nav.aboutUs': 'À propos',
     'nav.industrySupport': 'Support Sectoriel',
     'nav.jobs': 'Emplois',
+    'nav.franchise': 'Franchise',
     
     // Industries
     'industries.medical': 'Médical',
@@ -971,6 +974,7 @@ const translations = {
     'nav.aboutUs': 'O nas',
     'nav.industrySupport': 'Wsparcie Branżowe',
     'nav.jobs': 'Praca',
+    'nav.franchise': 'Franczyza',
     
     // Industries
     'industries.medical': 'Medyczny',
@@ -1177,6 +1181,7 @@ const translations = {
     'nav.aboutUs': 'О нас',
     'nav.industrySupport': 'Отраслевая Поддержка',
     'nav.jobs': 'Вакансии',
+    'nav.franchise': 'Франшиза',
     
     // Industries
     'industries.medical': 'Медицинский',
@@ -1383,6 +1388,7 @@ const translations = {
     'nav.aboutUs': 'Über uns',
     'nav.industrySupport': 'Branchenunterstützung',
     'nav.jobs': 'Jobs',
+    'nav.franchise': 'Franchise',
     
     // Industries
     'industries.medical': 'Medizinisch',
@@ -1589,6 +1595,7 @@ const translations = {
     'nav.aboutUs': 'Sobre nosotros',
     'nav.industrySupport': 'Soporte Industrial',
     'nav.jobs': 'Empleos',
+    'nav.franchise': 'Franquicia',
     
     // Industries
     'industries.medical': 'Médico',
@@ -1795,6 +1802,7 @@ const translations = {
     'nav.aboutUs': 'Chi siamo',
     'nav.industrySupport': 'Supporto Settoriale',
     'nav.jobs': 'Lavoro',
+    'nav.franchise': 'Franchising',
     
     // Industries
     'industries.medical': 'Medico',
@@ -1995,6 +2003,7 @@ const translations = {
     'nav.aboutUs': 'Про нас',
     'nav.industrySupport': 'Галузева Підтримка',
     'nav.jobs': 'Вакансії',
+    'nav.franchise': 'Франшиза',
     
     // Industries
     'industries.medical': 'Медичний',
@@ -2195,6 +2204,7 @@ const translations = {
     'nav.aboutUs': 'Hakkımızda',
     'nav.industrySupport': 'Sektör Desteği',
     'nav.jobs': 'İş ilanları',
+    'nav.franchise': 'Franchise',
     
     // Industries
     'industries.medical': 'Tıbbi',
@@ -2353,6 +2363,7 @@ const translations = {
     'nav.aboutUs': 'Om oss',
     'nav.industrySupport': 'Branschstöd',
     'nav.jobs': 'Jobb',
+    'nav.franchise': 'Franchise',
     
     // Industries
     'industries.medical': 'Medicinskt',
@@ -2511,6 +2522,7 @@ const translations = {
     'nav.aboutUs': '关于我们',
     'nav.industrySupport': '行业支持',
     'nav.jobs': '工作机会',
+    'nav.franchise': '特许经营',
     
     // Industries
     'industries.medical': '医疗',
@@ -2669,6 +2681,7 @@ const translations = {
     'nav.aboutUs': 'Tietoa meistä',
     'nav.industrySupport': 'Toimialatuki',
     'nav.jobs': 'Työpaikat',
+    'nav.franchise': 'Franchising',
     
     // Industries
     'industries.medical': 'Lääketieteellinen',
@@ -2827,6 +2840,7 @@ const translations = {
     'nav.aboutUs': 'من نحن',
     'nav.industrySupport': 'دعم القطاع',
     'nav.jobs': 'الوظائف',
+    'nav.franchise': 'الامتياز التجاري',
     
     // Industries
     'industries.medical': 'طبي',
@@ -2985,6 +2999,7 @@ const translations = {
     'nav.aboutUs': 'Om os',
     'nav.industrySupport': 'Branchestøtte',
     'nav.jobs': 'Jobs',
+    'nav.franchise': 'Franchise',
     
     // Industries
     'industries.medical': 'Medicinsk',
@@ -3143,6 +3158,7 @@ const translations = {
     'nav.aboutUs': 'Om oss',
     'nav.industrySupport': 'Bransjetøtte',
     'nav.jobs': 'Jobber',
+    'nav.franchise': 'Franchise',
     
     // Industries
     'industries.medical': 'Medisinsk',

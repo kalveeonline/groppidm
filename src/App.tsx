@@ -18,6 +18,7 @@ import { PricesPage } from "./pages/PricesPage";
 import { BlogPage } from "./pages/BlogPage";
 import { AboutUsPage } from "./pages/AboutUsPage";
 import { JobsPage } from "./pages/JobsPage";
+import { FranchisePage } from "./pages/FranchisePage";
 import { MyMediaPage } from "./pages/MyMediaPage";
 import { ContactPage } from "./pages/ContactPage";
 import SiteScanPage from "./pages/SiteScanPage";
@@ -63,6 +64,7 @@ const App = () => (
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/about" element={<AboutUsPage />} />
             <Route path="/jobs" element={<JobsPage />} />
+            <Route path="/franchise" element={<FranchisePage />} />
             <Route path="/my-media" element={<MyMediaPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/site-scan" element={<SiteScanPage />} />
