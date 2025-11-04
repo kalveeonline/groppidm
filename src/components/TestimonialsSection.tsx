@@ -8,19 +8,19 @@ export const TestimonialsSection = () => {
   const testimonials = [
     {
       name: "Dirk Van den Bergh",
-      company: "Van den Bergh Installatiebedrijf - Antwerpen",
+      company: "Jan Van Deyk - Construction and Materials",
       text: "Sinds we met GROPPI werken, is ons aantal online aanvragen met 230% gestegen. Hun SEO-optimalisatie heeft ons bedrijf bovenaan Google geplaatst. De professionele website en Google Ads campagnes leveren dagelijks nieuwe klanten op. Een investering die zichzelf dubbel en dwars terugbetaalt!",
       rating: 5
     },
     {
       name: "Isabelle Claes",
-      company: "Claes Mode & Lifestyle - Mechelen",
+      company: "Sofie Havermans - Beauty Centre",
       text: "GROPPI heeft onze boutique volledig digitaal getransformeerd. Ze hebben een prachtige webshop ontwikkeld die perfect aansluit bij onze merkidentiteit. Dankzij hun social media marketing op Instagram en Facebook hebben we nu een trouwe online community. Onze online omzet is in 6 maanden tijd verdrievoudigd!",
       rating: 5
     },
     {
       name: "Thomas Verstraeten",
-      company: "Verstraeten Advocatenkantoor - Leuven",
+      company: "Marc Verhoeven - Transport",
       text: "Als advocatenkantoor waren we sceptisch over digitale marketing, maar GROPPI heeft ons overtuigd. Ze hebben een stijlvolle, professionele website gebouwd die vertrouwen uitstraalt. Hun aanpak van lokale SEO heeft gezorgd dat potentiële klanten ons nu makkelijk vinden. Het aantal consultatie-aanvragen is significant toegenomen. Uitstekende service en duidelijke communicatie!",
       rating: 5
     }
