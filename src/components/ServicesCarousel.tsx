@@ -80,7 +80,7 @@ export const ServicesCarousel = () => {
   };
 
   const handleCallMe = () => {
-    window.open('tel:+32494311119', '_self');
+    window.open('tel:+32041635005', '_self');
   };
 
   return (

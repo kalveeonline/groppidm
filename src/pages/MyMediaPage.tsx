@@ -287,7 +287,7 @@ export const MyMediaPage = () => {
                     size="lg"
                     variant="outline"
                     className="border-primary text-primary hover:bg-primary/10"
-                    onClick={() => window.open('tel:+32494311119', '_self')}
+                    onClick={() => window.open('tel:+32041635005', '_self')}
                   >
                     Call Us Now
                   </Button>

@@ -285,7 +285,7 @@ export const AppointmentPage = () => {
                       size="lg"
                       variant="outline"
                       className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                      onClick={() => window.open('https://wa.me/32494311119', '_blank')}
+                      onClick={() => window.open('https://wa.me/32041635005', '_blank')}
                     >
                       <MessageSquare className="w-4 h-4 mr-2" />
                       {t('appointment.whatsapp')}
@@ -294,7 +294,7 @@ export const AppointmentPage = () => {
                       size="lg"
                       variant="outline"
                       className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                      onClick={() => window.location.href = 'tel:+32494311119'}
+                      onClick={() => window.location.href = 'tel:+32041635005'}
                     >
                       <Phone className="w-4 h-4 mr-2" />
                       {t('appointment.call')}
@@ -304,7 +304,7 @@ export const AppointmentPage = () => {
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm text-primary/70">
                       <div className="flex items-center gap-2">
                         <Phone className="w-4 h-4 text-primary" />
-                        <span>+32 494 31 11 19</span>
+                        <span>+32 (0) 41635005</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <Mail className="w-4 h-4 text-primary" />

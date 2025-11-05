@@ -102,7 +102,7 @@ export const TermsOfServicePage = () => {
               <div className="mt-4 p-4 bg-primary/5 rounded-lg">
                 <p className="text-foreground font-semibold">GROPPI Digital Marketing Bureau</p>
                 <p className="text-foreground/80">Email: info@groppi.be</p>
-                <p className="text-foreground/80">Tel: +32 (0) 49 43 1111 9</p>
+                <p className="text-foreground/80">Tel: +32 (0) 41635005</p>
                 <p className="text-foreground/80">Het Steeke 5A, 2330 Merksplas, Belgium</p>
               </div>
             </section>
