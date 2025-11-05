@@ -143,7 +143,7 @@ export const ServicesCarousel = () => {
                       <div className="flex flex-col sm:flex-row gap-3 pt-4">
                         <Button
                           onClick={handleAppointment}
-                          className="flex-1 bg-primary hover:bg-primary-dark text-black hover:text-black font-semibold shadow-lg shadow-primary/30 hover:shadow-glow transition-all duration-300 group/btn text-sm sm:text-base"
+                          className="flex-1 bg-primary hover:bg-primary-dark !text-black hover:!text-black font-semibold shadow-lg shadow-primary/30 hover:shadow-glow transition-all duration-300 group/btn text-sm sm:text-base"
                         >
                           <Calendar className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" />
                           <span className="truncate">{t('carousel.makeAppointment')}</span>
@@ -151,7 +151,7 @@ export const ServicesCarousel = () => {
                         <Button
                           onClick={handleCallMe}
                           variant="outline"
-                          className="flex-1 border-2 border-primary text-black hover:bg-primary hover:text-black font-semibold transition-all duration-300 group/btn text-sm sm:text-base"
+                          className="flex-1 border-2 border-primary !text-black hover:bg-primary hover:!text-black font-semibold transition-all duration-300 group/btn text-sm sm:text-base"
                         >
                           <Phone className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" />
                           <span className="truncate">{t('carousel.callMe')}</span>
@@ -175,7 +175,7 @@ export const ServicesCarousel = () => {
           <Button
             size="lg"
             onClick={handleAppointment}
-            className="bg-gradient-to-r from-primary via-primary-light to-primary hover:shadow-glow text-black hover:text-black font-bold px-8 py-6 text-lg shadow-hero transition-all duration-300 hover:scale-105"
+            className="bg-gradient-to-r from-primary via-primary-light to-primary hover:shadow-glow !text-black hover:!text-black font-bold px-8 py-6 text-lg shadow-hero transition-all duration-300 hover:scale-105"
           >
             {t('carousel.getStarted')}
           </Button>
