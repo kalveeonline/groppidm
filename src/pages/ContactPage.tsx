@@ -20,15 +20,15 @@ export const ContactPage = () => {
     {
       icon: Phone,
       title: "Phone",
-      detail: "+32 (0) 41635005",
-      action: () => window.open('tel:+32041635005', '_self'),
+      detail: "+32 494 31 11 19",
+      action: () => window.open('tel:+32494311119', '_self'),
       buttonText: "Call Now"
     },
     {
       icon: MessageSquare,
       title: "WhatsApp",
       detail: "Chat with us instantly",
-      action: () => window.open('https://wa.me/32041635005', '_blank'),
+      action: () => window.open('https://wa.me/32494311119', '_blank'),
       buttonText: "Open WhatsApp"
     },
     {

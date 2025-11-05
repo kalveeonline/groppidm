@@ -104,7 +104,7 @@ export const FranchisePage = () => {
                 size="lg"
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-black"
-                onClick={() => window.open('tel:+32041635005', '_self')}
+                onClick={() => window.open('tel:+32494311119', '_self')}
               >
                 Call for Details
               </Button>
