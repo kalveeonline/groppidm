@@ -143,13 +143,15 @@ export const ServicesCarousel = () => {
                       <div className="flex flex-col sm:flex-row gap-3 pt-4">
                         <Button
                           onClick={handleAppointment}
-                          className="flex-1 font-semibold shadow-lg hover:shadow-glow transition-all duration-300 group/btn text-sm sm:text-base border-0"
+                          variant="outline"
+                          className="flex-1 border-2 font-semibold transition-all duration-300 group/btn text-sm sm:text-base"
                           style={{ 
-                            backgroundColor: 'hsl(var(--button-appointment))',
-                            color: 'white'
+                            borderColor: 'hsl(var(--button-appointment))',
+                            color: 'hsl(var(--button-appointment))',
+                            backgroundColor: 'transparent'
                           }}
                         >
-                          <Calendar className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" style={{ color: 'white' }} />
+                          <Calendar className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" style={{ color: 'hsl(var(--button-appointment))' }} />
                           <span className="truncate">{t('carousel.makeAppointment')}</span>
                         </Button>
                         <Button
