@@ -58,6 +58,18 @@ All colors MUST be HSL.
     --youtube: 0 100% 50%;
     --tiktok: 177 100% 47%;
     
+    /* Industry Colors */
+    --industry-medical: 200 100% 50%;
+    --industry-engineering: 30 100% 50%;
+    --industry-sales: 142 71% 45%;
+    --industry-marketing: 280 67% 55%;
+    --industry-construction: 25 75% 47%;
+    --industry-real-estate: 210 100% 56%;
+    --industry-ecommerce: 330 81% 60%;
+    --industry-business: 43 96% 56%;
+    --industry-service: 160 84% 39%;
+    --industry-export: 220 90% 56%;
+    
     /* Sidebar */
     --sidebar-background: 0 0% 7%;
     --sidebar-foreground: 43 96% 56%;
@@ -122,6 +134,18 @@ All colors MUST be HSL.
     --linkedin: 201 100% 35%;
     --youtube: 0 100% 50%;
     --tiktok: 177 100% 47%;
+    
+    /* Industry Colors */
+    --industry-medical: 200 100% 50%;
+    --industry-engineering: 30 100% 50%;
+    --industry-sales: 142 71% 45%;
+    --industry-marketing: 280 67% 55%;
+    --industry-construction: 25 75% 47%;
+    --industry-real-estate: 210 100% 56%;
+    --industry-ecommerce: 330 81% 60%;
+    --industry-business: 43 96% 56%;
+    --industry-service: 160 84% 39%;
+    --industry-export: 220 90% 56%;
     
     --sidebar-background: 0 0% 7%;
     --sidebar-foreground: 43 96% 56%;

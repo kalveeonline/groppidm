@@ -60,16 +60,16 @@ export const Header = () => {
   ];
 
   const industries = [
-    { name: t('industries.medical'), slug: "medical", icon: Stethoscope },
-    { name: t('industries.engineering'), slug: "engineering", icon: Wrench },
-    { name: t('industries.sales'), slug: "sales", icon: TrendingUp },
-    { name: t('industries.marketing'), slug: "marketing", icon: Megaphone },
-    { name: t('industries.construction'), slug: "construction", icon: HardHat },
-    { name: t('industries.realEstate'), slug: "real-estate", icon: Home },
-    { name: t('industries.ecommerce'), slug: "ecommerce", icon: Package },
-    { name: t('industries.business'), slug: "business", icon: Briefcase },
-    { name: t('industries.serviceIndustry'), slug: "service-industry", icon: Users },
-    { name: t('industries.exportBusiness'), slug: "export-business", icon: Plane }
+    { name: t('industries.medical'), slug: "medical", icon: Stethoscope, color: "hsl(var(--industry-medical))" },
+    { name: t('industries.engineering'), slug: "engineering", icon: Wrench, color: "hsl(var(--industry-engineering))" },
+    { name: t('industries.sales'), slug: "sales", icon: TrendingUp, color: "hsl(var(--industry-sales))" },
+    { name: t('industries.marketing'), slug: "marketing", icon: Megaphone, color: "hsl(var(--industry-marketing))" },
+    { name: t('industries.construction'), slug: "construction", icon: HardHat, color: "hsl(var(--industry-construction))" },
+    { name: t('industries.realEstate'), slug: "real-estate", icon: Home, color: "hsl(var(--industry-real-estate))" },
+    { name: t('industries.ecommerce'), slug: "ecommerce", icon: Package, color: "hsl(var(--industry-ecommerce))" },
+    { name: t('industries.business'), slug: "business", icon: Briefcase, color: "hsl(var(--industry-business))" },
+    { name: t('industries.serviceIndustry'), slug: "service-industry", icon: Users, color: "hsl(var(--industry-service))" },
+    { name: t('industries.exportBusiness'), slug: "export-business", icon: Plane, color: "hsl(var(--industry-export))" }
   ];
 
   return (
@@ -249,8 +249,8 @@ export const Header = () => {
                         className="cursor-pointer hover:bg-primary/20 p-3 rounded-lg transition-colors"
                       >
                         <div className="flex items-center gap-3">
-                          <industry.icon className="h-5 w-5 text-primary flex-shrink-0" />
-                          <div className="font-medium text-sm text-primary hover:text-primary-light">{industry.name}</div>
+                          <industry.icon className="h-5 w-5 flex-shrink-0" style={{ color: industry.color }} />
+                          <div className="font-medium text-sm" style={{ color: industry.color }}>{industry.name}</div>
                         </div>
                       </DropdownMenuItem>
                     </Link>
@@ -329,9 +329,9 @@ export const Header = () => {
                 <div className="space-y-1">
                   {industries.map((industry, index) => (
                     <Link to={`/industry/${industry.slug}`} key={index}>
-                      <DropdownMenuItem className="cursor-pointer hover:bg-primary/20 text-primary hover:text-primary-light transition-colors">
-                        <industry.icon className="h-4 w-4 mr-2" />
-                        {industry.name}
+                      <DropdownMenuItem className="cursor-pointer hover:bg-primary/20 transition-colors">
+                        <industry.icon className="h-4 w-4 mr-2" style={{ color: industry.color }} />
+                        <span style={{ color: industry.color }}>{industry.name}</span>
                       </DropdownMenuItem>
                     </Link>
                   ))}
