@@ -2,7 +2,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Clock, Briefcase } from "lucide-react";
+import { Clock, Briefcase, MapPin } from "lucide-react";
 
 export const JobsPage = () => {
   const jobListings = [
@@ -192,7 +192,7 @@ export const JobsPage = () => {
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                    <div className="grid md:grid-cols-3 gap-4 mb-6">
                       <div className="flex items-center gap-2 text-primary/70">
                         <Briefcase className="h-4 w-4" />
                         <span className="text-sm">{job.department}</span>
@@ -200,6 +200,10 @@ export const JobsPage = () => {
                       <div className="flex items-center gap-2 text-primary/70">
                         <Clock className="h-4 w-4" />
                         <span className="text-sm">{job.type}</span>
+                      </div>
+                      <div className="flex items-center gap-2 text-primary/70">
+                        <MapPin className="h-4 w-4" />
+                        <span className="text-sm">{job.location}</span>
                       </div>
                     </div>
                     <div>
