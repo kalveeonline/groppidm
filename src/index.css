@@ -70,6 +70,10 @@ All colors MUST be HSL.
     --industry-service: 160 84% 39%;
     --industry-export: 220 90% 56%;
     
+    /* Button Action Colors */
+    --button-appointment: 142 71% 45%;
+    --button-call: 200 100% 50%;
+    
     /* Sidebar */
     --sidebar-background: 0 0% 7%;
     --sidebar-foreground: 43 96% 56%;
@@ -146,6 +150,10 @@ All colors MUST be HSL.
     --industry-business: 43 96% 56%;
     --industry-service: 160 84% 39%;
     --industry-export: 220 90% 56%;
+    
+    /* Button Action Colors */
+    --button-appointment: 142 71% 45%;
+    --button-call: 200 100% 50%;
     
     --sidebar-background: 0 0% 7%;
     --sidebar-foreground: 43 96% 56%;

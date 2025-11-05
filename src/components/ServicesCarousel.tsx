@@ -143,17 +143,26 @@ export const ServicesCarousel = () => {
                       <div className="flex flex-col sm:flex-row gap-3 pt-4">
                         <Button
                           onClick={handleAppointment}
-                          className="flex-1 bg-primary hover:bg-primary-dark !text-black hover:!text-black font-semibold shadow-lg shadow-primary/30 hover:shadow-glow transition-all duration-300 group/btn text-sm sm:text-base"
+                          className="flex-1 font-semibold shadow-lg hover:shadow-glow transition-all duration-300 group/btn text-sm sm:text-base border-0"
+                          style={{ 
+                            backgroundColor: 'hsl(var(--button-appointment))',
+                            color: 'white'
+                          }}
                         >
-                          <Calendar className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" />
+                          <Calendar className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" style={{ color: 'white' }} />
                           <span className="truncate">{t('carousel.makeAppointment')}</span>
                         </Button>
                         <Button
                           onClick={handleCallMe}
                           variant="outline"
-                          className="flex-1 border-2 border-primary !text-black hover:bg-primary hover:!text-black font-semibold transition-all duration-300 group/btn text-sm sm:text-base"
+                          className="flex-1 border-2 font-semibold transition-all duration-300 group/btn text-sm sm:text-base"
+                          style={{ 
+                            borderColor: 'hsl(var(--button-call))',
+                            color: 'hsl(var(--button-call))',
+                            backgroundColor: 'transparent'
+                          }}
                         >
-                          <Phone className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" />
+                          <Phone className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" style={{ color: 'hsl(var(--button-call))' }} />
                           <span className="truncate">{t('carousel.callMe')}</span>
                         </Button>
                       </div>
