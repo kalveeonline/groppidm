@@ -5,6 +5,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Target, Users, Award, TrendingUp } from "lucide-react";
 import koenImage from "@/assets/team/koen-van-gorp.jpg";
 import lokmanImage from "@/assets/team/lokman-dinc.jpg";
+import officeExterior from "@/assets/office-exterior.jpg";
+import officeNight from "@/assets/office-night.jpg";
 
 export const AboutUsPage = () => {
   const values = [
@@ -60,7 +62,7 @@ export const AboutUsPage = () => {
         <div className="container px-4 mb-16">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold text-primary mb-6">
-              Empowering SMEs to Succeed Online Since 2025
+              Empowering SMEs to Succeed Online Since 2015
             </h1>
             <p className="text-xl text-primary/70 leading-relaxed">
               GROPPI Digital Marketing Bureau is Belgium's trusted partner for small and medium-sized enterprises 
@@ -96,7 +98,7 @@ export const AboutUsPage = () => {
               </h2>
               <div className="space-y-4 text-primary/70 text-justify">
                 <p>
-                  Founded in 2025, GROPPI began with a simple mission: to help small and medium-sized businesses 
+                  Founded in 2015, GROPPI began with a simple mission: to help small and medium-sized businesses 
                   harness the power of digital marketing. What started as a web design studio has evolved into a 
                   full-service digital marketing agency serving clients across Belgium and beyond.
                 </p>
@@ -113,13 +115,13 @@ export const AboutUsPage = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img 
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop"
-                alt="Team collaboration"
+                src={officeExterior}
+                alt="GROPPI Office exterior"
                 className="rounded-lg shadow-lg"
               />
               <img 
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&h=300&fit=crop"
-                alt="Office environment"
+                src={officeNight}
+                alt="GROPPI Office at night"
                 className="rounded-lg shadow-lg mt-8"
               />
             </div>
