@@ -132,41 +132,36 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-semibold text-lg text-foreground">{t('footer.services')}</h3>
             <div className="space-y-2 text-sm">
-              <a 
-                href="#" 
-                onClick={() => window.open('/website-development', '_blank')}
+              <Link 
+                to="/website-development"
                 className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
               >
                 {t('footer.websiteDevelopment')}
-              </a>
-              <a 
-                href="#" 
-                onClick={() => window.open('/webshop-creation', '_blank')}
+              </Link>
+              <Link 
+                to="/webshop-creation"
                 className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
               >
                 {t('footer.webshopCreation')}
-              </a>
-              <a 
-                href="#" 
-                onClick={() => window.open('/seo-optimization', '_blank')}
+              </Link>
+              <Link 
+                to="/seo-optimization"
                 className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
               >
                 {t('footer.seoOptimization')}
-              </a>
-              <a 
-                href="#" 
-                onClick={() => window.open('/digital-advertising', '_blank')}
+              </Link>
+              <Link 
+                to="/digital-advertising"
                 className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
               >
                 {t('footer.digitalAdvertising')}
-              </a>
-              <a 
-                href="#" 
-                onClick={() => window.open('/social-media-marketing', '_blank')}
+              </Link>
+              <Link 
+                to="/social-media-marketing"
                 className="block text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
               >
                 {t('footer.socialMediaMarketing')}
-              </a>
+              </Link>
             </div>
           </div>
 

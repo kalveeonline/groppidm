@@ -154,16 +154,16 @@ export const Header = () => {
               variant="ghost" 
               size="sm" 
               className="text-primary hover:text-primary-light text-sm"
-              onClick={() => window.location.href = '/my-media'}
+              asChild
             >
-              {t('nav.myMedia')}
+              <Link to="/my-media">{t('nav.myMedia')}</Link>
             </Button>
             <Button 
               size="sm" 
               className="bg-primary hover:bg-primary-dark text-primary-foreground font-semibold text-sm shadow-lg shadow-primary/30"
-              onClick={() => window.location.href = '/contact'}
+              asChild
             >
-              {t('nav.contact')}
+              <Link to="/contact">{t('nav.contact')}</Link>
             </Button>
           </div>
 
@@ -225,15 +225,15 @@ export const Header = () => {
                 </div>
               </DropdownMenuContent>
             </DropdownMenu>
-            <a href="/prices" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+            <Link to="/prices" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.prices')}
-            </a>
-            <a href="/blog" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+            </Link>
+            <Link to="/blog" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.blog')}
-            </a>
-            <a href="/about" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+            </Link>
+            <Link to="/about" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.aboutUs')}
-            </a>
+            </Link>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="text-base font-semibold text-primary hover:text-primary-light transition-colors gap-1">
@@ -258,12 +258,12 @@ export const Header = () => {
                 </div>
               </DropdownMenuContent>
             </DropdownMenu>
-            <a href="/franchise" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+            <Link to="/franchise" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.franchise')}
-            </a>
-            <a href="/jobs" target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
+            </Link>
+            <Link to="/jobs" className="text-base font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.jobs')}
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
@@ -309,15 +309,15 @@ export const Header = () => {
             <a href="#services" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.services')}
             </a>
-            <a href="/prices" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+            <Link to="/prices" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.prices')}
-            </a>
-            <a href="/blog" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+            </Link>
+            <Link to="/blog" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.blog')}
-            </a>
-            <a href="/about" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+            </Link>
+            <Link to="/about" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.aboutUs')}
-            </a>
+            </Link>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="sm" className="justify-start text-primary gap-2 w-full">
@@ -338,12 +338,12 @@ export const Header = () => {
                 </div>
               </DropdownMenuContent>
             </DropdownMenu>
-            <a href="/franchise" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+            <Link to="/franchise" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.franchise')}
-            </a>
-            <a href="/jobs" target="_blank" rel="noopener noreferrer" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
+            </Link>
+            <Link to="/jobs" className="block text-sm font-semibold text-primary hover:text-primary-light transition-colors">
               {t('nav.jobs')}
-            </a>
+            </Link>
             <div className="flex flex-col gap-2 pt-3 border-t border-primary/20">
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -369,16 +369,16 @@ export const Header = () => {
                 variant="ghost" 
                 size="sm" 
                 className="justify-start text-primary"
-                onClick={() => window.location.href = '/my-media'}
+                asChild
               >
-                {t('nav.myMedia')}
+                <Link to="/my-media">{t('nav.myMedia')}</Link>
               </Button>
               <Button 
                 size="sm" 
                 className="bg-primary hover:bg-primary-dark text-primary-foreground font-semibold shadow-lg shadow-primary/30"
-                onClick={() => window.location.href = '/contact'}
+                asChild
               >
-                {t('nav.contact')}
+                <Link to="/contact">{t('nav.contact')}</Link>
               </Button>
             </div>
           </div>
