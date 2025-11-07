@@ -30,28 +30,6 @@ export const FranchisePage = () => {
     }
   ];
 
-  const investment = [
-    {
-      item: "Initial Franchise Fee",
-      amount: "€25,000",
-      description: "One-time fee for franchise rights and initial training"
-    },
-    {
-      item: "Equipment & Setup",
-      amount: "€15,000 - €20,000",
-      description: "Office equipment, software licenses, and marketing materials"
-    },
-    {
-      item: "Working Capital",
-      amount: "€30,000 - €40,000",
-      description: "Initial operating expenses for the first 3-6 months"
-    },
-    {
-      item: "Total Investment",
-      amount: "€70,000 - €85,000",
-      description: "Complete package to launch your franchise"
-    }
-  ];
 
   const support = [
     "Complete operational manual and systems",
@@ -138,42 +116,41 @@ export const FranchisePage = () => {
           </div>
         </div>
 
-        {/* Investment Overview */}
+        {/* Pricing Information */}
         <div className="container px-4 mb-16">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              {t('franchise.investment.title')}
+              Investment & Pricing Information
             </h2>
             <Card className="bg-gradient-card border-primary/30">
-              <CardContent className="pt-8">
-                <div className="space-y-6">
-                  {investment.map((item, index) => (
-                    <div 
-                      key={index}
-                      className={`flex justify-between items-start p-4 bg-background/50 rounded-lg ${
-                        item.item === "Total Investment" ? "border-2 border-primary" : ""
-                      }`}
-                    >
-                      <div className="flex-1">
-                        <h4 className={`font-semibold ${
-                          item.item === "Total Investment" ? "text-xl text-primary" : "text-primary"
-                        }`}>
-                          {item.item}
-                        </h4>
-                        <p className="text-sm text-primary/60 mt-1">{item.description}</p>
-                      </div>
-                      <div className={`text-right ml-4 ${
-                        item.item === "Total Investment" ? "text-2xl font-bold text-primary" : "text-xl font-semibold text-primary"
-                      }`}>
-                        {item.amount}
-                      </div>
-                    </div>
-                  ))}
+              <CardContent className="pt-12 pb-12 text-center">
+                <div className="flex justify-center mb-6">
+                  <div className="h-20 w-20 rounded-full bg-primary/10 flex items-center justify-center">
+                    <DollarSign className="h-10 w-10 text-primary" />
+                  </div>
                 </div>
-                <div className="mt-6 p-4 bg-primary/10 rounded-lg">
-                  <p className="text-sm text-primary/70 text-center">
-                    💡 Financing options available for qualified candidates
-                  </p>
+                <h3 className="text-2xl font-bold text-primary mb-4">
+                  For More Information, Need to Contact Us
+                </h3>
+                <p className="text-primary/70 mb-8 max-w-2xl mx-auto">
+                  Get detailed information about investment requirements, franchise fees, and financial projections tailored to your territory.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Button 
+                    size="lg"
+                    className="bg-primary hover:bg-primary-dark text-black hover:text-black shadow-hero"
+                    onClick={() => window.location.href = '/appointment'}
+                  >
+                    Schedule a Meeting
+                  </Button>
+                  <Button 
+                    size="lg"
+                    variant="outline"
+                    className="border-primary text-primary hover:bg-primary hover:text-black"
+                    onClick={() => window.open('tel:+32494311119', '_self')}
+                  >
+                    Call Us Now
+                  </Button>
                 </div>
               </CardContent>
             </Card>
@@ -224,40 +201,6 @@ export const FranchisePage = () => {
           </div>
         </div>
 
-        {/* Revenue Potential */}
-        <div className="container px-4 mb-16">
-          <div className="max-w-4xl mx-auto">
-            <Card className="bg-gradient-card border-primary/30">
-              <CardHeader className="text-center">
-                <div className="flex justify-center mb-4">
-                  <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center">
-                    <DollarSign className="h-8 w-8 text-primary" />
-                  </div>
-                </div>
-                <CardTitle className="text-3xl text-primary">{t('franchise.revenue.title')}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-                  <div className="p-6 bg-background/50 rounded-lg">
-                    <div className="text-3xl font-bold text-primary mb-2">€150K+</div>
-                    <div className="text-sm text-primary/70">First Year Revenue Target</div>
-                  </div>
-                  <div className="p-6 bg-background/50 rounded-lg border-2 border-primary">
-                    <div className="text-3xl font-bold text-primary mb-2">€300K+</div>
-                    <div className="text-sm text-primary/70">Year 2-3 Revenue Target</div>
-                  </div>
-                  <div className="p-6 bg-background/50 rounded-lg">
-                    <div className="text-3xl font-bold text-primary mb-2">25-35%</div>
-                    <div className="text-sm text-primary/70">Typical Profit Margin</div>
-                  </div>
-                </div>
-                <p className="text-xs text-primary/60 text-center mt-6">
-                  * Revenue projections are estimates based on current franchise performance. Actual results may vary.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
 
         {/* Available Territories */}
         <div className="bg-card/30 py-16 mb-16">
