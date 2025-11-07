@@ -202,33 +202,6 @@ export const FranchisePage = () => {
         </div>
 
 
-        {/* Available Territories */}
-        <div className="bg-card/30 py-16 mb-16">
-          <div className="container px-4">
-            <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              {t('franchise.territories.title')}
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              {['West Flanders', 'Limburg', 'Walloon Brabant'].map((territory, index) => (
-                <Card key={index} className="bg-gradient-card border-primary/30 hover:border-primary transition-all duration-300">
-                  <CardContent className="pt-8 text-center">
-                    <MapPin className="h-12 w-12 text-primary mx-auto mb-4" />
-                    <h3 className="text-xl font-bold text-primary mb-2">{territory}</h3>
-                    <p className="text-primary/70 text-sm mb-4">Prime territory available</p>
-                    <Button 
-                      variant="outline"
-                      size="sm"
-                      className="border-primary text-primary hover:bg-primary hover:text-black"
-                      onClick={() => window.location.href = '/appointment'}
-                    >
-                      Inquire Now
-                    </Button>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </div>
 
         {/* Process */}
         <div className="container px-4 mb-16">
