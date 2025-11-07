@@ -3562,9 +3562,14 @@ const translations = {
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [language, setLanguage] = useState(() => {
-    // Load language from localStorage or default to 'NL'
+    // Check if language was previously saved, otherwise default to 'NL'
     const saved = localStorage.getItem('selectedLanguage');
-    return saved || 'NL';
+    // If no saved language or first time, set to NL
+    if (!saved) {
+      localStorage.setItem('selectedLanguage', 'NL');
+      return 'NL';
+    }
+    return saved;
   });
 
   // Save language to localStorage whenever it changes
