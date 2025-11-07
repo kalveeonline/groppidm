@@ -32,25 +32,25 @@ export const FranchisePage = () => {
 
 
   const support = [
-    "Complete operational manual and systems",
-    "Initial 4-week intensive training program",
-    "Ongoing technical and sales support",
-    "Access to proprietary software and tools",
-    "National marketing campaigns",
-    "Regular franchise meetings and networking",
-    "Exclusive territory rights",
-    "Business development assistance"
+    t('franchise.support.item1'),
+    t('franchise.support.item2'),
+    t('franchise.support.item3'),
+    t('franchise.support.item4'),
+    t('franchise.support.item5'),
+    t('franchise.support.item6'),
+    t('franchise.support.item7'),
+    t('franchise.support.item8')
   ];
 
   const requirements = [
-    "Business-minded entrepreneur with drive and ambition",
-    "Strong communication and leadership skills",
-    "Interest in digital marketing and technology",
-    "Minimum liquid capital of €85,000",
-    "Commitment to the GROPPI brand values",
-    "Willingness to follow proven systems",
-    "Customer-focused mindset",
-    "Located or willing to relocate within Belgium"
+    t('franchise.candidate.req1'),
+    t('franchise.candidate.req2'),
+    t('franchise.candidate.req3'),
+    t('franchise.candidate.req4'),
+    t('franchise.candidate.req5'),
+    t('franchise.candidate.req6'),
+    t('franchise.candidate.req7'),
+    t('franchise.candidate.req8')
   ];
 
   return (
@@ -120,7 +120,7 @@ export const FranchisePage = () => {
         <div className="container px-4 mb-16">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              Investment & Pricing Information
+              {t('franchise.investment.title')}
             </h2>
             <Card className="bg-gradient-card border-primary/30">
               <CardContent className="pt-12 pb-12 text-center">
@@ -130,10 +130,10 @@ export const FranchisePage = () => {
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold text-primary mb-4">
-                  For More Information, Need to Contact Us
+                  {t('franchise.investment.contact')}
                 </h3>
                 <p className="text-primary/70 mb-8 max-w-2xl mx-auto">
-                  Get detailed information about investment requirements, franchise fees, and financial projections tailored to your territory.
+                  {t('franchise.investment.contactDesc')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button 
@@ -141,7 +141,7 @@ export const FranchisePage = () => {
                     className="bg-primary hover:bg-primary-dark text-black hover:text-black shadow-hero"
                     onClick={() => window.location.href = '/appointment'}
                   >
-                    Schedule a Meeting
+                    {t('franchise.investment.schedule')}
                   </Button>
                   <Button 
                     size="lg"
@@ -149,7 +149,7 @@ export const FranchisePage = () => {
                     className="border-primary text-primary hover:bg-primary hover:text-black"
                     onClick={() => window.open('tel:+32494311119', '_self')}
                   >
-                    Call Us Now
+                    {t('franchise.investment.call')}
                   </Button>
                 </div>
               </CardContent>
@@ -211,14 +211,14 @@ export const FranchisePage = () => {
             </h2>
             <div className="space-y-6">
               {[
-                { step: 1, title: "Initial Inquiry", desc: "Submit your interest and receive our franchise information pack" },
-                { step: 2, title: "Discovery Call", desc: "Discuss the opportunity with our franchise development team" },
-                { step: 3, title: "Business Review", desc: "Review detailed financials, operations manual, and territory analysis" },
-                { step: 4, title: "Meet the Team", desc: "Visit our headquarters and meet the leadership team" },
-                { step: 5, title: "Application", desc: "Complete formal application and financial review" },
-                { step: 6, title: "Agreement", desc: "Sign franchise agreement and secure your territory" },
-                { step: 7, title: "Training", desc: "Complete 4-week intensive training program" },
-                { step: 8, title: "Launch", desc: "Open your GROPPI franchise and start serving clients" }
+                { step: 1, title: t('franchise.process.step1'), desc: t('franchise.process.step1Desc') },
+                { step: 2, title: t('franchise.process.step2'), desc: t('franchise.process.step2Desc') },
+                { step: 3, title: t('franchise.process.step3'), desc: t('franchise.process.step3Desc') },
+                { step: 4, title: t('franchise.process.step4'), desc: t('franchise.process.step4Desc') },
+                { step: 5, title: t('franchise.process.step5'), desc: t('franchise.process.step5Desc') },
+                { step: 6, title: t('franchise.process.step6'), desc: t('franchise.process.step6Desc') },
+                { step: 7, title: t('franchise.process.step7'), desc: t('franchise.process.step7Desc') },
+                { step: 8, title: t('franchise.process.step8'), desc: t('franchise.process.step8Desc') }
               ].map((item) => (
                 <div key={item.step} className="flex gap-4 p-4 bg-card border border-primary/30 rounded-lg hover:border-primary transition-all">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
