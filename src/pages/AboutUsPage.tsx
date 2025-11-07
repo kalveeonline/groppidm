@@ -5,8 +5,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Target, Users, Award, TrendingUp } from "lucide-react";
 import koenImage from "@/assets/team/koen-van-gorp.jpg";
 import lokmanImage from "@/assets/team/lokman-dinc.jpg";
-import officeExterior from "@/assets/office-exterior.jpg";
-import officeNight from "@/assets/office-night.jpg";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 export const AboutUsPage = () => {
@@ -36,7 +34,7 @@ export const AboutUsPage = () => {
   ];
 
   const stats = [
-    { number: "158+", label: t('about.stats.happyClients') },
+    { number: "560+", label: "Happy Clients" },
     { number: "34+", label: t('about.stats.websitesLaunched') },
     { number: "29+", label: t('about.stats.activeCampaigns') }
   ];
@@ -93,28 +91,14 @@ export const AboutUsPage = () => {
 
         {/* Our Story */}
         <div className="container px-4 mb-16">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold text-primary mb-6">
-                {t('about.story.title')}
-              </h2>
-              <div className="space-y-4 text-primary/70 text-justify">
-                <p>{t('about.story.para1')}</p>
-                <p>{t('about.story.para2')}</p>
-                <p>{t('about.story.para3')}</p>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <img 
-                src={officeExterior}
-                alt="GROPPI Office exterior"
-                className="rounded-lg shadow-lg"
-              />
-              <img 
-                src={officeNight}
-                alt="GROPPI Office at night"
-                className="rounded-lg shadow-lg mt-8"
-              />
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-primary mb-6 text-center">
+              {t('about.story.title')}
+            </h2>
+            <div className="space-y-4 text-primary/70 text-justify">
+              <p>{t('about.story.para1')}</p>
+              <p>{t('about.story.para2')}</p>
+              <p>{t('about.story.para3')}</p>
             </div>
           </div>
         </div>
@@ -177,25 +161,6 @@ export const AboutUsPage = () => {
           </div>
         </div>
 
-        {/* Locations */}
-        <div className="bg-card border-y border-primary/30 py-16 mb-16">
-          <div className="container px-4">
-            <h2 className="text-3xl font-bold text-primary mb-12 text-center">
-              {t('about.locations.title')}
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              <div className="text-center">
-                <h3 className="text-xl font-semibold text-primary">Antwerp</h3>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-semibold text-primary">Brussels</h3>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-semibold text-primary">Ghent</h3>
-              </div>
-            </div>
-          </div>
-        </div>
 
         {/* CTA Section */}
         <div className="container px-4">
