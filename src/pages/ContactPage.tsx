@@ -25,6 +25,13 @@ export const ContactPage = () => {
       buttonText: "Call Now"
     },
     {
+      icon: Phone,
+      title: "GSM",
+      detail: "+32 (0) 1463 5005",
+      action: () => window.open('tel:+3214635005', '_self'),
+      buttonText: "Call Now"
+    },
+    {
       icon: MessageSquare,
       title: "WhatsApp",
       detail: "Chat with us instantly",
@@ -91,7 +98,7 @@ export const ContactPage = () => {
         {/* Contact Methods */}
         <div className="container px-4 mb-16">
           <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
               {contactMethods.map((method, index) => (
                 <Card 
                   key={index}
