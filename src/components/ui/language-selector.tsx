@@ -44,12 +44,12 @@ export const LanguageSelector = ({ variant = "default", className = "" }: Langua
           <ChevronDown className="h-3 w-3" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="bg-popover border border-primary/40 shadow-lg z-[100]">
+      <DropdownMenuContent align="end" className="bg-card border border-primary/40 shadow-lg z-[100]">
         {SUPPORTED_LANGUAGES.map((lang) => (
           <DropdownMenuItem
             key={lang.code}
             onClick={() => setLanguage(lang.code)}
-            className="cursor-pointer hover:bg-muted text-primary"
+            className="cursor-pointer hover:bg-primary text-primary hover:text-black transition-colors"
           >
             {lang.name}
           </DropdownMenuItem>
