@@ -249,8 +249,8 @@ export const Header = () => {
                         className="cursor-pointer hover:bg-primary p-3 rounded-lg transition-colors group"
                       >
                         <div className="flex items-center gap-3">
-                          <industry.icon className="h-5 w-5 flex-shrink-0 group-hover:text-black transition-colors" style={{ color: industry.color }} />
-                          <div className="font-medium text-sm group-hover:!text-black transition-colors" style={{ color: industry.color }}>{industry.name}</div>
+                          <industry.icon className="h-5 w-5 flex-shrink-0 text-primary group-hover:text-black transition-colors" />
+                          <div className="font-medium text-sm text-primary group-hover:text-black transition-colors">{industry.name}</div>
                         </div>
                       </DropdownMenuItem>
                     </Link>
