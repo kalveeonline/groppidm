@@ -114,7 +114,7 @@ const translations = {
     // About Us Page
     'about.hero.title': 'Empowering SMEs to Succeed Online Since 2015',
     'about.hero.description': 'GROPPI Digital Marketing Bureau is Belgium\'s trusted partner for small and medium-sized enterprises looking to establish a strong online presence and grow their business through digital channels.',
-    'about.stats.happyClients': '560+ Happy Clients',
+    'about.stats.happyClients': '158+ Happy Clients',
     'about.stats.websitesLaunched': 'Websites Launched',
     'about.stats.activeCampaigns': 'Active Campaigns',
     'about.story.title': 'Our Story',
@@ -580,7 +580,7 @@ const translations = {
     // About Us Page
     'about.hero.title': 'Empowering SMEs to Succeed Online Since 2015',
     'about.hero.description': 'GROPPI Digital Marketing Bureau is Belgium\'s trusted partner for small and medium-sized enterprises looking to establish a strong online presence and grow their business through digital channels.',
-    'about.stats.happyClients': '560+ Happy Clients',
+    'about.stats.happyClients': '158+ Happy Clients',
     'about.stats.websitesLaunched': 'Websites Launched',
     'about.stats.activeCampaigns': 'Active Campaigns',
     'about.story.title': 'Our Story',
