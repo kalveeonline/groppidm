@@ -5,69 +5,70 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Check } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { PricingCalculator } from "@/components/PricingCalculator";
+import { Link } from "react-router-dom";
 
 export const PricesPage = () => {
   const { t } = useLanguage();
 
   const pricingPlans = [
     {
-      name: "Starter",
-      price: "€499",
-      period: "/month",
-      description: "Perfect for small businesses starting their digital journey",
+      name: t('prices.starter'),
+      price: t('prices.starterPrice'),
+      period: t('prices.starterPeriod'),
+      description: t('prices.starterDesc'),
       features: [
-        "Professional Website (5 pages)",
-        "Basic SEO Optimization",
-        "Mobile Responsive Design",
-        "SSL Certificate",
-        "Monthly Performance Report",
-        "Email Support"
+        t('prices.starterFeature1'),
+        t('prices.starterFeature2'),
+        t('prices.starterFeature3'),
+        t('prices.starterFeature4'),
+        t('prices.starterFeature5'),
+        t('prices.starterFeature6')
       ],
       popular: false
     },
     {
-      name: "Professional",
-      price: "€999",
-      period: "/month",
-      description: "Ideal for growing businesses looking to expand online",
+      name: t('prices.professional'),
+      price: t('prices.professionalPrice'),
+      period: t('prices.professionalPeriod'),
+      description: t('prices.professionalDesc'),
       features: [
-        "Everything in Starter",
-        "E-commerce Integration (up to 50 products)",
-        "Advanced SEO & Analytics",
-        "Social Media Integration",
-        "Google Ads Setup (€200 ad spend included)",
-        "Priority Support",
-        "Content Updates (2 hours/month)"
+        t('prices.professionalFeature1'),
+        t('prices.professionalFeature2'),
+        t('prices.professionalFeature3'),
+        t('prices.professionalFeature4'),
+        t('prices.professionalFeature5'),
+        t('prices.professionalFeature6'),
+        t('prices.professionalFeature7')
       ],
       popular: true
     },
     {
-      name: "Enterprise",
-      price: "€1,999",
-      period: "/month",
-      description: "Complete digital marketing solution for established businesses",
+      name: t('prices.enterprise'),
+      price: t('prices.enterprisePrice'),
+      period: t('prices.enterprisePeriod'),
+      description: t('prices.enterpriseDesc'),
       features: [
-        "Everything in Professional",
-        "Unlimited Products",
-        "Full Digital Marketing Suite",
-        "Social Media Management",
-        "Google & Bing Ads (€500 ad spend included)",
-        "Monthly Strategy Consultation",
-        "Dedicated Account Manager",
-        "Content Updates (5 hours/month)",
-        "Custom Integrations"
+        t('prices.enterpriseFeature1'),
+        t('prices.enterpriseFeature2'),
+        t('prices.enterpriseFeature3'),
+        t('prices.enterpriseFeature4'),
+        t('prices.enterpriseFeature5'),
+        t('prices.enterpriseFeature6'),
+        t('prices.enterpriseFeature7'),
+        t('prices.enterpriseFeature8'),
+        t('prices.enterpriseFeature9')
       ],
       popular: false
     }
   ];
 
   const addOns = [
-    { name: "Additional Product Photos", price: "€25/photo" },
-    { name: "Content Writing", price: "€50/hour" },
-    { name: "Social Media Posts (10 pack)", price: "€150/month" },
-    { name: "Google Review Management", price: "€99/month" },
-    { name: "Email Marketing Campaigns", price: "€199/month" },
-    { name: "Advanced Analytics Dashboard", price: "€149/month" }
+    { name: t('prices.addon1Name'), price: t('prices.addon1Price') },
+    { name: t('prices.addon2Name'), price: t('prices.addon2Price') },
+    { name: t('prices.addon3Name'), price: t('prices.addon3Price') },
+    { name: t('prices.addon4Name'), price: t('prices.addon4Price') },
+    { name: t('prices.addon5Name'), price: t('prices.addon5Price') },
+    { name: t('prices.addon6Name'), price: t('prices.addon6Price') }
   ];
 
   return (
@@ -132,9 +133,9 @@ export const PricesPage = () => {
                         ? 'bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black' 
                         : 'bg-primary/20 hover:bg-primary/30 text-primary'
                     }`}
-                    onClick={() => window.open('/appointment', '_blank')}
+                    asChild
                   >
-                    {t("prices.getStarted")}
+                    <Link to="/appointment">{t("prices.getStarted")}</Link>
                   </Button>
                 </CardContent>
               </Card>

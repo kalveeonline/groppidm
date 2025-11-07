@@ -9,100 +9,100 @@ export const JobsPage = () => {
   const { t } = useLanguage();
   const jobListings = [
     {
-      title: "Senior SEO Specialist",
-      department: "Marketing",
-      location: "Kempen",
-      type: "Part Time/ Full Time/ Flexi Jobs",
-      description: "We're looking for an experienced SEO specialist to lead our optimization strategies and help our clients rank higher in search results.",
+      title: t('jobs.job1.title'),
+      department: t('jobs.job1.department'),
+      location: t('jobs.job1.location'),
+      type: t('jobs.job1.type'),
+      description: t('jobs.job1.description'),
       requirements: [
-        "5+ years of SEO experience",
-        "Proven track record of improving search rankings",
-        "Experience with Google Analytics, Search Console",
-        "Knowledge of technical SEO and content optimization",
-        "Excellent Dutch and English communication skills"
+        t('jobs.job1.req1'),
+        t('jobs.job1.req2'),
+        t('jobs.job1.req3'),
+        t('jobs.job1.req4'),
+        t('jobs.job1.req5')
       ]
     },
     {
-      title: "Social Media Manager",
-      department: "Marketing",
-      location: "Kempen",
-      type: "Part Time/ Full Time/ Flexi Jobs",
-      description: "Join our team to manage social media campaigns for multiple clients, create engaging content, and grow online communities.",
+      title: t('jobs.job2.title'),
+      department: t('jobs.job2.department'),
+      location: t('jobs.job2.location'),
+      type: t('jobs.job2.type'),
+      description: t('jobs.job2.description'),
       requirements: [
-        "3+ years of social media management experience",
-        "Portfolio of successful social media campaigns",
-        "Experience with Facebook Ads, Instagram, LinkedIn",
-        "Creative content creation skills",
-        "Strong analytical and reporting skills"
+        t('jobs.job2.req1'),
+        t('jobs.job2.req2'),
+        t('jobs.job2.req3'),
+        t('jobs.job2.req4'),
+        t('jobs.job2.req5')
       ]
     },
     {
-      title: "Web Developer",
-      department: "Development",
-      location: "Kempen",
-      type: "Part Time/ Full Time/ Flexi Jobs",
-      description: "We need a talented web developer to create stunning, responsive websites for our SME clients using modern technologies.",
+      title: t('jobs.job3.title'),
+      department: t('jobs.job3.department'),
+      location: t('jobs.job3.location'),
+      type: t('jobs.job3.type'),
+      description: t('jobs.job3.description'),
       requirements: [
-        "3+ years of web development experience",
-        "Proficiency in HTML, CSS, JavaScript, React",
-        "Experience with WordPress and e-commerce platforms",
-        "Understanding of UX/UI principles",
-        "Problem-solving mindset"
+        t('jobs.job3.req1'),
+        t('jobs.job3.req2'),
+        t('jobs.job3.req3'),
+        t('jobs.job3.req4'),
+        t('jobs.job3.req5')
       ]
     },
     {
-      title: "Digital Marketing Consultant",
-      department: "Strategy",
-      location: "Kempen",
-      type: "Part Time/ Full Time/ Flexi Jobs",
-      description: "Help SMEs develop and execute comprehensive digital marketing strategies to achieve their business goals.",
+      title: t('jobs.job4.title'),
+      department: t('jobs.job4.department'),
+      location: t('jobs.job4.location'),
+      type: t('jobs.job4.type'),
+      description: t('jobs.job4.description'),
       requirements: [
-        "4+ years in digital marketing consulting",
-        "Strong knowledge of SEO, SEM, social media, email marketing",
-        "Client management experience",
-        "Analytical and strategic thinking",
-        "Excellent presentation skills"
+        t('jobs.job4.req1'),
+        t('jobs.job4.req2'),
+        t('jobs.job4.req3'),
+        t('jobs.job4.req4'),
+        t('jobs.job4.req5')
       ]
     },
     {
-      title: "Content Creator",
-      department: "Content",
-      location: "Kempen",
-      type: "Part Time/ Full Time/ Flexi Jobs",
-      description: "Create compelling content for websites, blogs, and social media that engages audiences and drives results.",
+      title: t('jobs.job5.title'),
+      department: t('jobs.job5.department'),
+      location: t('jobs.job5.location'),
+      type: t('jobs.job5.type'),
+      description: t('jobs.job5.description'),
       requirements: [
-        "2+ years of content writing experience",
-        "SEO copywriting skills",
-        "Portfolio of published work",
-        "Native Dutch speaker with excellent English",
-        "Understanding of digital marketing"
+        t('jobs.job5.req1'),
+        t('jobs.job5.req2'),
+        t('jobs.job5.req3'),
+        t('jobs.job5.req4'),
+        t('jobs.job5.req5')
       ]
     },
     {
-      title: "Graphic Designer",
-      department: "Design",
-      location: "Kempen",
-      type: "Part Time/ Full Time/ Flexi Jobs",
-      description: "Design beautiful graphics, logos, and marketing materials for our diverse client portfolio.",
+      title: t('jobs.job6.title'),
+      department: t('jobs.job6.department'),
+      location: t('jobs.job6.location'),
+      type: t('jobs.job6.type'),
+      description: t('jobs.job6.description'),
       requirements: [
-        "3+ years of graphic design experience",
-        "Proficiency in Adobe Creative Suite",
-        "Strong portfolio showcasing brand identity work",
-        "Understanding of web design principles",
-        "Attention to detail"
+        t('jobs.job6.req1'),
+        t('jobs.job6.req2'),
+        t('jobs.job6.req3'),
+        t('jobs.job6.req4'),
+        t('jobs.job6.req5')
       ]
     }
   ];
 
   const benefits = [
-    "Competitive salary and performance bonuses",
-    "Flexible working hours and remote work options",
-    "Professional development and training budget",
-    "Modern office spaces in prime locations",
-    "Health insurance and wellness programs",
-    "Team building events and company outings",
-    "Latest technology and tools",
-    "Collaborative and supportive work environment"
+    t('jobs.benefit1'),
+    t('jobs.benefit2'),
+    t('jobs.benefit3'),
+    t('jobs.benefit4'),
+    t('jobs.benefit5'),
+    t('jobs.benefit6'),
+    t('jobs.benefit7'),
+    t('jobs.benefit8')
   ];
 
   return (
@@ -254,9 +254,9 @@ export const JobsPage = () => {
                   1
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-primary mb-2">Submit Your Application</h3>
+                  <h3 className="text-xl font-semibold text-primary mb-2">{t('jobs.process.step1')}</h3>
                   <p className="text-primary/70">
-                    Send us your CV and cover letter explaining why you'd be a great fit for the role.
+                    {t('jobs.process.step1Desc')}
                   </p>
                 </div>
               </div>
@@ -265,9 +265,9 @@ export const JobsPage = () => {
                   2
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-primary mb-2">Initial Interview</h3>
+                  <h3 className="text-xl font-semibold text-primary mb-2">{t('jobs.process.step2')}</h3>
                   <p className="text-primary/70">
-                    We'll schedule a video call to discuss your experience and learn more about your goals.
+                    {t('jobs.process.step2Desc')}
                   </p>
                 </div>
               </div>
@@ -276,9 +276,9 @@ export const JobsPage = () => {
                   3
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-primary mb-2">Skills Assessment</h3>
+                  <h3 className="text-xl font-semibold text-primary mb-2">{t('jobs.process.step3')}</h3>
                   <p className="text-primary/70">
-                    Complete a practical assignment to demonstrate your skills relevant to the position.
+                    {t('jobs.process.step3Desc')}
                   </p>
                 </div>
               </div>
@@ -287,9 +287,9 @@ export const JobsPage = () => {
                   4
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-primary mb-2">Final Interview</h3>
+                  <h3 className="text-xl font-semibold text-primary mb-2">{t('jobs.process.step4')}</h3>
                   <p className="text-primary/70">
-                    Meet the team and discuss your potential role, responsibilities, and compensation.
+                    {t('jobs.process.step4Desc')}
                   </p>
                 </div>
               </div>
