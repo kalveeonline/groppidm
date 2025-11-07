@@ -146,12 +146,12 @@ export const ServicesCarousel = () => {
                           variant="outline"
                           className="flex-1 border-2 font-semibold transition-all duration-300 group/btn text-sm sm:text-base"
                           style={{ 
-                            borderColor: 'hsl(var(--button-appointment))',
-                            color: 'hsl(var(--button-appointment))',
+                            borderColor: 'hsl(var(--primary))',
+                            color: 'hsl(var(--primary))',
                             backgroundColor: 'transparent'
                           }}
                         >
-                          <Calendar className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" style={{ color: 'hsl(var(--button-appointment))' }} />
+                          <Calendar className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" style={{ color: 'hsl(var(--primary))' }} />
                           <span className="truncate">{t('carousel.makeAppointment')}</span>
                         </Button>
                         <Button
@@ -159,12 +159,12 @@ export const ServicesCarousel = () => {
                           variant="outline"
                           className="flex-1 border-2 font-semibold transition-all duration-300 group/btn text-sm sm:text-base"
                           style={{ 
-                            borderColor: 'hsl(var(--button-call))',
-                            color: 'hsl(var(--button-call))',
+                            borderColor: 'hsl(var(--primary))',
+                            color: 'hsl(var(--primary))',
                             backgroundColor: 'transparent'
                           }}
                         >
-                          <Phone className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" style={{ color: 'hsl(var(--button-call))' }} />
+                          <Phone className="mr-1 sm:mr-2 h-4 w-4 flex-shrink-0 group-hover/btn:animate-pulse" style={{ color: 'hsl(var(--primary))' }} />
                           <span className="truncate">{t('carousel.callMe')}</span>
                         </Button>
                       </div>
