@@ -179,6 +179,10 @@ export const Footer = () => {
                 <span className="text-muted-foreground">+32 (0) 49 43 1111 9</span>
               </div>
               <div className="flex items-center gap-3">
+                <Phone className="h-4 w-4 text-primary" />
+                <span className="text-muted-foreground">GSM: +32 (0) 1463 5005</span>
+              </div>
+              <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary" />
                 <a href="mailto:info@groppi.be" className="text-muted-foreground hover:text-foreground transition-colors">
                   info@groppi.be
