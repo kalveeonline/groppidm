@@ -7,48 +7,51 @@ import koenImage from "@/assets/team/koen-van-gorp.jpg";
 import lokmanImage from "@/assets/team/lokman-dinc.jpg";
 import officeExterior from "@/assets/office-exterior.jpg";
 import officeNight from "@/assets/office-night.jpg";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const AboutUsPage = () => {
+  const { t } = useLanguage();
+  
   const values = [
     {
       icon: Target,
-      title: "Results-Driven",
-      description: "We focus on delivering measurable results that contribute to your business growth and success."
+      title: t('about.values.resultsDriven'),
+      description: t('about.values.resultsDrivenDesc')
     },
     {
       icon: Users,
-      title: "Client-Centric",
-      description: "Your success is our success. We build long-term partnerships based on trust and transparency."
+      title: t('about.values.clientCentric'),
+      description: t('about.values.clientCentricDesc')
     },
     {
       icon: Award,
-      title: "Excellence",
-      description: "We maintain the highest standards in everything we do, from strategy to execution."
+      title: t('about.values.excellence'),
+      description: t('about.values.excellenceDesc')
     },
     {
       icon: TrendingUp,
-      title: "Innovation",
-      description: "We stay ahead of digital trends to provide cutting-edge solutions for your business."
+      title: t('about.values.innovation'),
+      description: t('about.values.innovationDesc')
     }
   ];
 
   const stats = [
-    { number: "158+", label: "Happy Clients" },
-    { number: "34+", label: "Websites Launched" },
-    { number: "29+", label: "Active Campaigns" }
+    { number: "158+", label: t('about.stats.happyClients') },
+    { number: "34+", label: t('about.stats.websitesLaunched') },
+    { number: "29+", label: t('about.stats.activeCampaigns') }
   ];
 
   const team = [
     {
       name: "Koen van gorp",
-      role: "Founder and CEO",
-      description: "Strategic leader driving digital transformation and business growth.",
+      role: t('about.team.koen.role'),
+      description: t('about.team.koen.description'),
       image: koenImage
     },
     {
       name: "Lokman Dinç",
-      role: "Managing Partner",
-      description: "Innovative partner focused on delivering excellence in digital marketing.",
+      role: t('about.team.lokman.role'),
+      description: t('about.team.lokman.description'),
       image: lokmanImage
     }
   ];
@@ -62,11 +65,10 @@ export const AboutUsPage = () => {
         <div className="container px-4 mb-16">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold text-primary mb-6">
-              Empowering SMEs to Succeed Online Since 2015
+              {t('about.hero.title')}
             </h1>
             <p className="text-xl text-primary/70 leading-relaxed">
-              GROPPI Digital Marketing Bureau is Belgium's trusted partner for small and medium-sized enterprises 
-              looking to establish a strong online presence and grow their business through digital channels.
+              {t('about.hero.description')}
             </p>
           </div>
         </div>
@@ -94,23 +96,12 @@ export const AboutUsPage = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">
-                Our Story
+                {t('about.story.title')}
               </h2>
               <div className="space-y-4 text-primary/70 text-justify">
-                <p>
-                  Founded in 2015, GROPPI began with a simple mission: to help small and medium-sized businesses 
-                  harness the power of digital marketing. What started as a web design studio has evolved into a 
-                  full-service digital marketing agency serving clients across Belgium and beyond.
-                </p>
-                <p>
-                  Over the years, we've helped thousands of businesses establish their online presence, from creating 
-                  their first website to managing comprehensive digital marketing campaigns. Our team has grown, but 
-                  our commitment to personalized service and measurable results remains unchanged.
-                </p>
-                <p>
-                  Today, we're proud to be one of Belgium's leading digital marketing agencies for SMEs, offering 
-                  everything from website development and SEO to social media management and paid advertising.
-                </p>
+                <p>{t('about.story.para1')}</p>
+                <p>{t('about.story.para2')}</p>
+                <p>{t('about.story.para3')}</p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
@@ -131,7 +122,7 @@ export const AboutUsPage = () => {
         {/* Our Values */}
         <div className="container px-4 mb-16">
           <h2 className="text-3xl font-bold text-primary mb-12 text-center">
-            Our Core Values
+            {t('about.values.title')}
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map((value, index) => (
@@ -157,7 +148,7 @@ export const AboutUsPage = () => {
         {/* Team Section */}
         <div className="container px-4 mb-16">
           <h2 className="text-3xl font-bold text-primary mb-12 text-center">
-            Meet Our Leadership Team
+            {t('about.team.title')}
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {team.map((member, index) => (
@@ -190,7 +181,7 @@ export const AboutUsPage = () => {
         <div className="bg-card border-y border-primary/30 py-16 mb-16">
           <div className="container px-4">
             <h2 className="text-3xl font-bold text-primary mb-12 text-center">
-              Our Locations
+              {t('about.locations.title')}
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
@@ -210,10 +201,10 @@ export const AboutUsPage = () => {
         <div className="container px-4">
           <div className="bg-gradient-card border border-primary/30 rounded-lg p-12 text-center">
             <h2 className="text-3xl font-bold text-primary mb-4">
-              Ready to Grow Your Business Online?
+              {t('about.cta.title')}
             </h2>
             <p className="text-xl text-primary/70 mb-8 max-w-2xl mx-auto">
-              Let's discuss how we can help you achieve your digital marketing goals
+              {t('about.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
@@ -221,7 +212,7 @@ export const AboutUsPage = () => {
                 className="bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black shadow-hero"
                 onClick={() => window.location.href = '/appointment'}
               >
-                Schedule Consultation
+                {t('about.cta.schedule')}
               </Button>
               <Button 
                 size="lg"
@@ -229,7 +220,7 @@ export const AboutUsPage = () => {
                 className="border-primary text-primary hover:bg-primary/10"
                 onClick={() => window.location.href = '/#services'}
               >
-                View Our Work
+                {t('about.cta.viewWork')}
               </Button>
             </div>
           </div>

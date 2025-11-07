@@ -6,10 +6,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 import { toast } from "sonner";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const BlogPage = () => {
+  const { t } = useLanguage();
   const navigate = useNavigate();
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState(t('blog.category.all'));
   const [email, setEmail] = useState("");
 
   const blogPosts = [
@@ -63,9 +65,9 @@ export const BlogPage = () => {
     }
   ];
 
-  const categories = ["All", "SEO", "Social Media", "Web Design", "Digital Advertising", "E-commerce", "Content Marketing"];
+  const categories = [t('blog.category.all'), t('blog.category.seo'), t('blog.category.socialMedia'), t('blog.category.webDesign'), t('blog.category.digitalAds'), t('blog.category.ecommerce'), t('blog.category.contentMarketing')];
 
-  const filteredPosts = selectedCategory === "All" 
+  const filteredPosts = selectedCategory === t('blog.category.all')
     ? blogPosts 
     : blogPosts.filter(post => post.category === selectedCategory);
 
@@ -100,10 +102,10 @@ export const BlogPage = () => {
           {/* Header Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl lg:text-5xl font-bold text-primary mb-4">
-              Digital Marketing Insights & Tips
+              {t('blog.hero.title')}
             </h1>
             <p className="text-xl text-primary/70 max-w-3xl mx-auto">
-              Stay updated with the latest trends, strategies, and best practices in digital marketing
+              {t('blog.hero.description')}
             </p>
           </div>
 
@@ -135,7 +137,7 @@ export const BlogPage = () => {
                 <div className="p-8 flex flex-col justify-center">
                   <div className="flex items-center gap-4 mb-4">
                     <span className="bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-semibold">
-                      Featured
+                      {t('blog.featured')}
                     </span>
                     <span className="text-primary/70 text-sm">{filteredPosts[0].category}</span>
                   </div>
@@ -156,7 +158,7 @@ export const BlogPage = () => {
                     </div>
                   </div>
                   <Button className="bg-primary hover:bg-primary-dark w-fit">
-                    Read More <ArrowRight className="ml-2 h-4 w-4" />
+                    {t('blog.readMore')} <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
               </div>
@@ -208,7 +210,7 @@ export const BlogPage = () => {
           {filteredPosts.length === 0 && (
             <div className="text-center py-16">
               <p className="text-xl text-primary/70">
-                No posts found in this category. Check back soon!
+                {t('blog.noResults')}
               </p>
             </div>
           )}
@@ -216,21 +218,21 @@ export const BlogPage = () => {
           {/* Newsletter Section */}
           <div className="mt-16 bg-card border border-primary/30 rounded-lg p-8 text-center">
             <h2 className="text-3xl font-bold text-primary mb-4">
-              Subscribe to Our Newsletter
+              {t('blog.newsletter.title')}
             </h2>
             <p className="text-primary/70 mb-6 max-w-2xl mx-auto">
-              Get the latest digital marketing insights, tips, and strategies delivered directly to your inbox every week.
+              {t('blog.newsletter.description')}
             </p>
             <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
               <input
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email"
+                placeholder={t('blog.newsletter.placeholder')}
                 className="flex-1 px-4 py-2 bg-background border border-primary/30 rounded-lg text-primary placeholder:text-primary/50 focus:outline-none focus:border-primary"
               />
               <Button type="submit" className="bg-primary hover:bg-primary-dark">
-                Subscribe
+                {t('blog.newsletter.subscribe')}
               </Button>
             </form>
           </div>

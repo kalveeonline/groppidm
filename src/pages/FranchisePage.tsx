@@ -3,28 +3,30 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, TrendingUp, Users, Award, Target, Briefcase, MapPin, DollarSign } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const FranchisePage = () => {
+  const { t } = useLanguage();
   const benefits = [
     {
       icon: Award,
-      title: "Proven Business Model",
-      description: "Join a successful digital marketing brand with a track record of growth and satisfied clients across Belgium."
+      title: t('franchise.why.proven'),
+      description: t('franchise.why.provenDesc')
     },
     {
       icon: Users,
-      title: "Comprehensive Training",
-      description: "Receive extensive training in all aspects of digital marketing, sales, and business operations from our experienced team."
+      title: t('franchise.why.training'),
+      description: t('franchise.why.trainingDesc')
     },
     {
       icon: Target,
-      title: "Marketing Support",
-      description: "Benefit from national marketing campaigns, brand recognition, and lead generation support from head office."
+      title: t('franchise.why.support'),
+      description: t('franchise.why.supportDesc')
     },
     {
       icon: TrendingUp,
-      title: "Ongoing Development",
-      description: "Access continuous professional development, new service offerings, and industry best practices to stay competitive."
+      title: t('franchise.why.development'),
+      description: t('franchise.why.developmentDesc')
     }
   ];
 
@@ -87,10 +89,10 @@ export const FranchisePage = () => {
               </div>
             </div>
             <h1 className="text-4xl lg:text-5xl font-bold text-primary mb-6">
-              Own a GROPPI Franchise
+              {t('franchise.hero.title')}
             </h1>
             <p className="text-xl text-primary/70 leading-relaxed mb-8">
-              Join Belgium's fastest-growing digital marketing franchise network. Build a profitable business helping SMEs succeed online with our proven systems and comprehensive support.
+              {t('franchise.hero.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
@@ -98,7 +100,7 @@ export const FranchisePage = () => {
                 className="bg-primary hover:bg-primary-dark text-black hover:text-black shadow-hero"
                 onClick={() => window.location.href = '/appointment'}
               >
-                Request Franchise Information
+                {t('franchise.hero.button')}
               </Button>
               <Button 
                 size="lg"
@@ -106,7 +108,7 @@ export const FranchisePage = () => {
                 className="border-primary text-primary hover:bg-primary hover:text-black"
                 onClick={() => window.open('tel:+32494311119', '_self')}
               >
-                Call for Details
+                {t('franchise.hero.call')}
               </Button>
             </div>
           </div>
@@ -116,7 +118,7 @@ export const FranchisePage = () => {
         <div className="bg-card/30 py-16 mb-16">
           <div className="container px-4">
             <h2 className="text-3xl font-bold text-primary mb-12 text-center">
-              Why Choose GROPPI Franchise?
+              {t('franchise.why.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
               {benefits.map((benefit, index) => (
@@ -140,7 +142,7 @@ export const FranchisePage = () => {
         <div className="container px-4 mb-16">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              Investment Overview
+              {t('franchise.investment.title')}
             </h2>
             <Card className="bg-gradient-card border-primary/30">
               <CardContent className="pt-8">
@@ -183,12 +185,12 @@ export const FranchisePage = () => {
           <div className="container px-4">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl font-bold text-primary mb-12 text-center">
-                Comprehensive Support Package
+                {t('franchise.support.title')}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Card className="bg-gradient-card border-primary/30">
                   <CardHeader>
-                    <CardTitle className="text-2xl text-primary">What You Get</CardTitle>
+                    <CardTitle className="text-2xl text-primary">{t('franchise.support.subtitle')}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-3">
@@ -204,7 +206,7 @@ export const FranchisePage = () => {
 
                 <Card className="bg-gradient-card border-primary/30">
                   <CardHeader>
-                    <CardTitle className="text-2xl text-primary">Ideal Candidate</CardTitle>
+                    <CardTitle className="text-2xl text-primary">{t('franchise.candidate.title')}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-3">
@@ -232,7 +234,7 @@ export const FranchisePage = () => {
                     <DollarSign className="h-8 w-8 text-primary" />
                   </div>
                 </div>
-                <CardTitle className="text-3xl text-primary">Revenue Potential</CardTitle>
+                <CardTitle className="text-3xl text-primary">{t('franchise.revenue.title')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
@@ -261,7 +263,7 @@ export const FranchisePage = () => {
         <div className="bg-card/30 py-16 mb-16">
           <div className="container px-4">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              Available Territories
+              {t('franchise.territories.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               {['West Flanders', 'Limburg', 'Walloon Brabant'].map((territory, index) => (
@@ -289,7 +291,7 @@ export const FranchisePage = () => {
         <div className="container px-4 mb-16">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-primary mb-12 text-center">
-              The Franchise Process
+              {t('franchise.process.title')}
             </h2>
             <div className="space-y-6">
               {[
@@ -322,10 +324,10 @@ export const FranchisePage = () => {
             <Card className="bg-gradient-card border-primary/30 text-center">
               <CardContent className="pt-12 pb-12">
                 <h2 className="text-3xl font-bold text-primary mb-4">
-                  Ready to Build Your Digital Marketing Empire?
+                  {t('franchise.cta.title')}
                 </h2>
                 <p className="text-primary/70 mb-8 max-w-2xl mx-auto">
-                  Join the GROPPI franchise network and build a thriving business in Belgium's growing digital marketing industry
+                  {t('franchise.cta.description')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button 
@@ -333,7 +335,7 @@ export const FranchisePage = () => {
                     className="bg-primary hover:bg-primary-dark text-black hover:text-black shadow-hero"
                     onClick={() => window.location.href = '/appointment'}
                   >
-                    Schedule Discovery Call
+                    {t('franchise.cta.schedule')}
                   </Button>
                   <Button 
                     size="lg"

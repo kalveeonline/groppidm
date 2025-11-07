@@ -3,8 +3,10 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Clock, Briefcase, MapPin } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const JobsPage = () => {
+  const { t } = useLanguage();
   const jobListings = [
     {
       title: "Senior SEO Specialist",
@@ -112,56 +114,56 @@ export const JobsPage = () => {
           {/* Header Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl lg:text-5xl font-bold text-primary mb-4">
-              Join Our Growing Team
+              {t('jobs.hero.title')}
             </h1>
             <p className="text-xl text-primary/70 max-w-3xl mx-auto">
-              Build your career with Belgium's leading digital marketing agency for SMEs. We're always looking for talented, passionate individuals to join our team.
+              {t('jobs.hero.description')}
             </p>
           </div>
 
           {/* Why Work With Us */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              Why Work at GROPPI?
+              {t('jobs.whyWork.title')}
             </h2>
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               <Card className="bg-card border-primary/30">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-semibold text-primary mb-3">
-                    Growth Opportunities
+                    {t('jobs.whyWork.growth')}
                   </h3>
                   <p className="text-primary/70">
-                    We invest in our team's development with training programs, mentorship, and clear career progression paths.
+                    {t('jobs.whyWork.growthDesc')}
                   </p>
                 </CardContent>
               </Card>
               <Card className="bg-card border-primary/30">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-semibold text-primary mb-3">
-                    Work-Life Balance
+                    {t('jobs.whyWork.balance')}
                   </h3>
                   <p className="text-primary/70">
-                    Enjoy flexible working arrangements, including remote work options and flexible hours to suit your lifestyle.
+                    {t('jobs.whyWork.balanceDesc')}
                   </p>
                 </CardContent>
               </Card>
               <Card className="bg-card border-primary/30">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-semibold text-primary mb-3">
-                    Diverse Projects
+                    {t('jobs.whyWork.diverse')}
                   </h3>
                   <p className="text-primary/70">
-                    Work on exciting projects across various industries, gaining experience with different challenges and solutions.
+                    {t('jobs.whyWork.diverseDesc')}
                   </p>
                 </CardContent>
               </Card>
               <Card className="bg-card border-primary/30">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-semibold text-primary mb-3">
-                    Great Team Culture
+                    {t('jobs.whyWork.culture')}
                   </h3>
                   <p className="text-primary/70">
-                    Be part of a supportive, collaborative team that values innovation, creativity, and mutual respect.
+                    {t('jobs.whyWork.cultureDesc')}
                   </p>
                 </CardContent>
               </Card>
@@ -171,7 +173,7 @@ export const JobsPage = () => {
           {/* Job Listings */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              Open Positions
+              {t('jobs.openPositions')}
             </h2>
             <div className="space-y-6">
               {jobListings.map((job, index) => (
@@ -187,7 +189,7 @@ export const JobsPage = () => {
                         </CardDescription>
                       </div>
                       <Button className="bg-primary hover:bg-primary-dark shrink-0">
-                        Apply Now
+                        {t('jobs.applyNow')}
                       </Button>
                     </div>
                   </CardHeader>
@@ -207,7 +209,7 @@ export const JobsPage = () => {
                       </div>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-primary mb-3">Requirements:</h4>
+                      <h4 className="font-semibold text-primary mb-3">{t('jobs.requirements')}</h4>
                       <ul className="space-y-2">
                         {job.requirements.map((req, reqIndex) => (
                           <li key={reqIndex} className="flex items-start gap-2 text-primary/70 text-sm">
@@ -226,7 +228,7 @@ export const JobsPage = () => {
           {/* Benefits */}
           <div className="bg-card border border-primary/30 rounded-lg p-8 mb-16">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              What We Offer
+              {t('jobs.benefits.title')}
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
               {benefits.map((benefit, index) => (
@@ -244,7 +246,7 @@ export const JobsPage = () => {
           {/* Application Process */}
           <div className="max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              Application Process
+              {t('jobs.process.title')}
             </h2>
             <div className="space-y-6">
               <div className="flex gap-4">
@@ -297,16 +299,16 @@ export const JobsPage = () => {
           {/* CTA Section */}
           <div className="text-center bg-gradient-card border border-primary/30 rounded-lg p-12">
             <h2 className="text-3xl font-bold text-primary mb-4">
-              Don't See the Right Position?
+              {t('jobs.cta.title')}
             </h2>
             <p className="text-xl text-primary/70 mb-8">
-              We're always interested in hearing from talented individuals. Send us your CV anyway!
+              {t('jobs.cta.description')}
             </p>
             <Button 
               size="lg"
               className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero"
             >
-              Send Spontaneous Application
+              {t('jobs.cta.button')}
             </Button>
           </div>
         </div>
