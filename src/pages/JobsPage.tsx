@@ -12,7 +12,7 @@ export const JobsPage = () => {
       title: "Senior SEO Specialist",
       department: "Marketing",
       location: "Kempen",
-      type: "Part / Full time / Flexible",
+      type: "Part Time/ Full Time/ Flexi Jobs",
       description: "We're looking for an experienced SEO specialist to lead our optimization strategies and help our clients rank higher in search results.",
       requirements: [
         "5+ years of SEO experience",
@@ -26,7 +26,7 @@ export const JobsPage = () => {
       title: "Social Media Manager",
       department: "Marketing",
       location: "Kempen",
-      type: "Part / Full time / Flexible",
+      type: "Part Time/ Full Time/ Flexi Jobs",
       description: "Join our team to manage social media campaigns for multiple clients, create engaging content, and grow online communities.",
       requirements: [
         "3+ years of social media management experience",
@@ -40,7 +40,7 @@ export const JobsPage = () => {
       title: "Web Developer",
       department: "Development",
       location: "Kempen",
-      type: "Part / Full time / Flexible",
+      type: "Part Time/ Full Time/ Flexi Jobs",
       description: "We need a talented web developer to create stunning, responsive websites for our SME clients using modern technologies.",
       requirements: [
         "3+ years of web development experience",
@@ -54,7 +54,7 @@ export const JobsPage = () => {
       title: "Digital Marketing Consultant",
       department: "Strategy",
       location: "Kempen",
-      type: "Part / Full time / Flexible",
+      type: "Part Time/ Full Time/ Flexi Jobs",
       description: "Help SMEs develop and execute comprehensive digital marketing strategies to achieve their business goals.",
       requirements: [
         "4+ years in digital marketing consulting",
@@ -68,7 +68,7 @@ export const JobsPage = () => {
       title: "Content Creator",
       department: "Content",
       location: "Kempen",
-      type: "Part / Full time / Flexible",
+      type: "Part Time/ Full Time/ Flexi Jobs",
       description: "Create compelling content for websites, blogs, and social media that engages audiences and drives results.",
       requirements: [
         "2+ years of content writing experience",
@@ -82,7 +82,7 @@ export const JobsPage = () => {
       title: "Graphic Designer",
       department: "Design",
       location: "Kempen",
-      type: "Part / Full time / Flexible",
+      type: "Part Time/ Full Time/ Flexi Jobs",
       description: "Design beautiful graphics, logos, and marketing materials for our diverse client portfolio.",
       requirements: [
         "3+ years of graphic design experience",
