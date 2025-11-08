@@ -19,63 +19,63 @@ export const ContactPage = () => {
   const contactMethods = [
     {
       icon: Phone,
-      title: "Phone",
+      title: t('contact.phone'),
       detail: "+32 494 31 11 19",
       action: () => window.open('tel:+32494311119', '_self'),
-      buttonText: "Call Now"
+      buttonText: t('contact.callNow')
     },
     {
       icon: Phone,
-      title: "GSM",
+      title: t('contact.gsm'),
       detail: "+32 (0) 1463 5005",
       action: () => window.open('tel:+3214635005', '_self'),
-      buttonText: "Call Now"
+      buttonText: t('contact.callNow')
     },
     {
       icon: MessageSquare,
-      title: "WhatsApp",
-      detail: "Chat with us instantly",
+      title: t('contact.whatsapp'),
+      detail: t('contact.whatsappDesc'),
       action: () => window.open('https://wa.me/32494311119', '_blank'),
-      buttonText: "Open WhatsApp"
+      buttonText: t('contact.openWhatsApp')
     },
     {
       icon: Mail,
-      title: "Email",
+      title: t('contact.email'),
       detail: "info@groppi.be",
       action: () => window.open('mailto:info@groppi.be', '_self'),
-      buttonText: "Send Email"
+      buttonText: t('contact.sendEmail')
     },
     {
       icon: Send,
-      title: "Book Appointment",
-      detail: "Schedule a free consultation",
+      title: t('contact.bookAppointment'),
+      detail: t('contact.bookAppointmentDesc'),
       action: () => window.location.href = '/appointment',
-      buttonText: "Book Now"
+      buttonText: t('contact.bookNow')
     }
   ];
 
   const offices = [
     {
-      city: "Antwerp",
-      type: "Main Office",
+      city: t('contact.antwerp'),
+      type: t('contact.mainOffice'),
       icon: Building2
     },
     {
-      city: "Brussels",
-      type: "Branch Office",
+      city: t('contact.brussels'),
+      type: t('contact.branchOffice'),
       icon: Building2
     },
     {
-      city: "Ghent",
-      type: "Regional Office",
+      city: t('contact.ghent'),
+      type: t('contact.regionalOffice'),
       icon: Building2
     }
   ];
 
   const businessHours = [
-    { day: "Monday - Friday", hours: "9:00 AM - 6:00 PM" },
-    { day: "Saturday", hours: "10:00 AM - 2:00 PM" },
-    { day: "Sunday", hours: "Closed" }
+    { day: t('contact.mondayFriday'), hours: "9:00 AM - 6:00 PM" },
+    { day: t('contact.saturday'), hours: "10:00 AM - 2:00 PM" },
+    { day: t('contact.sunday'), hours: t('contact.closed') }
   ];
 
   return (
@@ -87,10 +87,10 @@ export const ContactPage = () => {
         <div className="container px-4 mb-12">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold text-primary mb-6">
-              Get in Touch With Us
+              {t('contact.hero.title')}
             </h1>
             <p className="text-xl text-primary/70 leading-relaxed">
-              Ready to take your digital presence to the next level? Our team is here to help. Choose your preferred way to connect with us.
+              {t('contact.hero.description')}
             </p>
           </div>
         </div>
@@ -132,7 +132,7 @@ export const ContactPage = () => {
           <div className="container px-4">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-                Our Locations
+                {t('contact.ourLocations')}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {offices.map((office, index) => (
@@ -164,7 +164,7 @@ export const ContactPage = () => {
                     <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
                       <Clock className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="text-2xl font-bold text-primary">Business Hours</h3>
+                    <h3 className="text-2xl font-bold text-primary">{t('contact.businessHours')}</h3>
                   </div>
                   <div className="space-y-4">
                     {businessHours.map((schedule, index) => (
@@ -184,7 +184,7 @@ export const ContactPage = () => {
                     <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
                       <MapPin className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="text-2xl font-bold text-primary">Head Office</h3>
+                    <h3 className="text-2xl font-bold text-primary">{t('contact.headOffice')}</h3>
                   </div>
                   <div className="space-y-4">
                     <div className="p-4 bg-background/50 rounded-lg">
@@ -198,7 +198,7 @@ export const ContactPage = () => {
                       onClick={() => window.open('https://maps.google.com/?q=Het+Steeke+5A+2330+Merksplas', '_blank')}
                     >
                       <MapPin className="h-4 w-4 mr-2" />
-                      Open in Maps
+                      {t('contact.openInMaps')}
                     </Button>
                   </div>
                 </CardContent>
@@ -211,38 +211,38 @@ export const ContactPage = () => {
         <div className="container px-4 mb-16">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              Quick Questions?
+              {t('contact.quickQuestions')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Card className="bg-gradient-card border-primary/30 hover:border-primary transition-all duration-300">
                 <CardContent className="pt-6 pb-6">
-                  <h4 className="text-lg font-bold text-primary mb-2">Response Time?</h4>
+                  <h4 className="text-lg font-bold text-primary mb-2">{t('contact.responseTime')}</h4>
                   <p className="text-primary/70 text-sm">
-                    We typically respond to all inquiries within 24 hours on business days
+                    {t('contact.responseTimeDesc')}
                   </p>
                 </CardContent>
               </Card>
               <Card className="bg-gradient-card border-primary/30 hover:border-primary transition-all duration-300">
                 <CardContent className="pt-6 pb-6">
-                  <h4 className="text-lg font-bold text-primary mb-2">Free Consultation?</h4>
+                  <h4 className="text-lg font-bold text-primary mb-2">{t('contact.freeConsultation')}</h4>
                   <p className="text-primary/70 text-sm">
-                    Yes! We offer a free initial consultation to discuss your digital marketing needs
+                    {t('contact.freeConsultationDesc')}
                   </p>
                 </CardContent>
               </Card>
               <Card className="bg-gradient-card border-primary/30 hover:border-primary transition-all duration-300">
                 <CardContent className="pt-6 pb-6">
-                  <h4 className="text-lg font-bold text-primary mb-2">Emergency Support?</h4>
+                  <h4 className="text-lg font-bold text-primary mb-2">{t('contact.emergencySupport')}</h4>
                   <p className="text-primary/70 text-sm">
-                    For urgent matters, call us directly or use WhatsApp for faster response
+                    {t('contact.emergencySupportDesc')}
                   </p>
                 </CardContent>
               </Card>
               <Card className="bg-gradient-card border-primary/30 hover:border-primary transition-all duration-300">
                 <CardContent className="pt-6 pb-6">
-                  <h4 className="text-lg font-bold text-primary mb-2">Meeting Options?</h4>
+                  <h4 className="text-lg font-bold text-primary mb-2">{t('contact.meetingOptions')}</h4>
                   <p className="text-primary/70 text-sm">
-                    We offer in-person, video call, or phone consultations based on your preference
+                    {t('contact.meetingOptionsDesc')}
                   </p>
                 </CardContent>
               </Card>
@@ -256,17 +256,17 @@ export const ContactPage = () => {
             <Card className="bg-gradient-card border-primary/30 text-center">
               <CardContent className="pt-12 pb-12">
                 <h2 className="text-3xl font-bold text-primary mb-4">
-                  Ready to Start Your Digital Journey?
+                  {t('contact.cta.title')}
                 </h2>
                 <p className="text-primary/70 mb-8 max-w-2xl mx-auto">
-                  Let's discuss how we can help you achieve your digital marketing goals and grow your business online
+                  {t('contact.cta.description')}
                 </p>
                 <Button 
                   size="lg"
                   className="bg-gradient-primary hover:shadow-hero text-primary-foreground hover:text-black shadow-elegant transition-all duration-300 hover:scale-105 font-semibold"
                   onClick={() => window.location.href = '/appointment'}
                 >
-                  Book Your Free Consultation
+                  {t('contact.cta.button')}
                 </Button>
               </CardContent>
             </Card>

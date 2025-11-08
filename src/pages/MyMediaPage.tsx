@@ -38,28 +38,28 @@ export const MyMediaPage = () => {
   const stats = [
     {
       icon: Users,
-      label: "Total Visitors",
+      label: t('myMedia.stats.totalVisitors'),
       value: "12,543",
       change: "+12.5%",
       color: "text-blue-500"
     },
     {
       icon: Eye,
-      label: "Page Views",
+      label: t('myMedia.stats.pageViews'),
       value: "45,231",
       change: "+8.2%",
       color: "text-green-500"
     },
     {
       icon: MousePointer,
-      label: "Click Rate",
+      label: t('myMedia.stats.clickRate'),
       value: "3.42%",
       change: "+2.1%",
       color: "text-purple-500"
     },
     {
       icon: TrendingUp,
-      label: "Conversion Rate",
+      label: t('myMedia.stats.conversionRate'),
       value: "2.8%",
       change: "+5.3%",
       color: "text-orange-500"
@@ -85,10 +85,10 @@ export const MyMediaPage = () => {
               <BarChart className="w-10 h-10 text-primary-foreground" />
             </div>
             <h1 className="text-4xl lg:text-5xl font-bold text-primary mb-6">
-              My Media Dashboard
+              {t('myMedia.title')}
             </h1>
             <p className="text-xl text-primary/70 leading-relaxed">
-              Access your digital marketing performance metrics, reports, and campaign analytics all in one place
+              {t('myMedia.description')}
             </p>
           </div>
         </div>
@@ -98,15 +98,15 @@ export const MyMediaPage = () => {
           <div className="max-w-md mx-auto">
             <Card className="shadow-elegant border-primary/30 bg-card">
               <CardHeader className="border-b border-primary/20">
-                <CardTitle className="text-2xl text-primary">Client Portal Login</CardTitle>
+                <CardTitle className="text-2xl text-primary">{t('myMedia.login.title')}</CardTitle>
                 <CardDescription className="text-primary/60">
-                  Enter your credentials to access your dashboard
+                  {t('myMedia.login.description')}
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
                 <form onSubmit={handleLogin} className="space-y-4">
                   <div className="space-y-2">
-                    <Label htmlFor="email" className="text-primary">Email Address</Label>
+                    <Label htmlFor="email" className="text-primary">{t('myMedia.login.email')}</Label>
                     <Input
                       id="email"
                       type="email"
@@ -118,7 +118,7 @@ export const MyMediaPage = () => {
                     />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="password" className="text-primary">Password</Label>
+                    <Label htmlFor="password" className="text-primary">{t('myMedia.login.password')}</Label>
                     <Input
                       id="password"
                       type="password"
@@ -133,7 +133,7 @@ export const MyMediaPage = () => {
                     type="submit" 
                     className="w-full bg-gradient-primary hover:shadow-hero text-primary-foreground shadow-elegant transition-all duration-300 hover:scale-105 font-semibold"
                   >
-                    Access Dashboard
+                    {t('myMedia.login.button')}
                   </Button>
                 </form>
                 <div className="mt-4 text-center">
@@ -142,7 +142,7 @@ export const MyMediaPage = () => {
                     className="text-primary hover:text-primary-dark"
                     onClick={() => window.location.href = '/appointment'}
                   >
-                    Don't have access? Contact us
+                    {t('myMedia.login.contact')}
                   </Button>
                 </div>
               </CardContent>
@@ -154,7 +154,7 @@ export const MyMediaPage = () => {
         <div className="container px-4 mb-16">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              What You'll See in Your Dashboard
+              {t('myMedia.demo.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {stats.map((stat, index) => (
@@ -179,7 +179,7 @@ export const MyMediaPage = () => {
         <div className="container px-4 mb-16">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              Monthly Reports & Analytics
+              {t('myMedia.reports.title')}
             </h2>
             <Card className="bg-card border-primary/30">
               <CardContent className="pt-6">
@@ -208,7 +208,7 @@ export const MyMediaPage = () => {
                         })}
                       >
                         <Download className="h-4 w-4 mr-2" />
-                        Download
+                        {t('myMedia.reports.download')}
                       </Button>
                     </div>
                   ))}
@@ -270,10 +270,10 @@ export const MyMediaPage = () => {
             <Card className="bg-gradient-card border-primary/30 text-center">
               <CardContent className="pt-12 pb-12">
                 <h2 className="text-3xl font-bold text-primary mb-4">
-                  Ready to Access Your Data?
+                  {t('myMedia.cta.title')}
                 </h2>
                 <p className="text-primary/70 mb-8 max-w-2xl mx-auto">
-                  Contact us today to get your personalized My Media dashboard set up with full access to your campaign analytics
+                  {t('myMedia.cta.description')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button 
@@ -281,7 +281,7 @@ export const MyMediaPage = () => {
                     className="bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black shadow-hero"
                     onClick={() => window.location.href = '/appointment'}
                   >
-                    Schedule Setup Call
+                    {t('myMedia.cta.button')}
                   </Button>
                   <Button 
                     size="lg"
@@ -289,7 +289,7 @@ export const MyMediaPage = () => {
                     className="border-primary text-primary hover:bg-primary/10"
                     onClick={() => window.open('tel:+32494311119', '_self')}
                   >
-                    Call Us Now
+                    {t('contact.callNow')}
                   </Button>
                 </div>
               </CardContent>
