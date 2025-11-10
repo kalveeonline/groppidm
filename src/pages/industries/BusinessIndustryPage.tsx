@@ -4,8 +4,10 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Briefcase, Search, Users, Globe, TrendingUp, Award } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const BusinessIndustryPage = () => {
+  const { t } = useLanguage();
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -17,11 +19,11 @@ const BusinessIndustryPage = () => {
             <div className="flex items-center gap-3 mb-4">
               <Briefcase className="w-12 h-12 text-primary" />
               <h1 className="text-4xl md:text-5xl font-bold text-foreground">
-                Digital Solutions for Professional Services
+                {t('industry.business.title')}
               </h1>
             </div>
             <p className="text-xl text-muted-foreground max-w-3xl">
-              Establish thought leadership and generate quality leads with digital marketing strategies designed for consultants, law firms, accounting firms, and professional service providers.
+              {t('industry.business.subtitle')}
             </p>
           </div>
         </section>
@@ -29,7 +31,7 @@ const BusinessIndustryPage = () => {
         {/* Services Overview */}
         <section className="py-16 px-4 bg-background">
           <div className="container mx-auto max-w-6xl">
-            <h2 className="text-3xl font-bold mb-12 text-center text-foreground">How We Support Professional Services</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center text-foreground">{t('industry.business.services')}</h2>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Card className="p-6 hover:shadow-lg transition-shadow">
@@ -86,7 +88,7 @@ const BusinessIndustryPage = () => {
         {/* Why Professional Services Need Digital Marketing */}
         <section className="py-16 px-4 bg-secondary/5">
           <div className="container mx-auto max-w-4xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-foreground">Why Digital Marketing Matters for Professional Services</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-foreground">{t('industry.business.why')}</h2>
             <div className="space-y-6 text-muted-foreground">
               <p className="text-lg">
                 <strong className="text-foreground">Expertise alone isn't enough.</strong> In today's digital-first world, potential clients research service providers extensively online before ever making contact.
@@ -104,16 +106,16 @@ const BusinessIndustryPage = () => {
         {/* CTA Section */}
         <section className="py-16 px-4 bg-gradient-to-r from-primary/10 to-secondary/10">
           <div className="container mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl font-bold mb-4 text-foreground">Ready to Attract More Ideal Clients?</h2>
+            <h2 className="text-3xl font-bold mb-4 text-foreground">{t('industry.business.cta')}</h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Let's create a digital strategy that positions you as the leading expert in your field.
+              {t('industry.business.ctaDesc')}
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link to="/appointment">
-                <Button size="lg" className="text-lg px-8 bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black">Schedule Consultation</Button>
+                <Button size="lg" className="text-lg px-8 bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black">{t('industry.common.scheduleConsultation')}</Button>
               </Link>
               <Link to="/prices">
-                <Button size="lg" variant="outline" className="text-lg px-8">View Pricing</Button>
+                <Button size="lg" variant="outline" className="text-lg px-8">{t('industry.common.viewPricing')}</Button>
               </Link>
             </div>
           </div>
