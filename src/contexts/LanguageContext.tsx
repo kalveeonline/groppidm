@@ -844,6 +844,91 @@ const translations = {
     'terms.changes.content': 'GROPPI behoudt zich het recht voor deze algemene voorwaarden te wijzigen. Wijzigingen worden van kracht na publicatie op onze website.',
     'terms.contact.title': 'Contact',
     'terms.contact.content': 'Voor vragen over deze voorwaarden, neem contact met ons op:',
+    
+    // Industry Pages - Common
+    'industry.common.scheduleConsultation': 'Plan Consultatie',
+    'industry.common.viewPricing': 'Bekijk Prijzen',
+    'industry.common.schedulePartnershipCall': 'Plan Partnergesprek',
+    
+    // Medical Industry
+    'industry.medical.title': 'Digitale Oplossingen voor Gezondheidszorg',
+    'industry.medical.subtitle': 'Transformeer uw medische praktijk met geavanceerde digitale marketing en weboplossingen op maat voor zorgprofessionals.',
+    'industry.medical.services': 'Hoe Wij Zorgverleners Ondersteunen',
+    'industry.medical.why': 'Waarom Digitale Aanwezigheid Belangrijk is in de Gezondheidszorg',
+    'industry.medical.cta': 'Klaar om Uw Praktijk te Laten Groeien?',
+    'industry.medical.ctaDesc': 'Laten we bespreken hoe onze digitale oplossingen u kunnen helpen meer patiënten aan te trekken en uw online reputatie te verbeteren.',
+    
+    // Engineering Industry
+    'industry.engineering.title': 'Digitale Oplossingen voor Engineeringbedrijven',
+    'industry.engineering.subtitle': 'Toon uw engineeringexpertise met professionele digitale marketing en weboplossingen die klanten aantrekken en uw technische capaciteiten benadrukken.',
+    'industry.engineering.services': 'Hoe Wij Engineeringbedrijven Ondersteunen',
+    'industry.engineering.why': 'Waarom Digitale Aanwezigheid Belangrijk is voor Engineers',
+    'industry.engineering.cta': 'Klaar om Uw Engineeringexpertise te Tonen?',
+    'industry.engineering.ctaDesc': 'Laten we een digitale aanwezigheid creëren die de kwaliteit en precisie van uw engineeringwerk weerspiegelt.',
+    
+    // Construction Industry
+    'industry.construction.title': 'Digitale Oplossingen voor Bouwbedrijven',
+    'industry.construction.subtitle': 'Bouw uw online aanwezigheid net zo sterk als de structuren die u creëert. Digitale marketing en weboplossingen voor aannemers, bouwers en bouwbedrijven.',
+    'industry.construction.services': 'Hoe Wij Bouwbedrijven Ondersteunen',
+    'industry.construction.why': 'Waarom Digitale Marketing Belangrijk is in de Bouw',
+    'industry.construction.cta': 'Klaar om Uw Online Aanwezigheid te Bouwen?',
+    'industry.construction.ctaDesc': 'Laten we een digitaal fundament creëren dat kwaliteitsconstructieprojecten binnenbrengt.',
+    
+    // Real Estate Industry
+    'industry.realEstate.title': 'Digitale Oplossingen voor Vastgoedprofessionals',
+    'industry.realEstate.subtitle': 'Val op in een competitieve markt met krachtige digitale marketing en weboplossingen speciaal ontworpen voor makelaars, makelaren en vastgoedontwikkelaars.',
+    'industry.realEstate.services': 'Hoe Wij Vastgoedprofessionals Ondersteunen',
+    'industry.realEstate.why': 'Waarom Digitale Marketing Essentieel is in Vastgoed',
+    'industry.realEstate.cta': 'Klaar om Uw Lokale Markt te Domineren?',
+    'industry.realEstate.ctaDesc': 'Laten we een digitale marketingstrategie creëren die meer leads genereert en u helpt meer deals te sluiten.',
+    
+    // Ecommerce Industry
+    'industry.ecommerce.title': 'Digitale Oplossingen voor E-commercebedrijven',
+    'industry.ecommerce.subtitle': 'Versnel de groei van uw online winkel met conversiegerichte webontwikkeling en digitale marketingstrategieën die verkoop en klantenloyaliteit stimuleren.',
+    'industry.ecommerce.services': 'Hoe Wij E-commercebedrijven Laten Groeien',
+    'industry.ecommerce.why': 'Waarom E-commercesucces Digitale Marketing Vereist',
+    'industry.ecommerce.cta': 'Klaar om Uw E-commercebedrijf te Schalen?',
+    'industry.ecommerce.ctaDesc': 'Laten we een groeistrategie creëren die verkeer, conversies en customer lifetime value verhoogt.',
+    
+    // Sales Industry
+    'industry.sales.title': 'Digitale Oplossingen voor Salesteams',
+    'industry.sales.subtitle': 'Versnel uw salespijplijn met gerichte digitale marketingstrategieën die kwaliteitsleads genereren en omzetgroei stimuleren.',
+    'industry.sales.services': 'Hoe Wij Salesteams Superchargen',
+    'industry.sales.why': 'Waarom Digitale Marketing Essentieel is voor Sales',
+    'industry.sales.cta': 'Klaar om Uw Salespijplijn te Vullen?',
+    'industry.sales.ctaDesc': 'Laten we een digitale marketingstrategie creëren die meetbare salesresultaten oplevert.',
+    
+    // Marketing Industry
+    'industry.marketing.title': 'Digitale Oplossingen voor Marketingbureaus',
+    'industry.marketing.subtitle': 'White-label digitale diensten en partnermogelijkheden om de capaciteiten van uw bureau uit te breiden en uitzonderlijke resultaten voor uw klanten te leveren.',
+    'industry.marketing.services': 'Hoe Wij Marketingprofessionals Ondersteunen',
+    'industry.marketing.why': 'Waarom Marketingbureaus Samenwerken met Ons',
+    'industry.marketing.cta': 'Klaar om Uw Dienstaanbod Uit te Breiden?',
+    'industry.marketing.ctaDesc': 'Laten we partnermogelijkheden bespreken en hoe we u kunnen helpen uw klanten beter te bedienen.',
+    
+    // Business/Professional Services Industry
+    'industry.business.title': 'Digitale Oplossingen voor Professionele Diensten',
+    'industry.business.subtitle': 'Vestig thought leadership en genereer kwaliteitsleads met digitale marketingstrategieën ontworpen voor consultants, advocatenkantoren, accountantskantoren en professionele dienstverleners.',
+    'industry.business.services': 'Hoe Wij Professionele Diensten Ondersteunen',
+    'industry.business.why': 'Waarom Digitale Marketing Belangrijk is voor Professionele Diensten',
+    'industry.business.cta': 'Klaar om Meer Ideale Klanten Aan te Trekken?',
+    'industry.business.ctaDesc': 'Laten we een digitale strategie creëren die u positioneert als de leidende expert in uw vakgebied.',
+    
+    // Service Industry
+    'industry.service.title': 'Digitale Oplossingen voor Dienstenbedrijven',
+    'industry.service.subtitle': 'Stimuleer meer boekingen en bouw klantenloyaliteit op met digitale marketing op maat voor loodgieters, elektriciens, schoonmakers, hoveniers en lokale dienstverleners.',
+    'industry.service.services': 'Hoe Wij Dienstenbedrijven Ondersteunen',
+    'industry.service.why': 'Waarom Digitale Marketing Cruciaal is voor Dienstenbedrijven',
+    'industry.service.cta': 'Klaar om Meer Lokale Klanten te Krijgen?',
+    'industry.service.ctaDesc': 'Laten we een digitale marketingstrategie creëren die uw agenda vol houdt.',
+    
+    // Export Business Industry
+    'industry.export.title': 'Digitale Oplossingen voor Exportbedrijven',
+    'industry.export.subtitle': 'Breid uit naar internationale markten met meertalige digitale marketing en weboplossingen ontworpen voor fabrikanten, distributeurs en exportgerichte bedrijven.',
+    'industry.export.services': 'Hoe Wij Exportbedrijven Ondersteunen',
+    'industry.export.why': 'Waarom Digitale Marketing Essentieel is voor Exportsucces',
+    'industry.export.cta': 'Klaar om Naar Nieuwe Markten Uit te Breiden?',
+    'industry.export.ctaDesc': 'Laten we een internationale digitale strategie creëren die deuren opent naar wereldwijde kansen.',
   },
   EN: {
     // Navigation
@@ -1664,6 +1749,91 @@ const translations = {
     'terms.changes.content': 'GROPPI reserves the right to modify these terms of service. Changes take effect after publication on our website.',
     'terms.contact.title': 'Contact',
     'terms.contact.content': 'For questions about these terms, contact us:',
+    
+    // Industry Pages - Common
+    'industry.common.scheduleConsultation': 'Schedule Consultation',
+    'industry.common.viewPricing': 'View Pricing',
+    'industry.common.schedulePartnershipCall': 'Schedule Partnership Call',
+    
+    // Medical Industry
+    'industry.medical.title': 'Digital Solutions for Healthcare',
+    'industry.medical.subtitle': 'Transform your medical practice with cutting-edge digital marketing and web solutions tailored for healthcare professionals.',
+    'industry.medical.services': 'How We Support Healthcare Providers',
+    'industry.medical.why': 'Why Digital Presence Matters in Healthcare',
+    'industry.medical.cta': 'Ready to Grow Your Practice?',
+    'industry.medical.ctaDesc': 'Let\'s discuss how our digital solutions can help you attract more patients and enhance your online reputation.',
+    
+    // Engineering Industry
+    'industry.engineering.title': 'Digital Solutions for Engineering Firms',
+    'industry.engineering.subtitle': 'Showcase your engineering expertise with professional digital marketing and web solutions that attract clients and highlight your technical capabilities.',
+    'industry.engineering.services': 'How We Support Engineering Companies',
+    'industry.engineering.why': 'Why Digital Presence Matters for Engineers',
+    'industry.engineering.cta': 'Ready to Showcase Your Engineering Expertise?',
+    'industry.engineering.ctaDesc': 'Let\'s create a digital presence that reflects the quality and precision of your engineering work.',
+    
+    // Construction Industry
+    'industry.construction.title': 'Digital Solutions for Construction Companies',
+    'industry.construction.subtitle': 'Build your online presence as strong as the structures you create. Digital marketing and web solutions for contractors, builders, and construction firms.',
+    'industry.construction.services': 'How We Support Construction Businesses',
+    'industry.construction.why': 'Why Digital Marketing Matters in Construction',
+    'industry.construction.cta': 'Ready to Build Your Online Presence?',
+    'industry.construction.ctaDesc': 'Let\'s create a digital foundation that brings in quality construction projects.',
+    
+    // Real Estate Industry
+    'industry.realEstate.title': 'Digital Solutions for Real Estate Professionals',
+    'industry.realEstate.subtitle': 'Stand out in a competitive market with powerful digital marketing and web solutions designed specifically for real estate agents, brokers, and property developers.',
+    'industry.realEstate.services': 'How We Support Real Estate Professionals',
+    'industry.realEstate.why': 'Why Digital Marketing Is Essential in Real Estate',
+    'industry.realEstate.cta': 'Ready to Dominate Your Local Market?',
+    'industry.realEstate.ctaDesc': 'Let\'s create a digital marketing strategy that generates more leads and helps you close more deals.',
+    
+    // Ecommerce Industry
+    'industry.ecommerce.title': 'Digital Solutions for E-commerce Businesses',
+    'industry.ecommerce.subtitle': 'Accelerate your online store\'s growth with conversion-focused web development and digital marketing strategies that drive sales and customer loyalty.',
+    'industry.ecommerce.services': 'How We Grow E-commerce Businesses',
+    'industry.ecommerce.why': 'Why E-commerce Success Requires Digital Marketing',
+    'industry.ecommerce.cta': 'Ready to Scale Your E-commerce Business?',
+    'industry.ecommerce.ctaDesc': 'Let\'s create a growth strategy that increases traffic, conversions, and customer lifetime value.',
+    
+    // Sales Industry
+    'industry.sales.title': 'Digital Solutions for Sales Teams',
+    'industry.sales.subtitle': 'Accelerate your sales pipeline with targeted digital marketing strategies that generate quality leads and drive revenue growth.',
+    'industry.sales.services': 'How We Supercharge Sales Teams',
+    'industry.sales.why': 'Why Digital Marketing Is Essential for Sales',
+    'industry.sales.cta': 'Ready to Fill Your Sales Pipeline?',
+    'industry.sales.ctaDesc': 'Let\'s create a digital marketing strategy that delivers measurable sales results.',
+    
+    // Marketing Industry
+    'industry.marketing.title': 'Digital Solutions for Marketing Agencies',
+    'industry.marketing.subtitle': 'White-label digital services and partnership opportunities to expand your agency\'s capabilities and deliver exceptional results for your clients.',
+    'industry.marketing.services': 'How We Support Marketing Professionals',
+    'industry.marketing.why': 'Why Marketing Agencies Partner With Us',
+    'industry.marketing.cta': 'Ready to Expand Your Service Offerings?',
+    'industry.marketing.ctaDesc': 'Let\'s discuss partnership opportunities and how we can help you serve your clients better.',
+    
+    // Business/Professional Services Industry
+    'industry.business.title': 'Digital Solutions for Professional Services',
+    'industry.business.subtitle': 'Establish thought leadership and generate quality leads with digital marketing strategies designed for consultants, law firms, accounting firms, and professional service providers.',
+    'industry.business.services': 'How We Support Professional Services',
+    'industry.business.why': 'Why Digital Marketing Matters for Professional Services',
+    'industry.business.cta': 'Ready to Attract More Ideal Clients?',
+    'industry.business.ctaDesc': 'Let\'s create a digital strategy that positions you as the leading expert in your field.',
+    
+    // Service Industry
+    'industry.service.title': 'Digital Solutions for Service Businesses',
+    'industry.service.subtitle': 'Drive more bookings and build customer loyalty with digital marketing tailored for plumbers, electricians, cleaners, landscapers, and local service providers.',
+    'industry.service.services': 'How We Support Service Businesses',
+    'industry.service.why': 'Why Digital Marketing Is Critical for Service Businesses',
+    'industry.service.cta': 'Ready to Get More Local Customers?',
+    'industry.service.ctaDesc': 'Let\'s create a digital marketing strategy that keeps your schedule fully booked.',
+    
+    // Export Business Industry
+    'industry.export.title': 'Digital Solutions for Export Businesses',
+    'industry.export.subtitle': 'Expand into international markets with multilingual digital marketing and web solutions designed for manufacturers, distributors, and export-focused companies.',
+    'industry.export.services': 'How We Support Export Businesses',
+    'industry.export.why': 'Why Digital Marketing Is Essential for Export Success',
+    'industry.export.cta': 'Ready to Expand into New Markets?',
+    'industry.export.ctaDesc': 'Let\'s create an international digital strategy that opens doors to global opportunities.',
   },
   FR: {
     // Navigation
@@ -2695,9 +2865,35 @@ const translations = {
     'header.services.reviewCardsDesc': 'La mejor manera de puntuar',
     
     // 404 Page
-    'notFound.title': 'Página no encontrada',
-    'notFound.description': 'Lo sentimos, no pudimos encontrar la página que busca.',
-    'notFound.returnHome': 'Volver al inicio',
+    'notFound.title': 'Pagina niet gevonden',
+    'notFound.description': 'Sorry, we konden de pagina die u zoekt niet vinden.',
+    'notFound.returnHome': 'Terug naar home',
+    
+    // Industry Pages - Medical
+    'industry.medical.title': 'Digitale Oplossingen voor Gezondheidszorg',
+    'industry.medical.subtitle': 'Transformeer uw medische praktijk met geavanceerde digitale marketing en weboplossingen op maat voor zorgprofessionals.',
+    'industry.medical.services.title': 'Hoe Wij Zorgverleners Ondersteunen',
+    'industry.medical.service1.title': 'Professionele Medische Websites',
+    'industry.medical.service1.desc': 'HIPAA-compatibele, gebruiksvriendelijke websites die uw praktijk, diensten en expertise tonen. Functies omvatten afsprakenboekingen, patiëntenportalen en telezorg integratie.',
+    'industry.medical.service2.title': 'Medische SEO Optimalisatie',
+    'industry.medical.service2.desc': 'Rank hoger voor lokale medische zoekopdrachten. Optimaliseer voor "dokter bij mij in de buurt," specialisme-specifieke trefwoorden en locatiegebaseerde queries om meer patiënten aan te trekken.',
+    'industry.medical.service3.title': 'Social Media voor Gezondheidszorg',
+    'industry.medical.service3.desc': 'Bouw vertrouwen op en educeer patiënten via conforme social media marketing. Deel gezondheidstips, patiënttestimonials en toon de cultuur van uw praktijk.',
+    'industry.medical.service4.title': 'Digitale Reclame',
+    'industry.medical.service4.desc': 'Gerichte Google Ads en social campagnes om nieuwe patiënten aan te trekken. Focus op specifieke behandelingen, specialismen en geografische gebieden voor maximale ROI.',
+    'industry.medical.service5.title': 'Reputatiebeheer',
+    'industry.medical.service5.desc': 'Monitor en beheer online reviews op meerdere platforms. Bouw een sterke online reputatie op die nieuwe patiënten aantrekt en vertrouwen opbouwt.',
+    'industry.medical.service6.title': 'Patiëntbetrokkenheidstools',
+    'industry.medical.service6.desc': 'E-mailcampagnes, afspraakherinneringen en patiënteducatie-inhoud om retentie- en tevredenheidspercentages te verbeteren.',
+    'industry.medical.why.title': 'Waarom Digitale Aanwezigheid Belangrijk is in de Gezondheidszorg',
+    'industry.medical.why.stat': '77% van de patiënten',
+    'industry.medical.why.text1': 'gebruikt zoekmachines voordat ze een afspraak maken. Uw online aanwezigheid is vaak de eerste indruk die patiënten hebben van uw praktijk.',
+    'industry.medical.why.text2': 'In het huidige competitieve zorglandschap is een sterke digitale aanwezigheid niet optioneel—het is essentieel. Patiënten verwachten gedetailleerde informatie over zorgverleners te vinden, reviews te lezen, online afspraken te boeken en toegang tot telezorgdiensten.',
+    'industry.medical.why.text3': 'Onze gespecialiseerde zorgmarketingoplossingen helpen u op te vallen terwijl u compliant blijft met HIPAA en medische reclameregelgeving. We begrijpen de unieke uitdagingen van zorgmarketing en creëren strategieën die werken.',
+    'industry.medical.cta.title': 'Klaar om Uw Praktijk te Laten Groeien?',
+    'industry.medical.cta.description': 'Laten we bespreken hoe onze digitale oplossingen u kunnen helpen meer patiënten aan te trekken en uw online reputatie te verbeteren.',
+    'industry.medical.cta.button': 'Plan Consultatie',
+    'industry.medical.cta.viewPricing': 'Bekijk Prijzen',
     'notFound.goBack': 'Volver',
   },
   IT: {

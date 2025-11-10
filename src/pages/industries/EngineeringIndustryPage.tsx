@@ -4,8 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Wrench, Search, Users, Globe, TrendingUp, FileText } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const EngineeringIndustryPage = () => {
+  const { t } = useLanguage();
+  
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -17,11 +20,11 @@ const EngineeringIndustryPage = () => {
             <div className="flex items-center gap-3 mb-4">
               <Wrench className="w-12 h-12 text-primary" />
               <h1 className="text-4xl md:text-5xl font-bold text-foreground">
-                Digital Solutions for Engineering Firms
+                {t('industry.engineering.title')}
               </h1>
             </div>
             <p className="text-xl text-muted-foreground max-w-3xl">
-              Showcase your engineering expertise with professional digital marketing and web solutions that attract clients and highlight your technical capabilities.
+              {t('industry.engineering.subtitle')}
             </p>
           </div>
         </section>
@@ -29,7 +32,7 @@ const EngineeringIndustryPage = () => {
         {/* Services Overview */}
         <section className="py-16 px-4 bg-background">
           <div className="container mx-auto max-w-6xl">
-            <h2 className="text-3xl font-bold mb-12 text-center text-foreground">How We Support Engineering Companies</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center text-foreground">{t('industry.engineering.services')}</h2>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Card className="p-6 hover:shadow-lg transition-shadow">
@@ -86,7 +89,7 @@ const EngineeringIndustryPage = () => {
         {/* Why Engineering Needs Digital Marketing */}
         <section className="py-16 px-4 bg-secondary/5">
           <div className="container mx-auto max-w-4xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-foreground">Why Digital Presence Matters for Engineers</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-foreground">{t('industry.engineering.why')}</h2>
             <div className="space-y-6 text-muted-foreground">
               <p className="text-lg">
                 <strong className="text-foreground">Engineering is a relationship business</strong>, but 89% of B2B buyers start their search online. Your digital presence establishes credibility before the first meeting.
@@ -104,16 +107,16 @@ const EngineeringIndustryPage = () => {
         {/* CTA Section */}
         <section className="py-16 px-4 bg-gradient-to-r from-primary/10 to-secondary/10">
           <div className="container mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl font-bold mb-4 text-foreground">Ready to Showcase Your Engineering Expertise?</h2>
+            <h2 className="text-3xl font-bold mb-4 text-foreground">{t('industry.engineering.cta')}</h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Let's create a digital presence that reflects the quality and precision of your engineering work.
+              {t('industry.engineering.ctaDesc')}
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link to="/appointment">
-                <Button size="lg" className="text-lg px-8 bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black">Schedule Consultation</Button>
+                <Button size="lg" className="text-lg px-8 bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black">{t('industry.common.scheduleConsultation')}</Button>
               </Link>
               <Link to="/prices">
-                <Button size="lg" variant="outline" className="text-lg px-8">View Pricing</Button>
+                <Button size="lg" variant="outline" className="text-lg px-8">{t('industry.common.viewPricing')}</Button>
               </Link>
             </div>
           </div>
