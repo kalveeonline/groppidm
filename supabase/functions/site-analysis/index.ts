@@ -20,15 +20,67 @@ serve(async (req) => {
       );
     }
 
+    // Validate and sanitize URL to prevent SSRF
+    let parsedUrl;
+    try {
+      parsedUrl = new URL(url);
+    } catch {
+      return new Response(
+        JSON.stringify({ error: 'Invalid URL format' }),
+        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+      );
+    }
+
+    // Only allow http and https protocols
+    if (parsedUrl.protocol !== 'http:' && parsedUrl.protocol !== 'https:') {
+      return new Response(
+        JSON.stringify({ error: 'Only HTTP and HTTPS protocols are allowed' }),
+        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+      );
+    }
+
+    // Blacklist private IP ranges and localhost
+    const hostname = parsedUrl.hostname.toLowerCase();
+    const privatePatterns = [
+      /^localhost$/i,
+      /^127\./,
+      /^10\./,
+      /^172\.(1[6-9]|2\d|3[01])\./,
+      /^192\.168\./,
+      /^169\.254\./,
+      /^0\.0\.0\.0$/,
+      /^\[?::1\]?$/,
+      /^\[?fe80:/i,
+      /^\[?fc00:/i,
+      /^\[?fd00:/i
+    ];
+
+    if (privatePatterns.some(pattern => pattern.test(hostname))) {
+      return new Response(
+        JSON.stringify({ error: 'Access to private IP ranges is not allowed' }),
+        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+      );
+    }
+
     const LOVABLE_API_KEY = Deno.env.get("LOVABLE_API_KEY");
     if (!LOVABLE_API_KEY) {
       throw new Error("LOVABLE_API_KEY is not configured");
     }
 
-    // Fetch the website content
+    // Fetch the website content with timeout
     let websiteContent = '';
     try {
-      const siteResponse = await fetch(url);
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
+      
+      const siteResponse = await fetch(url, {
+        signal: controller.signal,
+        headers: {
+          'User-Agent': 'Groppi-SiteAnalyzer/1.0'
+        }
+      });
+      
+      clearTimeout(timeoutId);
       websiteContent = await siteResponse.text();
       // Limit content to first 10000 characters to avoid token limits
       websiteContent = websiteContent.substring(0, 10000);

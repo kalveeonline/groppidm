@@ -11,7 +11,24 @@ serve(async (req) => {
   }
 
   try {
+    // Validate input
     const { messages } = await req.json();
+    
+    if (!Array.isArray(messages) || messages.length === 0) {
+      return new Response(
+        JSON.stringify({ error: 'Messages array is required' }),
+        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+      );
+    }
+
+    // Validate message length to prevent abuse
+    const totalLength = messages.reduce((sum, msg) => sum + (msg.content?.length || 0), 0);
+    if (totalLength > 10000) {
+      return new Response(
+        JSON.stringify({ error: 'Message content too long' }),
+        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+      );
+    }
     const LOVABLE_API_KEY = Deno.env.get("LOVABLE_API_KEY");
     
     if (!LOVABLE_API_KEY) {
