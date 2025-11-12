@@ -34,7 +34,7 @@ export const AboutUsPage = () => {
   ];
 
   const stats = [
-    { number: "158+", label: "Happy Clients" },
+    { number: "158+", label: t('about.stats.happyClients') },
     { number: "34+", label: t('about.stats.websitesLaunched') },
     { number: "29+", label: t('about.stats.activeCampaigns') }
   ];
