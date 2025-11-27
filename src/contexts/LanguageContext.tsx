@@ -2538,6 +2538,91 @@ const translations = {
     'socialMediaMarketing.cta.description': 'Construisons une stratégie de réseaux sociaux qui génère des résultats',
     'socialMediaMarketing.cta.button': 'Commencez Aujourd\'hui',
     
+    // Industry Pages - Common
+    'industry.common.scheduleConsultation': 'Planifier une Consultation',
+    'industry.common.viewPricing': 'Voir les Prix',
+    'industry.common.schedulePartnershipCall': 'Planifier un Appel de Partenariat',
+    
+    // Medical Industry
+    'industry.medical.title': 'Solutions Digitales pour les Soins de Santé',
+    'industry.medical.subtitle': 'Transformez votre cabinet médical avec des solutions de marketing digital et web de pointe adaptées aux professionnels de santé.',
+    'industry.medical.services': 'Comment Nous Soutenons les Professionnels de Santé',
+    'industry.medical.why': 'Pourquoi la Présence Digitale est Importante dans les Soins de Santé',
+    'industry.medical.cta': 'Prêt à Développer Votre Cabinet?',
+    'industry.medical.ctaDesc': 'Discutons de comment nos solutions digitales peuvent vous aider à attirer plus de patients et améliorer votre réputation en ligne.',
+    
+    // Engineering Industry
+    'industry.engineering.title': 'Solutions Digitales pour les Entreprises d\'Ingénierie',
+    'industry.engineering.subtitle': 'Montrez votre expertise en ingénierie avec un marketing digital professionnel et des solutions web qui attirent les clients et mettent en valeur vos capacités techniques.',
+    'industry.engineering.services': 'Comment Nous Soutenons les Entreprises d\'Ingénierie',
+    'industry.engineering.why': 'Pourquoi la Présence Digitale est Importante pour les Ingénieurs',
+    'industry.engineering.cta': 'Prêt à Montrer Votre Expertise en Ingénierie?',
+    'industry.engineering.ctaDesc': 'Créons une présence digitale qui reflète la qualité et la précision de votre travail d\'ingénierie.',
+    
+    // Construction Industry
+    'industry.construction.title': 'Solutions Digitales pour les Entreprises de Construction',
+    'industry.construction.subtitle': 'Construisez votre présence en ligne aussi solide que les structures que vous créez. Marketing digital et solutions web pour entrepreneurs, constructeurs et entreprises de construction.',
+    'industry.construction.services': 'Comment Nous Soutenons les Entreprises de Construction',
+    'industry.construction.why': 'Pourquoi le Marketing Digital est Important dans la Construction',
+    'industry.construction.cta': 'Prêt à Construire Votre Présence en Ligne?',
+    'industry.construction.ctaDesc': 'Créons une fondation digitale qui attire des projets de construction de qualité.',
+    
+    // Real Estate Industry
+    'industry.realEstate.title': 'Solutions Digitales pour les Professionnels de l\'Immobilier',
+    'industry.realEstate.subtitle': 'Démarquez-vous dans un marché compétitif avec un marketing digital puissant et des solutions web spécialement conçues pour les agents immobiliers et promoteurs.',
+    'industry.realEstate.services': 'Comment Nous Soutenons les Professionnels de l\'Immobilier',
+    'industry.realEstate.why': 'Pourquoi le Marketing Digital est Essentiel dans l\'Immobilier',
+    'industry.realEstate.cta': 'Prêt à Dominer Votre Marché Local?',
+    'industry.realEstate.ctaDesc': 'Créons une stratégie de marketing digital qui génère plus de leads et vous aide à conclure plus de ventes.',
+    
+    // Ecommerce Industry
+    'industry.ecommerce.title': 'Solutions Digitales pour les Entreprises E-commerce',
+    'industry.ecommerce.subtitle': 'Accélérez la croissance de votre boutique en ligne avec un développement web axé sur la conversion et des stratégies de marketing digital qui stimulent les ventes.',
+    'industry.ecommerce.services': 'Comment Nous Faisons Croître les Entreprises E-commerce',
+    'industry.ecommerce.why': 'Pourquoi le Succès E-commerce Nécessite le Marketing Digital',
+    'industry.ecommerce.cta': 'Prêt à Développer Votre Entreprise E-commerce?',
+    'industry.ecommerce.ctaDesc': 'Créons une stratégie de croissance qui augmente le trafic, les conversions et la valeur vie client.',
+    
+    // Sales Industry
+    'industry.sales.title': 'Solutions Digitales pour les Équipes de Vente',
+    'industry.sales.subtitle': 'Accélérez votre pipeline de ventes avec des stratégies de marketing digital ciblées qui génèrent des leads de qualité et stimulent la croissance des revenus.',
+    'industry.sales.services': 'Comment Nous Boostons les Équipes de Vente',
+    'industry.sales.why': 'Pourquoi le Marketing Digital est Essentiel pour les Ventes',
+    'industry.sales.cta': 'Prêt à Remplir Votre Pipeline de Ventes?',
+    'industry.sales.ctaDesc': 'Créons une stratégie de marketing digital qui produit des résultats de vente mesurables.',
+    
+    // Marketing Industry
+    'industry.marketing.title': 'Solutions Digitales pour les Agences Marketing',
+    'industry.marketing.subtitle': 'Services digitaux en marque blanche et opportunités de partenariat pour étendre les capacités de votre agence et offrir des résultats exceptionnels à vos clients.',
+    'industry.marketing.services': 'Comment Nous Soutenons les Professionnels du Marketing',
+    'industry.marketing.why': 'Pourquoi les Agences Marketing Collaborent avec Nous',
+    'industry.marketing.cta': 'Prêt à Étendre Vos Offres de Services?',
+    'industry.marketing.ctaDesc': 'Discutons des opportunités de partenariat et de comment nous pouvons vous aider à mieux servir vos clients.',
+    
+    // Business/Professional Services Industry
+    'industry.business.title': 'Solutions Digitales pour les Services Professionnels',
+    'industry.business.subtitle': 'Établissez un leadership d\'opinion et générez des leads de qualité avec des stratégies de marketing digital conçues pour les consultants, cabinets d\'avocats et prestataires de services professionnels.',
+    'industry.business.services': 'Comment Nous Soutenons les Services Professionnels',
+    'industry.business.why': 'Pourquoi le Marketing Digital est Important pour les Services Professionnels',
+    'industry.business.cta': 'Prêt à Attirer Plus de Clients Idéaux?',
+    'industry.business.ctaDesc': 'Créons une stratégie digitale qui vous positionne comme l\'expert de référence dans votre domaine.',
+    
+    // Service Industry
+    'industry.service.title': 'Solutions Digitales pour les Entreprises de Services',
+    'industry.service.subtitle': 'Générez plus de réservations et fidélisez vos clients avec un marketing digital adapté aux plombiers, électriciens, nettoyeurs, jardiniers et prestataires de services locaux.',
+    'industry.service.services': 'Comment Nous Soutenons les Entreprises de Services',
+    'industry.service.why': 'Pourquoi le Marketing Digital est Crucial pour les Entreprises de Services',
+    'industry.service.cta': 'Prêt à Obtenir Plus de Clients Locaux?',
+    'industry.service.ctaDesc': 'Créons une stratégie de marketing digital qui maintient votre agenda plein.',
+    
+    // Export Business Industry
+    'industry.export.title': 'Solutions Digitales pour les Entreprises d\'Exportation',
+    'industry.export.subtitle': 'Développez-vous sur les marchés internationaux avec un marketing digital multilingue et des solutions web conçues pour les fabricants, distributeurs et entreprises d\'exportation.',
+    'industry.export.services': 'Comment Nous Soutenons les Entreprises d\'Exportation',
+    'industry.export.why': 'Pourquoi le Marketing Digital est Essentiel pour le Succès à l\'Export',
+    'industry.export.cta': 'Prêt à Vous Développer sur de Nouveaux Marchés?',
+    'industry.export.ctaDesc': 'Créons une stratégie digitale internationale qui ouvre les portes aux opportunités mondiales.',
+    
     // Pricing Page
     'prices.title': 'Tarification Transparente pour le Succès Digital',
     'prices.subtitle': 'Choisissez le plan parfait pour votre entreprise. Tous les plans incluent nos services principaux sans frais cachés.',
@@ -3316,6 +3401,91 @@ const translations = {
     'socialMediaMarketing.cta.description': 'Zbudujmy strategię mediów społecznościowych, która przynosi rezultaty',
     'socialMediaMarketing.cta.button': 'Rozpocznij Dziś',
     
+    // Industry Pages - Common
+    'industry.common.scheduleConsultation': 'Umów Konsultację',
+    'industry.common.viewPricing': 'Zobacz Cennik',
+    'industry.common.schedulePartnershipCall': 'Umów Rozmowę Partnerską',
+    
+    // Medical Industry
+    'industry.medical.title': 'Rozwiązania Cyfrowe dla Służby Zdrowia',
+    'industry.medical.subtitle': 'Przekształć swoją praktykę medyczną za pomocą nowoczesnego marketingu cyfrowego i rozwiązań webowych dostosowanych do profesjonalistów medycznych.',
+    'industry.medical.services': 'Jak Wspieramy Służbę Zdrowia',
+    'industry.medical.why': 'Dlaczego Obecność Cyfrowa Jest Ważna w Służbie Zdrowia',
+    'industry.medical.cta': 'Gotowy na Rozwój Swojej Praktyki?',
+    'industry.medical.ctaDesc': 'Porozmawiajmy o tym, jak nasze rozwiązania cyfrowe mogą pomóc Ci przyciągnąć więcej pacjentów i poprawić Twoją reputację online.',
+    
+    // Engineering Industry
+    'industry.engineering.title': 'Rozwiązania Cyfrowe dla Firm Inżynieryjnych',
+    'industry.engineering.subtitle': 'Zaprezentuj swoją ekspertyzę inżynieryjną z profesjonalnym marketingiem cyfrowym i rozwiązaniami webowymi, które przyciągają klientów i podkreślają Twoje możliwości techniczne.',
+    'industry.engineering.services': 'Jak Wspieramy Firmy Inżynieryjne',
+    'industry.engineering.why': 'Dlaczego Obecność Cyfrowa Jest Ważna dla Inżynierów',
+    'industry.engineering.cta': 'Gotowy Zaprezentować Swoją Ekspertyzę Inżynieryjną?',
+    'industry.engineering.ctaDesc': 'Stwórzmy obecność cyfrową, która odzwierciedla jakość i precyzję Twojej pracy inżynieryjnej.',
+    
+    // Construction Industry
+    'industry.construction.title': 'Rozwiązania Cyfrowe dla Firm Budowlanych',
+    'industry.construction.subtitle': 'Zbuduj swoją obecność online tak solidną jak struktury, które tworzysz. Marketing cyfrowy i rozwiązania webowe dla wykonawców, budowniczych i firm budowlanych.',
+    'industry.construction.services': 'Jak Wspieramy Firmy Budowlane',
+    'industry.construction.why': 'Dlaczego Marketing Cyfrowy Jest Ważny w Budownictwie',
+    'industry.construction.cta': 'Gotowy Zbudować Swoją Obecność Online?',
+    'industry.construction.ctaDesc': 'Stwórzmy cyfrowy fundament, który przyciąga wysokiej jakości projekty budowlane.',
+    
+    // Real Estate Industry
+    'industry.realEstate.title': 'Rozwiązania Cyfrowe dla Profesjonalistów Rynku Nieruchomości',
+    'industry.realEstate.subtitle': 'Wyróżnij się na konkurencyjnym rynku dzięki potężnemu marketingowi cyfrowemu i rozwiązaniom webowym specjalnie zaprojektowanym dla agentów i deweloperów nieruchomości.',
+    'industry.realEstate.services': 'Jak Wspieramy Profesjonalistów Rynku Nieruchomości',
+    'industry.realEstate.why': 'Dlaczego Marketing Cyfrowy Jest Niezbędny w Branży Nieruchomości',
+    'industry.realEstate.cta': 'Gotowy Zdominować Swój Lokalny Rynek?',
+    'industry.realEstate.ctaDesc': 'Stwórzmy strategię marketingu cyfrowego, która generuje więcej leadów i pomaga zamykać więcej transakcji.',
+    
+    // Ecommerce Industry
+    'industry.ecommerce.title': 'Rozwiązania Cyfrowe dla Firm E-commerce',
+    'industry.ecommerce.subtitle': 'Przyspiesz rozwój swojego sklepu internetowego dzięki tworzeniu stron nastawionych na konwersję i strategiom marketingu cyfrowego, które napędzają sprzedaż.',
+    'industry.ecommerce.services': 'Jak Rozwijamy Firmy E-commerce',
+    'industry.ecommerce.why': 'Dlaczego Sukces E-commerce Wymaga Marketingu Cyfrowego',
+    'industry.ecommerce.cta': 'Gotowy Skalować Swój Biznes E-commerce?',
+    'industry.ecommerce.ctaDesc': 'Stwórzmy strategię wzrostu, która zwiększa ruch, konwersje i wartość klienta.',
+    
+    // Sales Industry
+    'industry.sales.title': 'Rozwiązania Cyfrowe dla Zespołów Sprzedaży',
+    'industry.sales.subtitle': 'Przyspiesz swój lejek sprzedażowy dzięki ukierunkowanym strategiom marketingu cyfrowego, które generują jakościowe leady i napędzają wzrost przychodów.',
+    'industry.sales.services': 'Jak Wspieramy Zespoły Sprzedaży',
+    'industry.sales.why': 'Dlaczego Marketing Cyfrowy Jest Niezbędny dla Sprzedaży',
+    'industry.sales.cta': 'Gotowy Napełnić Swój Lejek Sprzedażowy?',
+    'industry.sales.ctaDesc': 'Stwórzmy strategię marketingu cyfrowego, która przynosi mierzalne wyniki sprzedażowe.',
+    
+    // Marketing Industry
+    'industry.marketing.title': 'Rozwiązania Cyfrowe dla Agencji Marketingowych',
+    'industry.marketing.subtitle': 'Usługi cyfrowe white-label i możliwości partnerstwa, aby rozszerzyć możliwości Twojej agencji i dostarczać wyjątkowe wyniki dla Twoich klientów.',
+    'industry.marketing.services': 'Jak Wspieramy Profesjonalistów Marketingu',
+    'industry.marketing.why': 'Dlaczego Agencje Marketingowe Współpracują z Nami',
+    'industry.marketing.cta': 'Gotowy Rozszerzyć Swoją Ofertę Usług?',
+    'industry.marketing.ctaDesc': 'Porozmawiajmy o możliwościach partnerstwa i o tym, jak możemy pomóc Ci lepiej obsługiwać Twoich klientów.',
+    
+    // Business/Professional Services Industry
+    'industry.business.title': 'Rozwiązania Cyfrowe dla Usług Profesjonalnych',
+    'industry.business.subtitle': 'Ustanów przywództwo myślowe i generuj jakościowe leady dzięki strategiom marketingu cyfrowego zaprojektowanym dla konsultantów, kancelarii prawnych i dostawców usług profesjonalnych.',
+    'industry.business.services': 'Jak Wspieramy Usługi Profesjonalne',
+    'industry.business.why': 'Dlaczego Marketing Cyfrowy Jest Ważny dla Usług Profesjonalnych',
+    'industry.business.cta': 'Gotowy Przyciągnąć Więcej Idealnych Klientów?',
+    'industry.business.ctaDesc': 'Stwórzmy strategię cyfrową, która pozycjonuje Cię jako wiodącego eksperta w Twojej dziedzinie.',
+    
+    // Service Industry
+    'industry.service.title': 'Rozwiązania Cyfrowe dla Firm Usługowych',
+    'industry.service.subtitle': 'Generuj więcej rezerwacji i buduj lojalność klientów dzięki marketingowi cyfrowemu dostosowanemu do hydraulików, elektryków, sprzątaczy, ogrodników i lokalnych usługodawców.',
+    'industry.service.services': 'Jak Wspieramy Firmy Usługowe',
+    'industry.service.why': 'Dlaczego Marketing Cyfrowy Jest Kluczowy dla Firm Usługowych',
+    'industry.service.cta': 'Gotowy Zdobyć Więcej Lokalnych Klientów?',
+    'industry.service.ctaDesc': 'Stwórzmy strategię marketingu cyfrowego, która utrzyma Twój kalendarz pełny.',
+    
+    // Export Business Industry
+    'industry.export.title': 'Rozwiązania Cyfrowe dla Firm Eksportowych',
+    'industry.export.subtitle': 'Rozwijaj się na rynkach międzynarodowych dzięki wielojęzycznemu marketingowi cyfrowemu i rozwiązaniom webowym zaprojektowanym dla producentów, dystrybutorów i firm eksportowych.',
+    'industry.export.services': 'Jak Wspieramy Firmy Eksportowe',
+    'industry.export.why': 'Dlaczego Marketing Cyfrowy Jest Niezbędny dla Sukcesu Eksportowego',
+    'industry.export.cta': 'Gotowy Rozszerzyć się na Nowe Rynki?',
+    'industry.export.ctaDesc': 'Stwórzmy międzynarodową strategię cyfrową, która otwiera drzwi do globalnych możliwości.',
+    
     // Pricing Page
     'prices.title': 'Przejrzyste Ceny dla Cyfrowego Sukcesu',
     'prices.subtitle': 'Wybierz idealny plan dla swojej firmy. Wszystkie plany obejmują nasze podstawowe usługi bez ukrytych opłat.',
@@ -4085,6 +4255,91 @@ const translations = {
     'socialMediaMarketing.cta.title': 'Готовы Усилить Присутствие в Соцсетях?',
     'socialMediaMarketing.cta.description': 'Создадим стратегию для результатов',
     'socialMediaMarketing.cta.button': 'Начать Сегодня',
+    
+    // Industry Pages - Common
+    'industry.common.scheduleConsultation': 'Записаться на Консультацию',
+    'industry.common.viewPricing': 'Посмотреть Цены',
+    'industry.common.schedulePartnershipCall': 'Записаться на Звонок по Партнерству',
+    
+    // Medical Industry
+    'industry.medical.title': 'Цифровые Решения для Здравоохранения',
+    'industry.medical.subtitle': 'Трансформируйте свою медицинскую практику с помощью передового цифрового маркетинга и веб-решений, адаптированных для специалистов здравоохранения.',
+    'industry.medical.services': 'Как Мы Поддерживаем Медицинских Работников',
+    'industry.medical.why': 'Почему Цифровое Присутствие Важно в Здравоохранении',
+    'industry.medical.cta': 'Готовы Развивать Свою Практику?',
+    'industry.medical.ctaDesc': 'Давайте обсудим, как наши цифровые решения могут помочь вам привлечь больше пациентов и улучшить вашу онлайн-репутацию.',
+    
+    // Engineering Industry
+    'industry.engineering.title': 'Цифровые Решения для Инженерных Компаний',
+    'industry.engineering.subtitle': 'Продемонстрируйте свою инженерную экспертизу с профессиональным цифровым маркетингом и веб-решениями, которые привлекают клиентов.',
+    'industry.engineering.services': 'Как Мы Поддерживаем Инженерные Компании',
+    'industry.engineering.why': 'Почему Цифровое Присутствие Важно для Инженеров',
+    'industry.engineering.cta': 'Готовы Показать Свою Инженерную Экспертизу?',
+    'industry.engineering.ctaDesc': 'Создадим цифровое присутствие, которое отражает качество и точность вашей инженерной работы.',
+    
+    // Construction Industry
+    'industry.construction.title': 'Цифровые Решения для Строительных Компаний',
+    'industry.construction.subtitle': 'Постройте свое онлайн-присутствие так же прочно, как структуры, которые вы создаете. Цифровой маркетинг для строителей и подрядчиков.',
+    'industry.construction.services': 'Как Мы Поддерживаем Строительные Компании',
+    'industry.construction.why': 'Почему Цифровой Маркетинг Важен в Строительстве',
+    'industry.construction.cta': 'Готовы Построить Свое Онлайн-Присутствие?',
+    'industry.construction.ctaDesc': 'Создадим цифровой фундамент, который привлекает качественные строительные проекты.',
+    
+    // Real Estate Industry
+    'industry.realEstate.title': 'Цифровые Решения для Специалистов по Недвижимости',
+    'industry.realEstate.subtitle': 'Выделитесь на конкурентном рынке с помощью мощного цифрового маркетинга, разработанного для агентов и девелоперов недвижимости.',
+    'industry.realEstate.services': 'Как Мы Поддерживаем Специалистов по Недвижимости',
+    'industry.realEstate.why': 'Почему Цифровой Маркетинг Необходим в Недвижимости',
+    'industry.realEstate.cta': 'Готовы Доминировать на Локальном Рынке?',
+    'industry.realEstate.ctaDesc': 'Создадим стратегию цифрового маркетинга, которая генерирует больше лидов и помогает закрывать больше сделок.',
+    
+    // Ecommerce Industry
+    'industry.ecommerce.title': 'Цифровые Решения для E-commerce Бизнеса',
+    'industry.ecommerce.subtitle': 'Ускорьте рост вашего интернет-магазина с помощью веб-разработки, ориентированной на конверсию, и стратегий цифрового маркетинга.',
+    'industry.ecommerce.services': 'Как Мы Развиваем E-commerce Бизнес',
+    'industry.ecommerce.why': 'Почему Успех E-commerce Требует Цифрового Маркетинга',
+    'industry.ecommerce.cta': 'Готовы Масштабировать Свой E-commerce Бизнес?',
+    'industry.ecommerce.ctaDesc': 'Создадим стратегию роста, которая увеличивает трафик, конверсии и пожизненную ценность клиента.',
+    
+    // Sales Industry
+    'industry.sales.title': 'Цифровые Решения для Команд Продаж',
+    'industry.sales.subtitle': 'Ускорьте свою воронку продаж с помощью целевых стратегий цифрового маркетинга, которые генерируют качественные лиды.',
+    'industry.sales.services': 'Как Мы Поддерживаем Команды Продаж',
+    'industry.sales.why': 'Почему Цифровой Маркетинг Необходим для Продаж',
+    'industry.sales.cta': 'Готовы Наполнить Свою Воронку Продаж?',
+    'industry.sales.ctaDesc': 'Создадим стратегию цифрового маркетинга, которая приносит измеримые результаты продаж.',
+    
+    // Marketing Industry
+    'industry.marketing.title': 'Цифровые Решения для Маркетинговых Агентств',
+    'industry.marketing.subtitle': 'White-label цифровые услуги и возможности партнерства для расширения возможностей вашего агентства.',
+    'industry.marketing.services': 'Как Мы Поддерживаем Маркетологов',
+    'industry.marketing.why': 'Почему Маркетинговые Агентства Сотрудничают с Нами',
+    'industry.marketing.cta': 'Готовы Расширить Спектр Услуг?',
+    'industry.marketing.ctaDesc': 'Обсудим возможности партнерства и как мы можем помочь вам лучше обслуживать клиентов.',
+    
+    // Business/Professional Services Industry
+    'industry.business.title': 'Цифровые Решения для Профессиональных Услуг',
+    'industry.business.subtitle': 'Установите лидерство и генерируйте качественные лиды со стратегиями для консультантов, юридических фирм и профессиональных услуг.',
+    'industry.business.services': 'Как Мы Поддерживаем Профессиональные Услуги',
+    'industry.business.why': 'Почему Цифровой Маркетинг Важен для Профессиональных Услуг',
+    'industry.business.cta': 'Готовы Привлечь Больше Идеальных Клиентов?',
+    'industry.business.ctaDesc': 'Создадим цифровую стратегию, которая позиционирует вас как ведущего эксперта.',
+    
+    // Service Industry
+    'industry.service.title': 'Цифровые Решения для Сервисного Бизнеса',
+    'industry.service.subtitle': 'Привлекайте больше заказов и лояльность клиентов с цифровым маркетингом для сантехников, электриков и местных услуг.',
+    'industry.service.services': 'Как Мы Поддерживаем Сервисный Бизнес',
+    'industry.service.why': 'Почему Цифровой Маркетинг Важен для Сервисного Бизнеса',
+    'industry.service.cta': 'Готовы Получить Больше Местных Клиентов?',
+    'industry.service.ctaDesc': 'Создадим стратегию цифрового маркетинга, которая поддерживает ваш график заполненным.',
+    
+    // Export Business Industry
+    'industry.export.title': 'Цифровые Решения для Экспортного Бизнеса',
+    'industry.export.subtitle': 'Расширяйтесь на международные рынки с многоязычным цифровым маркетингом для производителей и экспортеров.',
+    'industry.export.services': 'Как Мы Поддерживаем Экспортный Бизнес',
+    'industry.export.why': 'Почему Цифровой Маркетинг Необходим для Экспортного Успеха',
+    'industry.export.cta': 'Готовы Выйти на Новые Рынки?',
+    'industry.export.ctaDesc': 'Создадим международную цифровую стратегию, которая открывает двери к глобальным возможностям.',
     
     // Pricing Page
     'prices.title': 'Прозрачное Ценообразование для Цифрового Успеха',
@@ -5172,6 +5427,91 @@ const translations = {
     'socialMediaMarketing.cta.title': 'Bereit für Social Media Wachstum?',
     'socialMediaMarketing.cta.description': 'Lassen Sie uns eine Social-Media-Strategie aufbauen, die Ergebnisse liefert',
     'socialMediaMarketing.cta.button': 'Heute starten',
+    
+    // Industry Pages - Common
+    'industry.common.scheduleConsultation': 'Beratung Vereinbaren',
+    'industry.common.viewPricing': 'Preise Ansehen',
+    'industry.common.schedulePartnershipCall': 'Partnerschaftsgespräch Vereinbaren',
+    
+    // Medical Industry
+    'industry.medical.title': 'Digitale Lösungen für das Gesundheitswesen',
+    'industry.medical.subtitle': 'Transformieren Sie Ihre Arztpraxis mit modernsten digitalen Marketing- und Weblösungen für Gesundheitsfachleute.',
+    'industry.medical.services': 'Wie Wir Gesundheitsdienstleister Unterstützen',
+    'industry.medical.why': 'Warum Digitale Präsenz im Gesundheitswesen Wichtig Ist',
+    'industry.medical.cta': 'Bereit, Ihre Praxis zu Erweitern?',
+    'industry.medical.ctaDesc': 'Besprechen wir, wie unsere digitalen Lösungen Ihnen helfen können, mehr Patienten zu gewinnen und Ihren Online-Ruf zu verbessern.',
+    
+    // Engineering Industry
+    'industry.engineering.title': 'Digitale Lösungen für Ingenieurbüros',
+    'industry.engineering.subtitle': 'Präsentieren Sie Ihre Ingenieurexpertise mit professionellem digitalem Marketing und Weblösungen, die Kunden anziehen und Ihre technischen Fähigkeiten hervorheben.',
+    'industry.engineering.services': 'Wie Wir Ingenieurunternehmen Unterstützen',
+    'industry.engineering.why': 'Warum Digitale Präsenz für Ingenieure Wichtig Ist',
+    'industry.engineering.cta': 'Bereit, Ihre Ingenieurexpertise zu Zeigen?',
+    'industry.engineering.ctaDesc': 'Erstellen wir eine digitale Präsenz, die die Qualität und Präzision Ihrer Ingenieurarbeit widerspiegelt.',
+    
+    // Construction Industry
+    'industry.construction.title': 'Digitale Lösungen für Bauunternehmen',
+    'industry.construction.subtitle': 'Bauen Sie Ihre Online-Präsenz so stark wie die Strukturen, die Sie erstellen. Digitales Marketing und Weblösungen für Bauunternehmer.',
+    'industry.construction.services': 'Wie Wir Bauunternehmen Unterstützen',
+    'industry.construction.why': 'Warum Digitales Marketing im Bauwesen Wichtig Ist',
+    'industry.construction.cta': 'Bereit, Ihre Online-Präsenz Aufzubauen?',
+    'industry.construction.ctaDesc': 'Erstellen wir ein digitales Fundament, das hochwertige Bauprojekte anzieht.',
+    
+    // Real Estate Industry
+    'industry.realEstate.title': 'Digitale Lösungen für Immobilienprofis',
+    'industry.realEstate.subtitle': 'Heben Sie sich in einem wettbewerbsintensiven Markt mit leistungsstarkem digitalem Marketing ab, das für Immobilienmakler und Entwickler konzipiert wurde.',
+    'industry.realEstate.services': 'Wie Wir Immobilienprofis Unterstützen',
+    'industry.realEstate.why': 'Warum Digitales Marketing in Immobilien Unerlässlich Ist',
+    'industry.realEstate.cta': 'Bereit, Ihren Lokalen Markt zu Dominieren?',
+    'industry.realEstate.ctaDesc': 'Erstellen wir eine digitale Marketingstrategie, die mehr Leads generiert und Ihnen hilft, mehr Abschlüsse zu erzielen.',
+    
+    // Ecommerce Industry
+    'industry.ecommerce.title': 'Digitale Lösungen für E-Commerce-Unternehmen',
+    'industry.ecommerce.subtitle': 'Beschleunigen Sie das Wachstum Ihres Online-Shops mit konversionsorientierten Weblösungen und digitalen Marketingstrategien.',
+    'industry.ecommerce.services': 'Wie Wir E-Commerce-Unternehmen Wachsen Lassen',
+    'industry.ecommerce.why': 'Warum E-Commerce-Erfolg Digitales Marketing Erfordert',
+    'industry.ecommerce.cta': 'Bereit, Ihr E-Commerce-Geschäft zu Skalieren?',
+    'industry.ecommerce.ctaDesc': 'Erstellen wir eine Wachstumsstrategie, die Traffic, Conversions und Kundenwert steigert.',
+    
+    // Sales Industry
+    'industry.sales.title': 'Digitale Lösungen für Vertriebsteams',
+    'industry.sales.subtitle': 'Beschleunigen Sie Ihre Vertriebspipeline mit gezielten digitalen Marketingstrategien, die qualitativ hochwertige Leads generieren.',
+    'industry.sales.services': 'Wie Wir Vertriebsteams Unterstützen',
+    'industry.sales.why': 'Warum Digitales Marketing für den Vertrieb Unerlässlich Ist',
+    'industry.sales.cta': 'Bereit, Ihre Vertriebspipeline zu Füllen?',
+    'industry.sales.ctaDesc': 'Erstellen wir eine digitale Marketingstrategie, die messbare Vertriebsergebnisse liefert.',
+    
+    // Marketing Industry
+    'industry.marketing.title': 'Digitale Lösungen für Marketingagenturen',
+    'industry.marketing.subtitle': 'White-Label digitale Dienstleistungen und Partnerschaftsmöglichkeiten, um die Fähigkeiten Ihrer Agentur zu erweitern.',
+    'industry.marketing.services': 'Wie Wir Marketingprofis Unterstützen',
+    'industry.marketing.why': 'Warum Marketingagenturen mit Uns Zusammenarbeiten',
+    'industry.marketing.cta': 'Bereit, Ihr Serviceangebot zu Erweitern?',
+    'industry.marketing.ctaDesc': 'Besprechen wir Partnerschaftsmöglichkeiten und wie wir Ihnen helfen können, Ihre Kunden besser zu bedienen.',
+    
+    // Business/Professional Services Industry
+    'industry.business.title': 'Digitale Lösungen für Professionelle Dienstleistungen',
+    'industry.business.subtitle': 'Etablieren Sie Thought Leadership und generieren Sie hochwertige Leads mit Strategien für Berater, Anwaltskanzleien und professionelle Dienstleister.',
+    'industry.business.services': 'Wie Wir Professionelle Dienstleistungen Unterstützen',
+    'industry.business.why': 'Warum Digitales Marketing für Professionelle Dienstleistungen Wichtig Ist',
+    'industry.business.cta': 'Bereit, Mehr Ideale Kunden Anzuziehen?',
+    'industry.business.ctaDesc': 'Erstellen wir eine digitale Strategie, die Sie als führenden Experten in Ihrem Bereich positioniert.',
+    
+    // Service Industry
+    'industry.service.title': 'Digitale Lösungen für Dienstleistungsunternehmen',
+    'industry.service.subtitle': 'Generieren Sie mehr Buchungen und Kundentreue mit digitalem Marketing für Installateure, Elektriker und lokale Dienstleister.',
+    'industry.service.services': 'Wie Wir Dienstleistungsunternehmen Unterstützen',
+    'industry.service.why': 'Warum Digitales Marketing für Dienstleistungsunternehmen Entscheidend Ist',
+    'industry.service.cta': 'Bereit, Mehr Lokale Kunden zu Gewinnen?',
+    'industry.service.ctaDesc': 'Erstellen wir eine digitale Marketingstrategie, die Ihren Terminkalender voll hält.',
+    
+    // Export Business Industry
+    'industry.export.title': 'Digitale Lösungen für Exportgeschäfte',
+    'industry.export.subtitle': 'Expandieren Sie in internationale Märkte mit mehrsprachigem digitalem Marketing für Hersteller und Exporteure.',
+    'industry.export.services': 'Wie Wir Exportgeschäfte Unterstützen',
+    'industry.export.why': 'Warum Digitales Marketing für den Exporterfolg Unerlässlich Ist',
+    'industry.export.cta': 'Bereit, in Neue Märkte zu Expandieren?',
+    'industry.export.ctaDesc': 'Erstellen wir eine internationale digitale Strategie, die Türen zu globalen Möglichkeiten öffnet.',
   },
   ES: {
     // Navigation
@@ -5587,37 +5927,6 @@ const translations = {
     'header.services.reviewCards': 'Google Review Cards',
     'header.services.reviewCardsDesc': 'La mejor manera de puntuar',
     
-    // 404 Page
-    'notFound.title': 'Pagina niet gevonden',
-    'notFound.description': 'Sorry, we konden de pagina die u zoekt niet vinden.',
-    'notFound.returnHome': 'Terug naar home',
-    
-    // Industry Pages - Medical
-    'industry.medical.title': 'Digitale Oplossingen voor Gezondheidszorg',
-    'industry.medical.subtitle': 'Transformeer uw medische praktijk met geavanceerde digitale marketing en weboplossingen op maat voor zorgprofessionals.',
-    'industry.medical.services.title': 'Hoe Wij Zorgverleners Ondersteunen',
-    'industry.medical.service1.title': 'Professionele Medische Websites',
-    'industry.medical.service1.desc': 'HIPAA-compatibele, gebruiksvriendelijke websites die uw praktijk, diensten en expertise tonen. Functies omvatten afsprakenboekingen, patiëntenportalen en telezorg integratie.',
-    'industry.medical.service2.title': 'Medische SEO Optimalisatie',
-    'industry.medical.service2.desc': 'Rank hoger voor lokale medische zoekopdrachten. Optimaliseer voor "dokter bij mij in de buurt," specialisme-specifieke trefwoorden en locatiegebaseerde queries om meer patiënten aan te trekken.',
-    'industry.medical.service3.title': 'Social Media voor Gezondheidszorg',
-    'industry.medical.service3.desc': 'Bouw vertrouwen op en educeer patiënten via conforme social media marketing. Deel gezondheidstips, patiënttestimonials en toon de cultuur van uw praktijk.',
-    'industry.medical.service4.title': 'Digitale Reclame',
-    'industry.medical.service4.desc': 'Gerichte Google Ads en social campagnes om nieuwe patiënten aan te trekken. Focus op specifieke behandelingen, specialismen en geografische gebieden voor maximale ROI.',
-    'industry.medical.service5.title': 'Reputatiebeheer',
-    'industry.medical.service5.desc': 'Monitor en beheer online reviews op meerdere platforms. Bouw een sterke online reputatie op die nieuwe patiënten aantrekt en vertrouwen opbouwt.',
-    'industry.medical.service6.title': 'Patiëntbetrokkenheidstools',
-    'industry.medical.service6.desc': 'E-mailcampagnes, afspraakherinneringen en patiënteducatie-inhoud om retentie- en tevredenheidspercentages te verbeteren.',
-    'industry.medical.why.title': 'Waarom Digitale Aanwezigheid Belangrijk is in de Gezondheidszorg',
-    'industry.medical.why.stat': '77% van de patiënten',
-    'industry.medical.why.text1': 'gebruikt zoekmachines voordat ze een afspraak maken. Uw online aanwezigheid is vaak de eerste indruk die patiënten hebben van uw praktijk.',
-    'industry.medical.why.text2': 'In het huidige competitieve zorglandschap is een sterke digitale aanwezigheid niet optioneel—het is essentieel. Patiënten verwachten gedetailleerde informatie over zorgverleners te vinden, reviews te lezen, online afspraken te boeken en toegang tot telezorgdiensten.',
-    'industry.medical.why.text3': 'Onze gespecialiseerde zorgmarketingoplossingen helpen u op te vallen terwijl u compliant blijft met HIPAA en medische reclameregelgeving. We begrijpen de unieke uitdagingen van zorgmarketing en creëren strategieën die werken.',
-    'industry.medical.cta.title': 'Klaar om Uw Praktijk te Laten Groeien?',
-    'industry.medical.cta.description': 'Laten we bespreken hoe onze digitale oplossingen u kunnen helpen meer patiënten aan te trekken en uw online reputatie te verbeteren.',
-    'industry.medical.cta.button': 'Plan Consultatie',
-    'industry.medical.cta.viewPricing': 'Bekijk Prijzen',
-    
     // Contact Page
     'contact.hero.title': 'Ponte en Contacto Con Nosotros',
     'contact.hero.description': '¿Listo para llevar tu presencia digital al siguiente nivel? Nuestro equipo está aquí para ayudar. Elige tu forma preferida de contactarnos.',
@@ -5975,6 +6284,91 @@ const translations = {
     'socialMediaMarketing.cta.title': '¿Listo para Crecer en Redes Sociales?',
     'socialMediaMarketing.cta.description': 'Construyamos una estrategia de redes sociales que genere resultados',
     'socialMediaMarketing.cta.button': 'Comience Hoy',
+    
+    // Industry Pages - Common
+    'industry.common.scheduleConsultation': 'Programar Consulta',
+    'industry.common.viewPricing': 'Ver Precios',
+    'industry.common.schedulePartnershipCall': 'Programar Llamada de Asociación',
+    
+    // Medical Industry
+    'industry.medical.title': 'Soluciones Digitales para el Sector Salud',
+    'industry.medical.subtitle': 'Transforme su práctica médica con marketing digital y soluciones web de vanguardia diseñadas para profesionales de la salud.',
+    'industry.medical.services': 'Cómo Apoyamos a los Proveedores de Salud',
+    'industry.medical.why': 'Por qué la Presencia Digital es Importante en el Sector Salud',
+    'industry.medical.cta': '¿Listo para Hacer Crecer su Práctica?',
+    'industry.medical.ctaDesc': 'Hablemos de cómo nuestras soluciones digitales pueden ayudarle a atraer más pacientes y mejorar su reputación online.',
+    
+    // Engineering Industry
+    'industry.engineering.title': 'Soluciones Digitales para Empresas de Ingeniería',
+    'industry.engineering.subtitle': 'Muestre su experiencia en ingeniería con marketing digital profesional y soluciones web que atraen clientes y destacan sus capacidades técnicas.',
+    'industry.engineering.services': 'Cómo Apoyamos a las Empresas de Ingeniería',
+    'industry.engineering.why': 'Por qué la Presencia Digital es Importante para los Ingenieros',
+    'industry.engineering.cta': '¿Listo para Mostrar su Experiencia en Ingeniería?',
+    'industry.engineering.ctaDesc': 'Creemos una presencia digital que refleje la calidad y precisión de su trabajo de ingeniería.',
+    
+    // Construction Industry
+    'industry.construction.title': 'Soluciones Digitales para Empresas de Construcción',
+    'industry.construction.subtitle': 'Construya su presencia online tan sólida como las estructuras que crea. Marketing digital y soluciones web para contratistas y constructores.',
+    'industry.construction.services': 'Cómo Apoyamos a las Empresas de Construcción',
+    'industry.construction.why': 'Por qué el Marketing Digital es Importante en la Construcción',
+    'industry.construction.cta': '¿Listo para Construir su Presencia Online?',
+    'industry.construction.ctaDesc': 'Creemos una base digital que atraiga proyectos de construcción de calidad.',
+    
+    // Real Estate Industry
+    'industry.realEstate.title': 'Soluciones Digitales para Profesionales Inmobiliarios',
+    'industry.realEstate.subtitle': 'Destaque en un mercado competitivo con marketing digital potente diseñado para agentes inmobiliarios y promotores.',
+    'industry.realEstate.services': 'Cómo Apoyamos a los Profesionales Inmobiliarios',
+    'industry.realEstate.why': 'Por qué el Marketing Digital es Esencial en Inmobiliaria',
+    'industry.realEstate.cta': '¿Listo para Dominar su Mercado Local?',
+    'industry.realEstate.ctaDesc': 'Creemos una estrategia de marketing digital que genere más leads y le ayude a cerrar más ventas.',
+    
+    // Ecommerce Industry
+    'industry.ecommerce.title': 'Soluciones Digitales para Negocios E-commerce',
+    'industry.ecommerce.subtitle': 'Acelere el crecimiento de su tienda online con desarrollo web orientado a conversión y estrategias de marketing digital.',
+    'industry.ecommerce.services': 'Cómo Hacemos Crecer los Negocios E-commerce',
+    'industry.ecommerce.why': 'Por qué el Éxito E-commerce Requiere Marketing Digital',
+    'industry.ecommerce.cta': '¿Listo para Escalar su Negocio E-commerce?',
+    'industry.ecommerce.ctaDesc': 'Creemos una estrategia de crecimiento que aumente el tráfico, las conversiones y el valor del cliente.',
+    
+    // Sales Industry
+    'industry.sales.title': 'Soluciones Digitales para Equipos de Ventas',
+    'industry.sales.subtitle': 'Acelere su pipeline de ventas con estrategias de marketing digital dirigidas que generan leads de calidad.',
+    'industry.sales.services': 'Cómo Potenciamos los Equipos de Ventas',
+    'industry.sales.why': 'Por qué el Marketing Digital es Esencial para las Ventas',
+    'industry.sales.cta': '¿Listo para Llenar su Pipeline de Ventas?',
+    'industry.sales.ctaDesc': 'Creemos una estrategia de marketing digital que produzca resultados de ventas medibles.',
+    
+    // Marketing Industry
+    'industry.marketing.title': 'Soluciones Digitales para Agencias de Marketing',
+    'industry.marketing.subtitle': 'Servicios digitales white-label y oportunidades de asociación para expandir las capacidades de su agencia.',
+    'industry.marketing.services': 'Cómo Apoyamos a los Profesionales del Marketing',
+    'industry.marketing.why': 'Por qué las Agencias de Marketing Colaboran con Nosotros',
+    'industry.marketing.cta': '¿Listo para Expandir su Oferta de Servicios?',
+    'industry.marketing.ctaDesc': 'Hablemos de oportunidades de asociación y cómo podemos ayudarle a servir mejor a sus clientes.',
+    
+    // Business/Professional Services Industry
+    'industry.business.title': 'Soluciones Digitales para Servicios Profesionales',
+    'industry.business.subtitle': 'Establezca liderazgo de pensamiento y genere leads de calidad con estrategias para consultores, bufetes de abogados y servicios profesionales.',
+    'industry.business.services': 'Cómo Apoyamos los Servicios Profesionales',
+    'industry.business.why': 'Por qué el Marketing Digital es Importante para los Servicios Profesionales',
+    'industry.business.cta': '¿Listo para Atraer Más Clientes Ideales?',
+    'industry.business.ctaDesc': 'Creemos una estrategia digital que le posicione como el experto líder en su campo.',
+    
+    // Service Industry
+    'industry.service.title': 'Soluciones Digitales para Empresas de Servicios',
+    'industry.service.subtitle': 'Genere más reservas y fidelidad de clientes con marketing digital para fontaneros, electricistas y proveedores de servicios locales.',
+    'industry.service.services': 'Cómo Apoyamos las Empresas de Servicios',
+    'industry.service.why': 'Por qué el Marketing Digital es Crucial para las Empresas de Servicios',
+    'industry.service.cta': '¿Listo para Conseguir Más Clientes Locales?',
+    'industry.service.ctaDesc': 'Creemos una estrategia de marketing digital que mantenga su agenda llena.',
+    
+    // Export Business Industry
+    'industry.export.title': 'Soluciones Digitales para Empresas de Exportación',
+    'industry.export.subtitle': 'Expanda a mercados internacionales con marketing digital multilingüe para fabricantes y exportadores.',
+    'industry.export.services': 'Cómo Apoyamos las Empresas de Exportación',
+    'industry.export.why': 'Por qué el Marketing Digital es Esencial para el Éxito en Exportación',
+    'industry.export.cta': '¿Listo para Expandirse a Nuevos Mercados?',
+    'industry.export.ctaDesc': 'Creemos una estrategia digital internacional que abra puertas a oportunidades globales.',
   },
   IT: {
     // Navigation
@@ -6685,6 +7079,91 @@ const translations = {
     'socialMediaMarketing.cta.title': 'Pronto a Crescere sui Social Media?',
     'socialMediaMarketing.cta.description': 'Costruiamo una strategia social media che produce risultati',
     'socialMediaMarketing.cta.button': 'Inizia Oggi',
+    
+    // Industry Pages - Common
+    'industry.common.scheduleConsultation': 'Prenota Consulenza',
+    'industry.common.viewPricing': 'Vedi Prezzi',
+    'industry.common.schedulePartnershipCall': 'Prenota Chiamata Partnership',
+    
+    // Medical Industry
+    'industry.medical.title': 'Soluzioni Digitali per il Settore Sanitario',
+    'industry.medical.subtitle': 'Trasforma il tuo studio medico con marketing digitale e soluzioni web all\'avanguardia progettate per i professionisti sanitari.',
+    'industry.medical.services': 'Come Supportiamo i Professionisti Sanitari',
+    'industry.medical.why': 'Perché la Presenza Digitale è Importante nel Settore Sanitario',
+    'industry.medical.cta': 'Pronto a Far Crescere il Tuo Studio?',
+    'industry.medical.ctaDesc': 'Parliamo di come le nostre soluzioni digitali possono aiutarti ad attrarre più pazienti e migliorare la tua reputazione online.',
+    
+    // Engineering Industry
+    'industry.engineering.title': 'Soluzioni Digitali per Aziende di Ingegneria',
+    'industry.engineering.subtitle': 'Mostra la tua esperienza ingegneristica con marketing digitale professionale e soluzioni web che attraggono clienti ed evidenziano le tue capacità tecniche.',
+    'industry.engineering.services': 'Come Supportiamo le Aziende di Ingegneria',
+    'industry.engineering.why': 'Perché la Presenza Digitale è Importante per gli Ingegneri',
+    'industry.engineering.cta': 'Pronto a Mostrare la Tua Esperienza Ingegneristica?',
+    'industry.engineering.ctaDesc': 'Creiamo una presenza digitale che rifletta la qualità e la precisione del tuo lavoro ingegneristico.',
+    
+    // Construction Industry
+    'industry.construction.title': 'Soluzioni Digitali per Imprese Edili',
+    'industry.construction.subtitle': 'Costruisci la tua presenza online solida come le strutture che crei. Marketing digitale e soluzioni web per impresari e costruttori.',
+    'industry.construction.services': 'Come Supportiamo le Imprese Edili',
+    'industry.construction.why': 'Perché il Marketing Digitale è Importante nell\'Edilizia',
+    'industry.construction.cta': 'Pronto a Costruire la Tua Presenza Online?',
+    'industry.construction.ctaDesc': 'Creiamo una base digitale che attrae progetti di costruzione di qualità.',
+    
+    // Real Estate Industry
+    'industry.realEstate.title': 'Soluzioni Digitali per Professionisti Immobiliari',
+    'industry.realEstate.subtitle': 'Distinguiti in un mercato competitivo con marketing digitale potente progettato per agenti immobiliari e promotori.',
+    'industry.realEstate.services': 'Come Supportiamo i Professionisti Immobiliari',
+    'industry.realEstate.why': 'Perché il Marketing Digitale è Essenziale nell\'Immobiliare',
+    'industry.realEstate.cta': 'Pronto a Dominare il Tuo Mercato Locale?',
+    'industry.realEstate.ctaDesc': 'Creiamo una strategia di marketing digitale che genera più lead e ti aiuta a chiudere più vendite.',
+    
+    // Ecommerce Industry
+    'industry.ecommerce.title': 'Soluzioni Digitali per Aziende E-commerce',
+    'industry.ecommerce.subtitle': 'Accelera la crescita del tuo negozio online con sviluppo web orientato alla conversione e strategie di marketing digitale.',
+    'industry.ecommerce.services': 'Come Facciamo Crescere le Aziende E-commerce',
+    'industry.ecommerce.why': 'Perché il Successo E-commerce Richiede il Marketing Digitale',
+    'industry.ecommerce.cta': 'Pronto a Scalare la Tua Attività E-commerce?',
+    'industry.ecommerce.ctaDesc': 'Creiamo una strategia di crescita che aumenta traffico, conversioni e valore del cliente.',
+    
+    // Sales Industry
+    'industry.sales.title': 'Soluzioni Digitali per Team di Vendita',
+    'industry.sales.subtitle': 'Accelera la tua pipeline di vendita con strategie di marketing digitale mirate che generano lead di qualità.',
+    'industry.sales.services': 'Come Potenziamo i Team di Vendita',
+    'industry.sales.why': 'Perché il Marketing Digitale è Essenziale per le Vendite',
+    'industry.sales.cta': 'Pronto a Riempire la Tua Pipeline di Vendita?',
+    'industry.sales.ctaDesc': 'Creiamo una strategia di marketing digitale che produce risultati di vendita misurabili.',
+    
+    // Marketing Industry
+    'industry.marketing.title': 'Soluzioni Digitali per Agenzie di Marketing',
+    'industry.marketing.subtitle': 'Servizi digitali white-label e opportunità di partnership per espandere le capacità della tua agenzia.',
+    'industry.marketing.services': 'Come Supportiamo i Professionisti del Marketing',
+    'industry.marketing.why': 'Perché le Agenzie di Marketing Collaborano con Noi',
+    'industry.marketing.cta': 'Pronto a Espandere la Tua Offerta di Servizi?',
+    'industry.marketing.ctaDesc': 'Parliamo di opportunità di partnership e di come possiamo aiutarti a servire meglio i tuoi clienti.',
+    
+    // Business/Professional Services Industry
+    'industry.business.title': 'Soluzioni Digitali per Servizi Professionali',
+    'industry.business.subtitle': 'Stabilisci thought leadership e genera lead di qualità con strategie per consulenti, studi legali e fornitori di servizi professionali.',
+    'industry.business.services': 'Come Supportiamo i Servizi Professionali',
+    'industry.business.why': 'Perché il Marketing Digitale è Importante per i Servizi Professionali',
+    'industry.business.cta': 'Pronto ad Attrarre Più Clienti Ideali?',
+    'industry.business.ctaDesc': 'Creiamo una strategia digitale che ti posizioni come esperto leader nel tuo campo.',
+    
+    // Service Industry
+    'industry.service.title': 'Soluzioni Digitali per Aziende di Servizi',
+    'industry.service.subtitle': 'Genera più prenotazioni e fidelizzazione clienti con marketing digitale per idraulici, elettricisti e fornitori di servizi locali.',
+    'industry.service.services': 'Come Supportiamo le Aziende di Servizi',
+    'industry.service.why': 'Perché il Marketing Digitale è Cruciale per le Aziende di Servizi',
+    'industry.service.cta': 'Pronto a Ottenere Più Clienti Locali?',
+    'industry.service.ctaDesc': 'Creiamo una strategia di marketing digitale che mantiene la tua agenda piena.',
+    
+    // Export Business Industry
+    'industry.export.title': 'Soluzioni Digitali per Aziende di Esportazione',
+    'industry.export.subtitle': 'Espanditi nei mercati internazionali con marketing digitale multilingue per produttori ed esportatori.',
+    'industry.export.services': 'Come Supportiamo le Aziende di Esportazione',
+    'industry.export.why': 'Perché il Marketing Digitale è Essenziale per il Successo nelle Esportazioni',
+    'industry.export.cta': 'Pronto a Espanderti in Nuovi Mercati?',
+    'industry.export.ctaDesc': 'Creiamo una strategia digitale internazionale che apre le porte alle opportunità globali.',
   },
   UK: {
     // Navigation
@@ -7395,6 +7874,91 @@ const translations = {
     'socialMediaMarketing.cta.title': 'Готові Зростати у Соціальних Мережах?',
     'socialMediaMarketing.cta.description': 'Давайте побудуємо сильну соціальну присутність, яка приносить результати',
     'socialMediaMarketing.cta.button': 'Почніть Вашу Соціальну Подорож',
+    
+    // Industry Pages - Common
+    'industry.common.scheduleConsultation': 'Записатися на Консультацію',
+    'industry.common.viewPricing': 'Переглянути Ціни',
+    'industry.common.schedulePartnershipCall': 'Записатися на Дзвінок про Партнерство',
+    
+    // Medical Industry
+    'industry.medical.title': 'Цифрові Рішення для Охорони Здоров\'я',
+    'industry.medical.subtitle': 'Трансформуйте свою медичну практику з передовим цифровим маркетингом та веб-рішеннями для медичних фахівців.',
+    'industry.medical.services': 'Як Ми Підтримуємо Медичних Працівників',
+    'industry.medical.why': 'Чому Цифрова Присутність Важлива в Охороні Здоров\'я',
+    'industry.medical.cta': 'Готові Розвивати Свою Практику?',
+    'industry.medical.ctaDesc': 'Поговоримо про те, як наші цифрові рішення можуть допомогти вам залучити більше пацієнтів.',
+    
+    // Engineering Industry
+    'industry.engineering.title': 'Цифрові Рішення для Інженерних Компаній',
+    'industry.engineering.subtitle': 'Продемонструйте свою інженерну експертизу з професійним цифровим маркетингом та веб-рішеннями.',
+    'industry.engineering.services': 'Як Ми Підтримуємо Інженерні Компанії',
+    'industry.engineering.why': 'Чому Цифрова Присутність Важлива для Інженерів',
+    'industry.engineering.cta': 'Готові Показати Свою Інженерну Експертизу?',
+    'industry.engineering.ctaDesc': 'Створимо цифрову присутність, яка відображає якість вашої інженерної роботи.',
+    
+    // Construction Industry
+    'industry.construction.title': 'Цифрові Рішення для Будівельних Компаній',
+    'industry.construction.subtitle': 'Побудуйте свою онлайн-присутність так само міцно, як структури, які ви створюєте.',
+    'industry.construction.services': 'Як Ми Підтримуємо Будівельні Компанії',
+    'industry.construction.why': 'Чому Цифровий Маркетинг Важливий у Будівництві',
+    'industry.construction.cta': 'Готові Побудувати Свою Онлайн-Присутність?',
+    'industry.construction.ctaDesc': 'Створимо цифровий фундамент, який приваблює якісні будівельні проекти.',
+    
+    // Real Estate Industry
+    'industry.realEstate.title': 'Цифрові Рішення для Фахівців з Нерухомості',
+    'industry.realEstate.subtitle': 'Виділіться на конкурентному ринку з потужним цифровим маркетингом для агентів нерухомості.',
+    'industry.realEstate.services': 'Як Ми Підтримуємо Фахівців з Нерухомості',
+    'industry.realEstate.why': 'Чому Цифровий Маркетинг Необхідний у Нерухомості',
+    'industry.realEstate.cta': 'Готові Домінувати на Локальному Ринку?',
+    'industry.realEstate.ctaDesc': 'Створимо стратегію цифрового маркетингу, яка генерує більше лідів.',
+    
+    // Ecommerce Industry
+    'industry.ecommerce.title': 'Цифрові Рішення для E-commerce Бізнесу',
+    'industry.ecommerce.subtitle': 'Прискорте зростання вашого інтернет-магазину з веб-розробкою та стратегіями цифрового маркетингу.',
+    'industry.ecommerce.services': 'Як Ми Розвиваємо E-commerce Бізнес',
+    'industry.ecommerce.why': 'Чому Успіх E-commerce Потребує Цифрового Маркетингу',
+    'industry.ecommerce.cta': 'Готові Масштабувати Свій E-commerce Бізнес?',
+    'industry.ecommerce.ctaDesc': 'Створимо стратегію зростання, яка збільшує трафік, конверсії та цінність клієнта.',
+    
+    // Sales Industry
+    'industry.sales.title': 'Цифрові Рішення для Команд Продажів',
+    'industry.sales.subtitle': 'Прискорте свою воронку продажів з цільовими стратегіями цифрового маркетингу.',
+    'industry.sales.services': 'Як Ми Підтримуємо Команди Продажів',
+    'industry.sales.why': 'Чому Цифровий Маркетинг Необхідний для Продажів',
+    'industry.sales.cta': 'Готові Наповнити Свою Воронку Продажів?',
+    'industry.sales.ctaDesc': 'Створимо стратегію цифрового маркетингу, яка приносить вимірювані результати.',
+    
+    // Marketing Industry
+    'industry.marketing.title': 'Цифрові Рішення для Маркетингових Агентств',
+    'industry.marketing.subtitle': 'White-label цифрові послуги та можливості партнерства для розширення можливостей вашого агентства.',
+    'industry.marketing.services': 'Як Ми Підтримуємо Маркетологів',
+    'industry.marketing.why': 'Чому Маркетингові Агентства Співпрацюють з Нами',
+    'industry.marketing.cta': 'Готові Розширити Спектр Послуг?',
+    'industry.marketing.ctaDesc': 'Обговоримо можливості партнерства та як ми можемо допомогти вам краще обслуговувати клієнтів.',
+    
+    // Business/Professional Services Industry
+    'industry.business.title': 'Цифрові Рішення для Професійних Послуг',
+    'industry.business.subtitle': 'Встановіть лідерство та генеруйте якісні ліди зі стратегіями для консультантів та юридичних фірм.',
+    'industry.business.services': 'Як Ми Підтримуємо Професійні Послуги',
+    'industry.business.why': 'Чому Цифровий Маркетинг Важливий для Професійних Послуг',
+    'industry.business.cta': 'Готові Залучити Більше Ідеальних Клієнтів?',
+    'industry.business.ctaDesc': 'Створимо цифрову стратегію, яка позиціонує вас як провідного експерта.',
+    
+    // Service Industry
+    'industry.service.title': 'Цифрові Рішення для Сервісного Бізнесу',
+    'industry.service.subtitle': 'Залучайте більше замовлень та лояльність клієнтів з цифровим маркетингом для місцевих послуг.',
+    'industry.service.services': 'Як Ми Підтримуємо Сервісний Бізнес',
+    'industry.service.why': 'Чому Цифровий Маркетинг Важливий для Сервісного Бізнесу',
+    'industry.service.cta': 'Готові Отримати Більше Місцевих Клієнтів?',
+    'industry.service.ctaDesc': 'Створимо стратегію цифрового маркетингу, яка підтримує ваш графік заповненим.',
+    
+    // Export Business Industry
+    'industry.export.title': 'Цифрові Рішення для Експортного Бізнесу',
+    'industry.export.subtitle': 'Розширюйтесь на міжнародні ринки з багатомовним цифровим маркетингом для виробників та експортерів.',
+    'industry.export.services': 'Як Ми Підтримуємо Експортний Бізнес',
+    'industry.export.why': 'Чому Цифровий Маркетинг Необхідний для Експортного Успіху',
+    'industry.export.cta': 'Готові Вийти на Нові Ринки?',
+    'industry.export.ctaDesc': 'Створимо міжнародну цифрову стратегію, яка відкриває двері до глобальних можливостей.',
   },
   TR: {
     // Navigation
@@ -8060,6 +8624,91 @@ const translations = {
     'socialMediaMarketing.cta.title': 'Sosyal Medyada Büyümeye Hazır mısınız?',
     'socialMediaMarketing.cta.description': 'Sonuç üreten bir sosyal medya stratejisi oluşturalım',
     'socialMediaMarketing.cta.button': 'Bugün Başlayın',
+    
+    // Industry Pages - Common
+    'industry.common.scheduleConsultation': 'Danışmanlık Randevusu Al',
+    'industry.common.viewPricing': 'Fiyatları Görüntüle',
+    'industry.common.schedulePartnershipCall': 'Ortaklık Görüşmesi Planla',
+    
+    // Medical Industry
+    'industry.medical.title': 'Sağlık Sektörü için Dijital Çözümler',
+    'industry.medical.subtitle': 'Tıbbi pratiğinizi sağlık profesyonelleri için tasarlanmış dijital pazarlama ve web çözümleri ile dönüştürün.',
+    'industry.medical.services': 'Sağlık Hizmeti Sağlayıcılarını Nasıl Destekliyoruz',
+    'industry.medical.why': 'Sağlık Sektöründe Dijital Varlık Neden Önemli',
+    'industry.medical.cta': 'Pratiğinizi Büyütmeye Hazır mısınız?',
+    'industry.medical.ctaDesc': 'Dijital çözümlerimizin daha fazla hasta çekmenize nasıl yardımcı olabileceğini konuşalım.',
+    
+    // Engineering Industry
+    'industry.engineering.title': 'Mühendislik Firmaları için Dijital Çözümler',
+    'industry.engineering.subtitle': 'Mühendislik uzmanlığınızı profesyonel dijital pazarlama ve müşteri çeken web çözümleri ile sergileyin.',
+    'industry.engineering.services': 'Mühendislik Firmalarını Nasıl Destekliyoruz',
+    'industry.engineering.why': 'Mühendisler için Dijital Varlık Neden Önemli',
+    'industry.engineering.cta': 'Mühendislik Uzmanlığınızı Sergilemeye Hazır mısınız?',
+    'industry.engineering.ctaDesc': 'Mühendislik çalışmanızın kalitesini yansıtan bir dijital varlık oluşturalım.',
+    
+    // Construction Industry
+    'industry.construction.title': 'İnşaat Şirketleri için Dijital Çözümler',
+    'industry.construction.subtitle': 'Online varlığınızı oluşturduğunuz yapılar kadar güçlü inşa edin. Müteahhitler için dijital pazarlama.',
+    'industry.construction.services': 'İnşaat Şirketlerini Nasıl Destekliyoruz',
+    'industry.construction.why': 'İnşaat Sektöründe Dijital Pazarlama Neden Önemli',
+    'industry.construction.cta': 'Online Varlığınızı İnşa Etmeye Hazır mısınız?',
+    'industry.construction.ctaDesc': 'Kaliteli inşaat projelerini çeken bir dijital temel oluşturalım.',
+    
+    // Real Estate Industry
+    'industry.realEstate.title': 'Emlak Profesyonelleri için Dijital Çözümler',
+    'industry.realEstate.subtitle': 'Emlak danışmanları ve geliştiriciler için tasarlanmış güçlü dijital pazarlama ile rekabetçi pazarda öne çıkın.',
+    'industry.realEstate.services': 'Emlak Profesyonellerini Nasıl Destekliyoruz',
+    'industry.realEstate.why': 'Emlakta Dijital Pazarlama Neden Gerekli',
+    'industry.realEstate.cta': 'Yerel Pazarınıza Hakim Olmaya Hazır mısınız?',
+    'industry.realEstate.ctaDesc': 'Daha fazla potansiyel müşteri üreten bir dijital pazarlama stratejisi oluşturalım.',
+    
+    // Ecommerce Industry
+    'industry.ecommerce.title': 'E-ticaret İşletmeleri için Dijital Çözümler',
+    'industry.ecommerce.subtitle': 'Dönüşüm odaklı web geliştirme ve dijital pazarlama stratejileri ile online mağazanızın büyümesini hızlandırın.',
+    'industry.ecommerce.services': 'E-ticaret İşletmelerini Nasıl Büyütüyoruz',
+    'industry.ecommerce.why': 'E-ticaret Başarısı Neden Dijital Pazarlama Gerektirir',
+    'industry.ecommerce.cta': 'E-ticaret İşletmenizi Ölçeklendirmeye Hazır mısınız?',
+    'industry.ecommerce.ctaDesc': 'Trafik, dönüşüm ve müşteri değerini artıran bir büyüme stratejisi oluşturalım.',
+    
+    // Sales Industry
+    'industry.sales.title': 'Satış Ekipleri için Dijital Çözümler',
+    'industry.sales.subtitle': 'Kaliteli potansiyel müşteriler üreten hedefli dijital pazarlama stratejileri ile satış hattınızı hızlandırın.',
+    'industry.sales.services': 'Satış Ekiplerini Nasıl Destekliyoruz',
+    'industry.sales.why': 'Satış için Dijital Pazarlama Neden Gerekli',
+    'industry.sales.cta': 'Satış Hattınızı Doldurmaya Hazır mısınız?',
+    'industry.sales.ctaDesc': 'Ölçülebilir satış sonuçları üreten bir dijital pazarlama stratejisi oluşturalım.',
+    
+    // Marketing Industry
+    'industry.marketing.title': 'Pazarlama Ajansları için Dijital Çözümler',
+    'industry.marketing.subtitle': 'Ajansınızın yeteneklerini genişletmek için white-label dijital hizmetler ve ortaklık fırsatları.',
+    'industry.marketing.services': 'Pazarlama Profesyonellerini Nasıl Destekliyoruz',
+    'industry.marketing.why': 'Pazarlama Ajansları Neden Bizimle İşbirliği Yapıyor',
+    'industry.marketing.cta': 'Hizmet Teklifinizi Genişletmeye Hazır mısınız?',
+    'industry.marketing.ctaDesc': 'Ortaklık fırsatlarını ve müşterilerinize daha iyi hizmet vermenize nasıl yardımcı olabileceğimizi konuşalım.',
+    
+    // Business/Professional Services Industry
+    'industry.business.title': 'Profesyonel Hizmetler için Dijital Çözümler',
+    'industry.business.subtitle': 'Danışmanlar, hukuk firmaları ve profesyonel hizmet sağlayıcılar için stratejilerle düşünce liderliği kurun.',
+    'industry.business.services': 'Profesyonel Hizmetleri Nasıl Destekliyoruz',
+    'industry.business.why': 'Profesyonel Hizmetler için Dijital Pazarlama Neden Önemli',
+    'industry.business.cta': 'Daha Fazla İdeal Müşteri Çekmeye Hazır mısınız?',
+    'industry.business.ctaDesc': 'Sizi alanınızda lider uzman olarak konumlandıran bir dijital strateji oluşturalım.',
+    
+    // Service Industry
+    'industry.service.title': 'Hizmet İşletmeleri için Dijital Çözümler',
+    'industry.service.subtitle': 'Tesisatçılar, elektrikçiler ve yerel hizmet sağlayıcılar için dijital pazarlama ile daha fazla rezervasyon alın.',
+    'industry.service.services': 'Hizmet İşletmelerini Nasıl Destekliyoruz',
+    'industry.service.why': 'Hizmet İşletmeleri için Dijital Pazarlama Neden Kritik',
+    'industry.service.cta': 'Daha Fazla Yerel Müşteri Almaya Hazır mısınız?',
+    'industry.service.ctaDesc': 'Programınızı dolu tutan bir dijital pazarlama stratejisi oluşturalım.',
+    
+    // Export Business Industry
+    'industry.export.title': 'İhracat İşletmeleri için Dijital Çözümler',
+    'industry.export.subtitle': 'Üreticiler ve ihracatçılar için çok dilli dijital pazarlama ile uluslararası pazarlara açılın.',
+    'industry.export.services': 'İhracat İşletmelerini Nasıl Destekliyoruz',
+    'industry.export.why': 'İhracat Başarısı için Dijital Pazarlama Neden Gerekli',
+    'industry.export.cta': 'Yeni Pazarlara Açılmaya Hazır mısınız?',
+    'industry.export.ctaDesc': 'Küresel fırsatlara kapı açan uluslararası bir dijital strateji oluşturalım.',
   },
   SV: {
     // Navigation
