@@ -111,8 +111,8 @@ export const AppointmentPage = () => {
                     <CheckCircle className="h-6 w-6 text-primary" />
                   </div>
                 </div>
-                <h3 className="text-lg font-semibold text-primary mb-2">Free Consultation</h3>
-                <p className="text-primary/70 text-sm">Get expert advice tailored to your business needs</p>
+                <h3 className="text-lg font-semibold text-primary mb-2">{t('appointment.freeConsultation')}</h3>
+                <p className="text-primary/70 text-sm">{t('appointment.freeConsultationDesc')}</p>
               </CardContent>
             </Card>
             <Card className="bg-card border-primary/30 text-center hover:border-primary transition-all duration-300">
@@ -122,8 +122,8 @@ export const AppointmentPage = () => {
                     <Clock className="h-6 w-6 text-primary" />
                   </div>
                 </div>
-                <h3 className="text-lg font-semibold text-primary mb-2">Quick Response</h3>
-                <p className="text-primary/70 text-sm">We'll contact you within 24 hours</p>
+                <h3 className="text-lg font-semibold text-primary mb-2">{t('appointment.quickResponse')}</h3>
+                <p className="text-primary/70 text-sm">{t('appointment.quickResponseDesc')}</p>
               </CardContent>
             </Card>
             <Card className="bg-card border-primary/30 text-center hover:border-primary transition-all duration-300">
@@ -133,8 +133,8 @@ export const AppointmentPage = () => {
                     <MessageSquare className="h-6 w-6 text-primary" />
                   </div>
                 </div>
-                <h3 className="text-lg font-semibold text-primary mb-2">Personalized Strategy</h3>
-                <p className="text-primary/70 text-sm">Custom solutions for your unique goals</p>
+                <h3 className="text-lg font-semibold text-primary mb-2">{t('appointment.personalizedStrategy')}</h3>
+                <p className="text-primary/70 text-sm">{t('appointment.personalizedStrategyDesc')}</p>
               </CardContent>
             </Card>
           </div>
@@ -275,7 +275,7 @@ export const AppointmentPage = () => {
               <CardContent className="pt-8 pb-8">
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-primary mb-3">
-                    Prefer to Contact Us Directly?
+                    {t('appointment.preferDirect')}
                   </h3>
                   <p className="text-primary/70 mb-6 max-w-xl mx-auto">
                     {t('appointment.contactInfo')}
