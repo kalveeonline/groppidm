@@ -86,7 +86,7 @@ const ServicePage = () => {
               <Card className="bg-gradient-card border-0 shadow-hero">
                 <CardHeader>
                   <CardTitle className="text-2xl lg:text-3xl text-center">
-                    Over {content.title}
+                    {t('servicePage.about')} {content.title}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -104,7 +104,7 @@ const ServicePage = () => {
           <div className="container px-4">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground text-center mb-12">
-                Voordelen
+                {t('servicePage.benefits')}
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -130,7 +130,7 @@ const ServicePage = () => {
           <div className="container px-4">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground text-center mb-12">
-                Wat is inbegrepen
+                {t('servicePage.whatsIncluded')}
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -154,7 +154,7 @@ const ServicePage = () => {
           <div className="container px-4">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground text-center mb-12">
-                Ons Proces
+                {t('servicePage.ourProcess')}
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -182,10 +182,10 @@ const ServicePage = () => {
           <div className="container px-4">
             <div className="max-w-4xl mx-auto text-center space-y-8">
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground">
-                Klaar om te beginnen met {content.title}?
+                {t('servicePage.readyToStart')} {content.title}?
               </h2>
               <p className="text-xl text-muted-foreground">
-                Neem contact met ons op en ontdek hoe wij jouw bedrijf online kunnen laten groeien.
+                {t('servicePage.ctaDescription')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
@@ -202,7 +202,7 @@ const ServicePage = () => {
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                   onClick={() => window.location.href = '/'}
                 >
-                  Meer services bekijken
+                  {t('servicePage.viewMoreServices')}
                 </Button>
               </div>
             </div>
