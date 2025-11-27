@@ -1064,6 +1064,15 @@ const translations = {
     'industry.export.why': 'Waarom Digitale Marketing Essentieel is voor Exportsucces',
     'industry.export.cta': 'Klaar om Naar Nieuwe Markten Uit te Breiden?',
     'industry.export.ctaDesc': 'Laten we een internationale digitale strategie creëren die deuren opent naar wereldwijde kansen.',
+    
+    // Service Page
+    'servicePage.about': 'Over',
+    'servicePage.benefits': 'Voordelen',
+    'servicePage.whatsIncluded': 'Wat is inbegrepen',
+    'servicePage.ourProcess': 'Ons Proces',
+    'servicePage.readyToStart': 'Klaar om te beginnen met',
+    'servicePage.ctaDescription': 'Neem contact met ons op en ontdek hoe wij jouw bedrijf online kunnen laten groeien.',
+    'servicePage.viewMoreServices': 'Meer services bekijken',
   },
   EN: {
     // Navigation
@@ -2068,6 +2077,15 @@ const translations = {
     'industry.export.why': 'Why Digital Marketing Is Essential for Export Success',
     'industry.export.cta': 'Ready to Expand into New Markets?',
     'industry.export.ctaDesc': 'Let\'s create an international digital strategy that opens doors to global opportunities.',
+    
+    // Service Page
+    'servicePage.about': 'About',
+    'servicePage.benefits': 'Benefits',
+    'servicePage.whatsIncluded': 'What\'s Included',
+    'servicePage.ourProcess': 'Our Process',
+    'servicePage.readyToStart': 'Ready to start with',
+    'servicePage.ctaDescription': 'Contact us and discover how we can help your business grow online.',
+    'servicePage.viewMoreServices': 'View more services',
   },
   FR: {
     // Navigation
@@ -2954,6 +2972,15 @@ const translations = {
     'siteScan.analysisComplete': 'Analyse du site web terminée avec succès',
     'siteScan.analysisFailed': 'Échec de l\'analyse du site web. Veuillez réessayer.',
     'siteScan.enterUrl': 'Veuillez entrer une URL de site web valide',
+    
+    // Service Page
+    'servicePage.about': 'À propos de',
+    'servicePage.benefits': 'Avantages',
+    'servicePage.whatsIncluded': 'Ce qui est inclus',
+    'servicePage.ourProcess': 'Notre Processus',
+    'servicePage.readyToStart': 'Prêt à commencer avec',
+    'servicePage.ctaDescription': 'Contactez-nous et découvrez comment nous pouvons aider votre entreprise à se développer en ligne.',
+    'servicePage.viewMoreServices': 'Voir plus de services',
   },
   PL: {
     // Navigation
@@ -3840,6 +3867,15 @@ const translations = {
     'siteScan.analysisComplete': 'Analiza strony zakończona pomyślnie',
     'siteScan.analysisFailed': 'Nie udało się przeanalizować strony. Spróbuj ponownie.',
     'siteScan.enterUrl': 'Wprowadź prawidłowy URL strony',
+    
+    // Service Page
+    'servicePage.about': 'O',
+    'servicePage.benefits': 'Korzyści',
+    'servicePage.whatsIncluded': 'Co jest zawarte',
+    'servicePage.ourProcess': 'Nasz Proces',
+    'servicePage.readyToStart': 'Gotowy do rozpoczęcia',
+    'servicePage.ctaDescription': 'Skontaktuj się z nami i dowiedz się, jak możemy pomóc Twojej firmie rozwijać się online.',
+    'servicePage.viewMoreServices': 'Zobacz więcej usług',
   },
   RU: {
     // Navigation
@@ -4718,6 +4754,15 @@ const translations = {
     'siteScan.analysisComplete': 'Анализ сайта успешно завершен',
     'siteScan.analysisFailed': 'Не удалось проанализировать сайт. Попробуйте снова.',
     'siteScan.enterUrl': 'Введите действительный URL сайта',
+    
+    // Service Page
+    'servicePage.about': 'О',
+    'servicePage.benefits': 'Преимущества',
+    'servicePage.whatsIncluded': 'Что включено',
+    'servicePage.ourProcess': 'Наш Процесс',
+    'servicePage.readyToStart': 'Готовы начать с',
+    'servicePage.ctaDescription': 'Свяжитесь с нами и узнайте, как мы можем помочь вашему бизнесу расти в интернете.',
+    'servicePage.viewMoreServices': 'Посмотреть больше услуг',
   },
   DE: {
     // Navigation
@@ -5604,6 +5649,15 @@ const translations = {
     'industry.export.why': 'Warum Digitales Marketing für den Exporterfolg Unerlässlich Ist',
     'industry.export.cta': 'Bereit, in Neue Märkte zu Expandieren?',
     'industry.export.ctaDesc': 'Erstellen wir eine internationale digitale Strategie, die Türen zu globalen Möglichkeiten öffnet.',
+    
+    // Service Page
+    'servicePage.about': 'Über',
+    'servicePage.benefits': 'Vorteile',
+    'servicePage.whatsIncluded': 'Was ist enthalten',
+    'servicePage.ourProcess': 'Unser Prozess',
+    'servicePage.readyToStart': 'Bereit zu beginnen mit',
+    'servicePage.ctaDescription': 'Kontaktieren Sie uns und erfahren Sie, wie wir Ihrem Unternehmen online wachsen helfen können.',
+    'servicePage.viewMoreServices': 'Mehr Dienste ansehen',
   },
   ES: {
     // Navigation
@@ -6484,6 +6538,15 @@ const translations = {
     'industry.export.why': 'Por qué el Marketing Digital es Esencial para el Éxito en Exportación',
     'industry.export.cta': '¿Listo para Expandirse a Nuevos Mercados?',
     'industry.export.ctaDesc': 'Creemos una estrategia digital internacional que abra puertas a oportunidades globales.',
+    
+    // Service Page
+    'servicePage.about': 'Acerca de',
+    'servicePage.benefits': 'Beneficios',
+    'servicePage.whatsIncluded': 'Qué está incluido',
+    'servicePage.ourProcess': 'Nuestro Proceso',
+    'servicePage.readyToStart': 'Listo para comenzar con',
+    'servicePage.ctaDescription': 'Contáctenos y descubra cómo podemos ayudar a su empresa a crecer en línea.',
+    'servicePage.viewMoreServices': 'Ver más servicios',
   },
   IT: {
     // Navigation
@@ -7302,6 +7365,15 @@ const translations = {
     'industry.export.why': 'Perché il Marketing Digitale è Essenziale per il Successo nelle Esportazioni',
     'industry.export.cta': 'Pronto a Espanderti in Nuovi Mercati?',
     'industry.export.ctaDesc': 'Creiamo una strategia digitale internazionale che apre le porte alle opportunità globali.',
+    
+    // Service Page
+    'servicePage.about': 'Informazioni su',
+    'servicePage.benefits': 'Vantaggi',
+    'servicePage.whatsIncluded': 'Cosa è incluso',
+    'servicePage.ourProcess': 'Il Nostro Processo',
+    'servicePage.readyToStart': 'Pronto a iniziare con',
+    'servicePage.ctaDescription': 'Contattaci e scopri come possiamo aiutare la tua azienda a crescere online.',
+    'servicePage.viewMoreServices': 'Vedi più servizi',
   },
   UK: {
     // Navigation
@@ -8120,6 +8192,15 @@ const translations = {
     'industry.export.why': 'Чому Цифровий Маркетинг Необхідний для Експортного Успіху',
     'industry.export.cta': 'Готові Вийти на Нові Ринки?',
     'industry.export.ctaDesc': 'Створимо міжнародну цифрову стратегію, яка відкриває двері до глобальних можливостей.',
+    
+    // Service Page
+    'servicePage.about': 'Про',
+    'servicePage.benefits': 'Переваги',
+    'servicePage.whatsIncluded': 'Що включено',
+    'servicePage.ourProcess': 'Наш Процес',
+    'servicePage.readyToStart': 'Готові почати з',
+    'servicePage.ctaDescription': 'Зв\'яжіться з нами і дізнайтеся, як ми можемо допомогти вашому бізнесу рости онлайн.',
+    'servicePage.viewMoreServices': 'Переглянути більше послуг',
   },
   TR: {
     // Navigation
@@ -8893,6 +8974,15 @@ const translations = {
     'industry.export.why': 'İhracat Başarısı için Dijital Pazarlama Neden Gerekli',
     'industry.export.cta': 'Yeni Pazarlara Açılmaya Hazır mısınız?',
     'industry.export.ctaDesc': 'Küresel fırsatlara kapı açan uluslararası bir dijital strateji oluşturalım.',
+    
+    // Service Page
+    'servicePage.about': 'Hakkında',
+    'servicePage.benefits': 'Faydalar',
+    'servicePage.whatsIncluded': 'Neler Dahil',
+    'servicePage.ourProcess': 'Sürecimiz',
+    'servicePage.readyToStart': 'Başlamaya hazır mısınız',
+    'servicePage.ctaDescription': 'Bize ulaşın ve işletmenizin çevrimiçi büyümesine nasıl yardımcı olabileceğimizi keşfedin.',
+    'servicePage.viewMoreServices': 'Daha fazla hizmet gör',
   },
   SV: {
     // Navigation
@@ -9662,6 +9752,15 @@ const translations = {
     'industry.export.why': 'Varför Digital Marknadsföring är Avgörande för Exportframgång',
     'industry.export.cta': 'Redo att Expandera till Nya Marknader?',
     'industry.export.ctaDesc': 'Låt oss skapa en internationell digital strategi som öppnar dörrar till globala möjligheter.',
+    
+    // Service Page
+    'servicePage.about': 'Om',
+    'servicePage.benefits': 'Fördelar',
+    'servicePage.whatsIncluded': 'Vad som ingår',
+    'servicePage.ourProcess': 'Vår Process',
+    'servicePage.readyToStart': 'Redo att börja med',
+    'servicePage.ctaDescription': 'Kontakta oss och upptäck hur vi kan hjälpa ditt företag att växa online.',
+    'servicePage.viewMoreServices': 'Se fler tjänster',
   },
   ZH: {
     // Navigation
@@ -10435,6 +10534,15 @@ const translations = {
     'industry.export.why': '为什么数字营销对出口成功至关重要',
     'industry.export.cta': '准备好扩展到新市场了吗？',
     'industry.export.ctaDesc': '让我们创建一个打开全球机会大门的国际数字策略。',
+    
+    // Service Page
+    'servicePage.about': '关于',
+    'servicePage.benefits': '优势',
+    'servicePage.whatsIncluded': '包含内容',
+    'servicePage.ourProcess': '我们的流程',
+    'servicePage.readyToStart': '准备开始',
+    'servicePage.ctaDescription': '联系我们，了解我们如何帮助您的企业在线发展。',
+    'servicePage.viewMoreServices': '查看更多服务',
   },
   FI: {
     // Navigation
@@ -11208,6 +11316,15 @@ const translations = {
     'industry.export.why': 'Miksi Digitaalinen Markkinointi on Välttämätöntä Viennin Menestykselle',
     'industry.export.cta': 'Valmis Laajentumaan Uusille Markkinoille?',
     'industry.export.ctaDesc': 'Luodaan kansainvälinen digitaalinen strategia, joka avaa ovia globaaleihin mahdollisuuksiin.',
+    
+    // Service Page
+    'servicePage.about': 'Tietoja',
+    'servicePage.benefits': 'Edut',
+    'servicePage.whatsIncluded': 'Mitä sisältyy',
+    'servicePage.ourProcess': 'Prosessimme',
+    'servicePage.readyToStart': 'Valmis aloittamaan',
+    'servicePage.ctaDescription': 'Ota yhteyttä ja selvitä, miten voimme auttaa yritystäsi kasvamaan verkossa.',
+    'servicePage.viewMoreServices': 'Katso lisää palveluja',
   },
   AR: {
     // Navigation
@@ -11981,6 +12098,15 @@ const translations = {
     'industry.export.why': 'لماذا التسويق الرقمي ضروري لنجاح التصدير',
     'industry.export.cta': 'مستعد للتوسع إلى أسواق جديدة؟',
     'industry.export.ctaDesc': 'لنقم بإنشاء استراتيجية رقمية دولية تفتح أبواب الفرص العالمية.',
+    
+    // Service Page
+    'servicePage.about': 'حول',
+    'servicePage.benefits': 'الفوائد',
+    'servicePage.whatsIncluded': 'ما هو مشمول',
+    'servicePage.ourProcess': 'عمليتنا',
+    'servicePage.readyToStart': 'مستعد للبدء مع',
+    'servicePage.ctaDescription': 'اتصل بنا واكتشف كيف يمكننا مساعدة عملك على النمو عبر الإنترنت.',
+    'servicePage.viewMoreServices': 'عرض المزيد من الخدمات',
   },
   DA: {
     // Navigation
@@ -12753,6 +12879,15 @@ const translations = {
     'industry.export.why': 'Hvorfor Digital Markedsføring er Afgørende for Eksportsucces',
     'industry.export.cta': 'Klar til at Ekspandere til Nye Markeder?',
     'industry.export.ctaDesc': 'Lad os skabe en international digital strategi, der åbner døre til globale muligheder.',
+    
+    // Service Page
+    'servicePage.about': 'Om',
+    'servicePage.benefits': 'Fordele',
+    'servicePage.whatsIncluded': 'Hvad er inkluderet',
+    'servicePage.ourProcess': 'Vores Proces',
+    'servicePage.readyToStart': 'Klar til at starte med',
+    'servicePage.ctaDescription': 'Kontakt os og opdag, hvordan vi kan hjælpe din virksomhed med at vokse online.',
+    'servicePage.viewMoreServices': 'Se flere tjenester',
   },
   NO: {
     // Navigation
@@ -13510,7 +13645,16 @@ const translations = {
     'industry.export.services': 'Hvordan Vi Støtter Eksportvirksomheter',
     'industry.export.why': 'Hvorfor Digital Markedsføring er Avgjørende for Eksportsuksess',
     'industry.export.cta': 'Klar til å Ekspandere til Nye Markeder?',
-    'industry.export.ctaDesc': 'La oss skape en internasjonal digital strategi som åpner dører til globale muligheter.'
+    'industry.export.ctaDesc': 'La oss skape en internasjonal digital strategi som åpner dører til globale muligheter.',
+    
+    // Service Page
+    'servicePage.about': 'Om',
+    'servicePage.benefits': 'Fordeler',
+    'servicePage.whatsIncluded': 'Hva er inkludert',
+    'servicePage.ourProcess': 'Vår Prosess',
+    'servicePage.readyToStart': 'Klar til å starte med',
+    'servicePage.ctaDescription': 'Kontakt oss og oppdag hvordan vi kan hjelpe bedriften din å vokse på nett.',
+    'servicePage.viewMoreServices': 'Se flere tjenester',
   }
 };
 
