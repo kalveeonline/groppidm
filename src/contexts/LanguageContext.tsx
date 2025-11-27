@@ -4808,6 +4808,7 @@ const translations = {
     'appointment.personalizedStrategyDesc': 'Soluciones personalizadas para sus objetivos únicos',
     'appointment.preferDirect': '¿Prefiere contactarnos directamente?',
   },
+  IT: {
     // Navigation
     'nav.services': 'Cosa desideri?',
     'nav.offices': 'I nostri uffici',
