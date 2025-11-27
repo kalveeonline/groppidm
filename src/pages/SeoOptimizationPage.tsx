@@ -47,19 +47,19 @@ const SeoOptimizationPage = () => {
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">93%</div>
-                  <div className="text-sm text-muted-foreground">Online experiences start with search</div>
+                  <div className="text-sm text-muted-foreground">{t('seoOptimization.stats.stat1')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">1000%</div>
-                  <div className="text-sm text-muted-foreground">More traffic than social media</div>
+                  <div className="text-sm text-muted-foreground">{t('seoOptimization.stats.stat2')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">75%</div>
-                  <div className="text-sm text-muted-foreground">Never scroll past page 1</div>
+                  <div className="text-sm text-muted-foreground">{t('seoOptimization.stats.stat3')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">14.6%</div>
-                  <div className="text-sm text-muted-foreground">SEO average close rate</div>
+                  <div className="text-sm text-muted-foreground">{t('seoOptimization.stats.stat4')}</div>
                 </div>
               </div>
             </div>

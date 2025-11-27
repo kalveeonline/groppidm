@@ -47,19 +47,19 @@ const WebshopCreationPage = () => {
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">€5.7B</div>
-                  <div className="text-sm text-muted-foreground">E-commerce market in Belgium</div>
+                  <div className="text-sm text-muted-foreground">{t('webshopCreation.stats.stat1')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">15%</div>
-                  <div className="text-sm text-muted-foreground">Annual growth rate</div>
+                  <div className="text-sm text-muted-foreground">{t('webshopCreation.stats.stat2')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">87%</div>
-                  <div className="text-sm text-muted-foreground">Belgians shop online</div>
+                  <div className="text-sm text-muted-foreground">{t('webshopCreation.stats.stat3')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">24/7</div>
-                  <div className="text-sm text-muted-foreground">Sales opportunity</div>
+                  <div className="text-sm text-muted-foreground">{t('webshopCreation.stats.stat4')}</div>
                 </div>
               </div>
             </div>
