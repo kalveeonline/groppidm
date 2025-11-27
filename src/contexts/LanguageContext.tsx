@@ -587,6 +587,50 @@ const translations = {
     'customerDemos.fitnessDesc': 'Sportschool & trainingsplatformen',
     'customerDemos.viewDemo': 'Bekijk Demo',
     
+    // Demo Pages - Common
+    'demos.backToHome': 'Terug naar Home',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Vastgoed Demo',
+    'demos.realEstate.subtitle': 'Toon uw vastgoed met prachtige visuals en gedetailleerde informatie',
+    'demos.realEstate.viewDetails': 'Bekijk Details',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'E-commerce Demo',
+    'demos.ecommerce.subtitle': 'Mooie online winkels die bezoekers omzetten in klanten',
+    'demos.ecommerce.new': 'Nieuw',
+    'demos.ecommerce.reviews': 'beoordelingen',
+    'demos.ecommerce.addToCart': 'In Winkelwagen',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Restaurant Demo',
+    'demos.restaurant.subtitle': 'Digitaal menu en reserveringssystemen voor moderne restaurants',
+    'demos.restaurant.openingHours': 'Openingsuren',
+    'demos.restaurant.location': 'Locatie',
+    'demos.restaurant.reservations': 'Reserveringen',
+    'demos.restaurant.ourMenu': 'Ons Menu',
+    'demos.restaurant.makeReservation': 'Maak een Reservering',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Fitness Demo',
+    'demos.fitness.subtitle': 'Complete sportschool management en ledenbetrokkenheid platformen',
+    'demos.fitness.ourPrograms': 'Onze Programma\'s',
+    'demos.fitness.strengthTraining': 'Krachttraining',
+    'demos.fitness.strengthDesc': 'Bouw spieren op en verhoog kracht met professionele begeleiding',
+    'demos.fitness.groupClasses': 'Groepslessen',
+    'demos.fitness.groupDesc': 'Energieke lessen met motiverende instructeurs en gemeenschap',
+    'demos.fitness.personalTraining': 'Persoonlijke Training',
+    'demos.fitness.personalDesc': 'Een-op-een coaching afgestemd op uw specifieke doelen',
+    'demos.fitness.weeks': 'weken',
+    'demos.fitness.ongoing': 'Doorlopend',
+    'demos.fitness.flexible': 'Flexibel',
+    'demos.fitness.allLevels': 'Alle niveaus',
+    'demos.fitness.beginnerAdvanced': 'Beginner-Gevorderd',
+    'demos.fitness.learnMore': 'Meer Info',
+    'demos.fitness.meetTrainers': 'Ontmoet Onze Trainers',
+    'demos.fitness.experience': 'ervaring',
+    'demos.fitness.bookTrial': 'Boek een Gratis Proefles',
+    
     // Stats Section
     'stats.happyClients': 'Gelukkige klanten',
     'stats.websitesOnline': 'Websites online',
@@ -1499,6 +1543,50 @@ const translations = {
     'customerDemos.fitnessDesc': 'Gym & training platforms',
     'customerDemos.viewDemo': 'View Demo',
     
+    // Demo Pages - Common
+    'demos.backToHome': 'Back to Home',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Real Estate Demo',
+    'demos.realEstate.subtitle': 'Showcase your properties with stunning visuals and detailed information',
+    'demos.realEstate.viewDetails': 'View Details',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'E-commerce Demo',
+    'demos.ecommerce.subtitle': 'Beautiful online stores that convert visitors into customers',
+    'demos.ecommerce.new': 'New',
+    'demos.ecommerce.reviews': 'reviews',
+    'demos.ecommerce.addToCart': 'Add to Cart',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Restaurant Demo',
+    'demos.restaurant.subtitle': 'Digital menu and reservation systems for modern restaurants',
+    'demos.restaurant.openingHours': 'Opening Hours',
+    'demos.restaurant.location': 'Location',
+    'demos.restaurant.reservations': 'Reservations',
+    'demos.restaurant.ourMenu': 'Our Menu',
+    'demos.restaurant.makeReservation': 'Make a Reservation',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Fitness Demo',
+    'demos.fitness.subtitle': 'Complete gym management and member engagement platforms',
+    'demos.fitness.ourPrograms': 'Our Programs',
+    'demos.fitness.strengthTraining': 'Strength Training',
+    'demos.fitness.strengthDesc': 'Build muscle and increase strength with professional guidance',
+    'demos.fitness.groupClasses': 'Group Classes',
+    'demos.fitness.groupDesc': 'High-energy classes with motivating instructors and community',
+    'demos.fitness.personalTraining': 'Personal Training',
+    'demos.fitness.personalDesc': 'One-on-one coaching tailored to your specific goals',
+    'demos.fitness.weeks': 'weeks',
+    'demos.fitness.ongoing': 'Ongoing',
+    'demos.fitness.flexible': 'Flexible',
+    'demos.fitness.allLevels': 'All levels',
+    'demos.fitness.beginnerAdvanced': 'Beginner-Advanced',
+    'demos.fitness.learnMore': 'Learn More',
+    'demos.fitness.meetTrainers': 'Meet Our Trainers',
+    'demos.fitness.experience': 'experience',
+    'demos.fitness.bookTrial': 'Book a Free Trial',
+    
     // Stats Section
     'stats.happyClients': 'Happy clients',
     'stats.websitesOnline': 'Websites online',
@@ -2091,6 +2179,50 @@ const translations = {
     'customerDemos.fitnessDesc': 'Plateformes de gym et d\'entraînement',
     'customerDemos.viewDemo': 'Voir la démo',
     
+    // Demo Pages - Common
+    'demos.backToHome': 'Retour à l\'accueil',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Démo Immobilier',
+    'demos.realEstate.subtitle': 'Présentez vos propriétés avec des visuels époustouflants et des informations détaillées',
+    'demos.realEstate.viewDetails': 'Voir les détails',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'Démo E-commerce',
+    'demos.ecommerce.subtitle': 'De belles boutiques en ligne qui convertissent les visiteurs en clients',
+    'demos.ecommerce.new': 'Nouveau',
+    'demos.ecommerce.reviews': 'avis',
+    'demos.ecommerce.addToCart': 'Ajouter au panier',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Démo Restaurant',
+    'demos.restaurant.subtitle': 'Menu numérique et systèmes de réservation pour restaurants modernes',
+    'demos.restaurant.openingHours': 'Heures d\'ouverture',
+    'demos.restaurant.location': 'Emplacement',
+    'demos.restaurant.reservations': 'Réservations',
+    'demos.restaurant.ourMenu': 'Notre Menu',
+    'demos.restaurant.makeReservation': 'Faire une réservation',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Démo Fitness',
+    'demos.fitness.subtitle': 'Plateformes complètes de gestion de salle de sport et d\'engagement des membres',
+    'demos.fitness.ourPrograms': 'Nos Programmes',
+    'demos.fitness.strengthTraining': 'Musculation',
+    'demos.fitness.strengthDesc': 'Développez vos muscles et augmentez votre force avec un accompagnement professionnel',
+    'demos.fitness.groupClasses': 'Cours collectifs',
+    'demos.fitness.groupDesc': 'Cours énergiques avec des instructeurs motivants et une communauté',
+    'demos.fitness.personalTraining': 'Entraînement personnel',
+    'demos.fitness.personalDesc': 'Coaching individuel adapté à vos objectifs spécifiques',
+    'demos.fitness.weeks': 'semaines',
+    'demos.fitness.ongoing': 'En cours',
+    'demos.fitness.flexible': 'Flexible',
+    'demos.fitness.allLevels': 'Tous niveaux',
+    'demos.fitness.beginnerAdvanced': 'Débutant-Avancé',
+    'demos.fitness.learnMore': 'En savoir plus',
+    'demos.fitness.meetTrainers': 'Rencontrez nos entraîneurs',
+    'demos.fitness.experience': 'd\'expérience',
+    'demos.fitness.bookTrial': 'Réserver un essai gratuit',
+    
     // Stats Section
     'stats.happyClients': 'Clients satisfaits',
     'stats.websitesOnline': 'Sites web en ligne',
@@ -2664,6 +2796,50 @@ const translations = {
     'customerDemos.fitness': 'Fitness',
     'customerDemos.fitnessDesc': 'Platformy siłowni i treningów',
     'customerDemos.viewDemo': 'Zobacz demo',
+    
+    // Demo Pages - Common
+    'demos.backToHome': 'Powrót do strony głównej',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Demo Nieruchomości',
+    'demos.realEstate.subtitle': 'Zaprezentuj swoje nieruchomości z pięknymi wizualizacjami i szczegółowymi informacjami',
+    'demos.realEstate.viewDetails': 'Zobacz szczegóły',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'Demo E-commerce',
+    'demos.ecommerce.subtitle': 'Piękne sklepy internetowe, które zamieniają odwiedzających w klientów',
+    'demos.ecommerce.new': 'Nowość',
+    'demos.ecommerce.reviews': 'opinii',
+    'demos.ecommerce.addToCart': 'Dodaj do koszyka',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Demo Restauracji',
+    'demos.restaurant.subtitle': 'Cyfrowe menu i systemy rezerwacji dla nowoczesnych restauracji',
+    'demos.restaurant.openingHours': 'Godziny otwarcia',
+    'demos.restaurant.location': 'Lokalizacja',
+    'demos.restaurant.reservations': 'Rezerwacje',
+    'demos.restaurant.ourMenu': 'Nasze Menu',
+    'demos.restaurant.makeReservation': 'Dokonaj rezerwacji',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Demo Fitness',
+    'demos.fitness.subtitle': 'Kompletne platformy do zarządzania siłownią i angażowania członków',
+    'demos.fitness.ourPrograms': 'Nasze Programy',
+    'demos.fitness.strengthTraining': 'Trening siłowy',
+    'demos.fitness.strengthDesc': 'Buduj mięśnie i zwiększaj siłę z profesjonalnym wsparciem',
+    'demos.fitness.groupClasses': 'Zajęcia grupowe',
+    'demos.fitness.groupDesc': 'Energetyczne zajęcia z motywującymi instruktorami i społecznością',
+    'demos.fitness.personalTraining': 'Trening personalny',
+    'demos.fitness.personalDesc': 'Coaching jeden na jeden dostosowany do Twoich celów',
+    'demos.fitness.weeks': 'tygodni',
+    'demos.fitness.ongoing': 'Ciągły',
+    'demos.fitness.flexible': 'Elastyczny',
+    'demos.fitness.allLevels': 'Wszystkie poziomy',
+    'demos.fitness.beginnerAdvanced': 'Początkujący-Zaawansowany',
+    'demos.fitness.learnMore': 'Dowiedz się więcej',
+    'demos.fitness.meetTrainers': 'Poznaj naszych trenerów',
+    'demos.fitness.experience': 'doświadczenia',
+    'demos.fitness.bookTrial': 'Zarezerwuj bezpłatną próbę',
     
     // Stats Section
     'stats.happyClients': 'Zadowoleni klienci',
@@ -3239,6 +3415,50 @@ const translations = {
     'customerDemos.fitnessDesc': 'Платформы для спортзалов и тренировок',
     'customerDemos.viewDemo': 'Посмотреть демо',
     
+    // Demo Pages - Common
+    'demos.backToHome': 'Вернуться на главную',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Демо Недвижимости',
+    'demos.realEstate.subtitle': 'Продемонстрируйте свою недвижимость с потрясающими визуальными эффектами',
+    'demos.realEstate.viewDetails': 'Подробнее',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'Демо Интернет-магазина',
+    'demos.ecommerce.subtitle': 'Красивые онлайн-магазины, превращающие посетителей в клиентов',
+    'demos.ecommerce.new': 'Новинка',
+    'demos.ecommerce.reviews': 'отзывов',
+    'demos.ecommerce.addToCart': 'В корзину',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Демо Ресторана',
+    'demos.restaurant.subtitle': 'Цифровое меню и системы бронирования для современных ресторанов',
+    'demos.restaurant.openingHours': 'Часы работы',
+    'demos.restaurant.location': 'Расположение',
+    'demos.restaurant.reservations': 'Бронирование',
+    'demos.restaurant.ourMenu': 'Наше Меню',
+    'demos.restaurant.makeReservation': 'Забронировать столик',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Демо Фитнеса',
+    'demos.fitness.subtitle': 'Комплексные платформы управления тренажерным залом и вовлечения участников',
+    'demos.fitness.ourPrograms': 'Наши Программы',
+    'demos.fitness.strengthTraining': 'Силовые тренировки',
+    'demos.fitness.strengthDesc': 'Наращивайте мышцы и увеличивайте силу с профессиональным руководством',
+    'demos.fitness.groupClasses': 'Групповые занятия',
+    'demos.fitness.groupDesc': 'Энергичные занятия с мотивирующими инструкторами и сообществом',
+    'demos.fitness.personalTraining': 'Персональные тренировки',
+    'demos.fitness.personalDesc': 'Индивидуальный коучинг под ваши цели',
+    'demos.fitness.weeks': 'недель',
+    'demos.fitness.ongoing': 'Постоянно',
+    'demos.fitness.flexible': 'Гибко',
+    'demos.fitness.allLevels': 'Все уровни',
+    'demos.fitness.beginnerAdvanced': 'Начинающий-Продвинутый',
+    'demos.fitness.learnMore': 'Узнать больше',
+    'demos.fitness.meetTrainers': 'Познакомьтесь с нашими тренерами',
+    'demos.fitness.experience': 'опыта',
+    'demos.fitness.bookTrial': 'Записаться на пробное занятие',
+    
     // Stats Section
     'stats.happyClients': 'Довольные клиенты',
     'stats.websitesOnline': 'Сайты онлайн',
@@ -3813,6 +4033,50 @@ const translations = {
     'customerDemos.fitnessDesc': 'Fitnessstudio- und Trainingsplattformen',
     'customerDemos.viewDemo': 'Demo ansehen',
     
+    // Demo Pages - Common
+    'demos.backToHome': 'Zurück zur Startseite',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Immobilien Demo',
+    'demos.realEstate.subtitle': 'Präsentieren Sie Ihre Immobilien mit atemberaubenden Bildern und detaillierten Informationen',
+    'demos.realEstate.viewDetails': 'Details ansehen',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'E-Commerce Demo',
+    'demos.ecommerce.subtitle': 'Schöne Online-Shops, die Besucher in Kunden verwandeln',
+    'demos.ecommerce.new': 'Neu',
+    'demos.ecommerce.reviews': 'Bewertungen',
+    'demos.ecommerce.addToCart': 'In den Warenkorb',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Restaurant Demo',
+    'demos.restaurant.subtitle': 'Digitale Speisekarte und Reservierungssysteme für moderne Restaurants',
+    'demos.restaurant.openingHours': 'Öffnungszeiten',
+    'demos.restaurant.location': 'Standort',
+    'demos.restaurant.reservations': 'Reservierungen',
+    'demos.restaurant.ourMenu': 'Unsere Speisekarte',
+    'demos.restaurant.makeReservation': 'Reservierung machen',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Fitness Demo',
+    'demos.fitness.subtitle': 'Komplette Fitnessstudio-Management- und Mitglieder-Engagement-Plattformen',
+    'demos.fitness.ourPrograms': 'Unsere Programme',
+    'demos.fitness.strengthTraining': 'Krafttraining',
+    'demos.fitness.strengthDesc': 'Bauen Sie Muskeln auf und steigern Sie Ihre Kraft mit professioneller Anleitung',
+    'demos.fitness.groupClasses': 'Gruppenkurse',
+    'demos.fitness.groupDesc': 'Energiegeladene Kurse mit motivierenden Trainern und Gemeinschaft',
+    'demos.fitness.personalTraining': 'Personal Training',
+    'demos.fitness.personalDesc': 'Einzelcoaching auf Ihre spezifischen Ziele zugeschnitten',
+    'demos.fitness.weeks': 'Wochen',
+    'demos.fitness.ongoing': 'Fortlaufend',
+    'demos.fitness.flexible': 'Flexibel',
+    'demos.fitness.allLevels': 'Alle Stufen',
+    'demos.fitness.beginnerAdvanced': 'Anfänger-Fortgeschritten',
+    'demos.fitness.learnMore': 'Mehr erfahren',
+    'demos.fitness.meetTrainers': 'Lernen Sie unsere Trainer kennen',
+    'demos.fitness.experience': 'Erfahrung',
+    'demos.fitness.bookTrial': 'Kostenloses Probetraining buchen',
+    
     // Stats Section
     'stats.happyClients': 'Zufriedene Kunden',
     'stats.websitesOnline': 'Websites online',
@@ -4386,6 +4650,50 @@ const translations = {
     'customerDemos.fitness': 'Fitness',
     'customerDemos.fitnessDesc': 'Plataformas de gimnasio y entrenamiento',
     'customerDemos.viewDemo': 'Ver demo',
+    
+    // Demo Pages - Common
+    'demos.backToHome': 'Volver al inicio',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Demo Inmobiliaria',
+    'demos.realEstate.subtitle': 'Muestre sus propiedades con visuales impresionantes e información detallada',
+    'demos.realEstate.viewDetails': 'Ver detalles',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'Demo E-commerce',
+    'demos.ecommerce.subtitle': 'Hermosas tiendas online que convierten visitantes en clientes',
+    'demos.ecommerce.new': 'Nuevo',
+    'demos.ecommerce.reviews': 'reseñas',
+    'demos.ecommerce.addToCart': 'Añadir al carrito',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Demo Restaurante',
+    'demos.restaurant.subtitle': 'Menú digital y sistemas de reserva para restaurantes modernos',
+    'demos.restaurant.openingHours': 'Horario',
+    'demos.restaurant.location': 'Ubicación',
+    'demos.restaurant.reservations': 'Reservaciones',
+    'demos.restaurant.ourMenu': 'Nuestro Menú',
+    'demos.restaurant.makeReservation': 'Hacer una reserva',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Demo Fitness',
+    'demos.fitness.subtitle': 'Plataformas completas de gestión de gimnasios y participación de miembros',
+    'demos.fitness.ourPrograms': 'Nuestros Programas',
+    'demos.fitness.strengthTraining': 'Entrenamiento de fuerza',
+    'demos.fitness.strengthDesc': 'Desarrolle músculos y aumente la fuerza con orientación profesional',
+    'demos.fitness.groupClasses': 'Clases grupales',
+    'demos.fitness.groupDesc': 'Clases energéticas con instructores motivadores y comunidad',
+    'demos.fitness.personalTraining': 'Entrenamiento personal',
+    'demos.fitness.personalDesc': 'Coaching individual adaptado a sus objetivos específicos',
+    'demos.fitness.weeks': 'semanas',
+    'demos.fitness.ongoing': 'Continuo',
+    'demos.fitness.flexible': 'Flexible',
+    'demos.fitness.allLevels': 'Todos los niveles',
+    'demos.fitness.beginnerAdvanced': 'Principiante-Avanzado',
+    'demos.fitness.learnMore': 'Más información',
+    'demos.fitness.meetTrainers': 'Conozca a nuestros entrenadores',
+    'demos.fitness.experience': 'de experiencia',
+    'demos.fitness.bookTrial': 'Reservar prueba gratis',
     
     // Stats Section
     'stats.happyClients': 'Clientes satisfechos',
@@ -4986,6 +5294,50 @@ const translations = {
     'customerDemos.fitnessDesc': 'Piattaforme per palestre e allenamenti',
     'customerDemos.viewDemo': 'Visualizza demo',
     
+    // Demo Pages - Common
+    'demos.backToHome': 'Torna alla home',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Demo Immobiliare',
+    'demos.realEstate.subtitle': 'Mostra le tue proprietà con immagini straordinarie e informazioni dettagliate',
+    'demos.realEstate.viewDetails': 'Vedi dettagli',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'Demo E-commerce',
+    'demos.ecommerce.subtitle': 'Bellissimi negozi online che convertono i visitatori in clienti',
+    'demos.ecommerce.new': 'Nuovo',
+    'demos.ecommerce.reviews': 'recensioni',
+    'demos.ecommerce.addToCart': 'Aggiungi al carrello',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Demo Ristorante',
+    'demos.restaurant.subtitle': 'Menu digitale e sistemi di prenotazione per ristoranti moderni',
+    'demos.restaurant.openingHours': 'Orari di apertura',
+    'demos.restaurant.location': 'Posizione',
+    'demos.restaurant.reservations': 'Prenotazioni',
+    'demos.restaurant.ourMenu': 'Il Nostro Menu',
+    'demos.restaurant.makeReservation': 'Prenota un tavolo',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Demo Fitness',
+    'demos.fitness.subtitle': 'Piattaforme complete per la gestione della palestra e il coinvolgimento dei membri',
+    'demos.fitness.ourPrograms': 'I Nostri Programmi',
+    'demos.fitness.strengthTraining': 'Allenamento di forza',
+    'demos.fitness.strengthDesc': 'Costruisci muscoli e aumenta la forza con una guida professionale',
+    'demos.fitness.groupClasses': 'Corsi di gruppo',
+    'demos.fitness.groupDesc': 'Corsi energetici con istruttori motivanti e comunità',
+    'demos.fitness.personalTraining': 'Personal training',
+    'demos.fitness.personalDesc': 'Coaching individuale su misura per i tuoi obiettivi',
+    'demos.fitness.weeks': 'settimane',
+    'demos.fitness.ongoing': 'In corso',
+    'demos.fitness.flexible': 'Flessibile',
+    'demos.fitness.allLevels': 'Tutti i livelli',
+    'demos.fitness.beginnerAdvanced': 'Principiante-Avanzato',
+    'demos.fitness.learnMore': 'Scopri di più',
+    'demos.fitness.meetTrainers': 'Incontra i nostri trainer',
+    'demos.fitness.experience': 'di esperienza',
+    'demos.fitness.bookTrial': 'Prenota una prova gratuita',
+    
     // Stats Section
     'stats.happyClients': 'Clienti soddisfatti',
     'stats.websitesOnline': 'Siti web online',
@@ -5492,6 +5844,50 @@ const translations = {
     'customerDemos.fitnessDesc': 'Платформи для спортзалів та тренувань',
     'customerDemos.viewDemo': 'Переглянути демо',
     
+    // Demo Pages - Common
+    'demos.backToHome': 'Повернутися на головну',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Демо Нерухомості',
+    'demos.realEstate.subtitle': 'Продемонструйте свою нерухомість з приголомшливими візуальними ефектами',
+    'demos.realEstate.viewDetails': 'Детальніше',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'Демо Інтернет-магазину',
+    'demos.ecommerce.subtitle': 'Красиві онлайн-магазини, що перетворюють відвідувачів на клієнтів',
+    'demos.ecommerce.new': 'Новинка',
+    'demos.ecommerce.reviews': 'відгуків',
+    'demos.ecommerce.addToCart': 'До кошика',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Демо Ресторану',
+    'demos.restaurant.subtitle': 'Цифрове меню та системи бронювання для сучасних ресторанів',
+    'demos.restaurant.openingHours': 'Години роботи',
+    'demos.restaurant.location': 'Розташування',
+    'demos.restaurant.reservations': 'Бронювання',
+    'demos.restaurant.ourMenu': 'Наше Меню',
+    'demos.restaurant.makeReservation': 'Забронювати столик',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Демо Фітнесу',
+    'demos.fitness.subtitle': 'Комплексні платформи управління тренажерним залом та залучення учасників',
+    'demos.fitness.ourPrograms': 'Наші Програми',
+    'demos.fitness.strengthTraining': 'Силові тренування',
+    'demos.fitness.strengthDesc': 'Нарощуйте м\'язи та збільшуйте силу з професійним керівництвом',
+    'demos.fitness.groupClasses': 'Групові заняття',
+    'demos.fitness.groupDesc': 'Енергійні заняття з мотивуючими інструкторами та спільнотою',
+    'demos.fitness.personalTraining': 'Персональні тренування',
+    'demos.fitness.personalDesc': 'Індивідуальний коучинг під ваші цілі',
+    'demos.fitness.weeks': 'тижнів',
+    'demos.fitness.ongoing': 'Постійно',
+    'demos.fitness.flexible': 'Гнучко',
+    'demos.fitness.allLevels': 'Усі рівні',
+    'demos.fitness.beginnerAdvanced': 'Початківець-Просунутий',
+    'demos.fitness.learnMore': 'Дізнатися більше',
+    'demos.fitness.meetTrainers': 'Познайомтеся з нашими тренерами',
+    'demos.fitness.experience': 'досвіду',
+    'demos.fitness.bookTrial': 'Записатися на пробне заняття',
+    
     // Stats Section
     'stats.happyClients': 'Задоволені клієнти',
     'stats.websitesOnline': 'Сайти онлайн',
@@ -5997,6 +6393,50 @@ const translations = {
     'customerDemos.fitnessDesc': 'Spor salonu ve antrenman platformları',
     'customerDemos.viewDemo': 'Demoyu görüntüle',
     
+    // Demo Pages - Common
+    'demos.backToHome': 'Ana sayfaya dön',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Gayrimenkul Demo',
+    'demos.realEstate.subtitle': 'Mülklerinizi çarpıcı görsellerle ve ayrıntılı bilgilerle sergileyin',
+    'demos.realEstate.viewDetails': 'Detayları gör',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'E-ticaret Demo',
+    'demos.ecommerce.subtitle': 'Ziyaretçileri müşteriye dönüştüren güzel online mağazalar',
+    'demos.ecommerce.new': 'Yeni',
+    'demos.ecommerce.reviews': 'yorum',
+    'demos.ecommerce.addToCart': 'Sepete ekle',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Restoran Demo',
+    'demos.restaurant.subtitle': 'Modern restoranlar için dijital menü ve rezervasyon sistemleri',
+    'demos.restaurant.openingHours': 'Çalışma Saatleri',
+    'demos.restaurant.location': 'Konum',
+    'demos.restaurant.reservations': 'Rezervasyonlar',
+    'demos.restaurant.ourMenu': 'Menümüz',
+    'demos.restaurant.makeReservation': 'Rezervasyon yap',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Fitness Demo',
+    'demos.fitness.subtitle': 'Eksiksiz spor salonu yönetimi ve üye katılım platformları',
+    'demos.fitness.ourPrograms': 'Programlarımız',
+    'demos.fitness.strengthTraining': 'Güç Antrenmanı',
+    'demos.fitness.strengthDesc': 'Profesyonel rehberlikle kas geliştirin ve gücünüzü artırın',
+    'demos.fitness.groupClasses': 'Grup Dersleri',
+    'demos.fitness.groupDesc': 'Motive edici eğitmenler ve toplulukla enerjik dersler',
+    'demos.fitness.personalTraining': 'Kişisel Antrenman',
+    'demos.fitness.personalDesc': 'Hedeflerinize özel birebir koçluk',
+    'demos.fitness.weeks': 'hafta',
+    'demos.fitness.ongoing': 'Devam eden',
+    'demos.fitness.flexible': 'Esnek',
+    'demos.fitness.allLevels': 'Tüm seviyeler',
+    'demos.fitness.beginnerAdvanced': 'Başlangıç-İleri',
+    'demos.fitness.learnMore': 'Daha fazla bilgi',
+    'demos.fitness.meetTrainers': 'Antrenörlerimizle tanışın',
+    'demos.fitness.experience': 'deneyim',
+    'demos.fitness.bookTrial': 'Ücretsiz deneme rezerve et',
+    
     // Stats Section
     'stats.happyClients': 'Mutlu müşteriler',
     'stats.websitesOnline': 'Çevrimiçi web siteleri',
@@ -6458,6 +6898,50 @@ const translations = {
     'customerDemos.fitness': 'Fitness',
     'customerDemos.fitnessDesc': 'Gym- och träningsplattformar',
     'customerDemos.viewDemo': 'Visa demo',
+    
+    // Demo Pages - Common
+    'demos.backToHome': 'Tillbaka till startsidan',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Fastighets Demo',
+    'demos.realEstate.subtitle': 'Visa upp dina fastigheter med fantastiska bilder och detaljerad information',
+    'demos.realEstate.viewDetails': 'Visa detaljer',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'E-handel Demo',
+    'demos.ecommerce.subtitle': 'Vackra onlinebutiker som omvandlar besökare till kunder',
+    'demos.ecommerce.new': 'Ny',
+    'demos.ecommerce.reviews': 'recensioner',
+    'demos.ecommerce.addToCart': 'Lägg i kundvagn',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Restaurang Demo',
+    'demos.restaurant.subtitle': 'Digital meny och bokningssystem för moderna restauranger',
+    'demos.restaurant.openingHours': 'Öppettider',
+    'demos.restaurant.location': 'Plats',
+    'demos.restaurant.reservations': 'Reservationer',
+    'demos.restaurant.ourMenu': 'Vår Meny',
+    'demos.restaurant.makeReservation': 'Boka bord',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Fitness Demo',
+    'demos.fitness.subtitle': 'Kompletta plattformar för gymhantering och medlemsengagemang',
+    'demos.fitness.ourPrograms': 'Våra Program',
+    'demos.fitness.strengthTraining': 'Styrketräning',
+    'demos.fitness.strengthDesc': 'Bygg muskler och öka styrkan med professionell vägledning',
+    'demos.fitness.groupClasses': 'Gruppklasser',
+    'demos.fitness.groupDesc': 'Energifyllda klasser med motiverande instruktörer och gemenskap',
+    'demos.fitness.personalTraining': 'Personlig träning',
+    'demos.fitness.personalDesc': 'Individuell coaching anpassad efter dina specifika mål',
+    'demos.fitness.weeks': 'veckor',
+    'demos.fitness.ongoing': 'Pågående',
+    'demos.fitness.flexible': 'Flexibel',
+    'demos.fitness.allLevels': 'Alla nivåer',
+    'demos.fitness.beginnerAdvanced': 'Nybörjare-Avancerad',
+    'demos.fitness.learnMore': 'Läs mer',
+    'demos.fitness.meetTrainers': 'Träffa våra tränare',
+    'demos.fitness.experience': 'erfarenhet',
+    'demos.fitness.bookTrial': 'Boka en gratis provträning',
     
     // Stats Section
     'stats.happyClients': 'Nöjda kunder',
@@ -6921,6 +7405,50 @@ const translations = {
     'customerDemos.fitnessDesc': '健身房和培训平台',
     'customerDemos.viewDemo': '查看演示',
     
+    // Demo Pages - Common
+    'demos.backToHome': '返回首页',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': '房地产演示',
+    'demos.realEstate.subtitle': '用精美的视觉效果和详细信息展示您的房产',
+    'demos.realEstate.viewDetails': '查看详情',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': '电子商务演示',
+    'demos.ecommerce.subtitle': '将访客转化为客户的精美在线商店',
+    'demos.ecommerce.new': '新品',
+    'demos.ecommerce.reviews': '条评价',
+    'demos.ecommerce.addToCart': '加入购物车',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': '餐厅演示',
+    'demos.restaurant.subtitle': '现代餐厅的数字菜单和预订系统',
+    'demos.restaurant.openingHours': '营业时间',
+    'demos.restaurant.location': '位置',
+    'demos.restaurant.reservations': '预订',
+    'demos.restaurant.ourMenu': '我们的菜单',
+    'demos.restaurant.makeReservation': '预订座位',
+    
+    // Fitness Demo
+    'demos.fitness.title': '健身演示',
+    'demos.fitness.subtitle': '完整的健身房管理和会员参与平台',
+    'demos.fitness.ourPrograms': '我们的项目',
+    'demos.fitness.strengthTraining': '力量训练',
+    'demos.fitness.strengthDesc': '在专业指导下增强肌肉和力量',
+    'demos.fitness.groupClasses': '团体课程',
+    'demos.fitness.groupDesc': '充满活力的课程，有激励人心的教练和社区',
+    'demos.fitness.personalTraining': '私人训练',
+    'demos.fitness.personalDesc': '根据您的具体目标量身定制的一对一指导',
+    'demos.fitness.weeks': '周',
+    'demos.fitness.ongoing': '持续进行',
+    'demos.fitness.flexible': '灵活',
+    'demos.fitness.allLevels': '所有级别',
+    'demos.fitness.beginnerAdvanced': '初学者-高级',
+    'demos.fitness.learnMore': '了解更多',
+    'demos.fitness.meetTrainers': '认识我们的教练',
+    'demos.fitness.experience': '经验',
+    'demos.fitness.bookTrial': '预约免费体验',
+    
     // Stats Section
     'stats.happyClients': '满意的客户',
     'stats.websitesOnline': '在线网站',
@@ -7382,6 +7910,50 @@ const translations = {
     'customerDemos.fitness': 'Kunto',
     'customerDemos.fitnessDesc': 'Kuntosali- ja harjoitusalustat',
     'customerDemos.viewDemo': 'Katso demo',
+    
+    // Demo Pages - Common
+    'demos.backToHome': 'Takaisin etusivulle',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Kiinteistö Demo',
+    'demos.realEstate.subtitle': 'Esittele kiinteistöjäsi upeilla visuaaleilla ja yksityiskohtaisilla tiedoilla',
+    'demos.realEstate.viewDetails': 'Näytä tiedot',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'Verkkokauppa Demo',
+    'demos.ecommerce.subtitle': 'Kauniit verkkokaupat, jotka muuttavat kävijät asiakkaiksi',
+    'demos.ecommerce.new': 'Uusi',
+    'demos.ecommerce.reviews': 'arvostelua',
+    'demos.ecommerce.addToCart': 'Lisää ostoskoriin',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Ravintola Demo',
+    'demos.restaurant.subtitle': 'Digitaalinen menu ja varausjärjestelmät moderneille ravintoloille',
+    'demos.restaurant.openingHours': 'Aukioloajat',
+    'demos.restaurant.location': 'Sijainti',
+    'demos.restaurant.reservations': 'Varaukset',
+    'demos.restaurant.ourMenu': 'Meidän Menu',
+    'demos.restaurant.makeReservation': 'Tee varaus',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Kuntosali Demo',
+    'demos.fitness.subtitle': 'Täydelliset kuntosalien hallinta- ja jäsenten sitouttamisalustat',
+    'demos.fitness.ourPrograms': 'Ohjelmamme',
+    'demos.fitness.strengthTraining': 'Voimaharjoittelu',
+    'demos.fitness.strengthDesc': 'Rakenna lihaksia ja lisää voimaa ammatillisella ohjauksella',
+    'demos.fitness.groupClasses': 'Ryhmäliikunta',
+    'demos.fitness.groupDesc': 'Energiset tunnit motivoivien ohjaajien ja yhteisön kanssa',
+    'demos.fitness.personalTraining': 'Personal training',
+    'demos.fitness.personalDesc': 'Henkilökohtainen valmennus räätälöitynä tavoitteisiisi',
+    'demos.fitness.weeks': 'viikkoa',
+    'demos.fitness.ongoing': 'Jatkuva',
+    'demos.fitness.flexible': 'Joustava',
+    'demos.fitness.allLevels': 'Kaikki tasot',
+    'demos.fitness.beginnerAdvanced': 'Aloittelija-Edistynyt',
+    'demos.fitness.learnMore': 'Lue lisää',
+    'demos.fitness.meetTrainers': 'Tapaa valmentajamme',
+    'demos.fitness.experience': 'kokemusta',
+    'demos.fitness.bookTrial': 'Varaa ilmainen kokeilujakso',
     
     // Stats Section
     'stats.happyClients': 'Tyytyväiset asiakkaat',
@@ -7845,6 +8417,50 @@ const translations = {
     'customerDemos.fitnessDesc': 'منصات الصالة الرياضية والتدريب',
     'customerDemos.viewDemo': 'عرض التجريبي',
     
+    // Demo Pages - Common
+    'demos.backToHome': 'العودة إلى الصفحة الرئيسية',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'عرض العقارات',
+    'demos.realEstate.subtitle': 'اعرض عقاراتك بصور مذهلة ومعلومات مفصلة',
+    'demos.realEstate.viewDetails': 'عرض التفاصيل',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'عرض التجارة الإلكترونية',
+    'demos.ecommerce.subtitle': 'متاجر إلكترونية جميلة تحول الزوار إلى عملاء',
+    'demos.ecommerce.new': 'جديد',
+    'demos.ecommerce.reviews': 'تقييمات',
+    'demos.ecommerce.addToCart': 'أضف إلى السلة',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'عرض المطعم',
+    'demos.restaurant.subtitle': 'قائمة رقمية وأنظمة حجز للمطاعم الحديثة',
+    'demos.restaurant.openingHours': 'ساعات العمل',
+    'demos.restaurant.location': 'الموقع',
+    'demos.restaurant.reservations': 'الحجوزات',
+    'demos.restaurant.ourMenu': 'قائمتنا',
+    'demos.restaurant.makeReservation': 'احجز طاولة',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'عرض اللياقة البدنية',
+    'demos.fitness.subtitle': 'منصات شاملة لإدارة الصالة الرياضية وإشراك الأعضاء',
+    'demos.fitness.ourPrograms': 'برامجنا',
+    'demos.fitness.strengthTraining': 'تدريب القوة',
+    'demos.fitness.strengthDesc': 'ابنِ العضلات وزد قوتك مع إرشاد احترافي',
+    'demos.fitness.groupClasses': 'الفصول الجماعية',
+    'demos.fitness.groupDesc': 'فصول نشطة مع مدربين محفزين ومجتمع داعم',
+    'demos.fitness.personalTraining': 'التدريب الشخصي',
+    'demos.fitness.personalDesc': 'تدريب فردي مصمم خصيصاً لأهدافك',
+    'demos.fitness.weeks': 'أسابيع',
+    'demos.fitness.ongoing': 'مستمر',
+    'demos.fitness.flexible': 'مرن',
+    'demos.fitness.allLevels': 'جميع المستويات',
+    'demos.fitness.beginnerAdvanced': 'مبتدئ-متقدم',
+    'demos.fitness.learnMore': 'اعرف المزيد',
+    'demos.fitness.meetTrainers': 'تعرف على مدربينا',
+    'demos.fitness.experience': 'خبرة',
+    'demos.fitness.bookTrial': 'احجز تجربة مجانية',
+    
     // Stats Section
     'stats.happyClients': 'عملاء سعداء',
     'stats.websitesOnline': 'مواقع إلكترونية على الإنترنت',
@@ -8307,8 +8923,51 @@ const translations = {
     'customerDemos.fitnessDesc': 'Fitness- og træningsplatforme',
     'customerDemos.viewDemo': 'Se demo',
     
+    // Demo Pages - Common
+    'demos.backToHome': 'Tilbage til forsiden',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Ejendoms Demo',
+    'demos.realEstate.subtitle': 'Vis dine ejendomme med flotte billeder og detaljerede oplysninger',
+    'demos.realEstate.viewDetails': 'Se detaljer',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'E-handel Demo',
+    'demos.ecommerce.subtitle': 'Smukke onlinebutikker der konverterer besøgende til kunder',
+    'demos.ecommerce.new': 'Ny',
+    'demos.ecommerce.reviews': 'anmeldelser',
+    'demos.ecommerce.addToCart': 'Tilføj til kurv',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Restaurant Demo',
+    'demos.restaurant.subtitle': 'Digital menu og reservationssystemer til moderne restauranter',
+    'demos.restaurant.openingHours': 'Åbningstider',
+    'demos.restaurant.location': 'Beliggenhed',
+    'demos.restaurant.reservations': 'Reservationer',
+    'demos.restaurant.ourMenu': 'Vores Menu',
+    'demos.restaurant.makeReservation': 'Book bord',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Fitness Demo',
+    'demos.fitness.subtitle': 'Komplette platforme til fitnesscenter-styring og medlemsengagement',
+    'demos.fitness.ourPrograms': 'Vores Programmer',
+    'demos.fitness.strengthTraining': 'Styrketræning',
+    'demos.fitness.strengthDesc': 'Opbyg muskler og øg styrken med professionel vejledning',
+    'demos.fitness.groupClasses': 'Holdtræning',
+    'demos.fitness.groupDesc': 'Energiske hold med motiverende instruktører og fællesskab',
+    'demos.fitness.personalTraining': 'Personlig træning',
+    'demos.fitness.personalDesc': 'En-til-en coaching tilpasset dine specifikke mål',
+    'demos.fitness.weeks': 'uger',
+    'demos.fitness.ongoing': 'Løbende',
+    'demos.fitness.flexible': 'Fleksibel',
+    'demos.fitness.allLevels': 'Alle niveauer',
+    'demos.fitness.beginnerAdvanced': 'Begynder-Avanceret',
+    'demos.fitness.learnMore': 'Læs mere',
+    'demos.fitness.meetTrainers': 'Mød vores trænere',
+    'demos.fitness.experience': 'erfaring',
+    'demos.fitness.bookTrial': 'Book gratis prøvetræning',
+    
     // Stats Section
-    'stats.happyClients': 'Glade kunder',
     'stats.websitesOnline': 'Hjemmesider online',
     'stats.liveCampaigns': 'Aktive kampagner',
     
@@ -8768,6 +9427,50 @@ const translations = {
     'customerDemos.fitness': 'Fitness',
     'customerDemos.fitnessDesc': 'Treningssenter- og treningsplattformer',
     'customerDemos.viewDemo': 'Se demo',
+    
+    // Demo Pages - Common
+    'demos.backToHome': 'Tilbake til forsiden',
+    
+    // Real Estate Demo
+    'demos.realEstate.title': 'Eiendoms Demo',
+    'demos.realEstate.subtitle': 'Vis eiendommene dine med fantastiske bilder og detaljert informasjon',
+    'demos.realEstate.viewDetails': 'Se detaljer',
+    
+    // E-commerce Demo
+    'demos.ecommerce.title': 'Netthandel Demo',
+    'demos.ecommerce.subtitle': 'Vakre nettbutikker som konverterer besøkende til kunder',
+    'demos.ecommerce.new': 'Ny',
+    'demos.ecommerce.reviews': 'anmeldelser',
+    'demos.ecommerce.addToCart': 'Legg i handlekurv',
+    
+    // Restaurant Demo
+    'demos.restaurant.title': 'Restaurant Demo',
+    'demos.restaurant.subtitle': 'Digital meny og reservasjonssystemer for moderne restauranter',
+    'demos.restaurant.openingHours': 'Åpningstider',
+    'demos.restaurant.location': 'Beliggenhet',
+    'demos.restaurant.reservations': 'Reservasjoner',
+    'demos.restaurant.ourMenu': 'Vår Meny',
+    'demos.restaurant.makeReservation': 'Book bord',
+    
+    // Fitness Demo
+    'demos.fitness.title': 'Fitness Demo',
+    'demos.fitness.subtitle': 'Komplette plattformer for treningssenter-styring og medlemsengasjement',
+    'demos.fitness.ourPrograms': 'Våre Programmer',
+    'demos.fitness.strengthTraining': 'Styrketrening',
+    'demos.fitness.strengthDesc': 'Bygg muskler og øk styrken med profesjonell veiledning',
+    'demos.fitness.groupClasses': 'Gruppetimer',
+    'demos.fitness.groupDesc': 'Energiske timer med motiverende instruktører og fellesskap',
+    'demos.fitness.personalTraining': 'Personlig trening',
+    'demos.fitness.personalDesc': 'En-til-en coaching tilpasset dine spesifikke mål',
+    'demos.fitness.weeks': 'uker',
+    'demos.fitness.ongoing': 'Pågående',
+    'demos.fitness.flexible': 'Fleksibel',
+    'demos.fitness.allLevels': 'Alle nivåer',
+    'demos.fitness.beginnerAdvanced': 'Nybegynner-Avansert',
+    'demos.fitness.learnMore': 'Les mer',
+    'demos.fitness.meetTrainers': 'Møt våre trenere',
+    'demos.fitness.experience': 'erfaring',
+    'demos.fitness.bookTrial': 'Book gratis prøvetrening',
     
     // Stats Section
     'stats.happyClients': 'Fornøyde kunder',

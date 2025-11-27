@@ -3,9 +3,11 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Home, MapPin, Bed, Bath, Square, ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const RealEstateDemo = () => {
   const navigate = useNavigate();
+  const { t } = useLanguage();
 
   const properties = [
     {
@@ -48,7 +50,7 @@ const RealEstateDemo = () => {
           className="mb-8 text-muted-foreground hover:text-foreground"
         >
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
+          {t('demos.backToHome')}
         </Button>
 
         <div className="text-center mb-12">
@@ -56,10 +58,10 @@ const RealEstateDemo = () => {
             <Home className="h-8 w-8 text-primary" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Real Estate Demo
+            {t('demos.realEstate.title')}
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Showcase your properties with stunning visuals and detailed information
+            {t('demos.realEstate.subtitle')}
           </p>
         </div>
 
@@ -98,7 +100,7 @@ const RealEstateDemo = () => {
                 <div className="flex items-center justify-between border-t border-border/30 pt-4">
                   <span className="text-2xl font-bold text-primary">{property.price}</span>
                   <Button size="sm" className="bg-primary hover:bg-primary-dark text-primary-foreground">
-                    View Details
+                    {t('demos.realEstate.viewDetails')}
                   </Button>
                 </div>
               </div>

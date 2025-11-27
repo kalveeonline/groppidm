@@ -3,9 +3,11 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Utensils, Clock, MapPin, Phone, ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const RestaurantDemo = () => {
   const navigate = useNavigate();
+  const { t } = useLanguage();
 
   const menuItems = [
     {
@@ -39,7 +41,7 @@ const RestaurantDemo = () => {
           className="mb-8 text-muted-foreground hover:text-foreground"
         >
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
+          {t('demos.backToHome')}
         </Button>
 
         <div className="text-center mb-12">
@@ -47,10 +49,10 @@ const RestaurantDemo = () => {
             <Utensils className="h-8 w-8 text-primary" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Restaurant Demo
+            {t('demos.restaurant.title')}
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Digital menu and reservation systems for modern restaurants
+            {t('demos.restaurant.subtitle')}
           </p>
         </div>
 
@@ -60,21 +62,21 @@ const RestaurantDemo = () => {
             <div className="flex items-center gap-3">
               <Clock className="h-8 w-8 text-primary" />
               <div>
-                <p className="font-semibold text-foreground">Opening Hours</p>
+                <p className="font-semibold text-foreground">{t('demos.restaurant.openingHours')}</p>
                 <p className="text-sm text-muted-foreground">Mon-Sun: 11:00 - 23:00</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
               <MapPin className="h-8 w-8 text-primary" />
               <div>
-                <p className="font-semibold text-foreground">Location</p>
+                <p className="font-semibold text-foreground">{t('demos.restaurant.location')}</p>
                 <p className="text-sm text-muted-foreground">Main Street 123, Antwerp</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
               <Phone className="h-8 w-8 text-primary" />
               <div>
-                <p className="font-semibold text-foreground">Reservations</p>
+                <p className="font-semibold text-foreground">{t('demos.restaurant.reservations')}</p>
                 <p className="text-sm text-muted-foreground">+32 3 123 45 67</p>
               </div>
             </div>
@@ -82,7 +84,7 @@ const RestaurantDemo = () => {
         </div>
 
         {/* Menu */}
-        <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Our Menu</h2>
+        <h2 className="text-3xl font-bold text-foreground mb-8 text-center">{t('demos.restaurant.ourMenu')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {menuItems.map((item, index) => (
             <div key={index} className="bg-gradient-card rounded-xl overflow-hidden shadow-card hover:shadow-lg transition-all duration-300">
@@ -112,7 +114,7 @@ const RestaurantDemo = () => {
         <div className="text-center">
           <Button size="lg" className="bg-primary hover:bg-primary-dark text-primary-foreground">
             <Phone className="mr-2 h-5 w-5" />
-            Make a Reservation
+            {t('demos.restaurant.makeReservation')}
           </Button>
         </div>
       </main>
