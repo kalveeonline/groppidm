@@ -26,7 +26,8 @@ const ServicePage = () => {
     );
   }
 
-  const content = service.content[language as keyof typeof service.content];
+  // Fallback to EN if the current language doesn't have a translation
+  const content = service.content[language as keyof typeof service.content] || service.content.EN;
   const IconComponent = service.icon;
 
   return (
