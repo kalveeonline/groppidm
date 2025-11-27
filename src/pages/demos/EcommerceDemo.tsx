@@ -3,9 +3,11 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ShoppingBag, Star, ShoppingCart, ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const EcommerceDemo = () => {
   const navigate = useNavigate();
+  const { t } = useLanguage();
 
   const products = [
     {
@@ -45,7 +47,7 @@ const EcommerceDemo = () => {
           className="mb-8 text-muted-foreground hover:text-foreground"
         >
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
+          {t('demos.backToHome')}
         </Button>
 
         <div className="text-center mb-12">
@@ -53,10 +55,10 @@ const EcommerceDemo = () => {
             <ShoppingBag className="h-8 w-8 text-primary" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            E-commerce Demo
+            {t('demos.ecommerce.title')}
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Beautiful online stores that convert visitors into customers
+            {t('demos.ecommerce.subtitle')}
           </p>
         </div>
 
@@ -70,7 +72,7 @@ const EcommerceDemo = () => {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-semibold">
-                  New
+                  {t('demos.ecommerce.new')}
                 </div>
               </div>
               <div className="p-6">
@@ -85,13 +87,13 @@ const EcommerceDemo = () => {
                     <Star className="h-4 w-4 fill-primary text-primary" />
                     <span className="ml-1 text-sm font-semibold text-foreground">{product.rating}</span>
                   </div>
-                  <span className="text-sm text-muted-foreground">({product.reviews} reviews)</span>
+                  <span className="text-sm text-muted-foreground">({product.reviews} {t('demos.ecommerce.reviews')})</span>
                 </div>
                 <div className="flex items-center justify-between border-t border-border/30 pt-4">
                   <span className="text-2xl font-bold text-primary">{product.price}</span>
                   <Button size="sm" className="bg-primary hover:bg-primary-dark text-primary-foreground">
                     <ShoppingCart className="mr-2 h-4 w-4" />
-                    Add to Cart
+                    {t('demos.ecommerce.addToCart')}
                   </Button>
                 </div>
               </div>
