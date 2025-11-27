@@ -47,19 +47,19 @@ const SocialMediaMarketingPage = () => {
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">4.8B</div>
-                  <div className="text-sm text-muted-foreground">Active social media users</div>
+                  <div className="text-sm text-muted-foreground">{t('socialMediaMarketing.stats.stat1')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">300%</div>
-                  <div className="text-sm text-muted-foreground">More leads than traditional</div>
+                  <div className="text-sm text-muted-foreground">{t('socialMediaMarketing.stats.stat2')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">62%</div>
-                  <div className="text-sm text-muted-foreground">Less expensive than traditional</div>
+                  <div className="text-sm text-muted-foreground">{t('socialMediaMarketing.stats.stat3')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">2.5h</div>
-                  <div className="text-sm text-muted-foreground">Daily social media usage</div>
+                  <div className="text-sm text-muted-foreground">{t('socialMediaMarketing.stats.stat4')}</div>
                 </div>
               </div>
             </div>

@@ -47,19 +47,19 @@ const DigitalAdvertisingPage = () => {
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">200%</div>
-                  <div className="text-sm text-muted-foreground">Average ROI digital ads</div>
+                  <div className="text-sm text-muted-foreground">{t('digitalAdvertising.stats.stat1')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">70%</div>
-                  <div className="text-sm text-muted-foreground">Faster than organic growth</div>
+                  <div className="text-sm text-muted-foreground">{t('digitalAdvertising.stats.stat2')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">89%</div>
-                  <div className="text-sm text-muted-foreground">Marketers use digital advertising</div>
+                  <div className="text-sm text-muted-foreground">{t('digitalAdvertising.stats.stat3')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">41%</div>
-                  <div className="text-sm text-muted-foreground">Click-through rate improvement</div>
+                  <div className="text-sm text-muted-foreground">{t('digitalAdvertising.stats.stat4')}</div>
                 </div>
               </div>
             </div>

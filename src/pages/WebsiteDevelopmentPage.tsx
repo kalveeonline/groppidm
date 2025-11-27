@@ -47,19 +47,19 @@ const WebsiteDevelopmentPage = () => {
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">94%</div>
-                  <div className="text-sm text-muted-foreground">First impressions are design-related</div>
+                  <div className="text-sm text-muted-foreground">{t('websiteDevelopment.stats.stat1')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">3 sec</div>
-                  <div className="text-sm text-muted-foreground">Users decide to stay or leave</div>
+                  <div className="text-sm text-muted-foreground">{t('websiteDevelopment.stats.stat2')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">75%</div>
-                  <div className="text-sm text-muted-foreground">Judge credibility by design</div>
+                  <div className="text-sm text-muted-foreground">{t('websiteDevelopment.stats.stat3')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">200%</div>
-                  <div className="text-sm text-muted-foreground">ROI from good UX design</div>
+                  <div className="text-sm text-muted-foreground">{t('websiteDevelopment.stats.stat4')}</div>
                 </div>
               </div>
             </div>
