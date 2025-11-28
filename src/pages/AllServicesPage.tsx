@@ -8,7 +8,13 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
 const AllServicesPage = () => {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
+
+  // Helper to get translated content for a service
+  const getServiceContent = (service: typeof serviceCategories[0]['items'][0]) => {
+    const content = service.content[language as keyof typeof service.content] || service.content.EN;
+    return content;
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -43,6 +49,7 @@ const AllServicesPage = () => {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {category.items.map((service, serviceIndex) => {
                   const IconComponent = service.icon;
+                  const content = getServiceContent(service);
                   return (
                     <Card key={serviceIndex} className="group hover:shadow-lg transition-all duration-300 border-border/50 hover:border-primary/30 bg-card">
                       <CardHeader>
@@ -50,12 +57,12 @@ const AllServicesPage = () => {
                           <IconComponent className="h-6 w-6 text-primary" />
                         </div>
                         <CardTitle className="text-lg text-foreground group-hover:text-primary transition-colors">
-                          {service.name}
+                          {content.title}
                         </CardTitle>
                       </CardHeader>
                       <CardContent>
-                        <p className="text-muted-foreground text-sm mb-4">
-                          {service.description}
+                        <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
+                          {content.subtitle}
                         </p>
                         <Link to={`/service/${service.slug}`}>
                           <Button variant="ghost" className="p-0 h-auto text-primary hover:text-primary/80 group/btn">
