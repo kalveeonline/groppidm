@@ -25,6 +25,7 @@ import SiteScanPage from "./pages/SiteScanPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import TermsOfServicePage from "./pages/TermsOfServicePage";
 import NotFound from "./pages/NotFound";
+import AllServicesPage from "./pages/AllServicesPage";
 import RealEstateDemo from "./pages/demos/RealEstateDemo";
 import EcommerceDemo from "./pages/demos/EcommerceDemo";
 import MedicalIndustryPage from "./pages/industries/MedicalIndustryPage";
@@ -51,6 +52,7 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/services" element={<AllServicesPage />} />
             <Route path="/service/:serviceSlug" element={<ServicePage />} />
             <Route path="/branding" element={<BrandingPage />} />
             <Route path="/solid-foundation" element={<SolidFoundationPage />} />
