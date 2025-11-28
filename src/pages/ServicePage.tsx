@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -58,22 +58,24 @@ const ServicePage = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button 
-                  size="lg" 
-                  className="bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black"
-                  onClick={() => window.location.href = '/appointment'}
-                >
-                  {t('common.getStarted')}
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => window.location.href = '/contact'}
-                >
-                  {t('common.contactUs')}
-                </Button>
+                <Link to="/appointment">
+                  <Button 
+                    size="lg" 
+                    className="bg-primary hover:bg-primary-dark text-primary-foreground hover:text-black"
+                  >
+                    {t('common.getStarted')}
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                </Link>
+                <Link to="/contact">
+                  <Button 
+                    variant="outline" 
+                    size="lg" 
+                    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  >
+                    {t('common.contactUs')}
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -188,22 +190,24 @@ const ServicePage = () => {
                 {t('servicePage.ctaDescription')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button 
-                  size="lg" 
-                  className="bg-primary hover:bg-primary-dark text-primary-foreground"
-                  onClick={() => window.location.href = '/contact'}
-                >
-                  {t('common.contactUs')}
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => window.location.href = '/'}
-                >
-                  {t('servicePage.viewMoreServices')}
-                </Button>
+                <Link to="/contact">
+                  <Button 
+                    size="lg" 
+                    className="bg-primary hover:bg-primary-dark text-primary-foreground"
+                  >
+                    {t('common.contactUs')}
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                </Link>
+                <Link to="/services">
+                  <Button 
+                    variant="outline" 
+                    size="lg" 
+                    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  >
+                    {t('servicePage.viewMoreServices')}
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
