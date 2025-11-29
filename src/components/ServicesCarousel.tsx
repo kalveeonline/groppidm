@@ -121,6 +121,10 @@ export const ServicesCarousel = () => {
                         src={service.image}
                         alt={service.title}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        loading="lazy"
+                        decoding="async"
+                        width={400}
+                        height={256}
                       />
                       {/* Overlay Badge */}
                       <div className="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm text-primary-foreground px-4 py-2 rounded-full text-xs font-bold shadow-glow z-20">

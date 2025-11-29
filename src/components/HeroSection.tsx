@@ -43,7 +43,15 @@ export const HeroSection = () => {
           {/* Hero Illustration */}
           <div className="relative mt-8 lg:mt-0">
             <div className="relative rounded-full bg-gradient-card p-3 md:p-4 shadow-hero w-full max-w-md md:max-w-xl lg:max-w-2xl h-auto aspect-square mx-auto">
-              <img src={websiteDiagram} alt="Website Digital Marketing Ecosystem" className="w-full h-full object-cover rounded-full" />
+              <img 
+                src={websiteDiagram} 
+                alt="Website Digital Marketing Ecosystem" 
+                className="w-full h-full object-cover rounded-full"
+                fetchPriority="high"
+                decoding="async"
+                width={600}
+                height={600}
+              />
               
               {/* Rotating container for floating elements */}
               <div className="absolute inset-0 animate-spin-slow">
