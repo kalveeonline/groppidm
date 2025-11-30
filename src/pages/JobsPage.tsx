@@ -188,7 +188,10 @@ export const JobsPage = () => {
                           {job.description}
                         </CardDescription>
                       </div>
-                      <Button className="bg-primary hover:bg-primary-dark shrink-0">
+                      <Button 
+                        className="bg-primary hover:bg-primary-dark shrink-0"
+                        onClick={() => window.open(`mailto:info@groppi.be?subject=Application for ${job.title}&body=Dear GROPPI team,%0D%0A%0D%0AI would like to apply for the position of ${job.title}.%0D%0A%0D%0AKind regards`, '_self')}
+                      >
                         {t('jobs.applyNow')}
                       </Button>
                     </div>
