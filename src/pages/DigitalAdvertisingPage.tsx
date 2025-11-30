@@ -4,9 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Target, Users, Repeat, BarChart, DollarSign, Eye, MousePointer, TrendingUp } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const DigitalAdvertisingPage = () => {
   const { t } = useLanguage();
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-background">
@@ -222,7 +224,7 @@ const DigitalAdvertisingPage = () => {
               <p className="text-xl text-muted-foreground mb-12">
                 {t('digitalAdvertising.cta.description')}
               </p>
-              <Button size="lg" className="bg-primary hover:bg-primary-dark text-primary-foreground">
+              <Button size="lg" className="bg-primary hover:bg-primary-dark text-primary-foreground" onClick={() => navigate('/contact')}>
                 {t('digitalAdvertising.cta.button')}
               </Button>
             </div>
