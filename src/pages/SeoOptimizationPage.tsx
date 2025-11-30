@@ -4,9 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Search, Target, Link, MapPin, TrendingUp, BarChart, Users, Globe } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const SeoOptimizationPage = () => {
   const { t } = useLanguage();
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-background">
@@ -222,7 +224,7 @@ const SeoOptimizationPage = () => {
               <p className="text-xl text-muted-foreground mb-12">
                 {t('seoOptimization.cta.description')}
               </p>
-              <Button size="lg" className="bg-primary hover:bg-primary-dark text-primary-foreground">
+              <Button size="lg" className="bg-primary hover:bg-primary-dark text-primary-foreground" onClick={() => navigate('/contact')}>
                 {t('seoOptimization.cta.button')}
               </Button>
             </div>

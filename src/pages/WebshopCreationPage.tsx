@@ -4,9 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { ShoppingCart, CreditCard, Package, BarChart, Shield, Users, TrendingUp, Globe } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const WebshopCreationPage = () => {
   const { t } = useLanguage();
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-background">
@@ -222,7 +224,7 @@ const WebshopCreationPage = () => {
               <p className="text-xl text-muted-foreground mb-12">
                 {t('webshopCreation.cta.description')}
               </p>
-              <Button size="lg" className="bg-primary hover:bg-primary-dark text-primary-foreground">
+              <Button size="lg" className="bg-primary hover:bg-primary-dark text-primary-foreground" onClick={() => navigate('/contact')}>
                 {t('webshopCreation.cta.button')}
               </Button>
             </div>
