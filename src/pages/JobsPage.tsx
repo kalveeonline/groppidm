@@ -307,6 +307,7 @@ export const JobsPage = () => {
             <Button 
               size="lg"
               className="bg-primary hover:bg-primary-dark text-primary-foreground shadow-hero"
+              onClick={() => window.open('mailto:info@groppi.be?subject=Spontaneous Application&body=Dear GROPPI team,%0D%0A%0D%0AI would like to submit a spontaneous application for a position at your company.%0D%0A%0D%0AKind regards', '_self')}
             >
               {t('jobs.cta.button')}
             </Button>
