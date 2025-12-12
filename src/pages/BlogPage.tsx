@@ -16,51 +16,51 @@ export const BlogPage = () => {
 
   const blogPosts = [
     {
-      title: "10 Essential SEO Tips for Small Businesses in 2025",
-      excerpt: "Discover the latest SEO strategies that can help your small business rank higher in search results and attract more customers.",
-      category: "SEO",
-      date: "March 15, 2025",
-      readTime: "5 min read",
+      title: t('blog.posts.post1.title'),
+      excerpt: t('blog.posts.post1.excerpt'),
+      category: t('blog.category.seo'),
+      date: t('blog.posts.post1.date'),
+      readTime: t('blog.posts.post1.readTime'),
       image: "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=800&h=500&fit=crop"
     },
     {
-      title: "The Power of Social Media Marketing for Local Businesses",
-      excerpt: "Learn how to leverage social media platforms to build your brand, engage with customers, and drive sales in your local market.",
-      category: "Social Media",
-      date: "March 10, 2025",
-      readTime: "7 min read",
+      title: t('blog.posts.post2.title'),
+      excerpt: t('blog.posts.post2.excerpt'),
+      category: t('blog.category.socialMedia'),
+      date: t('blog.posts.post2.date'),
+      readTime: t('blog.posts.post2.readTime'),
       image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=500&fit=crop"
     },
     {
-      title: "Website Design Trends That Convert Visitors into Customers",
-      excerpt: "Explore the latest web design trends and best practices that create engaging user experiences and boost conversion rates.",
-      category: "Web Design",
-      date: "March 5, 2025",
-      readTime: "6 min read",
+      title: t('blog.posts.post3.title'),
+      excerpt: t('blog.posts.post3.excerpt'),
+      category: t('blog.category.webDesign'),
+      date: t('blog.posts.post3.date'),
+      readTime: t('blog.posts.post3.readTime'),
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=500&fit=crop"
     },
     {
-      title: "Google Ads vs. Facebook Ads: Which is Right for Your Business?",
-      excerpt: "A comprehensive comparison of the two major advertising platforms to help you make informed decisions about your ad spend.",
-      category: "Digital Advertising",
-      date: "February 28, 2025",
-      readTime: "8 min read",
+      title: t('blog.posts.post4.title'),
+      excerpt: t('blog.posts.post4.excerpt'),
+      category: t('blog.category.digitalAds'),
+      date: t('blog.posts.post4.date'),
+      readTime: t('blog.posts.post4.readTime'),
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop"
     },
     {
-      title: "E-commerce Success: Building a Webshop That Sells",
-      excerpt: "Essential strategies for creating an effective online store that provides excellent user experience and maximizes sales.",
-      category: "E-commerce",
-      date: "February 20, 2025",
-      readTime: "9 min read",
+      title: t('blog.posts.post5.title'),
+      excerpt: t('blog.posts.post5.excerpt'),
+      category: t('blog.category.ecommerce'),
+      date: t('blog.posts.post5.date'),
+      readTime: t('blog.posts.post5.readTime'),
       image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=500&fit=crop"
     },
     {
-      title: "Content Marketing: Creating Value for Your Audience",
-      excerpt: "Discover how to develop a content marketing strategy that attracts, engages, and converts your target audience.",
-      category: "Content Marketing",
-      date: "February 15, 2025",
-      readTime: "6 min read",
+      title: t('blog.posts.post6.title'),
+      excerpt: t('blog.posts.post6.excerpt'),
+      category: t('blog.category.contentMarketing'),
+      date: t('blog.posts.post6.date'),
+      readTime: t('blog.posts.post6.readTime'),
       image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&h=500&fit=crop"
     }
   ];
@@ -72,23 +72,23 @@ export const BlogPage = () => {
     : blogPosts.filter(post => post.category === selectedCategory);
 
   const handleReadMore = (post: typeof blogPosts[0]) => {
-    toast.info(`Opening: ${post.title}`, {
-      description: "This is a demo blog post. Full article coming soon!"
+    toast.info(`${t('blog.opening')}: ${post.title}`, {
+      description: t('blog.comingSoon')
     });
   };
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) {
-      toast.error("Please enter your email address");
+      toast.error(t('blog.enterEmail'));
       return;
     }
     if (!email.includes("@")) {
-      toast.error("Please enter a valid email address");
+      toast.error(t('blog.invalidEmail'));
       return;
     }
-    toast.success("Successfully subscribed!", {
-      description: "You'll receive our latest insights and tips via email."
+    toast.success(t('blog.subscribeSuccess'), {
+      description: t('blog.subscribeSuccessDesc')
     });
     setEmail("");
   };

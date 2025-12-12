@@ -73,8 +73,8 @@ export const ContactPage = () => {
   ];
 
   const businessHours = [
-    { day: t('contact.mondayFriday'), hours: "9:00 AM - 6:00 PM" },
-    { day: t('contact.saturday'), hours: "10:00 AM - 2:00 PM" },
+    { day: t('contact.mondayFriday'), hours: t('contact.hours.weekday') },
+    { day: t('contact.saturday'), hours: t('contact.hours.saturday') },
     { day: t('contact.sunday'), hours: t('contact.closed') }
   ];
 

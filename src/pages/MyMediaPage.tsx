@@ -30,8 +30,8 @@ export const MyMediaPage = () => {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Login Functionality",
-      description: "This is a demo. Contact us to access your dashboard.",
+      title: t('myMedia.loginToast.title'),
+      description: t('myMedia.loginToast.description'),
     });
   };
 
@@ -67,10 +67,10 @@ export const MyMediaPage = () => {
   ];
 
   const recentReports = [
-    { title: "Monthly Performance Report - November 2024", date: "Dec 1, 2024", size: "2.4 MB" },
-    { title: "SEO Analysis Report", date: "Nov 28, 2024", size: "1.8 MB" },
-    { title: "Social Media Metrics", date: "Nov 25, 2024", size: "3.1 MB" },
-    { title: "Website Analytics Summary", date: "Nov 20, 2024", size: "1.2 MB" }
+    { title: t('myMedia.reports.report1'), date: t('myMedia.reports.date1'), size: "2.4 MB" },
+    { title: t('myMedia.reports.report2'), date: t('myMedia.reports.date2'), size: "1.8 MB" },
+    { title: t('myMedia.reports.report3'), date: t('myMedia.reports.date3'), size: "3.1 MB" },
+    { title: t('myMedia.reports.report4'), date: t('myMedia.reports.date4'), size: "1.2 MB" }
   ];
 
   return (
@@ -203,8 +203,8 @@ export const MyMediaPage = () => {
                         variant="outline"
                         className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                         onClick={() => toast({
-                          title: "Demo Mode",
-                          description: "Login to download your reports"
+                          title: t('myMedia.demoMode.title'),
+                          description: t('myMedia.demoMode.description')
                         })}
                       >
                         <Download className="h-4 w-4 mr-2" />
@@ -222,7 +222,7 @@ export const MyMediaPage = () => {
         <div className="container px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-              Dashboard Features
+              {t('myMedia.features.title')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <Card className="bg-gradient-card border-primary/30 hover:border-primary transition-all duration-300">
@@ -230,9 +230,9 @@ export const MyMediaPage = () => {
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                     <Calendar className="h-6 w-6 text-primary" />
                   </div>
-                  <CardTitle className="text-primary">Campaign Calendar</CardTitle>
+                  <CardTitle className="text-primary">{t('myMedia.features.calendar')}</CardTitle>
                   <CardDescription className="text-primary/70">
-                    View and manage all your scheduled campaigns and content posts in one place
+                    {t('myMedia.features.calendarDesc')}
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -242,9 +242,9 @@ export const MyMediaPage = () => {
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                     <Share2 className="h-6 w-6 text-primary" />
                   </div>
-                  <CardTitle className="text-primary">Social Media Insights</CardTitle>
+                  <CardTitle className="text-primary">{t('myMedia.features.socialInsights')}</CardTitle>
                   <CardDescription className="text-primary/70">
-                    Track engagement, reach, and performance across all your social media channels
+                    {t('myMedia.features.socialInsightsDesc')}
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -254,9 +254,9 @@ export const MyMediaPage = () => {
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                     <TrendingUp className="h-6 w-6 text-primary" />
                   </div>
-                  <CardTitle className="text-primary">Performance Analytics</CardTitle>
+                  <CardTitle className="text-primary">{t('myMedia.features.analytics')}</CardTitle>
                   <CardDescription className="text-primary/70">
-                    Comprehensive analytics with actionable insights to grow your business
+                    {t('myMedia.features.analyticsDesc')}
                   </CardDescription>
                 </CardHeader>
               </Card>
