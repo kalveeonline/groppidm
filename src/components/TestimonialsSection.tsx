@@ -7,21 +7,21 @@ export const TestimonialsSection = () => {
 
   const testimonials = [
     {
-      name: "Dirk Van den Bergh",
-      company: "Jan Van Deyk - Construction and Materials",
-      text: "Sinds we met GROPPI werken, is ons aantal online aanvragen met 230% gestegen. Hun SEO-optimalisatie heeft ons bedrijf bovenaan Google geplaatst. De professionele website en Google Ads campagnes leveren dagelijks nieuwe klanten op. Een investering die zichzelf dubbel en dwars terugbetaalt!",
+      nameKey: "testimonials.client1.name",
+      companyKey: "testimonials.client1.company",
+      textKey: "testimonials.client1.text",
       rating: 5
     },
     {
-      name: "Isabelle Claes",
-      company: "Sofie Havermans - Beauty Centre",
-      text: "GROPPI heeft onze boutique volledig digitaal getransformeerd. Ze hebben een prachtige webshop ontwikkeld die perfect aansluit bij onze merkidentiteit. Dankzij hun social media marketing op Instagram en Facebook hebben we nu een trouwe online community. Onze online omzet is in 6 maanden tijd verdrievoudigd!",
+      nameKey: "testimonials.client2.name",
+      companyKey: "testimonials.client2.company",
+      textKey: "testimonials.client2.text",
       rating: 5
     },
     {
-      name: "Thomas Verstraeten",
-      company: "Marc Verhoeven - Transport",
-      text: "Als advocatenkantoor waren we sceptisch over digitale marketing, maar GROPPI heeft ons overtuigd. Ze hebben een stijlvolle, professionele website gebouwd die vertrouwen uitstraalt. Hun aanpak van lokale SEO heeft gezorgd dat potentiële klanten ons nu makkelijk vinden. Het aantal consultatie-aanvragen is significant toegenomen. Uitstekende service en duidelijke communicatie!",
+      nameKey: "testimonials.client3.name",
+      companyKey: "testimonials.client3.company",
+      textKey: "testimonials.client3.text",
       rating: 5
     }
   ];
@@ -80,10 +80,10 @@ export const TestimonialsSection = () => {
                   ))}
                 </div>
                 <p className="text-sm md:text-base text-muted-foreground mb-6 italic">
-                  "{testimonial.text}"
+                  "{t(testimonial.textKey)}"
                 </p>
                 <div className="border-t border-border/30 pt-4">
-                  <p className="text-sm md:text-base font-semibold text-foreground">{testimonial.company}</p>
+                  <p className="text-sm md:text-base font-semibold text-foreground">{t(testimonial.companyKey)}</p>
                 </div>
               </div>
             ))}

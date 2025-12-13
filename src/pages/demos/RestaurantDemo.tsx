@@ -12,20 +12,20 @@ const RestaurantDemo = () => {
   const menuItems = [
     {
       image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800",
-      name: "Gourmet Burger",
-      description: "Premium beef patty with aged cheddar, caramelized onions, and truffle aioli",
+      nameKey: "demos.restaurant.menu.item1.name",
+      descKey: "demos.restaurant.menu.item1.desc",
       price: "€18"
     },
     {
       image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800",
-      name: "Margherita Pizza",
-      description: "Fresh mozzarella, San Marzano tomatoes, basil, and extra virgin olive oil",
+      nameKey: "demos.restaurant.menu.item2.name",
+      descKey: "demos.restaurant.menu.item2.desc",
       price: "€16"
     },
     {
       image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800",
-      name: "Caesar Salad",
-      description: "Crispy romaine, parmesan, croutons, and homemade Caesar dressing",
+      nameKey: "demos.restaurant.menu.item3.name",
+      descKey: "demos.restaurant.menu.item3.desc",
       price: "€12"
     }
   ];
@@ -91,19 +91,19 @@ const RestaurantDemo = () => {
               <div className="relative h-48 overflow-hidden">
                 <img 
                   src={item.image} 
-                  alt={item.name}
+                  alt={t(item.nameKey)}
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-xl font-semibold text-foreground">
-                    {item.name}
+                    {t(item.nameKey)}
                   </h3>
                   <span className="text-xl font-bold text-primary">{item.price}</span>
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  {item.description}
+                  {t(item.descKey)}
                 </p>
               </div>
             </div>
