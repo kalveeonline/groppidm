@@ -36,20 +36,20 @@ const FitnessDemo = () => {
   const trainers = [
     {
       image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800",
-      name: "Tom Anderson",
-      specialty: "Strength & Conditioning",
+      nameKey: "demos.fitness.trainer1.name",
+      specialtyKey: "demos.fitness.trainer1.specialty",
       experience: "8"
     },
     {
       image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800",
-      name: "Sarah Johnson",
-      specialty: "HIIT & Cardio",
+      nameKey: "demos.fitness.trainer2.name",
+      specialtyKey: "demos.fitness.trainer2.specialty",
       experience: "6"
     },
     {
       image: "https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=800",
-      name: "Mike Peters",
-      specialty: "Olympic Lifting",
+      nameKey: "demos.fitness.trainer3.name",
+      specialtyKey: "demos.fitness.trainer3.specialty",
       experience: "10"
     }
   ];
@@ -127,16 +127,16 @@ const FitnessDemo = () => {
                 <div className="relative h-64 overflow-hidden">
                   <img 
                     src={trainer.image} 
-                    alt={trainer.name}
+                    alt={t(trainer.nameKey)}
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6 text-center">
                   <h3 className="text-xl font-semibold text-foreground mb-2">
-                    {trainer.name}
+                    {t(trainer.nameKey)}
                   </h3>
                   <p className="text-primary font-semibold text-sm mb-2">
-                    {trainer.specialty}
+                    {t(trainer.specialtyKey)}
                   </p>
                   <p className="text-muted-foreground text-sm">
                     {trainer.experience} {t('demos.fitness.experience')}

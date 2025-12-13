@@ -12,8 +12,8 @@ const RealEstateDemo = () => {
   const properties = [
     {
       image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      title: "Modern Villa in Antwerp",
-      location: "Antwerp, Belgium",
+      titleKey: "demos.realEstate.property1.title",
+      locationKey: "demos.realEstate.property1.location",
       price: "€650,000",
       beds: 4,
       baths: 3,
@@ -21,8 +21,8 @@ const RealEstateDemo = () => {
     },
     {
       image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
-      title: "Luxury Apartment",
-      location: "Brussels, Belgium",
+      titleKey: "demos.realEstate.property2.title",
+      locationKey: "demos.realEstate.property2.location",
       price: "€450,000",
       beds: 3,
       baths: 2,
@@ -30,8 +30,8 @@ const RealEstateDemo = () => {
     },
     {
       image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
-      title: "Cozy Family Home",
-      location: "Ghent, Belgium",
+      titleKey: "demos.realEstate.property3.title",
+      locationKey: "demos.realEstate.property3.location",
       price: "€380,000",
       beds: 3,
       baths: 2,
@@ -71,17 +71,17 @@ const RealEstateDemo = () => {
               <div className="relative h-48 overflow-hidden">
                 <img 
                   src={property.image} 
-                  alt={property.title}
+                  alt={t(property.titleKey)}
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                 />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-foreground mb-2">
-                  {property.title}
+                  {t(property.titleKey)}
                 </h3>
                 <div className="flex items-center gap-2 text-muted-foreground mb-4">
                   <MapPin className="h-4 w-4" />
-                  <span className="text-sm">{property.location}</span>
+                  <span className="text-sm">{t(property.locationKey)}</span>
                 </div>
                 <div className="flex items-center gap-4 mb-4 text-sm text-muted-foreground">
                   <div className="flex items-center gap-1">
