@@ -45,12 +45,6 @@ export const AboutUsPage = () => {
       role: t('about.team.koen.role'),
       description: t('about.team.koen.description'),
       image: koenImage
-    },
-    {
-      name: "Lokman Dinç",
-      role: t('about.team.lokman.role'),
-      description: t('about.team.lokman.description'),
-      image: lokmanImage
     }
   ];
 
