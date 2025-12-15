@@ -128,9 +128,9 @@ export const AboutUsPage = () => {
           <h2 className="text-3xl font-bold text-primary mb-12 text-center">
             {t('about.team.title')}
           </h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+          <div className="flex justify-center">
             {team.map((member, index) => (
-              <Card key={index} className="bg-card border-primary/30 overflow-hidden hover:border-primary transition-all duration-300 group">
+              <Card key={index} className="bg-card border-primary/30 overflow-hidden hover:border-primary transition-all duration-300 group max-w-md w-full">
                 <div className="relative">
                   <img 
                     src={member.image}
