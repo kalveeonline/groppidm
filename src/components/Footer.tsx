@@ -171,11 +171,11 @@ export const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-primary" />
-                <span className="text-muted-foreground">MOB: +32 494 311 119</span>
+                <span className="text-muted-foreground">Mobile No: +32 494 311 119</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-primary" />
-                <span className="text-muted-foreground">GSM: 01463 5005</span>
+                <span className="text-muted-foreground">Office Line: 01463 5005</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary" />
