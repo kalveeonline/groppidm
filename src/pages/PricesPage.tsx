@@ -88,17 +88,17 @@ export const PricesPage = () => {
               {/* Title */}
               <div className="text-center mb-16">
                 <span className="inline-block px-4 py-1.5 bg-primary/10 text-primary text-sm font-medium rounded-full mb-4 backdrop-blur-sm border border-primary/20">
-                  {t('prices.transparentPricing') || 'Transparent Pricing'}
+                  {t('prices.transparentPricing')}
                 </span>
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
-                  A Package For{' '}
+                  {t('prices.packageTitle')}{' '}
                   <span className="relative inline-block">
-                    <span className="relative z-10">Every Budget</span>
+                    <span className="relative z-10">{t('prices.packageTitleHighlight')}</span>
                     <span className="absolute bottom-1 left-0 w-full h-3 bg-accent/30 -rotate-1 rounded" />
                   </span>
                 </h2>
                 <p className="text-primary/70 text-lg max-w-xl mx-auto">
-                  {t('prices.choosePackage') || 'Choose the perfect package for your business needs'}
+                  {t('prices.choosePackage')}
                 </p>
               </div>
               
@@ -130,7 +130,7 @@ export const PricesPage = () => {
                       
                       {/* Click Indicator */}
                       <span className="mt-3 text-primary-foreground/70 text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        {t('prices.clickToBook') || 'Click to book'}
+                        {t('prices.clickToBook')}
                       </span>
                     </div>
                     
@@ -155,7 +155,7 @@ export const PricesPage = () => {
               {/* Bottom CTA */}
               <div className="text-center mt-12">
                 <p className="text-primary/60 text-sm">
-                  {t('prices.allPackagesInclude') || 'All packages include free consultation & support'}
+                  {t('prices.allPackagesInclude')}
                 </p>
               </div>
             </div>
