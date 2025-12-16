@@ -78,42 +78,86 @@ export const PricesPage = () => {
       <main className="py-16">
         <div className="container px-4">
           {/* Header Section - Tilted Cards Style */}
-          <div className="bg-primary/10 rounded-2xl py-16 px-8 mb-16 border border-primary/20">
-            <h2 className="text-2xl md:text-3xl font-bold text-center text-primary mb-12">
-              A PACKAGE FOR <span className="text-primary underline decoration-primary decoration-2 underline-offset-4">EVERY BUDGET</span>
-            </h2>
+          <div className="relative overflow-hidden rounded-3xl py-20 px-8 mb-16 bg-gradient-to-br from-primary/5 via-primary/10 to-accent/10">
+            {/* Decorative Background Elements */}
+            <div className="absolute top-0 left-0 w-72 h-72 bg-primary/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
+            <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
+            <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-primary/5 rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2" />
             
-            {/* Tilted Pricing Cards */}
-            <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12">
-              {pricingPlans.map((plan, index) => (
-                <Link 
-                  key={index}
-                  to="/appointment"
-                  className="relative group cursor-pointer"
-                >
-                  {/* Main Tilted Card */}
-                  <div 
-                    className="relative w-40 h-40 md:w-48 md:h-48 bg-primary rounded-3xl flex items-center justify-center transform -rotate-12 transition-all duration-300 group-hover:-rotate-6 group-hover:scale-105 shadow-lg group-hover:shadow-glow"
+            <div className="relative z-10">
+              {/* Title */}
+              <div className="text-center mb-16">
+                <span className="inline-block px-4 py-1.5 bg-primary/10 text-primary text-sm font-medium rounded-full mb-4 backdrop-blur-sm border border-primary/20">
+                  {t('prices.transparentPricing') || 'Transparent Pricing'}
+                </span>
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
+                  A Package For{' '}
+                  <span className="relative inline-block">
+                    <span className="relative z-10">Every Budget</span>
+                    <span className="absolute bottom-1 left-0 w-full h-3 bg-accent/30 -rotate-1 rounded" />
+                  </span>
+                </h2>
+                <p className="text-primary/70 text-lg max-w-xl mx-auto">
+                  {t('prices.choosePackage') || 'Choose the perfect package for your business needs'}
+                </p>
+              </div>
+              
+              {/* Tilted Pricing Cards */}
+              <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-16">
+                {pricingPlans.map((plan, index) => (
+                  <Link 
+                    key={index}
+                    to="/appointment"
+                    className="relative group cursor-pointer"
                   >
-                    <h3 className="text-primary-foreground font-bold text-lg md:text-xl text-center px-4 leading-tight">
-                      {plan.name.toUpperCase()}
-                    </h3>
-                  </div>
-                  
-                  {/* Price Tag */}
-                  <div className="absolute -top-2 -right-2 md:-top-3 md:-right-3 bg-card rounded-xl px-3 py-2 md:px-4 md:py-3 shadow-md transform rotate-3 group-hover:rotate-6 transition-all duration-300 border border-primary/20">
-                    <span className="text-xs md:text-sm text-primary/60">€</span>
-                    <span className="text-xl md:text-2xl font-bold text-primary">{plan.price.replace('€', '').replace('/maand', '').replace('/month', '').trim()}</span>
-                  </div>
-                  
-                  {/* Popular Badge */}
-                  {plan.popular && (
-                    <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 bg-accent text-accent-foreground text-xs font-bold px-3 py-1 rounded-full">
-                      ⭐ Popular
+                    {/* Glow Effect */}
+                    <div className="absolute inset-0 bg-primary/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform -rotate-12" />
+                    
+                    {/* Main Tilted Card */}
+                    <div 
+                      className={`relative w-44 h-44 md:w-52 md:h-52 rounded-3xl flex flex-col items-center justify-center transform -rotate-12 transition-all duration-500 ease-out group-hover:-rotate-3 group-hover:scale-110 shadow-xl group-hover:shadow-2xl ${
+                        plan.popular 
+                          ? 'bg-gradient-to-br from-primary via-primary to-primary-dark' 
+                          : 'bg-gradient-to-br from-primary/90 to-primary'
+                      }`}
+                    >
+                      {/* Inner Shine Effect */}
+                      <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-transparent via-white/5 to-white/10 pointer-events-none" />
+                      
+                      <h3 className="text-primary-foreground font-bold text-lg md:text-xl text-center px-6 leading-tight tracking-wide">
+                        {plan.name.toUpperCase()}
+                      </h3>
+                      
+                      {/* Click Indicator */}
+                      <span className="mt-3 text-primary-foreground/70 text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        {t('prices.clickToBook') || 'Click to book'}
+                      </span>
                     </div>
-                  )}
-                </Link>
-              ))}
+                    
+                    {/* Price Tag */}
+                    <div className="absolute -top-4 -right-4 md:-top-5 md:-right-5 bg-card/95 backdrop-blur-sm rounded-2xl px-4 py-3 md:px-5 md:py-4 shadow-lg transform rotate-6 group-hover:rotate-12 group-hover:scale-110 transition-all duration-500 border border-primary/10">
+                      <div className="flex items-baseline gap-0.5">
+                        <span className="text-sm md:text-base text-primary/50 font-medium">€</span>
+                        <span className="text-2xl md:text-3xl font-bold text-primary">{plan.price.replace('€', '').replace('/maand', '').replace('/month', '').trim()}</span>
+                      </div>
+                    </div>
+                    
+                    {/* Popular Badge */}
+                    {plan.popular && (
+                      <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-accent to-accent/80 text-accent-foreground text-xs font-bold px-4 py-1.5 rounded-full shadow-lg animate-pulse">
+                        ⭐ {t('prices.mostPopular') || 'Most Popular'}
+                      </div>
+                    )}
+                  </Link>
+                ))}
+              </div>
+              
+              {/* Bottom CTA */}
+              <div className="text-center mt-12">
+                <p className="text-primary/60 text-sm">
+                  {t('prices.allPackagesInclude') || 'All packages include free consultation & support'}
+                </p>
+              </div>
             </div>
           </div>
 
