@@ -78,9 +78,9 @@ export const PricesPage = () => {
       <main className="py-16">
         <div className="container px-4">
           {/* Header Section - Tilted Cards Style */}
-          <div className="bg-sky-100 rounded-2xl py-16 px-8 mb-16">
-            <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-12">
-              A PACKAGE FOR <span className="text-primary underline decoration-2 underline-offset-4">EVERY BUDGET</span>
+          <div className="bg-primary/10 rounded-2xl py-16 px-8 mb-16 border border-primary/20">
+            <h2 className="text-2xl md:text-3xl font-bold text-center text-primary mb-12">
+              A PACKAGE FOR <span className="text-primary underline decoration-primary decoration-2 underline-offset-4">EVERY BUDGET</span>
             </h2>
             
             {/* Tilted Pricing Cards */}
@@ -93,22 +93,22 @@ export const PricesPage = () => {
                 >
                   {/* Main Tilted Card */}
                   <div 
-                    className="relative w-40 h-40 md:w-48 md:h-48 bg-primary rounded-3xl flex items-center justify-center transform -rotate-12 transition-all duration-300 group-hover:-rotate-6 group-hover:scale-105 shadow-lg"
+                    className="relative w-40 h-40 md:w-48 md:h-48 bg-primary rounded-3xl flex items-center justify-center transform -rotate-12 transition-all duration-300 group-hover:-rotate-6 group-hover:scale-105 shadow-lg group-hover:shadow-glow"
                   >
-                    <h3 className="text-white font-bold text-lg md:text-xl text-center px-4 leading-tight">
+                    <h3 className="text-primary-foreground font-bold text-lg md:text-xl text-center px-4 leading-tight">
                       {plan.name.toUpperCase()}
                     </h3>
                   </div>
                   
                   {/* Price Tag */}
-                  <div className="absolute -top-2 -right-2 md:-top-3 md:-right-3 bg-white rounded-xl px-3 py-2 md:px-4 md:py-3 shadow-md transform rotate-3 group-hover:rotate-6 transition-all duration-300">
-                    <span className="text-xs md:text-sm text-gray-500">€</span>
-                    <span className="text-xl md:text-2xl font-bold text-gray-800">{plan.price.replace('€', '').replace('/maand', '').replace('/month', '').trim()}</span>
+                  <div className="absolute -top-2 -right-2 md:-top-3 md:-right-3 bg-card rounded-xl px-3 py-2 md:px-4 md:py-3 shadow-md transform rotate-3 group-hover:rotate-6 transition-all duration-300 border border-primary/20">
+                    <span className="text-xs md:text-sm text-primary/60">€</span>
+                    <span className="text-xl md:text-2xl font-bold text-primary">{plan.price.replace('€', '').replace('/maand', '').replace('/month', '').trim()}</span>
                   </div>
                   
                   {/* Popular Badge */}
                   {plan.popular && (
-                    <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-gray-800 text-xs font-bold px-3 py-1 rounded-full">
+                    <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 bg-accent text-accent-foreground text-xs font-bold px-3 py-1 rounded-full">
                       ⭐ Popular
                     </div>
                   )}
