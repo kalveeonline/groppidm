@@ -2,6 +2,7 @@ import { Quote, Star, ExternalLink } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import ilFuocoLogo from "@/assets/clients/il-fuoco.jpg";
 import kmaLogo from "@/assets/clients/kma-wandpanelen.jpeg";
+import mangiareLogo from "@/assets/clients/mangiare-3840.png";
 
 export const TestimonialsSection = () => {
   const { t } = useLanguage();
@@ -40,7 +41,7 @@ export const TestimonialsSection = () => {
     },
     {
       name: "Mangiare 3840",
-      logo: null,
+      logo: mangiareLogo,
       website: "https://www.mangiare3840.be/"
     }
   ];
