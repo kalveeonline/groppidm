@@ -101,26 +101,45 @@ export const TestimonialsSection = () => {
                 href={client.website}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-card p-8 rounded-xl shadow-card hover:shadow-glow transition-all duration-300 flex flex-col items-center justify-center border border-border/30 hover:border-primary/30"
+                className="group relative overflow-hidden rounded-2xl transition-all duration-500 hover:-translate-y-2"
               >
-                {client.logo ? (
-                  <div className="h-32 w-full flex items-center justify-center mb-4">
-                    <img 
-                      src={client.logo} 
-                      alt={client.name} 
-                      className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
-                    />
+                {/* Background with gradient border effect */}
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-accent/10 to-primary/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                
+                {/* Main card */}
+                <div className="relative bg-gradient-to-br from-card via-card to-card/95 p-8 rounded-2xl border border-border/40 group-hover:border-primary/40 shadow-lg group-hover:shadow-2xl group-hover:shadow-primary/20 transition-all duration-500">
+                  
+                  {/* Cinematic spotlight effect */}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 rounded-2xl" />
+                  
+                  {/* Shine sweep animation on hover */}
+                  <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent skew-x-12 rounded-2xl" />
+                  
+                  {/* Logo container with glass effect */}
+                  <div className="relative h-40 w-full flex items-center justify-center mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-b from-background/50 to-background/80 rounded-xl backdrop-blur-sm" />
+                    <div className="relative z-10 p-4">
+                      <img 
+                        src={client.logo} 
+                        alt={client.name} 
+                        className="max-h-32 max-w-full object-contain drop-shadow-lg group-hover:scale-110 group-hover:drop-shadow-2xl transition-all duration-500"
+                      />
+                    </div>
                   </div>
-                ) : (
-                  <div className="h-32 w-full flex items-center justify-center mb-4">
-                    <span className="text-2xl font-bold text-primary group-hover:scale-105 transition-transform duration-300">
-                      {client.name}
-                    </span>
+                  
+                  {/* Client name */}
+                  <h3 className="text-lg font-semibold text-foreground text-center mb-3 group-hover:text-primary transition-colors duration-300">
+                    {client.name}
+                  </h3>
+                  
+                  {/* Visit button */}
+                  <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground group-hover:text-primary transition-all duration-300">
+                    <span className="font-medium">{t('clients.visitWebsite')}</span>
+                    <ExternalLink className="h-4 w-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
                   </div>
-                )}
-                <div className="flex items-center gap-2 text-sm text-muted-foreground group-hover:text-primary transition-colors">
-                  <span>{t('clients.visitWebsite')}</span>
-                  <ExternalLink className="h-4 w-4" />
+                  
+                  {/* Bottom accent line */}
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 bg-gradient-to-r from-primary via-accent to-primary rounded-full group-hover:w-3/4 transition-all duration-500" />
                 </div>
               </a>
             ))}
