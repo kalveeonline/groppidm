@@ -630,6 +630,11 @@ const translations = {
     'customerDemos.fitnessDesc': 'Sportschool & trainingsplatformen',
     'customerDemos.viewDemo': 'Bekijk Demo',
     
+    // Our Clients Section
+    'clients.title': 'Onze Klanten',
+    'clients.subtitle': 'Trotse partners die ons vertrouwen voor hun digitale succes',
+    'clients.visitWebsite': 'Bezoek Website',
+    
     // Demo Pages - Common
     'demos.backToHome': 'Terug naar Home',
     
@@ -1748,6 +1753,11 @@ const translations = {
     'customerDemos.fitnessDesc': 'Gym & training platforms',
     'customerDemos.viewDemo': 'View Demo',
     
+    // Our Clients Section
+    'clients.title': 'Our Clients',
+    'clients.subtitle': 'Proud partners who trust us for their digital success',
+    'clients.visitWebsite': 'Visit Website',
+    
     // Demo Pages - Common
     'demos.backToHome': 'Back to Home',
     
@@ -2502,6 +2512,11 @@ const translations = {
     'customerDemos.fitness': 'Fitness',
     'customerDemos.fitnessDesc': 'Plateformes de gym et d\'entraînement',
     'customerDemos.viewDemo': 'Voir la démo',
+    
+    // Our Clients Section
+    'clients.title': 'Nos Clients',
+    'clients.subtitle': 'Des partenaires fiers qui nous font confiance pour leur succès digital',
+    'clients.visitWebsite': 'Visiter le site',
     
     // Demo Pages - Common
     'demos.backToHome': 'Retour à l\'accueil',
@@ -3504,6 +3519,11 @@ const translations = {
     'customerDemos.fitnessDesc': 'Platformy siłowni i treningów',
     'customerDemos.viewDemo': 'Zobacz demo',
     
+    // Our Clients Section
+    'clients.title': 'Nasi Klienci',
+    'clients.subtitle': 'Dumni partnerzy, którzy ufają nam w kwestii ich cyfrowego sukcesu',
+    'clients.visitWebsite': 'Odwiedź stronę',
+    
     // Demo Pages - Common
     'demos.backToHome': 'Powrót do strony głównej',
     
@@ -4505,6 +4525,11 @@ const translations = {
     'customerDemos.fitnessDesc': 'Платформы для спортзалов и тренировок',
     'customerDemos.viewDemo': 'Посмотреть демо',
     
+    // Our Clients Section
+    'clients.title': 'Наши Клиенты',
+    'clients.subtitle': 'Гордые партнеры, которые доверяют нам свой цифровой успех',
+    'clients.visitWebsite': 'Посетить сайт',
+    
     // Demo Pages - Common
     'demos.backToHome': 'Вернуться на главную',
     
@@ -5497,6 +5522,11 @@ const translations = {
     'customerDemos.fitness': 'Fitness',
     'customerDemos.fitnessDesc': 'Fitnessstudio- und Trainingsplattformen',
     'customerDemos.viewDemo': 'Demo ansehen',
+    
+    // Our Clients Section
+    'clients.title': 'Unsere Kunden',
+    'clients.subtitle': 'Stolze Partner, die uns für ihren digitalen Erfolg vertrauen',
+    'clients.visitWebsite': 'Website besuchen',
     
     // Demo Pages - Common
     'demos.backToHome': 'Zurück zur Startseite',
@@ -6499,6 +6529,11 @@ const translations = {
     'customerDemos.fitnessDesc': 'Plataformas de gimnasio y entrenamiento',
     'customerDemos.viewDemo': 'Ver demo',
     
+    // Our Clients Section
+    'clients.title': 'Nuestros Clientes',
+    'clients.subtitle': 'Socios orgullosos que confían en nosotros para su éxito digital',
+    'clients.visitWebsite': 'Visitar sitio web',
+    
     // Demo Pages - Common
     'demos.backToHome': 'Volver al inicio',
     
@@ -7441,6 +7476,11 @@ const translations = {
     'customerDemos.fitnessDesc': 'Piattaforme per palestre e allenamenti',
     'customerDemos.viewDemo': 'Visualizza demo',
     
+    // Our Clients Section
+    'clients.title': 'I Nostri Clienti',
+    'clients.subtitle': 'Partner orgogliosi che si fidano di noi per il loro successo digitale',
+    'clients.visitWebsite': 'Visita il sito',
+    
     // Demo Pages - Common
     'demos.backToHome': 'Torna alla home',
     
@@ -8330,6 +8370,11 @@ const translations = {
     'customerDemos.fitnessDesc': 'Платформи для спортзалів та тренувань',
     'customerDemos.viewDemo': 'Переглянути демо',
     
+    // Our Clients Section
+    'clients.title': 'Наші Клієнти',
+    'clients.subtitle': 'Гордi партнери, якi довiряють нам свiй цифровий успiх',
+    'clients.visitWebsite': 'Відвідати сайт',
+    
     // Demo Pages - Common
     'demos.backToHome': 'Повернутися на головну',
     
@@ -9218,6 +9263,11 @@ const translations = {
     'customerDemos.fitnessDesc': 'Spor salonu ve antrenman platformları',
     'customerDemos.viewDemo': 'Demoyu görüntüle',
     
+    // Our Clients Section
+    'clients.title': 'Müşterilerimiz',
+    'clients.subtitle': 'Dijital başarıları için bize güvenen gururlu ortaklar',
+    'clients.visitWebsite': 'Web sitesini ziyaret et',
+    
     // Demo Pages - Common
     'demos.backToHome': 'Ana sayfaya dön',
     
@@ -10054,6 +10104,11 @@ const translations = {
     'customerDemos.fitnessDesc': 'Gym- och träningsplattformar',
     'customerDemos.viewDemo': 'Visa demo',
     
+    // Our Clients Section
+    'clients.title': 'Våra Kunder',
+    'clients.subtitle': 'Stolta partners som litar på oss för sin digitala framgång',
+    'clients.visitWebsite': 'Besök webbplats',
+    
     // Demo Pages - Common
     'demos.backToHome': 'Tillbaka till startsidan',
     
@@ -10884,6 +10939,11 @@ const translations = {
     'customerDemos.fitness': '健身',
     'customerDemos.fitnessDesc': '健身房和培训平台',
     'customerDemos.viewDemo': '查看演示',
+    
+    // Our Clients Section
+    'clients.title': '我们的客户',
+    'clients.subtitle': '信任我们实现数字化成功的骄傲合作伙伴',
+    'clients.visitWebsite': '访问网站',
     
     // Demo Pages - Common
     'demos.backToHome': '返回首页',
@@ -11720,6 +11780,11 @@ const translations = {
     'customerDemos.fitnessDesc': 'Kuntosali- ja harjoitusalustat',
     'customerDemos.viewDemo': 'Katso demo',
     
+    // Our Clients Section
+    'clients.title': 'Asiakkaamme',
+    'clients.subtitle': 'Ylpeät kumppanit, jotka luottavat meihin digitaalisessa menestyksessään',
+    'clients.visitWebsite': 'Vieraile sivustolla',
+    
     // Demo Pages - Common
     'demos.backToHome': 'Takaisin etusivulle',
     
@@ -12554,6 +12619,11 @@ const translations = {
     'customerDemos.fitness': 'اللياقة البدنية',
     'customerDemos.fitnessDesc': 'منصات الصالة الرياضية والتدريب',
     'customerDemos.viewDemo': 'عرض التجريبي',
+    
+    // Our Clients Section
+    'clients.title': 'عملاؤنا',
+    'clients.subtitle': 'شركاء فخورون يثقون بنا لتحقيق نجاحهم الرقمي',
+    'clients.visitWebsite': 'زيارة الموقع',
     
     // Demo Pages - Common
     'demos.backToHome': 'العودة إلى الصفحة الرئيسية',
@@ -13390,6 +13460,11 @@ const translations = {
     'customerDemos.fitnessDesc': 'Fitness- og træningsplatforme',
     'customerDemos.viewDemo': 'Se demo',
     
+    // Our Clients Section
+    'clients.title': 'Vores Kunder',
+    'clients.subtitle': 'Stolte partnere, der stoler på os for deres digitale succes',
+    'clients.visitWebsite': 'Besøg hjemmeside',
+    
     // Demo Pages - Common
     'demos.backToHome': 'Tilbage til forsiden',
     
@@ -14223,6 +14298,11 @@ const translations = {
     'customerDemos.fitness': 'Fitness',
     'customerDemos.fitnessDesc': 'Treningssenter- og treningsplattformer',
     'customerDemos.viewDemo': 'Se demo',
+    
+    // Our Clients Section
+    'clients.title': 'Våre Kunder',
+    'clients.subtitle': 'Stolte partnere som stoler på oss for sin digitale suksess',
+    'clients.visitWebsite': 'Besøk nettsted',
     
     // Demo Pages - Common
     'demos.backToHome': 'Tilbake til forsiden',
