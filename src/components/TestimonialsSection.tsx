@@ -1,6 +1,7 @@
-import { Quote, Star, Building2, ShoppingBag, Utensils, Dumbbell } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Quote, Star, ExternalLink } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import ilFuocoLogo from "@/assets/clients/il-fuoco.jpg";
+import kmaLogo from "@/assets/clients/kma-wandpanelen.jpeg";
 
 export const TestimonialsSection = () => {
   const { t } = useLanguage();
@@ -26,30 +27,21 @@ export const TestimonialsSection = () => {
     }
   ];
 
-  const customerDemos = [
+  const clients = [
     {
-      icon: Building2,
-      titleKey: 'customerDemos.realEstate',
-      descKey: 'customerDemos.realEstateDesc',
-      path: "/demo/real-estate"
+      name: "IL FUOCO",
+      logo: ilFuocoLogo,
+      website: "https://www.ilfuoco.be/"
     },
     {
-      icon: ShoppingBag,
-      titleKey: 'customerDemos.ecommerce',
-      descKey: 'customerDemos.ecommerceDesc',
-      path: "/demo/ecommerce"
+      name: "KMA Wandpanelen",
+      logo: kmaLogo,
+      website: "https://www.kmawandpanelen.be/"
     },
     {
-      icon: Utensils,
-      titleKey: 'customerDemos.restaurant',
-      descKey: 'customerDemos.restaurantDesc',
-      path: "/demo/restaurant"
-    },
-    {
-      icon: Dumbbell,
-      titleKey: 'customerDemos.fitness',
-      descKey: 'customerDemos.fitnessDesc',
-      path: "/demo/fitness"
+      name: "Mangiare 3840",
+      logo: null,
+      website: "https://www.mangiare3840.be/"
     }
   ];
 
@@ -90,43 +82,46 @@ export const TestimonialsSection = () => {
           </div>
         </div>
 
-        {/* Customer Demos */}
+        {/* Our Clients */}
         <div>
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              {t('customerDemos.title')}
+              {t('clients.title')}
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              {t('customerDemos.subtitle')}
+              {t('clients.subtitle')}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {customerDemos.map((demo, index) => (
-              <div
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {clients.map((client, index) => (
+              <a
                 key={index}
-                className="group bg-gradient-card p-6 rounded-xl shadow-card hover:shadow-lg transition-all duration-300 text-center cursor-pointer"
-                onClick={() => window.open(demo.path, '_blank')}
+                href={client.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-card p-8 rounded-xl shadow-card hover:shadow-glow transition-all duration-300 flex flex-col items-center justify-center border border-border/30 hover:border-primary/30"
               >
-                <div className="flex justify-center mb-4">
-                  <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 group-hover:scale-110 transition-all">
-                    <demo.icon className="h-8 w-8 text-primary" />
+                {client.logo ? (
+                  <div className="h-32 w-full flex items-center justify-center mb-4">
+                    <img 
+                      src={client.logo} 
+                      alt={client.name} 
+                      className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
+                ) : (
+                  <div className="h-32 w-full flex items-center justify-center mb-4">
+                    <span className="text-2xl font-bold text-primary group-hover:scale-105 transition-transform duration-300">
+                      {client.name}
+                    </span>
+                  </div>
+                )}
+                <div className="flex items-center gap-2 text-sm text-muted-foreground group-hover:text-primary transition-colors">
+                  <span>{t('clients.visitWebsite')}</span>
+                  <ExternalLink className="h-4 w-4" />
                 </div>
-                <h3 className="text-lg font-semibold text-foreground mb-2">
-                  {t(demo.titleKey)}
-                </h3>
-                <p className="text-sm text-muted-foreground mb-4">
-                  {t(demo.descKey)}
-                </p>
-                <Button 
-                  variant="outline" 
-                  size="sm"
-                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
-                >
-                  {t('customerDemos.viewDemo')}
-                </Button>
-              </div>
+              </a>
             ))}
           </div>
         </div>
